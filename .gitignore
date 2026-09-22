@@ -24,3 +24,7 @@ Thumbs.db
 *log.txt
 scratch/
 
+# PowerShell scripts (trigger heuristic false positives in downloaded ZIPs)
+*.ps1
+
+
