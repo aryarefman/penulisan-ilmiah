@@ -16,3 +16,11 @@ Thumbs.db
 *.tmp
 .vscode/
 .idea/
+
+# Backups and Logs
+*.bak
+*_backup.csv
+*.log
+*log.txt
+scratch/
+
