@@ -34,6 +34,33 @@ Berikut adalah rincian justifikasi objektif mengapa dataset dan dokumentasi ini 
 4. **Semua Sheet Excel Terpetakan Sempurna**:
    - Seluruh instrumen pada workbook Excel template telah ditransformasikan ke format Markdown tabular dengan data riil yang lengkap.
 
+```mermaid
+flowchart TD
+    Raw["<b>2.739 Catatan Mentah</b><br>(7 Basis Data Global: CrossRef, OpenAlex, Springer, ScienceDirect, Semantic Scholar, Scopus, PubMed)"]
+    Dedup["<b>Penghapusan Duplikasi (EC1)</b><br>Dihapus n = 87 duplikat lintas basis data"]
+    Unique["<b>2.652 Artikel Unik Primer</b><br>(Rentang Publikasi 2018 - September 2026)"]
+    Screen1["<b>Penyaringan Fase 1: Judul & Abstrak</b><br>Dieksklusi n = 2.572 artikel (EC2: 4, EC3: 1.846, EC4: 612, EC5: 110)"]
+    Cand["<b>80 Kandidat Lolos ke Full-Text Screening</b>"]
+    Screen2["<b>Penyaringan Fase 2: Teks Lengkap & Kelayakan</b><br>Dieksklusi n = 32 artikel (EC6: 14, EC7: 11, EC3/EC4: 7)"]
+    QAPool["<b>48 Artikel Masuk Evaluasi Mutu (QA Pool)</b><br>Dinilai dengan instrumen 8 dimensi mutu ilmiah (QA1–QA8)"]
+    QA_Fail["<b>6 Artikel Gagal Ambang Batas QA (&lt;60%)</b><br>(Dieliminasi dari sintesis akhir)"]
+    Final42["<b>42 ARTIKEL FINAL LOLOS SINTESIS SLR</b><br>• 34 Studi Kategori Final (&ge;75%)<br>• 8 Studi Kategori Review (60–74.9% setelah konsensus)"]
+    Core15["<b>15 Studi Primer Inti (Core Landmark FP-01 s/d FP-15)</b><br>Diekstraksi penuh 18 atribut baku SLR & dianalisis arsitekturnya"]
+    Supp27["<b>27 Studi Primer Pendukung</b><br>Data empiris benchmark kontrol fisik, video forecasting, & navigasi"]
+
+    Raw --> Dedup --> Unique --> Screen1
+    Screen1 --> Cand --> Screen2 --> QAPool
+    QAPool --> QA_Fail
+    QAPool --> Final42
+    Final42 --> Core15
+    Final42 --> Supp27
+
+    style QAPool fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style Final42 fill:#c8e6c9,stroke:#1b5e20,stroke-width:3px
+    style Core15 fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style QA_Fail fill:#ffebee,stroke:#c62828
+```
+
 ---
 
 ## Rangkuman Tabel Lengkap Protokol & Ekstraksi (Padanan Workbook Excel)
@@ -185,6 +212,8 @@ Skala Penilaian: **1.0 = Rendah**, **2.0 = Sedang**, **3.0 = Tinggi**. Total Sko
 
 ### TABEL 7: Matriks Penilaian Kualitas (QA Scoring Table) Artikel Kunci *(Padanan Sheet Quality_Assessment)*
 
+> **Catatan Struktur Data**: Tahap evaluasi mutu menilai **seluruh 48 artikel kandidat** (34 Final Included + 8 Review Included + 6 Excluded). Tabel di bawah ini menampilkan ringkasan studi-studi kunci terpenting. **Daftar lengkap seluruh 48 artikel beserta rincian skor QA1 s/d QA8 dapat dilihat pada [04_PENILAIAN_KUALITAS_QA.md](04_PENILAIAN_KUALITAS_QA.md).**
+
 Ambang Batas: $\ge 75\%$ = **Final Included**; $60\% - 74.9\%$ = **Review (Borderline)**; $< 60\%$ = **Exclude**.
 
 | ID Artikel | Judul Artikel & Penulis | Garis Keturunan | QA1 | QA2 | QA3 | QA4 | QA5 | QA6 | QA7 | QA8 | Total Skor | % Skor | Keputusan Akhir |
@@ -211,7 +240,7 @@ Ambang Batas: $\ge 75\%$ = **Final Included**; $60\% - 74.9\%$ = **Review (Borde
 
 ### TABEL 8: Matriks Ekstraksi Data Artikel Final (18 Atribut Lengkap) *(Padanan Sheet Final_Papers)*
 
-Tabel ini merangkum ekstraksi data ilmiah 18 kolom untuk studi-studi primer kunci yang mewakili kedua garis keturunan:
+> **Catatan Ekstraksi**: Dari **42 artikel final**, sebanyak 15 studi tonggak utama (**FP-01 s/d FP-15**) telah diekstraksi secara mendalam menggunakan standar 18 atribut baku SLR. Tabel komparatif horizontal di bawah ini menampilkan 4 model arketipe representatif lintas garis keturunan. **Tabel ekstraksi 18 atribut lengkap untuk seluruh 15 studi primer inti (FP-01 sampai FP-15) dapat dilihat pada [06_TABEL_EKSTRAKSI_DATA.md](06_TABEL_EKSTRAKSI_DATA.md).**
 
 | No | Atribut Ekstraksi | Studi FP-01 (A0002) | Studi FP-02 (A0011) | Studi FP-03 (A0012) | Studi FP-06 (A0014) |
 |:---:|:---|:---|:---|:---|:---|

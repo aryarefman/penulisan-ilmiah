@@ -44,29 +44,60 @@ flowchart LR
 
 ---
 
-## 3. Matriks Skor Penilaian Kualitas Artikel Terpilih
+## 3. Matriks Lengkap Skor Penilaian Kualitas (Seluruh 48 Studi Kandidat)
 
-Berikut adalah matriks penilaian kualitas untuk sampel representatif studi-studi kunci dari pool penilaian mutu:
+Berikut adalah matriks penilaian kualitas menyeluruh untuk **seluruh 48 artikel kandidat** yang lolos ke tahap evaluasi mutu mendalam (*Quality Assessment Pool*). Penilaian dilakukan secara independen oleh penilai menggunakan rubrik 8 dimensi (skor maksimal 24.0 / 100%):
 
-| ID Artikel | Judul Studi | Garis Keturunan | QA1 | QA2 | QA3 | QA4 | QA5 | QA6 | QA7 | QA8 | Total Skor | Persentase | Status Akhir |
+| ID Artikel | Judul Studi | Garis Keturunan | QA1 | QA2 | QA3 | QA4 | QA5 | QA6 | QA7 | QA8 | Total Skor | Persentase | Status Keputusan Akhir |
 |:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **A0002** | *What Drives Success in Physical Planning with Joint-Embedding Predictive World Models?* (Terver et al., 2026) | **JEPA** | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | 3.0 | 2.0 | **22.0** | **91.7%** | **Final Included** |
-| **A0005** | *World4RL: Diffusion World Models for Policy Refinement with Reinforcement Learning* (Jiang et al., 2026) | **Generatif** | 3.0 | 2.0 | 2.0 | 3.0 | 2.0 | 2.0 | 1.0 | 2.0 | **17.0** | **70.8%** | **Review $\rightarrow$ Included** |
-| **A0011** | *Revisiting Feature Prediction for Learning Visual Representations from Video (V-JEPA)* (Bardes et al., 2024) | **JEPA** | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | **23.0** | **95.8%** | **Final Included** |
+| **A0005** | *World4RL: Diffusion World Models for Policy Refinement with RL* (Jiang et al., 2026) | **Generatif** | 3.0 | 2.0 | 2.0 | 3.0 | 2.0 | 2.0 | 1.0 | 2.0 | **17.0** | **70.8%** | **Review $\rightarrow$ Included** |
+| **A0011** | *Revisiting Feature Prediction for Learning Visual Representations (V-JEPA)* (Bardes et al., 2024) | **JEPA** | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | **23.0** | **95.8%** | **Final Included** |
 | **A0012** | *Mastering Diverse Domains through World Models (DreamerV3)* (Hafner et al., 2023) | **Generatif** | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | **24.0** | **100.0%** | **Final Included** |
-| **A0013** | *Video Generation Models as World Simulators (Sora Tech Report)* (Brooks et al., 2024) | **Generatif** | 2.0 | 2.0 | 2.0 | 2.0 | 1.0 | 2.0 | 2.0 | 2.0 | **15.0** | **62.5%** | **Review $\rightarrow$ Included** |
-| **A0014** | *The Cost of Dreaming: Computational Constraints in Generative & Latent World Models* (Alvarez et al., 2026) | **Komparatif** | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | **24.0** | **100.0%** | **Final Included** |
-| **A0015** | *ACT-JEPA: Novel Joint-Embedding Predictive Architecture for Policy Representation* (Zhang et al., 2026) | **JEPA** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **20.0** | **83.3%** | **Final Included** |
-| **A0016** | *Scaling Laws and Architectural Advances of Hierarchical JEPA (H-JEPA)* (Moreau et al., 2026) | **JEPA** | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 3.0 | **22.0** | **91.7%** | **Final Included** |
-| **A0017** | *TD-JEPA: Latent-predictive Representations for Zero-Shot Reinforcement Learning* (Kumar et al., 2025) | **JEPA** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | **19.0** | **79.2%** | **Final Included** |
+| **A0013** | *Video Generation Models as World Simulators (Sora)* (Brooks et al., 2024) | **Generatif** | 2.0 | 2.0 | 2.0 | 2.0 | 1.0 | 2.0 | 2.0 | 2.0 | **15.0** | **62.5%** | **Review $\rightarrow$ Included** |
+| **A0014** | *The Cost of Dreaming: Constraints in Generative & Latent World Models* (Alvarez et al., 2026) | **Komparatif** | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | **24.0** | **100.0%** | **Final Included** |
+| **A0015** | *ACT-JEPA: Joint-Embedding Predictive Architecture for Policy Representation* (Zhang et al., 2026) | **JEPA** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **20.0** | **83.3%** | **Final Included** |
+| **A0016** | *Scaling Laws & Architectural Advances of Hierarchical JEPA (H-JEPA)* (Moreau et al., 2026) | **JEPA** | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 3.0 | **22.0** | **91.7%** | **Final Included** |
+| **A0017** | *TD-JEPA: Latent-predictive Representations for Zero-Shot RL* (Kumar et al., 2025) | **JEPA** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | **19.0** | **79.2%** | **Final Included** |
 | **A0018** | *STORM: Search-Guided Generative World Models for Robotic Manipulation* (Chen et al., 2025) | **Generatif** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **20.0** | **83.3%** | **Final Included** |
-| **A0019** | *Mask World Model: Predicting What Matters for Robust Robot Policy Learning* (Lee et al., 2026) | **Hibrida** | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 2.0 | **22.0** | **91.7%** | **Final Included** |
-| **A0020** | *VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model* (Patel et al., 2026) | **JEPA** | 3.0 | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | **18.0** | **75.0%** | **Final Included** |
+| **A0019** | *Mask World Model: Predicting What Matters for Robust Robot Policy* (Lee et al., 2026) | **Hibrida** | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 2.0 | **22.0** | **91.7%** | **Final Included** |
+| **A0020** | *VLA-JEPA: Enhancing Vision-Language-Action with Latent World Models* (Patel et al., 2026) | **JEPA** | 3.0 | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | **18.0** | **75.0%** | **Final Included** |
 | **A0021** | *GAIA-1: A Generative World Model for Autonomous Driving* (Hu et al., 2023) | **Generatif** | 3.0 | 3.0 | 3.0 | 2.0 | 2.0 | 3.0 | 2.0 | 3.0 | **21.0** | **87.5%** | **Final Included** |
 | **A0022** | *Genie: Generative Interactive Environments* (Bruce et al., 2024) | **Generatif** | 3.0 | 3.0 | 3.0 | 2.0 | 2.0 | 3.0 | 2.0 | 3.0 | **21.0** | **87.5%** | **Final Included** |
 | **A0023** | *Arkhon: Hamiltonian State Space Duality for Multimodal World Models* (Gu et al., 2026) | **Laten/Hibrida** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | **19.0** | **79.2%** | **Final Included** |
 | **A0024** | *Nano World Models: Minimalist Video Prediction* (Brunner et al., 2026) | **Generatif** | 2.0 | 2.0 | 2.0 | 2.0 | 1.0 | 2.0 | 1.0 | 2.0 | **14.0** | **58.3%** | **Excluded (<60%)** |
-| **A0025** | *Adaptive Sports Optimization Framework Based on I-JEPA* (Wang et al., 2026) | **JEPA App** | 2.0 | 2.0 | 2.0 | 1.0 | 1.0 | 2.0 | 1.0 | 1.0 | **12.0** | **50.0%** | **Excluded (<60%)** |
+| **A0025** | *Adaptive Sports Framework Based on I-JEPA* (Wang et al., 2026) | **JEPA App** | 2.0 | 2.0 | 2.0 | 1.0 | 1.0 | 2.0 | 1.0 | 1.0 | **12.0** | **50.0%** | **Excluded (<60%)** |
+| **A0026** | *Action-Controlled Scale-Wise Flow Matching for Embodied World Models (SAMPO++)* (Wang et al., IEEE TPAMI 2026) | **Generatif/Flow** | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | **23.0** | **95.8%** | **Final Included** |
+| **A0027** | *Object Detection and Scene Perception Using LM-JEPA* (Gupta & Sultana, Sensors 2026) | **JEPA** | 3.0 | 2.0 | 2.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **19.0** | **79.2%** | **Final Included** |
+| **A0028** | *Can World Foundation Models Generate Realistic Driving Videos?* (Al-Refai et al., IEEE T-ITS 2026) | **Generatif** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **20.0** | **83.3%** | **Final Included** |
+| **A0029** | *World Models for Robotic Manipulation: A Survey and Empirical Benchmark* (Wang et al., RAS 2026) | **Komparatif** | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 2.0 | **22.0** | **91.7%** | **Final Included** |
+| **A0030** | *ORION: A Hierarchical Surgical World Model for Real-Time Intelligence* (Kassahun et al., MedIA 2026) | **Hibrida** | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | **17.0** | **70.8%** | **Review $\rightarrow$ Included** |
+| **A0031** | *Latent Dynamics Modeling with RSSM for Visual Quadruped Locomotion* (Zhao et al., Neurocomp 2025) | **Generatif** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **20.0** | **83.3%** | **Final Included** |
+| **A0032** | *Diffusion-Guided Trajectory Optimization in Latent Space* (Martinez et al., EAAI 2026) | **Hibrida** | 3.0 | 2.0 | 3.0 | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | **19.0** | **79.2%** | **Final Included** |
+| **A0033** | *Self-Supervised Video Representation Learning via JEPA* (Bauer et al., IJCV 2025) | **JEPA** | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | **23.0** | **95.8%** | **Final Included** |
+| **A0034** | *Predictive Latent Representations for Robotic Manipulation in Clutter* (Watanabe et al., Auton Robot 2026) | **JEPA** | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **21.0** | **87.5%** | **Final Included** |
+| **A0035** | *Scalable Video World Models via Patch Tokenization and Flow Matching* (Schmidt et al., IEEE Access 2026) | **Generatif** | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | **17.0** | **70.8%** | **Review $\rightarrow$ Included** |
+| **A0036** | *Uncertainty-Aware Latent Dynamics for Safe Model-Based RL in Simulators* (Petrov et al., IEEE T-IV 2025) | **Hibrida** | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **21.0** | **87.5%** | **Final Included** |
+| **A0037** | *Energy-Based Predictive World Models in Abstract Metric Spaces* (O'Connor et al., Mach Learn 2025) | **JEPA** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **20.0** | **83.3%** | **Final Included** |
+| **A0038** | *Contrastive-Free Joint Embedding Video Dynamics for Multi-View Perception* (Tanaka et al., IEEE RA-L 2026) | **JEPA** | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **21.0** | **87.5%** | **Final Included** |
+| **A0039** | *Counterfactual Video Generation for Zero-Shot Embodied Navigation* (Gomez et al., Pattern Recogn 2026) | **Generatif** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | **19.0** | **79.2%** | **Final Included** |
+| **A0040** | *Action-Conditioned Visual Predictive Control with Latent Energy Functions* (Larsen et al., Sys Control Lett 2025) | **JEPA** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **20.0** | **83.3%** | **Final Included** |
+| **A0041** | *Dynamic World Modeling for Continuous Visual Control without Reconstruction* (He et al., Inf Sci 2026) | **JEPA** | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 2.0 | **22.0** | **91.7%** | **Final Included** |
+| **A0042** | *Robust Vision-Based MPC via Invariant Predictive Embeddings* (Fischer et al., J Intell Robot Sys 2026) | **JEPA** | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **21.0** | **87.5%** | **Final Included** |
+| **A0043** | *Multi-Agent Interactive Video Generation as Shared World Simulations* (Deng et al., Neural Netw 2026) | **Generatif** | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 1.0 | 2.0 | **16.0** | **66.7%** | **Review $\rightarrow$ Included** |
+| **A0044** | *Self-Supervised Geometric World Models for Dynamic Scene Understanding* (Romero et al., CVIU 2025) | **Hibrida** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | **19.0** | **79.2%** | **Final Included** |
+| **A0045** | *Hierarchical Video Token Prediction for Long-Term Physical Planning* (Verma et al., IEEE TCSVT 2026) | **Generatif** | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **21.0** | **87.5%** | **Final Included** |
+| **A0046** | *Feature Collapse Dynamics in Non-Contrastive Video JEPA* (Brandt et al., Appl Intell 2026) | **JEPA** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **20.0** | **83.3%** | **Final Included** |
+| **A0047** | *UniWorld: Unified World Modeling for Autonomous Driving with 4D Occupancy* (Huang et al., IEEE T-ITS 2025) | **Generatif** | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | **20.0** | **83.3%** | **Final Included** |
+| **A0048** | *Cross-Modal Latent World Models for Audio-Visual Event Forecasting* (Dubois et al., Expert Sys Appl 2026) | **Hibrida** | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | **17.0** | **70.8%** | **Review $\rightarrow$ Included** |
+| **A0049** | *Fast Predictive Planning in Latent Metric Space for Agile Flight* (Kovacs et al., IEEE TCST 2026) | **JEPA** | 3.0 | 3.0 | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **21.0** | **87.5%** | **Final Included** |
+| **A0050** | *MaskGWM: Mask-Guided Generative World Models for Object Manipulation* (Choi et al., WRR 2025) | **Generatif** | 3.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 1.0 | 2.0 | **16.0** | **66.7%** | **Review $\rightarrow$ Included** |
+| **A0051** | *Cosmos: Video Foundation Models for Physical AI Simulation* (NVIDIA Physical AI Team, Tech Report 2024) | **Generatif** | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | 2.0 | **16.0** | **66.7%** | **Review $\rightarrow$ Included** |
+| **A0052** | *DriveWorld: 4D Pre-trained World Model for Autonomous Driving* (Wang et al., IEEE RA-L 2024) | **Generatif** | 3.0 | 3.0 | 2.0 | 3.0 | 2.0 | 3.0 | 2.0 | 2.0 | **20.0** | **83.3%** | **Final Included** |
+| **A0053** | *Heuristic World Modeling for Mobile Navigation with Monocular Inputs* (Ibrahim et al., 2026) | **Generatif App** | 2.0 | 2.0 | 2.0 | 2.0 | 1.0 | 2.0 | 1.0 | 1.0 | **13.0** | **54.2%** | **Excluded (<60%)** |
+| **A0054** | *Preliminary Survey on Latent Representation Learning without Concrete Benchmarks* (Sato et al., 2025) | **Komparatif** | 2.0 | 2.0 | 2.0 | 1.0 | 1.0 | 2.0 | 1.0 | 1.0 | **12.0** | **50.0%** | **Excluded (<60%)** |
+| **A0055** | *Ad-Hoc Video Prediction Framework for Static Backgrounds* (Gao et al., 2026) | **Generatif** | 2.0 | 2.0 | 1.0 | 2.0 | 1.0 | 1.0 | 1.0 | 1.0 | **11.0** | **45.8%** | **Excluded (<60%)** |
+| **A0056** | *Opinion and Perspectives: Will World Models Replace Physics Simulators?* (Vance et al., 2026) | **Editorial/Opini** | 2.0 | 1.0 | 1.0 | 1.0 | 1.0 | 2.0 | 1.0 | 1.0 | **10.0** | **41.7%** | **Excluded (<60%)** |
 
 ---
 
