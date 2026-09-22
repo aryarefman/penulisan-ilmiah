@@ -24,7 +24,7 @@ Pada domain video dan data visual berurutan, riset world model terbelah menjadi 
    - **Tantangan Utama**: Biaya komputasi masif (*computational intractability*), kebutuhan memori raksasa, latensi inferensi tinggi karena proses denoising berulang, serta alokasi kapasitas representasi yang terbuang untuk memprediksi derau piksel yang tidak dapat diprediksi secara deterministik (*task-irrelevant stochastic noise*, seperti gemerisik daun atau riak air).
 
 2. **Garis Keturunan Joint Embedding Predictive Architecture (JEPA / Latent-Space World Models)**:
-   - Dipelopori oleh visi Yann LeCun (2022) dan diwujudkan melalui I-JEPA (2023), V-JEPA (2024), MC-JEPA, serta LeWM (2025/2026).
+   - Dipelopori oleh visi Yann LeCun (2022) dan diwujudkan melalui I-JEPA (2023), V-JEPA (2024), MC-JEPA, serta LeWM (2026).
    - Membuang proses dekoding piksel dan memprediksi masa depan secara langsung pada **ruang representasi laten terabstraksi** (*abstract latent embedding space*).
    - Mengeliminasi representasi detail irelevan dan memfokuskan model pada konsistensi semantik, hukum fisika objek, dan dinamika esensial adegan.
    - **Tantangan Utama**: Menjaga stabilitas pembelajaran agar tidak runtuh (*representation collapse*) tanpa fungsi loss kontrasif negatif yang mahal, serta keterbatasan bahwa representasi laten tidak dapat divisualisasikan kembali menjadi video kasat mata secara langsung tanpa decoder tambahan.
