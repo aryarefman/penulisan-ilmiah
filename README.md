@@ -97,10 +97,10 @@ Tabel ini merinci **string kueri nyata** yang digunakan pada skrip scraping terb
 | **Eksklusi** | **EC1** | Artikel duplikat yang muncul di lebih dari satu basis data akademik. | Dieliminasi pada tahap pra-screening berdasarkan kesamaan DOI/Judul. | Dieliminasi (n = 87) |
 | | **EC2** | Diterbitkan di luar rentang waktu (sebelum 2018 atau setelah September 2026). | Ditolak karena di luar periode fokus peninjauan. | Ditolak (n = 4) |
 | | **EC3** | Tidak membahas arsitektur world model atau tidak relevan dengan perbandingan JEPA vs generatif (misal: AI enterprise, tata kelola AI, klasifikasi statis). | Ditolak karena berada di luar ruang lingkup penelitian (*out of scope*). | Ditolak (n = 1,853) |
-| | **EC4** | Tidak melibatkan prediksi dinamika lingkungan/dunia (misal: murni LLM teks, perutean sirkuit PCB, bioinformatika DNA, RL tabular klinis). | Ditolak karena tidak memenuhi esensi fungsionalitas *world model*. | Ditolak (n = 619) |
+| | **EC4** | Tidak melibatkan prediksi dinamika lingkungan/dunia (misal: murni LLM teks, perutean sirkuit PCB, bioinformatika DNA, RL tabular klinis). | Ditolak karena tidak memenuhi esensi fungsionalitas *world model*. | Ditolak (n = 612) |
 | | **EC5** | Bukan artikel ilmiah lengkap (hanya abstrak pendek, editorial, poster satu halaman, atau slide presentasi). | Ditolak karena tidak memiliki kelayakan metodologi. | Ditolak (n = 110) |
 | | **EC6** | Teks lengkap (*full-text*) tidak dapat diakses (*behind paywall* tanpa akses institusional / tautan rusak). | Ditolak karena data tidak dapat diverifikasi secara empiris. | Ditolak (n = 14) |
-| | **EC7** | Artikel non-peer-reviewed yang tidak memiliki kredibilitas teknis memadai atau laporan opini informal. | Ditolak guna mempertahankan standar mutu akademik SLR. | Ditolak (n = 8) |
+| | **EC7** | Artikel non-peer-reviewed yang tidak memiliki kredibilitas teknis memadai atau laporan opini informal. | Ditolak guna mempertahankan standar mutu akademik SLR. | Ditolak (n = 11) |
 
 ---
 

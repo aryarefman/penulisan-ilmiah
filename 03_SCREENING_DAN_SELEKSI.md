@@ -13,9 +13,9 @@ Proses penyaringan literatur dirancang dalam dua fase berurutan guna mengelola s
 
 ```mermaid
 flowchart TD
-    Start["Korpus Unik Primer<br>(n = 2,652)"] --> S1["<b>FASE 1: Screening Judul & Abstrak</b><br>Evaluasi cepat kesesuaian domain: IC1, IC2, IC3, EC2, EC3, EC4"]
+    Start["Korpus Unik Primer<br>(n = 2,652)"] --> S1["<b>FASE 1: Screening Judul & Abstrak</b><br>Evaluasi cepat kesesuaian domain: IC1, IC2, IC3, EC2, EC3, EC4, EC5"]
     S1 -->|Tidak Sesuai / Out of Scope| Ex1["<b>Dikeluarkan pada Fase 1</b><br>(n = 2,572 artikel)"]
-    S1 -->|Berpotensi Memenuhi Syarat| S2["<b>FASE 2: Screening Teks Lengkap (Full-Text)</b><br>Evaluasi teknis arsitektur, tugas hilir, metodologi: IC4, IC5, EC5, EC6, EC7"]
+    S1 -->|Berpotensi Memenuhi Syarat| S2["<b>FASE 2: Screening Teks Lengkap (Full-Text)</b><br>Evaluasi teknis arsitektur, aksesibilitas, kredibilitas: IC4, IC5, EC6, EC7, EC3/EC4"]
     S2 -->|Gagal Akses / Metodologi Lemah| Ex2["<b>Dikeluarkan pada Fase 2</b><br>(n = 32 artikel)"]
     S2 -->|Lolos Seluruh Syarat Inti| Pool["<b>Pool Penilaian Kualitas (QA)</b><br>(n = 48 artikel)"]
 
@@ -79,19 +79,21 @@ Dari total **2.652 artikel unik** yang disaring, sebanyak **2.604 artikel dieksk
 ```mermaid
 pie title Distribusi Alasan Eksklusi Artikel (n = 2,604)
     "EC3: Bukan World Model / Out of Scope (n = 1,853)" : 1853
-    "EC4: Bukan Domain Video / Tanpa Dinamika Temporal (n = 619)" : 619
+    "EC4: Bukan Domain Video / Tanpa Dinamika Temporal (n = 612)" : 612
     "EC5: Dokumen Pendek / Non-Teknis (n = 110)" : 110
     "EC6: Dokumen Teks Lengkap Tidak Dapat Diakses (n = 14)" : 14
-    "EC7: Laporan Non-Peer-Reviewed / Kredibilitas Rendah (n = 8)" : 8
+    "EC7: Laporan Non-Peer-Reviewed / Kredibilitas Rendah (n = 11)" : 11
+    "EC2: Di Luar Rentang Waktu 2018-2026 (n = 4)" : 4
 ```
 
 | Kode Alasan Eksklusi | Jumlah Artikel | Persentase dari Total Eksklusi | Contoh Kasus Nyata yang Ditemukan |
 |:---|:---:|:---:|:---|
-| **EC3 – Out of Scope** | **1,853** | 71.16% | Studi AI industri umum, tata kelola AI, optimasi komputasi awan, atau klasifikasi citra statis konvensional. |
-| **EC4 – No Video Dynamics** | **619** | 23.77% | Studi model bahasa murni (LLM), perutean sirkuit PCB, bioinformatika sekuens DNA, atau tabular RL kesehatan. |
-| **EC5 – Incomplete Article** | **110** | 4.22% | Abstrak seminar satu halaman, laporan editorial prosiding, atau poster workshop tanpa detail matematis/empiris. |
-| **EC6 – Paywalled / Inaccessible** | **14** | 0.54% | Artikel berbayar pada basis data tertutup tanpa akses open-access maupun langganan institusi. |
-| **EC7 – Low Technical Credibility** | **8** | 0.31% | Artikel ulasan blog sains populer, makalah non-peer-reviewed yang minim validasi eksperimen. |
+| **EC3 -- Out of Scope** | **1,853** | 71.16% | Studi AI industri umum, tata kelola AI, optimasi komputasi awan, atau klasifikasi citra statis konvensional. |
+| **EC4 -- No Video Dynamics** | **612** | 23.50% | Studi model bahasa murni (LLM), perutean sirkuit PCB, bioinformatika sekuens DNA, atau tabular RL kesehatan. |
+| **EC5 -- Incomplete Article** | **110** | 4.22% | Abstrak seminar satu halaman, laporan editorial prosiding, atau poster workshop tanpa detail matematis/empiris. |
+| **EC6 -- Paywalled / Inaccessible** | **14** | 0.54% | Artikel berbayar pada basis data tertutup tanpa akses open-access maupun langganan institusi. |
+| **EC7 -- Low Technical Credibility** | **11** | 0.42% | Artikel ulasan blog sains populer, makalah non-peer-reviewed yang minim validasi eksperimen. |
+| **EC2 -- Di Luar Rentang Waktu** | **4** | 0.15% | Artikel yang diterbitkan sebelum tahun 2018 atau setelah September 2026. |
 | **TOTAL DIEKSKLUSI** | **2,604** | **100.0%** | |
 
 Hasil penyaringan ini menghasilkan **48 artikel kandidat utama** yang siap memasuki tahap evaluasi mutu mendalam (*Quality Assessment*).
