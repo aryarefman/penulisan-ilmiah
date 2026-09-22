@@ -131,6 +131,31 @@
 
 ---
 
+### FP-05: Video Generation Models as World Simulators (Sora)
+
+| Atribut Ekstraksi | Nilai / Deskripsi Terperinci |
+|:---|:---|
+| **Article_ID** | `A0013` / `FP-05` |
+| **Title** | *Video Generation Models as World Simulators* |
+| **Authors** | Tim Brooks; Bill Peebles; Connor Holmes; Will DePue; Yufei Guo; Li Jing; David Schnurr; Joe Taylor; Troy Luhman; Eric Luhman; Clarence Ng; Ricky Wang; Aditya Ramesh |
+| **Year** | 2024 |
+| **Journal / Conference** | OpenAI Technical Report |
+| **DOI** | — (Technical Report tanpa DOI resmi) |
+| **URL** | [https://openai.com/research/video-generation-models-as-world-simulators](https://openai.com/research/video-generation-models-as-world-simulators) |
+| **Research_Aim** | Mengeksplorasi model generasi video berskala besar berbasis Diffusion Transformer (DiT) sebagai simulator dunia fisik yang mampu memahami hukum fisika, gerak objek, dan dinamika kamera. |
+| **Research_Question** | Apakah penskalaan model difusi video secara masif dapat menghasilkan kemampuan emergent memahami fisika 3D dan dinamika dunia tanpa supervisi eksplisit? |
+| **Methodology** | Pre-training model difusi video pada dataset video skala internet dengan arsitektur Diffusion Transformer (DiT) berdimensi sangat besar; evaluasi kualitatif terhadap konsistensi fisika, koherensi temporal, dan kemampuan simulasi dunia. |
+| **Dataset / Sample** | Dataset video internal skala internet (tidak dipublikasikan secara spesifik); evaluasi pada berbagai skenario dunia nyata (pejalan kaki, kendaraan, lingkungan alam). |
+| **Technology / Approach** | Diffusion Transformer (DiT), Spacetime Patches (video tokenization), Denoising Score Matching, Classifier-Free Guidance, Variable Resolution/Duration/Aspect Ratio Training. |
+| **Evaluation_Metrics** | Evaluasi kualitatif: koherensi fisika jangka panjang, konsistensi 3D, interaksi objek, persistensi entitas. Tidak menyediakan metrik kuantitatif standar (FVD, PSNR) secara terbuka. |
+| **Key_Findings** | Penskalaan model difusi video menunjukkan kemampuan emergent memahami fisika 3D, oklusi objek, dan dinamika kamera yang koheren tanpa supervisi eksplisit. Menghasilkan video hingga 1 menit dengan resolusi tinggi dan koherensi temporal yang belum pernah tercapai sebelumnya. |
+| **Limitations** | Laporan bersifat teknis ringkas tanpa hyperparameter training lengkap; tidak menyediakan perbandingan kuantitatif terhadap baseline state-of-the-art; sebagian besar dataset training bersifat proprietary; masih mengalami kegagalan fisika pada interaksi kompleks (misalnya cairan, objek berubah bentuk). |
+| **Future_Work** | Penyempurnaan pemahaman fisika untuk interaksi objek kompleks dan integrasi ke dalam sistem kontrol otonom. |
+| **Relevant_RQ** | **RQ-01, RQ-03, RQ-04, RQ-06** |
+| **Extraction_Notes** | Studi tonggak penting yang menunjukkan potensi penskalaan model generatif video sebagai world simulator, meskipun metodologinya kurang transparan dibanding studi akademik peer-reviewed (skor QA 62.5%, kategori Review). |
+
+---
+
 ### FP-06: The Cost of Dreaming: Computational Constraints in Generative and Latent World Models
 
 | Atribut Ekstraksi | Nilai / Deskripsi Terperinci |

@@ -29,9 +29,9 @@ timeline
     section Era Konvergensi Video & Difusi
         2024 : V-JEPA (Bardes et al.) : Video feature prediction tanpa rekonstruksi piksel
         2024 : Sora (OpenAI) & Genie (Google) : Video generation as scalable world simulators
-        2025 : LeWM (Terver et al.) : Physical planning berbasis JEPA di ruang laten
         2025 : STORM & MaskGWM : Diffusion-guided world modeling & mask dynamics
     section Era Frontier Kontemporer
+        2026 : LeWM (Terver et al.) : Physical planning berbasis JEPA di ruang laten
         2026 : H-JEPA & ACT-JEPA : Hierarchical multi-timescale & Action-conditioned JEPA
         2026 : World4RL & Arkhon : Hamiltonian dynamics & diffusion policy refinement
         2026 : Paradigma Hibrida : Laten JEPA backbone + on-demand generative head
