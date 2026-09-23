@@ -1,8 +1,8 @@
 # Proses Screening & Matriks Seleksi Artikel
 
 > **Dokumen Terkait**: Sheet `Screening` pada prototipe Excel SLR  
-> **Fokus**: Prosedur bertingkat evaluasi Kriteria Inklusi (IC1–IC5) dan Kriteria Eksklusi (EC1–EC7)  
-> **Populasi Total**: 2.652 artikel unik primer  
+> **Fokus**: Prosedur bertingkat evaluasi Kriteria Inklusi (IC1–IC5) dan Kriteria Eksklusi (EC1–EC6)  
+> **Populasi Total**: 2.812 artikel mentah (2.697 artikel unik primer setelah 115 duplikat dihapus)  
 > **Status**: Selesai Disaring & Terverifikasi
 
 ---
@@ -13,11 +13,11 @@ Proses penyaringan literatur dirancang dalam dua fase berurutan guna mengelola s
 
 ```mermaid
 flowchart TD
-    Start["Korpus Unik Primer<br>(n = 2,652)"] --> S1["<b>FASE 1: Screening Judul & Abstrak</b><br>Evaluasi cepat kesesuaian domain: IC1, IC2, IC3, EC2, EC3, EC4, EC5"]
-    S1 -->|Tidak Sesuai / Out of Scope| Ex1["<b>Dikeluarkan pada Fase 1</b><br>(n = 2,572 artikel)"]
-    S1 -->|Berpotensi Memenuhi Syarat| S2["<b>FASE 2: Screening Teks Lengkap (Full-Text)</b><br>Evaluasi teknis arsitektur, aksesibilitas, kredibilitas: IC4, IC5, EC6, EC7, EC3/EC4"]
+    Start["<b>Korpus Unik Primer</b><br>(n = 2,697 artikel unik dari 2,812 mentah)"] --> S1["<b>FASE 1: Screening Judul & Abstrak</b><br>Evaluasi cepat kesesuaian domain: IC1, IC2, IC3, EC2, EC3, EC4, EC5, EC6"]
+    S1 -->|Tidak Sesuai / Out of Scope| Ex1["<b>Dikeluarkan pada Fase 1</b><br>(n = 2,617 artikel)"]
+    S1 -->|Memenuhi Syarat & Ambigu| S2["<b>FASE 2: Screening Teks Lengkap (Eligibility)</b><br>Pool n = 80 artikel (65 Candidate + 15 Review)<br>Evaluasi teknis arsitektur & aksesibilitas: IC4, IC5, EC6, EC7, EC3/EC4"]
     S2 -->|Gagal Akses / Metodologi Lemah| Ex2["<b>Dikeluarkan pada Fase 2</b><br>(n = 32 artikel)"]
-    S2 -->|Lolos Seluruh Syarat Inti| Pool["<b>Pool Penilaian Kualitas (QA)</b><br>(n = 48 artikel)"]
+    S2 -->|Lolos Seluruh Syarat Inti| Pool["<b>Pool Penilaian Kualitas (QA)</b><br>(n = 48 artikel lolos ke evaluasi mutu)"]
 
     style Start fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
     style S1 fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
@@ -29,15 +29,18 @@ flowchart TD
 
 ### 1.1 Aturan Penentuan Keputusan (Decision Rules)
 
-1. **Lolos Inklusi (*Include / Candidate*)**:
-   - Artikel wajib bernilai **"Yes"** pada **IC1, IC2, IC3, dan IC5**.
-   - Artikel wajib bernilai **"No"** pada seluruh kriteria eksklusi **EC1 sampai EC7**.
-   - **IC4** (Publikasi lab utama / jurnal bereputasi tinggi) dicatat sebagai indikator penguat kualitas (*priority indicator*).
-2. **Penolakan (*Exclude*)**:
-   - Jika satu kriteria inklusi wajib bernilai **"No"**, artikel langsung ditolak dengan mencantumkan alasan spesifik (misal: *EC3 - Out of Scope* atau *EC4 - No Dynamics*).
-   - Jika satu kriteria eksklusi bernilai **"Yes"** (misal: *EC1 - Duplicate* atau *EC6 - Paywalled*), artikel langsung dikeluarkan.
-3. **Kategori Ambigu (*Unclear / Borderline*)**:
-   - Dilakukan pembacaan silang (*cross-review*) oleh kedua peneliti independen hingga mencapai konsensus bulat.
+1. **Lolos Inklusi Penuh (*Candidate*)**:
+   - Seluruh kriteria inklusi bernilai **"Yes"** ($N=5$: IC1, IC2, IC3, IC4, IC5).
+   - Seluruh kriteria eksklusi bernilai **"No"** ($O=\text{"NO"}$, tidak ada satupun EC1–EC6 yang bernilai Yes).
+   - Menghasilkan 65 artikel berstatus `Candidate` pada screening awal.
+2. **Kategori Ambigu / Tinjau Ulang (*Review*)**:
+   - Kriteria inklusi mayoritas terpenuhi namun ada ketidakpastian spesifikasi teknis arsitektur pada teks abstrak ($N<5$, misalnya `IC3 = Unclear` atau `IC4 = Unclear`).
+   - Tidak melanggar kriteria eksklusi ($O=\text{"NO"}$).
+   - Menghasilkan 15 artikel berstatus `Review` yang wajib diteruskan ke telaah teks lengkap (Fase 2).
+   - **Total Pool Lolos ke Fase 2 = 65 Candidate + 15 Review = 80 artikel**.
+3. **Penolakan (*Exclude*)**:
+   - Artikel langsung ditolak jika ada satu saja kriteria eksklusi bernilai **"Yes"** ($O=\text{"YES"}$, misal *EC1 - Duplicate*, *EC3 - Out of Scope*, *EC4 - No Video Dynamics*, dsb.).
+   - Menghasilkan 2.732 artikel ditolak (termasuk 115 duplikat EC1 dan 2.617 penolakan Fase 1).
 
 ---
 
@@ -74,26 +77,33 @@ Berikut adalah matriks hasil penyaringan terperinci untuk artikel-artikel reprez
 
 ## 3. Analisis Statistik Alasan Eksklusi (Exclusion Reasons Breakdown)
 
-Dari total **2.652 artikel unik** yang disaring, sebanyak **2.604 artikel dieksklusi** secara kumulatif melalui Fase 1 dan Fase 2:
+Dari total **2.812 artikel mentah** (2.697 artikel unik primer setelah eliminasi 115 duplikat EC1), sebanyak **2.617 artikel dieksklusi pada Fase 1 (Screening Judul & Abstrak)** dan **32 artikel dieksklusi pada Fase 2 (Kelayakan Teks Lengkap)**:
 
 ```mermaid
-pie title Distribusi Alasan Eksklusi Artikel (n = 2,604)
-    "EC3: Bukan World Model / Out of Scope (n = 1,853)" : 1853
-    "EC4: Bukan Domain Video / Tanpa Dinamika Temporal (n = 612)" : 612
-    "EC5: Dokumen Pendek / Non-Teknis (n = 110)" : 110
-    "EC6: Dokumen Teks Lengkap Tidak Dapat Diakses (n = 14)" : 14
-    "EC7: Laporan Non-Peer-Reviewed / Kredibilitas Rendah (n = 11)" : 11
-    "EC2: Di Luar Rentang Waktu 2018-2026 (n = 4)" : 4
+pie title Distribusi Alasan Eksklusi Fase 1: Judul & Abstrak (n = 2,617)
+    "EC3: Bukan World Model / Out of Scope (n = 1,484)" : 1484
+    "EC4: Bukan Domain Video / Tanpa Dinamika (n = 1,110)" : 1110
+    "EC6: Bukan Bahasa Inggris / Teks Tidak Lengkap (n = 20)" : 20
+    "EC5: Dokumen Pendek / Editorial (n = 2)" : 2
+    "EC2: Di Luar Rentang Waktu 2018-2026 (n = 1)" : 1
 ```
 
-| Kode Alasan Eksklusi | Jumlah Artikel | Persentase dari Total Eksklusi | Contoh Kasus Nyata yang Ditemukan |
-|:---|:---:|:---:|:---|
-| **EC3 -- Out of Scope** | **1,853** | 71.16% | Studi AI industri umum, tata kelola AI, optimasi komputasi awan, atau klasifikasi citra statis konvensional. |
-| **EC4 -- No Video Dynamics** | **612** | 23.50% | Studi model bahasa murni (LLM), perutean sirkuit PCB, bioinformatika sekuens DNA, atau tabular RL kesehatan. |
-| **EC5 -- Incomplete Article** | **110** | 4.22% | Abstrak seminar satu halaman, laporan editorial prosiding, atau poster workshop tanpa detail matematis/empiris. |
-| **EC6 -- Paywalled / Inaccessible** | **14** | 0.54% | Artikel berbayar pada basis data tertutup tanpa akses open-access maupun langganan institusi. |
-| **EC7 -- Low Technical Credibility** | **11** | 0.42% | Artikel ulasan blog sains populer, makalah non-peer-reviewed yang minim validasi eksperimen. |
-| **EC2 -- Di Luar Rentang Waktu** | **4** | 0.15% | Artikel yang diterbitkan sebelum tahun 2018 atau setelah September 2026. |
-| **TOTAL DIEKSKLUSI** | **2,604** | **100.0%** | |
+### 3.1 Rincian Alasan Eksklusi Fase 1 (Judul & Abstrak)
 
-Hasil penyaringan ini menghasilkan **48 artikel kandidat utama** yang siap memasuki tahap evaluasi mutu mendalam (*Quality Assessment*).
+| Kode Alasan Eksklusi | Jumlah Artikel | Persentase | Karakteristik Studi yang Dieksklusi |
+|:---|:---:|:---:|:---|
+| **EC3 -- Out of Scope (Bukan World Model)** | **1,484** | 56.71% | Studi AI industri umum, klasifikasi citra statis, tata kelola AI, optimasi komputasi awan, deteksi objek 2D statis. |
+| **EC4 -- Bukan Domain Video / Dinamika** | **1,110** | 42.42% | Model bahasa teks murni (LLM), perutean sirkuit PCB/graf, bioinformatika sekuens DNA, tabular RL medis tanpa visual. |
+| **EC6 -- Teks Non-Inggris / Tidak Lengkap** | **20** | 0.76% | Publikasi dalam bahasa non-Inggris (Mandarin/Rusia parsial) atau metadata tanpa abstrak yang dapat diverifikasi. |
+| **EC5 -- Incomplete / Non-Peer-Reviewed** | **2** | 0.08% | Abstrak seminar satu halaman, laporan editorial, catatan pertemuan tanpa metodologi teknis. |
+| **EC2 -- Di Luar Rentang Waktu** | **1** | 0.04% | Artikel terbit sebelum Januari 2018 (di luar era modern world model). |
+| **TOTAL DIEKSKLUSI FASE 1** | **2,617** | **100.0%** | **Pool lolos ke Fase 2 = 80 artikel (65 Candidate + 15 Review)** |
+
+### 3.2 Rincian Alasan Eksklusi Fase 2 (Kelayakan Teks Lengkap)
+
+Dari 80 artikel teks lengkap yang ditelaah mendalam, **32 artikel dieksklusi**:
+- **EC6 (Paywalled / Akses Terbatas)**: 14 artikel (dokumen teks lengkap tidak dapat diakses melalui lisensi institusi ITS).
+- **EC7 (Laporan Non-Peer-Reviewed / Kredibilitas Rendah)**: 11 artikel (catatan teknis informal, naskah pra-analisis tanpa pembuktian peer-review).
+- **EC3/EC4 (Tanpa Evaluasi Empiris Downstream Tasks)**: 7 artikel (konseptual murni tanpa benchmarking kuantitatif pada prediksi, probing, atau kontrol).
+
+Hasil penyaringan dua tahap ini menghasilkan **48 artikel kandidat utama** yang berhak memasuki tahap evaluasi mutu mendalam (**Quality Assessment QA1–QA8**).

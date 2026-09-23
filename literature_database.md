@@ -3,7 +3,7 @@
 **Topik:** Arsitektur World Model pada Domain Video: Perbandingan Joint Embedding
 Predictive Architectures (JEPA) dan Generatif
 
-**Tanggal Pembuatan:** 2026-09-22 10:59
+**Tanggal Pembuatan:** 2026-09-23 13:23
 **Rentang Tahun:** 2018 – 2026
 
 ---
@@ -14,36 +14,37 @@ Predictive Architectures (JEPA) dan Generatif
 
 | No | Basis Data | Jumlah Artikel | % Total |
 |:--:|:---|:--:|:--:|
-| 1 | **CrossRef** | 1,062 | 40.0% |
-| 2 | **OpenAlex** | 916 | 34.5% |
-| 3 | **Springer Nature** | 215 | 8.1% |
-| 4 | **ScienceDirect** | 187 | 7.1% |
-| 5 | **Semantic Scholar** | 192 | 7.2% |
-| 6 | **Scopus** | 63 | 2.4% |
+| 1 | **CrossRef** | 1,062 | 39.4% |
+| 2 | **OpenAlex** | 916 | 34.0% |
+| 3 | **Springer Nature** | 215 | 8.0% |
+| 4 | **ScienceDirect** | 187 | 6.9% |
+| 5 | **Semantic Scholar** | 192 | 7.1% |
+| 6 | **Scopus** | 63 | 2.3% |
 | 7 | **PubMed** | 17 | 0.6% |
-| | **TOTAL** | **2,652** | **100%** |
+| 8 | **IEEE Xplore** | 45 | 1.7% |
+| | **TOTAL** | **2,697** | **100%** |
 
 ### 1.2 Kelengkapan Data
 
 | Kolom | Terisi | Persentase |
 |:---|:--:|:--:|
-| Judul | 2,652 | 100% |
-| DOI | 2,639 | 99.5% |
-| Abstrak | 1,658 | 62.5% |
+| Judul | 2,697 | 100% |
+| DOI | 2,684 | 99.5% |
+| Abstrak | 2,119 | 78.6% |
 
 ### 1.3 Distribusi Tahun Terbit
 
 | Tahun | Jumlah Artikel |
 |:--:|:--:|
-| 2018 | 86 |
+| 2018 | 87 |
 | 2019 | 135 |
-| 2020 | 136 |
-| 2021 | 176 |
+| 2020 | 137 |
+| 2021 | 177 |
 | 2022 | 211 |
-| 2023 | 281 |
-| 2024 | 385 |
-| 2025 | 478 |
-| 2026 | 763 |
+| 2023 | 286 |
+| 2024 | 388 |
+| 2025 | 488 |
+| 2026 | 787 |
 | 2027 | 1 |
 
 ---
@@ -135,6 +136,12 @@ DOI: [`10.1016/j.robot.2025.105273`](https://doi.org/10.1016/j.robot.2025.105273
 Penulis: Xue, Jintao; Li, Xiao; Zhang, Nianmin | Jurnal: *Robotics and Computer-Integrated Manufacturing* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.rcim.2025.103159`](https://doi.org/10.1016/j.rcim.2025.103159)
+
+<details><summary>Abstrak</summary>
+
+In advanced manufacturing systems, humans and robots collaborate to conduct the production process. Effective task planning and allocation (TPA) is crucial for achieving high production efficiency, yet it remains challenging in complex and dynamic manufacturing environments. The dynamic nature of humans and robots, particularly the need to consider spatial information (e.g. *(…)*
+
+</details>
 
 ---
 
@@ -252,6 +259,12 @@ Penulis: Yilmaz, Ali | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: e
 
 DOI: [`10.1109/access.2026.3716776`](https://doi.org/10.1109/access.2026.3716776)
 
+<details><summary>Abstrak</summary>
+
+Recent network traffic detection systems tend to perform well when identifying known attacks, yet their effectiveness drops significantly when faced with previously unseen malicious behavior. This issue becomes particularly important in zero-day scenarios, where predefined signatures and attack- specific patterns are either unavailable or unreliable. *(…)*
+
+</details>
+
 ---
 
 **18. [A solvable model of learning generative diffusion: theory and insights *](https://doi.org/10.1088/1742-5468/ae9377)**
@@ -273,6 +286,12 @@ Abstract In this manuscript, we consider the problem of learning a flow or diffu
 Penulis: Liu, Chang; Wang, Xiaoxuan; Zhang, Yinfu *et al.* (5 authors) | Jurnal: *Scientific Reports* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1038/s41598-026-55334-x`](https://doi.org/10.1038/s41598-026-55334-x)
+
+<details><summary>Abstrak</summary>
+
+As a prominent form of AI-generated content, Deepfake has aroused substantial safety concerns, as they substantially enhance the stealth of fraudulent activities and boost their success rates in real-world scenarios. Most existing research on Deepfake focuses primarily on detection tasks, and fails to fully capture the subtle manipulation traces that are unique to different forgery algorithms left… *(truncated)*
+
+</details>
 
 ---
 
@@ -364,6 +383,12 @@ Penulis: Li, Wenwen; Hsu, Chia-Yu; Wang, Sizhe | Jurnal: *IEEE Transactions on G
 
 DOI: [`10.1109/tgrs.2026.3652453`](https://doi.org/10.1109/tgrs.2026.3652453)
 
+<details><summary>Abstrak</summary>
+
+Wildfires pose escalating threats to ecosystems, communities, and climate systems, highlighting the urgent need for accurate, high-resolution spatiotemporal forecasting. In this work, we explore the untapped potential of video foundation models for advancing wildfire spread prediction using multimodal satellite data. *(…)*
+
+</details>
+
 ---
 
 **29. [Adaptive core-enhanced latent factor model for highly accurate QoS prediction](https://doi.org/10.3389/fdata.2026.1775728)**
@@ -400,6 +425,12 @@ Penulis: Choi, Minchan; Lee, Hyosun; Abdulali, Arsen *et al.* (4 authors) | Jurn
 
 DOI: [`10.1016/j.jtbi.2026.112530`](https://doi.org/10.1016/j.jtbi.2026.112530)
 
+<details><summary>Abstrak</summary>
+
+Epidemic control is inherently dynamic because viral transmissibility and human behavior co-evolve and vary across spatial scales. Consequently, identical intervention strategies can yield divergent outcomes depending on regional connectivity, temporal changes in transmission, and the relative costs of control. *(…)*
+
+</details>
+
 ---
 
 **32. [Advances in Self-Supervised Learning for Multi-Modal Data: Joint Representation Learning and Cross-Modal Intelligence](https://doi.org/10.65923/bs48jv26)**
@@ -422,6 +453,12 @@ Penulis: Kumwilaisak, Wuttipong | Jurnal: *IEEE Access* | Tipe: journal-article 
 
 DOI: [`10.1109/access.2026.3716809`](https://doi.org/10.1109/access.2026.3716809)
 
+<details><summary>Abstrak</summary>
+
+Sign Language Production (SLP) converts text or glosses into sign-pose motion. We study the gloss-conditioned stage on RWTH-PHOENIX-Weather-2014T under the SLRTP-2025 harness, where retrieval/assembly systems and ground-truth-length shortcuts can inflate back-translation scores and complicate pure-generator comparison. *(…)*
+
+</details>
+
 ---
 
 **34. [AI-driven federated unsupervised video summarization with ensemble reinforcement learning and explainable caption generation](https://doi.org/10.1016/j.array.2026.101181)**
@@ -437,6 +474,12 @@ DOI: [`10.1016/j.array.2026.101181`](https://doi.org/10.1016/j.array.2026.101181
 Penulis: Guo, Chongye; Li, Li; Ren, Yanli *et al.* (5 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2025.3602841`](https://doi.org/10.1109/tcsvt.2025.3602841)
+
+<details><summary>Abstrak</summary>
+
+Recent advances have highlighted the potential of diffusion models in Video Anomaly Detection (VAD). Diffusion models are typically employed to generate negative instances to distinguish them from positive ones. However, the existing diffusion model architectures, generally based on the reconstruction of low-level noisy features, introduce spurious correlations due to shortcut learning, which unde… *(truncated)*
+
+</details>
 
 ---
 
@@ -514,6 +557,12 @@ Penulis: Banks, Alexandre; Moore, Randy; Zaman, Sayem Nazmuz *et al.* (5 authors
 
 DOI: [`10.1109/tmrb.2026.3699217`](https://doi.org/10.1109/tmrb.2026.3699217)
 
+<details><summary>Abstrak</summary>
+
+Incorporating an autonomous auxiliary camera into robot-assisted minimally invasive surgery (RAMIS) enhances spatial awareness and eliminates manual viewpoint control. Existing path planning methods for auxiliary cameras track two-dimensional surgical features without simultaneously accounting for camera orientation, workspace constraints, and robot joint limits. *(…)*
+
+</details>
+
 ---
 
 **44. [Automation of PCB autorouting via world-model reinforcement learning and freerouting integration](https://doi.org/10.1016/j.eswa.2026.131424)**
@@ -551,6 +600,12 @@ The urban foundation model is critical for trajectory-based mobile applications,
 Penulis: Salma, Marco; Tronchin, Lorenzo; Sicilia, Rosa *et al.* (5 authors) | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/access.2026.3718041`](https://doi.org/10.1109/access.2026.3718041)
+
+<details><summary>Abstrak</summary>
+
+Data scarcity remains a critical bottleneck impeding technological advancements across various domains, including but not limited to medicine and precision agriculture. To address this challenge, we explore the potential of Deep Generative Models (DGMs) in producing synthetic data that satisfies the Generative Learning Trilemma: fidelity, diversity, and sampling efficiency. *(…)*
+
+</details>
 
 ---
 
@@ -672,6 +727,12 @@ Penulis: Javaid, Waqas; Ullah, Saif | Jurnal: *Journal of Simulation* | Tipe: jo
 
 DOI: [`10.1080/17477778.2025.2469687`](https://doi.org/10.1080/17477778.2025.2469687)
 
+<details><summary>Abstrak</summary>
+
+ABSTRACT Effective Production Planning and Scheduling (PPS) is critical in industrial manufacturing for optimizing resources, reducing costs, and meeting deadlines. However, in complex environments like job shops, where the problem is NP-hard (non-deterministic polynomial time-hard) and characterized by unpredictability, traditional PPS models often struggle. *(…)*
+
+</details>
+
 ---
 
 **60. [DBIDM: Implementing blind image separation through a dual branch interactive diffusion model](https://doi.org/10.1016/j.patrec.2025.11.038)**
@@ -724,6 +785,12 @@ Penulis: Xu, Haosheng; Qian, Dongheng; Liu, Zhixuan *et al.* (5 authors) | Jurna
 
 DOI: [`10.1038/s41467-026-73321-8`](https://doi.org/10.1038/s41467-026-73321-8)
 
+<details><summary>Abstrak</summary>
+
+Topological insulators and topological crystalline insulators are characterized by robust surface states and insulating bulk behavior, rendering them highly valuable for quantum computing, spintronics, and other emerging technologies. However, the discovery of such materials—particularly those with a full band gap—remains challenging, primarily due to the limitations of conventional approaches tha… *(truncated)*
+
+</details>
+
 ---
 
 **65. [Development and validation of a dynamic prediction model for infective endocarditis patients based on platelet trajectories latent classes: a longitudinal retrospective study from multicenter databases](https://doi.org/10.1097/js9.0000000000004685)**
@@ -731,6 +798,12 @@ DOI: [`10.1038/s41467-026-73321-8`](https://doi.org/10.1038/s41467-026-73321-8)
 Penulis: Wang, Di; Luo, Shihong | Jurnal: *International Journal of Surgery* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1097/js9.0000000000004685`](https://doi.org/10.1097/js9.0000000000004685)
+
+<details><summary>Abstrak</summary>
+
+We read with great interest the article by Zheng et al , “Development and validation of a dynamic prediction model for infective endocarditis patients based on platelet (PLT) trajectories latent classes: a longitudinal retrospective study from multicenter databases” [ 1 ] . *(…)*
+
+</details>
 
 ---
 
@@ -740,6 +813,12 @@ Penulis: Mal, Sourav; Ahmed, Nehad; Jami, Junaid *et al.* (5 authors) | Jurnal: 
 
 DOI: [`10.1038/s41524-026-02147-1`](https://doi.org/10.1038/s41524-026-02147-1)
 
+<details><summary>Abstrak</summary>
+
+Efficient exploration of the vast chemical space is a fundamental challenge in materials design and discovery, particularly for designing functional inorganic crystalline materials with targeted properties. Diffusion-based generative models have emerged as a powerful route, but most existing approaches require domain-specific constraints and separate diffusion processes for atom types, atomic posi… *(truncated)*
+
+</details>
+
 ---
 
 **67. [DiffLight: Generative Diffusion Model Acceleration With Silicon Photonics](https://doi.org/10.1109/mdat.2025.3647759)**
@@ -747,6 +826,12 @@ DOI: [`10.1038/s41524-026-02147-1`](https://doi.org/10.1038/s41524-026-02147-1)
 Penulis: Suresh, Tharini; Afifi, Salma; Pasricha, Sudeep | Jurnal: *IEEE Design & Test* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/mdat.2025.3647759`](https://doi.org/10.1109/mdat.2025.3647759)
+
+<details><summary>Abstrak</summary>
+
+Editor’s notes: Diffusion models are a class of generative AI methods that are increasingly used in real-world applications to generate realistic content. This article designs a hardware accelerator using silicon photonics for diffusion models and experimentally demonstrates its efficacy. —Jana Doppa, Washington State University, USA
+
+</details>
 
 ---
 
@@ -769,6 +854,12 @@ To address the insufficient integration between textile engineering knowledge an
 Penulis: Feng, Xiaoxu; Horii, Takato | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/access.2026.3695694`](https://doi.org/10.1109/access.2026.3695694)
+
+<details><summary>Abstrak</summary>
+
+Separate control of mobile manipulation offers a promising paradigm for managing its complexity by planning for these modalities independently. However, end-to-end learning of such behaviors necessitates effective mechanisms for both embodiment selection and motion planning. *(…)*
+
+</details>
 
 ---
 
@@ -813,6 +904,12 @@ DOI: [`10.1016/j.apm.2026.116875`](https://doi.org/10.1016/j.apm.2026.116875)
 Penulis: Miao, Hui; Feng, Xiaomei | Jurnal: *Journal of Biological Dynamics* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1080/17513758.2025.2607155`](https://doi.org/10.1080/17513758.2025.2607155)
+
+<details><summary>Abstrak</summary>
+
+Human T-lymphotropic virus (HTLV) and human immunodeficiency virus (HIV) are two retroviruses that pose a certain threat to human psychology and physiology. In this paper, we propose a diffusive HTLV and HIV coinfection model with macrophages, two delays, cell-to-cell transmission and three latently infected cells in which latent HIV infected CD4+T cells, latent HIV infected macrophages, and laten… *(truncated)*
+
+</details>
 
 ---
 
@@ -915,6 +1012,12 @@ Abstract Bioinspiration involves learning from the morphological traits of extan
 Penulis: Singh, Kritika; Jain, Dr. Minni | Jurnal: *Signal, Image and Video Processing* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1007/s11760-026-05491-3`](https://doi.org/10.1007/s11760-026-05491-3)
+
+<details><summary>Abstrak</summary>
+
+Crying is one of the most fundamental ways an infant can communicate with the outside world. The cry contains vital information to determine the needs of the baby, whether due to hunger, pain, fatigue, or simply discomfort [1]. Automated infant cry classification is crucial for early diagnosis and proper care. *(…)*
+
+</details>
 
 ---
 
@@ -1138,6 +1241,12 @@ Penulis: Chen, Shih-Fang; Chen, Jun-Cheng; Jhuo, I-Hong *et al.* (4 authors) | J
 
 DOI: [`10.1109/tcsvt.2026.3675005`](https://doi.org/10.1109/tcsvt.2026.3675005)
 
+<details><summary>Abstrak</summary>
+
+The human visual system tracks objects by integrating current observations with previously observed information, adapting to target and scene changes, and reasoning about occlusion at fine granularity. In contrast, recent generic object trackers are often optimized for training targets, which limits robustness and generalization in unseen scenarios, and their occlusion reasoning remains coarse, la… *(truncated)*
+
+</details>
+
 ---
 
 **101. [Governing Sustainable Digital Transformation: An Adaptive Architecture for Embedding Sustainability in Transformation Decisions](https://doi.org/10.55845/sfr4b540)**
@@ -1278,6 +1387,12 @@ Penulis: Zhang, Zhuoyi; Han, Yixin; Li, Renjun *et al.* (4 authors) | Jurnal: *I
 
 DOI: [`10.1109/lra.2026.3662582`](https://doi.org/10.1109/lra.2026.3662582)
 
+<details><summary>Abstrak</summary>
+
+Data-driven methods offer promising solutions for robotic manipulation in human-centric environments, but enabling robots to operate complex appliances from natural language remains a significant challenge. The ambiguity of human instructions and the visual diversity of real-world objects make it difficult to generate precise and reliable action sequences. *(…)*
+
+</details>
+
 ---
 
 **114. [HiTVideo: Hierarchical Tokenizers for Enhancing Text-to-Video Generation with Autoregressive Large Language Models](https://doi.org/10.1609/aaai.v40i16.38399)**
@@ -1328,6 +1443,12 @@ Penulis: Ma, Ke; Qi, Lin | Jurnal: *Discover Artificial Intelligence* | Tipe: jo
 
 DOI: [`10.1007/s44163-026-01365-2`](https://doi.org/10.1007/s44163-026-01365-2)
 
+<details><summary>Abstrak</summary>
+
+At present, there is a lack of cultural and artistic expression in the modern design transformation of Intangible Cultural Heritage (ICH) patterns. For this reason, this study proposes a dynamic translation human–machine collaborative model that combines the Generative Adversarial Network (GAN) with Reinforcement Learning from Human Feedback (RLHF), with the aim of improving the cultural accuracy… *(truncated)*
+
+</details>
+
 ---
 
 **118. [HVLGAN: hybrid hierarchical scaled attention-enabled latent model for structure-based drug discovery](https://doi.org/10.1080/07391102.2026.2613686)**
@@ -1335,6 +1456,12 @@ DOI: [`10.1007/s44163-026-01365-2`](https://doi.org/10.1007/s44163-026-01365-2)
 Penulis: Hole, Shreyas Rajendra; M., Lakshmanan; R., Jeevaraj *et al.* (6 authors) | Jurnal: *Journal of Biomolecular Structure and Dynamics* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1080/07391102.2026.2613686`](https://doi.org/10.1080/07391102.2026.2613686)
+
+<details><summary>Abstrak</summary>
+
+Abstract Structure-based drug design involves utilizing the three-dimensional structure of a biological target to guide the design and development of new therapeutic compounds. Traditionally, a huge number of structure-based drug discovery methods have been adopted, but their time-consuming, erroneous molecule formation, and highly complex characteristics prevent their extensive application in dru… *(truncated)*
+
+</details>
 
 ---
 
@@ -1516,6 +1643,12 @@ Penulis: Golakotta, Shyam; Choudhury, Romit Roy | Jurnal: *IEEE Pervasive Comput
 
 DOI: [`10.1109/mprv.2026.3698107`](https://doi.org/10.1109/mprv.2026.3698107)
 
+<details><summary>Abstrak</summary>
+
+What really happens when a user asks today's AI assistant to generate an image of, say, “a cat on the moon”? Behind the scenes, the request is handed off to a diffusion or flow model. These models leverage an elegant blend of mathematics and computation to assign the appropriate color to every pixel in the image. *(…)*
+
+</details>
+
 ---
 
 **134. [JEPA-based multimodal trajectory prediction for air targets in complex electromagnetic environments](https://doi.org/10.1016/j.dt.2026.06.008)**
@@ -1620,6 +1753,12 @@ Penulis: Zhang, Bailing; Chen, Genlang; Miao, Yuan | Jurnal: *Biomedical Informa
 
 DOI: [`10.55092/bi20260001`](https://doi.org/10.55092/bi20260001)
 
+<details><summary>Abstrak</summary>
+
+: The trustworthiness of medical AI systems is often undermined by their potential to violate established clinical principles, a critical issue in self-supervised learning (SSL) frameworks where explicit domain knowledge is typically disregarded. To address this trust deficit, we propose the Logic-Constrained Joint Embedding Predictive Architecture (LC-JEPA). *(…)*
+
+</details>
+
 ---
 
 **144. [Learning-Based Routing for Autonomous Shuttles Under Stochastic Demand Using Generative Adversarial Imitation Learning and Reinforcement Learning](https://doi.org/10.3390/urbansci10050287)**
@@ -1641,6 +1780,12 @@ Extensive research has been conducted to develop technologies that enable paratr
 Penulis: Zhou, Miao; Wang, Mingzhi; Yang, Yueming | Jurnal: *Discover Artificial Intelligence* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1007/s44163-026-01445-3`](https://doi.org/10.1007/s44163-026-01445-3)
+
+<details><summary>Abstrak</summary>
+
+One significant change to the product design lifecycle is the use of Generative AI to generate ideas for product designs based on Artificial Intelligence (AI). By enhancing human designers’ imaginative and analytical capacities, AI allows for the rapid development of fresh, optimal, and individually tailored ideas. *(…)*
+
+</details>
 
 ---
 
@@ -1678,6 +1823,12 @@ Penulis: Zhang, Mengmeng; Yu, Zihao; Lu, Hongyun *et al.* (8 authors) | Jurnal: 
 
 DOI: [`10.1109/lsp.2026.3670748`](https://doi.org/10.1109/lsp.2026.3670748)
 
+<details><summary>Abstrak</summary>
+
+Low-bitrate video compression remains a fundamental challenge in video coding. Recent advances in generative technologies show great potential for addressing this problem, yet existing generative models often suffer from uncontrollability caused by error accumulation and unpredictable semantic mutation. *(…)*
+
+</details>
+
 ---
 
 **149. [LLM-driven symbolic planning and hierarchical imitation learning for long-horizon deformable object assembly](https://doi.org/10.1016/j.rcim.2025.103096)**
@@ -1693,6 +1844,12 @@ DOI: [`10.1016/j.rcim.2025.103096`](https://doi.org/10.1016/j.rcim.2025.103096)
 Penulis: Shen, Yan; Man, Hengyu; Cui, Wenxue *et al.* (6 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2026.3698339`](https://doi.org/10.1109/tcsvt.2026.3698339)
+
+<details><summary>Abstrak</summary>
+
+Implicit Neural Representations (INRs) have emerged as a promising paradigm for video coding by enabling continuous signal modeling through coordinate-based neural networks. However, existing video INR methods often model temporal variation either in the pixel domain or with a single dynamic code, which limits their ability to jointly preserve rapidly varying high-frequency details and long-range… *(truncated)*
+
+</details>
 
 ---
 
@@ -1820,6 +1977,12 @@ Penulis: Deng, Zilong; Velasquez, Alvaro; Zou, Shaofeng | Jurnal: *IEEE Transact
 
 DOI: [`10.1109/tit.2026.3692816`](https://doi.org/10.1109/tit.2026.3692816)
 
+<details><summary>Abstrak</summary>
+
+Standard Reinforcement Learning (RL) algorithms are typically designed to maximize the expected accumulative reward, which may be inadequate in scenarios where risk sensitivity is critical. In this work, the problem of risk-sensitive RL with Iterated Conditional Value at Risk is studied, where the objective is to optimize outcomes under a specified risk level $\tau $ at each step. *(…)*
+
+</details>
+
 ---
 
 **163. [Mol-CADiff: text-conditional molecule generation via causality-aware autoregressive diffusion](https://doi.org/10.1038/s41467-026-75702-5)**
@@ -1857,6 +2020,12 @@ DOI: [`10.1016/j.patrec.2026.07.011`](https://doi.org/10.1016/j.patrec.2026.07.0
 Penulis: Supaphol, Pitt | Jurnal: *The AAPS Journal* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1208/s12248-026-01225-y`](https://doi.org/10.1208/s12248-026-01225-y)
+
+<details><summary>Abstrak</summary>
+
+Controlled release of multiple herbal bioactives from electrospun polymeric fibers involves complex coupling of diffusion, polymer relaxation, swelling, and erosion within porous mat architectures. This work establishes the Multicomponent Interactive Release (MIR) model, a comprehensive framework integrating component-specific transport mechanisms with molecular interactions and mat-scale structur… *(truncated)*
+
+</details>
 
 ---
 
@@ -2006,6 +2175,12 @@ Penulis: Chen, Zhong-Peng | Jurnal: *World Journal of Gastrointestinal Surgery* 
 
 DOI: [`10.4240/wjgs.121443`](https://doi.org/10.4240/wjgs.121443)
 
+<details><summary>Abstrak</summary>
+
+BACKGROUND Laparoscopic cholecystectomy (LC) is the standard treatment for symptomatic cholelithiasis, but a subset of patients still develop clinically relevant biliary complications within 30 days, including retained common bile duct (CBD) stones, bile leak, cholangitis, or biliary pancreatitis that often require therapeutic endoscopic retrograde cholangiopancreatography (ERCP), drainage, or unp… *(truncated)*
+
+</details>
+
 ---
 
 **181. [Pretrained Model for Music Representation Based on Self-supervised Learning](https://doi.org/10.1016/j.procs.2026.04.279)**
@@ -2038,6 +2213,12 @@ Penulis: Kannan, Kaushik; Bae, Jungyun | Jurnal: *IEEE Robotics and Automation L
 
 DOI: [`10.1109/lra.2026.3699266`](https://doi.org/10.1109/lra.2026.3699266)
 
+<details><summary>Abstrak</summary>
+
+In multi-robot systems (MRS) operating across various applications, real-time task allocation and path planning pose significant challenges, often requiring extensive human intervention under extreme time constraints. This paper introduces a novel framework that leverages Reinforcement Learning (RL) to automate and optimize the code generation process for MRS. *(…)*
+
+</details>
+
 ---
 
 **185. [Quantum Generative Diffusion Model: A Fully Quantum-Mechanical Model for Generating Quantum State Ensemble](https://doi.org/10.1109/tpami.2026.3718311)**
@@ -2045,6 +2226,12 @@ DOI: [`10.1109/lra.2026.3699266`](https://doi.org/10.1109/lra.2026.3699266)
 Penulis: Chen, Chuangtao; Zhao, Qinglin; Zhou, MengChu *et al.* (6 authors) | Jurnal: *IEEE Transactions on Pattern Analysis and Machine Intelligence* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tpami.2026.3718311`](https://doi.org/10.1109/tpami.2026.3718311)
+
+<details><summary>Abstrak</summary>
+
+Mixed quantum states are the native description of many physically important quantum systems, making their generation a fundamental task in quantum information processing. However, constructing a diffusion process that generates density operators while keeping every reverse step physically valid remains nontrivial. *(…)*
+
+</details>
 
 ---
 
@@ -2068,6 +2255,12 @@ Penulis: Abbasi, Mehryar; Hadizadeh, Hadi; Saeedi, Parvaneh | Jurnal: *IEEE Tran
 
 DOI: [`10.1109/tcsvt.2025.3623074`](https://doi.org/10.1109/tcsvt.2025.3623074)
 
+<details><summary>Abstrak</summary>
+
+This paper presents a novel approach for unsupervised video summarization using reinforcement learning (RL), addressing limitations like unstable adversarial training and reliance on heuristic-based reward functions. The method operates on the principle that reconstruction fidelity serves as a proxy for informativeness, correlating summary quality with reconstruction ability. *(…)*
+
+</details>
+
 ---
 
 **188. [Reinforcement learning steers generative crystal design](https://doi.org/10.1038/s42256-026-01282-0)**
@@ -2083,6 +2276,12 @@ DOI: [`10.1038/s42256-026-01282-0`](https://doi.org/10.1038/s42256-026-01282-0)
 Penulis: Kundu, Akash; Sarra, Leopoldo | Jurnal: *Communications Physics* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1038/s42005-025-02475-6`](https://doi.org/10.1038/s42005-025-02475-6)
+
+<details><summary>Abstrak</summary>
+
+Quantum computing offers exciting opportunities for simulating complex quantum systems and optimizing large-scale combinatorial problems, but its practical use is limited by device noise and constrained connectivity. Designing quantum circuits, which are fundamental to quantum algorithms, is therefore a central challenge in current quantum hardware. *(…)*
+
+</details>
 
 ---
 
@@ -2208,6 +2407,12 @@ Penulis: Chen, Haoqiang; Sun, Jianxiang; Liu, Yadong *et al.* (5 authors) | Jurn
 
 DOI: [`10.1109/tcsvt.2025.3625076`](https://doi.org/10.1109/tcsvt.2025.3625076)
 
+<details><summary>Abstrak</summary>
+
+Images serve as a crucial information source for machine intelligence to understand the world, while how to represent images significantly impacting the generalizability and interpretability of intelligent systems. Disentangled representation learning offers a promising approach to improve both aspects. However, most of existing methods predominantly rely on statistical independence assumptions. *(…)*
+
+</details>
+
 ---
 
 **201. [Self-supervised learning for BIM element classification using a joint embedding predictive architecture](https://doi.org/10.1016/j.autcon.2026.107075)**
@@ -2251,6 +2456,12 @@ Recently, self‑supervised representation learning relying on vast amounts of u
 Penulis: Song, Zeen; Qiang, Wenwen; Zheng, Changwen *et al.* (5 authors) | Jurnal: *International Journal of Computer Vision* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1007/s11263-026-02785-4`](https://doi.org/10.1007/s11263-026-02785-4)
+
+<details><summary>Abstrak</summary>
+
+Video contrastive learning (V-CL) has emerged as a popular framework for unsupervised video representation learning, demonstrating strong results in tasks such as action classification and detection. Yet, to harness these benefits, it is critical for the learned representations to fully capture both static and dynamic semantics. *(…)*
+
+</details>
 
 ---
 
@@ -2510,6 +2721,12 @@ Penulis: Zhao, Haiming; Zhang, Yimeng; Yang, Xiaofeng | Jurnal: *Molecular Simul
 
 DOI: [`10.1080/08927022.2026.2629966`](https://doi.org/10.1080/08927022.2026.2629966)
 
+<details><summary>Abstrak</summary>
+
+ABSTRACT In this paper, we have proposed a model for the diffusion of simple molecules in DAC-type zeolite pores based on transition state theory, where the diffusion coefficient is directly related to the interaction energy and interaction radius between the diffusing molecules and the framework atoms. *(…)*
+
+</details>
+
 ---
 
 **229. [Threshold dynamics of a reaction-diffusion-advection schistosomiasis model with seasonality](https://doi.org/10.1016/j.nonrwa.2026.104617)**
@@ -2533,6 +2750,12 @@ DOI: [`10.1016/j.optlastec.2026.115489`](https://doi.org/10.1016/j.optlastec.202
 Penulis: Girgis, Abanoub M.; Valcarce, Alvaro; Bennis, Mehdi | Jurnal: *IEEE Internet of Things Journal* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/jiot.2025.3650435`](https://doi.org/10.1109/jiot.2025.3650435)
+
+<details><summary>Abstrak</summary>
+
+In remote control systems, transmitting large data volumes (e.g., images and video frames) from wireless sensors to remote controllers is challenging when uplink capacity is limited (e.g., RedCap devices or massive wireless sensor networks). Furthermore, controllers often need only information-rich representations of the original data. *(…)*
+
+</details>
 
 ---
 
@@ -2604,6 +2827,12 @@ Penulis: Mayumu, Nicanor; Deng, Xiaoheng; Antoine Bagula, Bigomokero *et al.* (5
 
 DOI: [`10.1109/jiot.2026.3660030`](https://doi.org/10.1109/jiot.2026.3660030)
 
+<details><summary>Abstrak</summary>
+
+Autonomous vehicles face perception challenges due to occlusions, limited sensor ranges, and adverse weather. Vehicle-to-everything (V2X) cooperative perception mitigates these limitations by enabling vehicles to share sensor data. However, existing methods rely on supervised learning, requiring costly manual 3-D annotations, exhibiting limited generalization, and employing static fusion strategie… *(truncated)*
+
+</details>
+
 ---
 
 **240. [Video para teatro](https://doi.org/10.62161/revvisual.v18.6092)**
@@ -2634,6 +2863,12 @@ Penulis: Miao, Chenlei; Lin, Jianjun; Jia, Lin *et al.* (4 authors) | Jurnal: *S
 
 DOI: [`10.1038/s41598-026-56006-6`](https://doi.org/10.1038/s41598-026-56006-6)
 
+<details><summary>Abstrak</summary>
+
+Action recognition in videos is an important task in computer vision, widely used in sports, healthcare, and human-computer interaction. Existing methods often struggle to balance global motion understanding and local detail extraction, especially when dealing with rapid transitions or combinations of multiple actions. *(…)*
+
+</details>
+
 ---
 
 **243. [VLLM-LAD: Visual Large Language Model for Zero-Shot Logical Anomaly Detection](https://doi.org/10.1109/tcsvt.2026.3675873)**
@@ -2641,6 +2876,12 @@ DOI: [`10.1038/s41598-026-56006-6`](https://doi.org/10.1038/s41598-026-56006-6)
 Penulis: Peng, Yun; Lin, Xiao; Ma, Nachuan *et al.* (5 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2026.3675873`](https://doi.org/10.1109/tcsvt.2026.3675873)
+
+<details><summary>Abstrak</summary>
+
+Logical anomaly detection aims to identify inconsistencies in object relationships and scene semantics, which is a challenging task requiring high-level reasoning capabilities that go beyond low-level structural cues. Existing methods rely heavily on large amounts of labeled data, struggle in zero-shot scenarios and lack deep semantic understanding in complex scenes with multiple objects. *(…)*
+
+</details>
 
 ---
 
@@ -2704,6 +2945,12 @@ Penulis: Sofi, Shakir Showkat; Oseledets, Ivan | Jurnal: *GeoInformatica* | Tipe
 
 DOI: [`10.1007/s10707-024-00530-y`](https://doi.org/10.1007/s10707-024-00530-y)
 
+<details><summary>Abstrak</summary>
+
+The majority of real-world processes are spatiotemporal, and the data generated by them exhibits both spatial and temporal evolution. Weather is one of the most essential processes in this domain, and weather forecasting has become a crucial part of our daily routine. Weather data analysis is considered the most complex and challenging task. *(…)*
+
+</details>
+
 ---
 
 **2. [A discriminative multi-modal adaptation neural network model for video action recognition](https://doi.org/10.1016/j.neunet.2024.107114)**
@@ -2711,6 +2958,12 @@ DOI: [`10.1007/s10707-024-00530-y`](https://doi.org/10.1007/s10707-024-00530-y)
 Penulis: Gao, Lei; Liu, Kai; Guan, Ling | Jurnal: *Neural Networks* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.neunet.2024.107114`](https://doi.org/10.1016/j.neunet.2024.107114)
+
+<details><summary>Abstrak</summary>
+
+Research on video-based understanding and learning has attracted widespread interest and has been adopted in various real applications, such as e-healthcare, action recognition, affective computing, to name a few. Amongst them, video-based action recognition is one of the most representative examples. *(…)*
+
+</details>
 
 ---
 
@@ -2862,6 +3115,12 @@ Penulis: MABROUK, Nabil; CHIHAB, Marouane; CHIHAB, Younes | Jurnal: *Internation
 
 DOI: [`10.14569/ijacsa.2025.0161087`](https://doi.org/10.14569/ijacsa.2025.0161087)
 
+<details><summary>Abstrak</summary>
+
+—Due to the high volatility and complex interdependencies within financial markets, predicting Forex prices becomes a difficult challenge for investors. Furthermore, the traditional trading models struggle to capture those relationships. To address this issue, we introduced a spatiotemporal Forex trading system, GAT-LSTM-based; it is a hybrid approach that combines Graph Attention Network (GAT) wi… *(truncated)*
+
+</details>
+
 ---
 
 **18. [A Study on FF/LF Conditioned Diffusion Model for Video Generation](https://doi.org/10.15323/mint.2025.12.5.3.16)**
@@ -2920,6 +3179,12 @@ Penulis: Pang, Xiaofei; Gao, Lu; Zhang, Liming | Jurnal: *IEEE Access* | Tipe: j
 
 DOI: [`10.1109/access.2025.3545113`](https://doi.org/10.1109/access.2025.3545113)
 
+<details><summary>Abstrak</summary>
+
+In the process of producing digital media art works, it is usually necessary to select suitable parts from a lot of materials. Video summarization can classify and extract key segments from material videos based on image content, audio features, and other factors. By analyzing the video content, the redundant information is eliminated to form a short video summary. *(…)*
+
+</details>
+
 ---
 
 **23. [Abstract 5059: Self-supervised representation learning of somatic mutational data](https://doi.org/10.1158/1538-7445.am2025-5059)**
@@ -2964,6 +3229,12 @@ Penulis: Shankar, M. Gowri; Surendran, D. | Jurnal: *EURASIP Journal on Image an
 
 DOI: [`10.1186/s13640-024-00662-z`](https://doi.org/10.1186/s13640-024-00662-z)
 
+<details><summary>Abstrak</summary>
+
+Video captioning exhibits a complex challenge, particularly due to the increased subject intensity within videos compared to image caption generation. The presence of redundant visual information in video data adds complexity for captioners, making it difficult to simplify various content and eliminate irrelevant elements. *(…)*
+
+</details>
+
 ---
 
 **27. [An Empirical Comparison of Generation Quality and Diversity Between Discrete Diffusion and Autoregressive Text Generation](https://doi.org/10.69987/aimlr.2025.60202)**
@@ -2985,6 +3256,12 @@ Autoregressive language models have long dominated text generation, yet their le
 Jurnal: *The Frontiers of Society, Science and Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.25236/fsst.2025.070806`](https://doi.org/10.25236/fsst.2025.070806)
+
+<details><summary>Abstrak</summary>
+
+: Research on collective memory has long distinguished communicative memory—interpersonal transmission through everyday interactions—from cultural memory, which is maintained by institutionalized rituals, symbolic practices, and annual commemorations. *(…)*
+
+</details>
 
 ---
 
@@ -3052,6 +3329,12 @@ Penulis: Volodkevich, Anna; Gusak, Danil; Klenitskiy, Anton *et al.* (5 authors)
 
 DOI: [`10.1007/s11257-025-09433-5`](https://doi.org/10.1007/s11257-025-09433-5)
 
+<details><summary>Abstrak</summary>
+
+The goal of modern sequential recommender systems is often formulated in terms of next-item prediction. In this paper, we explore the applicability of transformer-based generative models for the Top-K sequential recommendation task, where the goal is to predict items that a user is likely to interact with in the “near future. *(…)*
+
+</details>
+
 ---
 
 **35. [AZO-FMRGAformer: a hybrid model for cloud resource allocation using transformer-based time-series forecasting](https://doi.org/10.1007/s11760-025-04267-5)**
@@ -3117,6 +3400,12 @@ In dynamic product environments, widely used methods for prioritization often do
 Penulis: Otsuki, Saki; Higo, Haruna; Isshiki, Toshiyuki *et al.* (7 authors) | Jurnal: *EURASIP Journal on Image and Video Processing* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1186/s13640-025-00676-1`](https://doi.org/10.1186/s13640-025-00676-1)
+
+<details><summary>Abstrak</summary>
+
+In cryptocurrency transactions, effective wallet key management by users is crucial for asset protection. Fuzzy Signature (FS) schemes enhance the binding between signers and their keys by using biometric information instead of traditional signing keys, offering secure and convenient key management. However, FS faces two significant privacy concerns. *(…)*
+
+</details>
 
 ---
 
@@ -3300,6 +3589,12 @@ Penulis: Wang, Yang; Karimi, Hassan A.; Jia, Xiaowei | Jurnal: *IEEE Transaction
 
 DOI: [`10.1109/tgrs.2025.3529322`](https://doi.org/10.1109/tgrs.2025.3529322)
 
+<details><summary>Abstrak</summary>
+
+The variability of the El Niño/Southern Oscillation (ENSO) is associated with a diverse range of climate-related extremes and impacts on ecosystems. As such, the ability to provide robust and accurate long-lead forecasts would be invaluable for effective policy management. Current research uses only interseasonal scale spatiotemporal information to predict the ENSO for the target month. *(…)*
+
+</details>
+
 ---
 
 **57. [Deep learning model for flood probabilistic forecasting considering spatiotemporal rainfall distribution and hydrologic uncertainty](https://doi.org/10.1016/j.jhydrol.2025.132879)**
@@ -3351,6 +3646,12 @@ DOI: [`10.1016/j.rcim.2025.103015`](https://doi.org/10.1016/j.rcim.2025.103015)
 Penulis: Lee, Cedric W. L.; Tan, Peng Khiang; Gan, Theng Huat | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/access.2025.3585147`](https://doi.org/10.1109/access.2025.3585147)
+
+<details><summary>Abstrak</summary>
+
+We present a low-cost, low-profile, high-gain, 2D-scanning bifocal metalens antenna for 5G/6G communication applications. First, we employed the ControlNet-enabled stable diffusion technique to generate a set of low-loss, wide-phase-range pixelated unit cells. Second, we generalized the 1D-scanning bifocal metalens phase distribution formula for use in 2D-scanning applications. *(…)*
+
+</details>
 
 ---
 
@@ -3522,6 +3823,12 @@ Penulis: Shi, Ziyi; Jiang, Zheyuan; Xu, Meng *et al.* (5 authors) | Jurnal: *IEE
 
 DOI: [`10.1109/tcss.2025.3557911`](https://doi.org/10.1109/tcss.2025.3557911)
 
+<details><summary>Abstrak</summary>
+
+Hybrid bike-sharing systems (operating both bikes and ebikes) are emerging worldwide for flexibility and sustainability. Excessive rebalancing, while addressing supply-demand imbalances, causes financial burdens and resource waste. Hence, long-term daily operations (e.g. *(…)*
+
+</details>
+
 ---
 
 **78. [Enhancing Online Reinforcement Learning with Meta-Learned Objective from Offline Data](https://doi.org/10.1609/aaai.v39i15.33784)**
@@ -3544,6 +3851,12 @@ Penulis: Zhang, Mingdi; Jiao, Wanqiu; Tong, Kehui *et al.* (4 authors) | Jurnal:
 
 DOI: [`10.1016/j.slast.2025.100290`](https://doi.org/10.1016/j.slast.2025.100290)
 
+<details><summary>Abstrak</summary>
+
+Ophthalmic anesthesia the crucial factors in success and safety of ophthalmic surgery, which involves the delicate aspects of pain control, sedation, and patient response. Advances in ophthalmic surgery cause a need for exact and individualized anesthetic procedures to maximize patient satisfaction and outcomes. *(…)*
+
+</details>
+
 ---
 
 **80. [Enhancing QoE Prediction for Video Streaming Using a Hybrid CNN-LSTM Model](https://doi.org/10.1109/access.2025.3613547)**
@@ -3551,6 +3864,12 @@ DOI: [`10.1016/j.slast.2025.100290`](https://doi.org/10.1016/j.slast.2025.100290
 Penulis: Mahmood, Awan Nahel; Mahmud, Mohd Nazri; Salleh, Mohd Fadzli Mohd | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/access.2025.3613547`](https://doi.org/10.1109/access.2025.3613547)
+
+<details><summary>Abstrak</summary>
+
+Quality of Experience (QoE) prediction in video streaming plays an important role in improving user satisfaction and optimizing adaptive strategies. The current nonhybrid QoE prediction models tend to suffer from poor accuracy due to the inability to model complex and varied temporal/spatial dependencies. *(…)*
+
+</details>
 
 ---
 
@@ -3762,6 +4081,12 @@ Jurnal: *Frontiers in Medical Science Research* | Tipe: journal-article | Bahasa
 
 DOI: [`10.25236/fmsr.2025.070604`](https://doi.org/10.25236/fmsr.2025.070604)
 
+<details><summary>Abstrak</summary>
+
+: Generating novel molecular structures with pharmacological activity remains a fundamental challenge in drug discovery. Traditional drug development approaches, heavily reliant on manual labor, are characterized by time-consuming processes, substantial costs, and limited exploration efficiency. *(…)*
+
+</details>
+
 ---
 
 **99. [Generalizing Classification of Pilot Workload: Transfer Learning versus a JEPA-Inspired Transformer Architecture](https://doi.org/10.58940/2374-6793.1971)**
@@ -3806,6 +4131,12 @@ Jurnal: *Journal of Advances in Artificial Intelligence* | Tipe: journal-article
 
 DOI: [`10.18178/jaai.2025.3.1.90-108`](https://doi.org/10.18178/jaai.2025.3.1.90-108)
 
+<details><summary>Abstrak</summary>
+
+: Procedural Content Generation (PCG) is a cornerstone of modern game development, enabling the automatic creation of game levels, characters, and narratives. This paper presents a novel methodology for PCG using Generative Datalog (GDatalog), a rule-based language extended with probabilistic capabilities. *(…)*
+
+</details>
+
 ---
 
 **103. [Generative Image Steganography Based on Text-to-Image Multimodal Generative Model](https://doi.org/10.1109/tcsvt.2025.3556892)**
@@ -3814,6 +4145,12 @@ Penulis: Jiang, Jingyuan; Wang, Zichi; Yuan, Zihan *et al.* (4 authors) | Jurnal
 
 DOI: [`10.1109/tcsvt.2025.3556892`](https://doi.org/10.1109/tcsvt.2025.3556892)
 
+<details><summary>Abstrak</summary>
+
+Image steganography, the technique of hiding secret messages within images, has recently advanced with generative image steganography, which hides messages during image creation. However, current generative steganography methods often face criticism for their low extraction accuracy and poor robustness—particularly their vulnerability to JPEG compression. *(…)*
+
+</details>
+
 ---
 
 **104. [Generative Latent Coding for Ultra-Low Bitrate Image and Video Compression](https://doi.org/10.1109/tcsvt.2025.3571944)**
@@ -3821,6 +4158,12 @@ DOI: [`10.1109/tcsvt.2025.3556892`](https://doi.org/10.1109/tcsvt.2025.3556892)
 Penulis: Qi, Linfeng; Jia, Zhaoyang; Li, Jiahao *et al.* (6 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2025.3571944`](https://doi.org/10.1109/tcsvt.2025.3571944)
+
+<details><summary>Abstrak</summary>
+
+Most existing approaches for image and video compression perform transform coding in the pixel space to reduce redundancy. However, due to the misalignment between the pixel-space distortion and human perception, such schemes often face the difficulties in achieving both high-realism and high-fidelity at ultra-low bitrate. *(…)*
+
+</details>
 
 ---
 
@@ -3874,6 +4217,12 @@ Penulis: Gupta, Nikunj; Srinivasaraghavan, G.; Mohalik, Swarup *et al.* (5 autho
 
 DOI: [`10.1007/s00521-023-09096-6`](https://doi.org/10.1007/s00521-023-09096-6)
 
+<details><summary>Abstrak</summary>
+
+Cooperative multi-agent reinforcement learning (MARL) has achieved significant results, most notably by leveraging the representation-learning abilities of deep neural networks. However, large centralized approaches quickly become infeasible as the number of agents scale, and fully decentralized approaches can miss important opportunities for information sharing and coordination. *(…)*
+
+</details>
+
 ---
 
 **110. [Harnessing generative AI: Exploring its impact on cognitive engagement, emotional engagement, learning retention, reward sensitivity, and motivation through reinforcement theory](https://doi.org/10.1016/j.lmot.2025.102136)**
@@ -3904,6 +4253,12 @@ Penulis: Jin, Xuanjin; Zeng, Chendong; Zhu, Shengfa *et al.* (5 authors) | Jurna
 
 DOI: [`10.1109/lra.2025.3619747`](https://doi.org/10.1109/lra.2025.3619747)
 
+<details><summary>Abstrak</summary>
+
+Uncertainties in dynamic road environments pose significant challenges for behavior and trajectory planning in autonomous driving. This letter introduces Hi-Drive, a hierarchical planning algorithm addressing uncertainties at both behavior and trajectory levels using a hierarchical Partially Observable Markov Decision Process (POMDP) formulation. *(…)*
+
+</details>
+
 ---
 
 **113. [Human-like Competitive Video Game AI Through Reinforcement Learning](https://doi.org/10.57020/ject.1757814)**
@@ -3925,6 +4280,12 @@ With the rise of competitive and multiplayer video games, the demand for non-pla
 Penulis: Yan, Li; Zheng, Wan | Jurnal: *China Communications* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.23919/jcc.fa.2023-0804.202512`](https://doi.org/10.23919/jcc.fa.2023-0804.202512)
+
+<details><summary>Abstrak</summary>
+
+Deep reinforcement learning is broadly employed in the optimization of wireless video transmissions. Nevertheless, the instability of the deep reinforcement learning algorithm affects the further improvement of the video transmission quality. *(…)*
+
+</details>
 
 ---
 
@@ -3955,6 +4316,12 @@ DOI: [`10.1016/j.matcom.2025.03.031`](https://doi.org/10.1016/j.matcom.2025.03.0
 Penulis: Zhou, Qing; Wei, Ping; Qian, Zhenxing *et al.* (5 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2025.3539832`](https://doi.org/10.1109/tcsvt.2025.3539832)
+
+<details><summary>Abstrak</summary>
+
+The rapid growth of generative models has led to a new direction in steganography called generative steganography (GS). It allows message-to-image generation without the need for a carrier image. Recently, generative steganography methods have been proposed using generative adversarial networks (GANs) and Flow models. *(…)*
+
+</details>
 
 ---
 
@@ -4026,6 +4393,12 @@ Penulis: Holliday, Andrew; El-Geneidy, Ahmed; Dudek, Gregory | Jurnal: *Transpor
 
 DOI: [`10.1080/21680566.2025.2561863`](https://doi.org/10.1080/21680566.2025.2561863)
 
+<details><summary>Abstrak</summary>
+
+Planning a network of public transit routes is a challenging optimisation problem. Metaheuristic algorithms search through the space of possible transit networks by applying heuristics that randomly alter routes in a network. Existing algorithms almost exclusively use heuristics that modify the network in purely random ways. *(…)*
+
+</details>
+
 ---
 
 **126. [Learning State-Space Models of Dynamic Systems from Arbitrary Data using Joint Embedding Predictive Architectures](https://doi.org/10.1016/j.ifacol.2025.10.190)**
@@ -4042,6 +4415,12 @@ Penulis: Kosugi, Satoshi | Jurnal: *IEEE Transactions on Circuits and Systems fo
 
 DOI: [`10.1109/tcsvt.2025.3573401`](https://doi.org/10.1109/tcsvt.2025.3573401)
 
+<details><summary>Abstrak</summary>
+
+Exemplar-based image colorization aims to colorize a grayscale image using a reference color image, ensuring that reference colors are applied to corresponding input regions based on their semantic similarity. To achieve accurate semantic matching between regions, we leverage the self-attention module of a pre-trained diffusion model, which is trained on a large dataset and exhibits powerful atten… *(truncated)*
+
+</details>
+
 ---
 
 **128. [LiRA: Light-Robust Adversary for model-based reinforcement learning in real world](https://doi.org/10.1016/j.robot.2025.105057)**
@@ -4049,6 +4428,12 @@ DOI: [`10.1109/tcsvt.2025.3573401`](https://doi.org/10.1109/tcsvt.2025.3573401)
 Penulis: Kobayashi, Taisuke | Jurnal: *Robotics and Autonomous Systems* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.robot.2025.105057`](https://doi.org/10.1016/j.robot.2025.105057)
+
+<details><summary>Abstrak</summary>
+
+Model-based reinforcement learning has attracted much attention due to its high sample efficiency and is expected to be applied to real-world robotic applications. In the real world, as unobservable disturbances can lead to unexpected situations, robot policies should be taken to improve not only control performance but also robustness. *(…)*
+
+</details>
 
 ---
 
@@ -4198,6 +4583,12 @@ Penulis: Yousefi, Morteza; Mehrdad, Vahid; Dowlatshahi, Mohammad Bagher | Jurnal
 
 DOI: [`10.1038/s41598-025-30012-6`](https://doi.org/10.1038/s41598-025-30012-6)
 
+<details><summary>Abstrak</summary>
+
+Surrogate models are used by recently proposed algorithms as a means of forecasting neural architecture performance. Rather than training the network from scratch, which speeds up evaluation of performance in the search for neural architecture. However, collecting a sufficient number of labeled architectures for training surrogate models is a time-consuming process. *(…)*
+
+</details>
+
 ---
 
 **143. [Numerical simulation and error analysis for a novel fractal–fractional reaction diffusion model with weighted reaction](https://doi.org/10.1016/j.matcom.2024.11.013)**
@@ -4272,6 +4663,12 @@ Penulis: Cheng, Zijun; Wang, Yiguo | Jurnal: *Scientific Reports* | Tipe: journa
 
 DOI: [`10.1038/s41598-025-98521-y`](https://doi.org/10.1038/s41598-025-98521-y)
 
+<details><summary>Abstrak</summary>
+
+Annotating 3D point cloud data is labor-intensive. Self-supervised representation learning can reduce the intense demand of manual annotation. However, the sparsity of point cloud, while containing rich geometric structural information, makes the self-supervised representation learning of point clouds more difficult than that of 2D images, especially for point cloud contrastive learning. *(…)*
+
+</details>
+
 ---
 
 **150. [Patch-wise self-supervised visual representation learning: a fine-grained approach](https://doi.org/10.1007/s11760-025-04020-y)**
@@ -4279,6 +4676,12 @@ DOI: [`10.1038/s41598-025-98521-y`](https://doi.org/10.1038/s41598-025-98521-y)
 Penulis: Javidani, Ali; Sadeghi, Mohammad Amin; Nadjar Araabi, Babak | Jurnal: *Signal, Image and Video Processing* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1007/s11760-025-04020-y`](https://doi.org/10.1007/s11760-025-04020-y)
+
+<details><summary>Abstrak</summary>
+
+Self-supervised visual representation learning traditionally focuses on image-level instance discrimination. Our study introduces an innovative, fine-grained dimension by integrating patch-level discrimination into these methodologies. This integration allows for the simultaneous analysis of local and global visual features, thereby enriching the quality of the learned representations. *(…)*
+
+</details>
 
 ---
 
@@ -4402,6 +4805,12 @@ Penulis: Bartsch, Alison; Farimani, Amir Barati | Jurnal: *IEEE Robotics and Aut
 
 DOI: [`10.1109/lra.2025.3564779`](https://doi.org/10.1109/lra.2025.3564779)
 
+<details><summary>Abstrak</summary>
+
+Deformable object manipulation remains a key challenge in developing autonomous robotic systems that can be successfully deployed in real-world scenarios. In this work, we explore the the task of sculpting clay into 3D shapes. We propose the first coarse-to-fine autonomous sculpting system in which the sculpting agent first creates a coarse shape, and then iteratively refines the shape with sequen… *(truncated)*
+
+</details>
+
 ---
 
 **161. [Planning Elements for the Substantive Integrated Management of the National Territorial–Environmental Planning : A Case of South Chungcheong Province](https://doi.org/10.15301/jepa.2025.33.4.185)**
@@ -4476,6 +4885,12 @@ Penulis: Sun, Jing; Shen, Jun; Li, Haoran *et al.* (7 authors) | Jurnal: *IEEE T
 
 DOI: [`10.1109/tgrs.2025.3604007`](https://doi.org/10.1109/tgrs.2025.3604007)
 
+<details><summary>Abstrak</summary>
+
+The normalized difference vegetation index (NDVI), as a key remote sensing indicator for assessing vegetation growth conditions, plays a vital role in agricultural monitoring and ecological environment evaluation. In the context of global climate change, developing highly accurate and generalizable spatiotemporal NDVI forecasting models, particularly at the half-year scale, has emerged as a critic… *(truncated)*
+
+</details>
+
 ---
 
 **168. [Regenerative therapeutic effects of conditioned medium from human umbilical cord‑derived mesenchymal stem cells as an adjuvant to insulin therapy in a rat model of type 2 diabetes](https://doi.org/10.3892/wasj.2025.404)**
@@ -4483,6 +4898,12 @@ DOI: [`10.1109/tgrs.2025.3604007`](https://doi.org/10.1109/tgrs.2025.3604007)
 Penulis: Hendrawan, Siufui; Lheman, Jennifer; Marcelina, Olivia *et al.* (6 authors) | Jurnal: *World Academy of Sciences Journal* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.3892/wasj.2025.404`](https://doi.org/10.3892/wasj.2025.404)
+
+<details><summary>Abstrak</summary>
+
+. Standard therapies for type 2 diabetes (T2DM) that utilize anti‑diabetic drugs and insulin are well established; nevertheless, the incidence of complications and mortality associated with the disease remain relatively high. Conditioned medium (CM) from human umbilical cord‑derived mesen‑ chymal stem cells (hUC‑MSCs) has demonstrated regenerative effects, although these have yet to be properly in… *(truncated)*
+
+</details>
 
 ---
 
@@ -4536,6 +4957,12 @@ Penulis: Kumar N, Keerthi; C M, Manasa; Kumar B K, Pavan *et al.* (4 authors) | 
 
 DOI: [`10.1016/j.mex.2025.103539`](https://doi.org/10.1016/j.mex.2025.103539)
 
+<details><summary>Abstrak</summary>
+
+This study presents an AI-driven generative design framework for creating lightweight, manufacturable mechanical structures. It integrates topology optimization with deep reinforcement learning, specifically the Proximal Policy Optimization (PPO) algorithm, to learn optimal material layouts within a defined design space. *(…)*
+
+</details>
+
 ---
 
 **174. [Renormalization group flow, optimal transport, and diffusion-based generative model](https://doi.org/10.1103/physreve.111.015304)**
@@ -4543,6 +4970,12 @@ DOI: [`10.1016/j.mex.2025.103539`](https://doi.org/10.1016/j.mex.2025.103539)
 Penulis: Sheshmani, Artan; You, Yi-Zhuang; Buyukates, Baturalp *et al.* (5 authors) | Jurnal: *Physical Review E* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1103/physreve.111.015304`](https://doi.org/10.1103/physreve.111.015304)
+
+<details><summary>Abstrak</summary>
+
+Diffusion-based generative models represent a forefront direction in generative artificial intelligence (AI) research today. Recent studies in physics have suggested that the renormalization group (RG) can be conceptualized as a diffusion process. This insight motivates us to develop a diffusion-based generative model by reversing the momentum-space RG flow. *(…)*
+
+</details>
 
 ---
 
@@ -4566,6 +4999,12 @@ Penulis: Chen, Bowen; Shang, Zaixi; Chung, Jae Won *et al.* (8 authors) | Jurnal
 
 DOI: [`10.1109/access.2025.3631409`](https://doi.org/10.1109/access.2025.3631409)
 
+<details><summary>Abstrak</summary>
+
+Demand for streaming services, including satellite, continues to exhibit unprecedented growth. As subscribers increasingly demand seamless streaming, satellite Internet Service Providers (ISPs) find themselves at the crossroads of technological advancements and rising customer expectations. *(…)*
+
+</details>
+
 ---
 
 **177. [Scaffold Hopping with Generative Reinforcement Learning](https://doi.org/10.1021/acs.jcim.5c00029)**
@@ -4573,6 +5012,12 @@ DOI: [`10.1109/access.2025.3631409`](https://doi.org/10.1109/access.2025.3631409
 Penulis: Rossen, Luke; Sirockin, Finton; Schneider, Nadine *et al.* (4 authors) | Jurnal: *Journal of Chemical Information and Modeling* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1021/acs.jcim.5c00029`](https://doi.org/10.1021/acs.jcim.5c00029)
+
+<details><summary>Abstrak</summary>
+
+Scaffold hopping–the design of novel scaffolds for existing lead candidates–is a multifaceted and nontrivial task, for medicinal chemists and computational approaches alike. Generative reinforcement learning can iteratively optimize desirable properties of de novo designs, thereby offering opportunities to accelerate scaffold hopping. *(…)*
+
+</details>
 
 ---
 
@@ -4582,6 +5027,12 @@ Penulis: Pathan, Shoeb K; Kumar, Meesala S | Jurnal: *Cureus Journal of Computer
 
 DOI: [`10.7759/s44389-024-01368-z`](https://doi.org/10.7759/s44389-024-01368-z)
 
+<details><summary>Abstrak</summary>
+
+In the rapidly evolving digital world, protecting multimedia content is more crucial than ever. Digital watermarking has become a vital technique for securing copyrights, verifying content authenticity, and preventing unauthorized use. This paper introduces a secure watermarking approach based on Discrete Wavelet Transform (DWT), which plays a key role in image decomposition and embedding processe… *(truncated)*
+
+</details>
+
 ---
 
 **179. [Self-Supervised Learning Approaches for Credit Data Representation and Risk Stratification](https://doi.org/10.63530/ijcsitr_2025_06_04_004)**
@@ -4589,6 +5040,12 @@ DOI: [`10.7759/s44389-024-01368-z`](https://doi.org/10.7759/s44389-024-01368-z)
 Penulis: Nagaraj, Santhosh Kumar Sagar | Jurnal: *International Journal of Computer Science and Information Technology Research* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.63530/ijcsitr_2025_06_04_004`](https://doi.org/10.63530/ijcsitr_2025_06_04_004)
+
+<details><summary>Abstrak</summary>
+
+The complexity and volume of financial data are also rising and require more powerful methods and more intelligent approaches to successful credit risk evaluation. The weakness of many traditional supervised learning algorithms is that they are sensitive to the availability of labelled data, which is scarce, skewed, and costly to acquire in the credit setting. *(…)*
+
+</details>
 
 ---
 
@@ -4620,6 +5077,12 @@ Penulis: Zhao, Zhaoran; Lu, Peng; Peng, Xujun *et al.* (4 authors) | Jurnal: *IE
 
 DOI: [`10.1109/tmm.2025.3599102`](https://doi.org/10.1109/tmm.2025.3599102)
 
+<details><summary>Abstrak</summary>
+
+Image layout representation learning, which converts layouts into compact vectors, is essential for tasks such as image retrieval, editing, and generation. However, existing methods—especially those applied to photographic images—face several challenges: supervised methods rely on expensive labeled datasets, weakly-supervised methods struggle with generalization, and self-supervised methods are li… *(truncated)*
+
+</details>
+
 ---
 
 **183. [Self-supervised pre-training with joint-embedding predictive architecture boosts ECG classification performance](https://doi.org/10.1016/j.compbiomed.2025.110809)**
@@ -4650,6 +5113,12 @@ Penulis: Zou, Mian; Yu, Baosheng; Zhan, Yibing *et al.* (5 authors) | Jurnal: *I
 
 DOI: [`10.1109/tcsvt.2025.3572508`](https://doi.org/10.1109/tcsvt.2025.3572508)
 
+<details><summary>Abstrak</summary>
+
+In recent years, the multimedia forensics and security community has seen remarkable progress in multitask learning for DeepFake (i.e., face forgery) detection. The prevailing approach has been to frame DeepFake detection as a binary classification problem augmented by manipulation-oriented auxiliary tasks. *(…)*
+
+</details>
+
 ---
 
 **186. [Simultaneous Path Planning and Task Allocation in Dynamic Environments](https://doi.org/10.3390/robotics14020017)**
@@ -4672,6 +5141,12 @@ Penulis: Luo, Xusheng; Liu, Changliu | Jurnal: *IEEE Transactions on Robotics* |
 
 DOI: [`10.1109/tro.2025.3598139`](https://doi.org/10.1109/tro.2025.3598139)
 
+<details><summary>Abstrak</summary>
+
+Research in robotic planning with temporal logic specifications, such as linear temporal logic (LTL), has relied on single formulas. However, as task complexity increases, LTL formulas become lengthy, making them difficult to interpret and generate, and straining the computational capacities of planners. *(…)*
+
+</details>
+
 ---
 
 **188. [SMCLM: Semantically Meaningful Causal Language Modeling for Autoregressive Paraphrase Generation](https://doi.org/10.1109/access.2025.3585679)**
@@ -4680,6 +5155,12 @@ Penulis: Perełkiewicz, Michal; Dadas, Sławomir; Poświata, Rafał | Jurnal: *I
 
 DOI: [`10.1109/access.2025.3585679`](https://doi.org/10.1109/access.2025.3585679)
 
+<details><summary>Abstrak</summary>
+
+This article introduces semantically meaningful causal language modeling (SMCLM), a self-supervised method of training autoregressive models to generate semantically equivalent text. Our approach involves using semantically meaningful text representation as an initial embedding in the autoregressive training and generation processes. *(…)*
+
+</details>
+
 ---
 
 **189. [Spatial Quality Oriented Rate Control for Volumetric Video Streaming via Deep Reinforcement Learning](https://doi.org/10.1109/tcsvt.2024.3523348)**
@@ -4687,6 +5168,12 @@ DOI: [`10.1109/access.2025.3585679`](https://doi.org/10.1109/access.2025.3585679
 Penulis: Wang, Xi; Liu, Wei; Gong, Shimin *et al.* (6 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2024.3523348`](https://doi.org/10.1109/tcsvt.2024.3523348)
+
+<details><summary>Abstrak</summary>
+
+Volumetric videos offer an incredibly immersive viewing experience but encounters challenges in maintaining quality of experience (QoE) due to its ultra-high bandwidth requirements. One significant challenge stems from user’s spatial interactions, potentially leading to discrepancies between transmission bitrates and the actual quality of rendered viewports. *(…)*
+
+</details>
 
 ---
 
@@ -4784,6 +5271,12 @@ Penulis: Jing, Xiaolun; Yang, Genke; Chu, Jian | Jurnal: *Information Fusion* | 
 
 DOI: [`10.1016/j.inffus.2025.103151`](https://doi.org/10.1016/j.inffus.2025.103151)
 
+<details><summary>Abstrak</summary>
+
+Motivated by the success of coarse-grained or fine-grained contrast in text-video retrieval, there emerge multi-grained contrastive learning methods which focus on the integration of contrasts with different granularity. However, due to the wider semantic range of videos, the text-agnostic video representations might encode misleading information not described in texts, thus impeding the model fro… *(truncated)*
+
+</details>
+
 ---
 
 **199. [TexStFusion : a controllable diffusion model using textural, structural, and textual feature fusion](https://doi.org/10.1007/s11760-025-04367-2)**
@@ -4836,6 +5329,12 @@ Penulis: Serefoglu, Ege Can; Kolbasi, Bircan; Bulbul, Muhammet Volkan *et al.* (
 
 DOI: [`10.5534/wjmh.240059`](https://doi.org/10.5534/wjmh.240059)
 
+<details><summary>Abstrak</summary>
+
+Purpose This study aimed to examine the therapeutic effects of injection of conditioned medium of adipose-derived mesenchymal stem cells (ADMSC-CM) in a surgically created varicocele model in comparison with varicocelectomy. Materials and Methods Twenty-eight male Wistar Albino rats were randomly divided into four groups: sham group, varicocele group, varicocelectomy group, and ADMSC-CM injection… *(truncated)*
+
+</details>
+
 ---
 
 **204. [Tourism forecasting: A dynamic spatiotemporal model](https://doi.org/10.1016/j.annals.2024.103871)**
@@ -4851,6 +5350,12 @@ DOI: [`10.1016/j.annals.2024.103871`](https://doi.org/10.1016/j.annals.2024.1038
 Penulis: Lechowicz, Piotr; Natalino, Carlos; Arpanaei, Farhad *et al.* (8 authors) | Jurnal: *IEEE Networking Letters* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/lnet.2025.3561336`](https://doi.org/10.1109/lnet.2025.3561336)
+
+<details><summary>Abstrak</summary>
+
+Machine learning (ML) is emerging as a promising tool for estimating the Quality of Transmission (QoT) in optical networks, especially for unestablished lightpaths where traditional methods are limited. However, inaccuracies in ML-based QoT predictions—typically expressed in terms of generalized signal-to-noise ratio (GSNR)—can significantly affect network operation. *(…)*
+
+</details>
 
 ---
 
@@ -4902,6 +5407,12 @@ Jurnal: *Issues In Information Systems* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.48009/1_iis_128`](https://doi.org/10.48009/1_iis_128)
 
+<details><summary>Abstrak</summary>
+
+Text-to-video generation has rapidly evolved as a groundbreaking application of generative AI, with the potential to revolutionize both creative and industrial sectors. Despite these advancements, the fidelity, performance, and real-world applicability of current models remain inadequately explored. *(…)*
+
+</details>
+
 ---
 
 **210. [U-Turn Diffusion](https://doi.org/10.3390/e27040343)**
@@ -4938,6 +5449,12 @@ Penulis: Reinhardt, Colin N.; Anderson, Connor; Schenck, Elim | Jurnal: *Optical
 
 DOI: [`10.1117/1.oe.64.9.092206`](https://doi.org/10.1117/1.oe.64.9.092206)
 
+<details><summary>Abstrak</summary>
+
+Abstract. Synthetic data are often cited as a solution to the persistent problem of insufficient amount and diversity of training datasets for data-hungry machine learning models. We present a method of generating physically plausible synthetic thermal infrared (TIR) imagery given a set of input visible RGB images and corresponding descriptive text prompts. *(…)*
+
+</details>
+
 ---
 
 **213. [Visual Environment-Interactive Planning for Embodied Complex-Question Answering](https://doi.org/10.1109/tcsvt.2025.3538860)**
@@ -4945,6 +5462,12 @@ DOI: [`10.1117/1.oe.64.9.092206`](https://doi.org/10.1117/1.oe.64.9.092206)
 Penulis: Lan, Ning; Ou, Baoshan; Xie, Xuemei *et al.* (4 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2025.3538860`](https://doi.org/10.1109/tcsvt.2025.3538860)
+
+<details><summary>Abstrak</summary>
+
+This study focuses on Embodied Complex-Question Answering task, which means the embodied robot need to understand human questions with intricate structures and abstract semantics. The core of this task lies in making appropriate plans based on the perception of the visual environment. Existing methods often generate plans in a once-for-all manner, $i.e$ ., one-step planning. *(…)*
+
+</details>
 
 ---
 
@@ -5034,6 +5557,12 @@ Penulis: Chalmers, Eric; Luczak, Artur | Jurnal: *Neurobiology of Learning and M
 
 DOI: [`10.1016/j.nlm.2024.107974`](https://doi.org/10.1016/j.nlm.2024.107974)
 
+<details><summary>Abstrak</summary>
+
+Humans and animals can quickly learn a new strategy when a previously-rewarding strategy is punished. It is difficult to model this with reinforcement learning methods, because they tend to perseverate on previously-learned strategies - a hallmark of impaired response to punishment. *(…)*
+
+</details>
+
 ---
 
 **3. [A comparative analysis of generative models for terrain generation in open-world video games](https://doi.org/10.64336/001c.92856)**
@@ -5055,6 +5584,12 @@ Terrain generation in open-world video games plays a crucial role in creating im
 Penulis: Rautela, Mahindra; Williams, Alan; Scheinker, Alexander | Jurnal: *Scientific Reports* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1038/s41598-024-68944-0`](https://doi.org/10.1038/s41598-024-68944-0)
+
+<details><summary>Abstrak</summary>
+
+Particle accelerators are complex systems that focus, guide, and accelerate intense charged particle beams to high energy. Beam diagnostics present a challenging problem due to limited non-destructive measurements, computationally demanding simulations, and inherent uncertainties in the system. *(…)*
+
+</details>
 
 ---
 
@@ -5086,6 +5621,12 @@ Penulis: Ho, Florence; Higa, Ryota; Kato, Takuro *et al.* (4 authors) | Jurnal: 
 
 DOI: [`10.1109/lra.2024.3455787`](https://doi.org/10.1109/lra.2024.3455787)
 
+<details><summary>Abstrak</summary>
+
+This letter addresses the joint task allocation and path planning problem, whereby a fleet of vehicles must be optimally assigned to service multiple given tasks while their planned paths must be collision-free. Such a problem composed of two tightly coupled optimization problems has a high complexity with the number of tasks and the number of vehicles, thus optimal solvers do not scale to large s… *(truncated)*
+
+</details>
+
 ---
 
 **8. [A hybrid model for enhanced forecasting of PM2.5 spatiotemporal concentrations with high resolution and accuracy](https://doi.org/10.1016/j.envpol.2024.124263)**
@@ -5094,6 +5635,12 @@ Penulis: Feng, Xiaoxiao; Zhang, Xiaole; Henne, Stephan *et al.* (7 authors) | Ju
 
 DOI: [`10.1016/j.envpol.2024.124263`](https://doi.org/10.1016/j.envpol.2024.124263)
 
+<details><summary>Abstrak</summary>
+
+Forecasting concentrations of PM2.5 is important due to its known impacts on public health and environment. However, PM2.5 concentrations can vary significantly over short distances and time, which can be influenced by local emissions and short-term weather patterns. This spatiotemporal variability makes accurate PM2.5 forecasting an inherently complex and challenging task. *(…)*
+
+</details>
+
 ---
 
 **9. [A Hybrid Transformer-LSTM Model With 3D Separable Convolution for Video Prediction](https://doi.org/10.1109/access.2024.3375365)**
@@ -5101,6 +5648,12 @@ DOI: [`10.1016/j.envpol.2024.124263`](https://doi.org/10.1016/j.envpol.2024.1242
 Penulis: Mathai, Mareeta; Liu, Ying; Ling, Nam | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/access.2024.3375365`](https://doi.org/10.1109/access.2024.3375365)
+
+<details><summary>Abstrak</summary>
+
+Video prediction is an essential vision task due to its wide applications in real-world scenarios. However, it is indeed challenging due to the inherent uncertainty and complex spatiotemporal dynamics of video content. Several state-of-the-art deep learning methods have achieved superior video prediction accuracy at the expense of huge computational cost. *(…)*
+
+</details>
 
 ---
 
@@ -5156,6 +5709,12 @@ Penulis: Verma, Amit; Meenpal, Toshanlal; Acharya, Bibhudendra | Jurnal: *IETE T
 
 DOI: [`10.1080/02564602.2024.2327566`](https://doi.org/10.1080/02564602.2024.2327566)
 
+<details><summary>Abstrak</summary>
+
+Most of the earlier proposed action prediction methods, such as PoseGAN, C2GAN, etc. are limited to unidirectional prediction and not intended to perform the desired class of action. In this paper, we propose an action-guided Cycle Generative Adversarial Network (AGCGAN), which is a bi-directional video prediction model to anticipate future frames from current visual frames and vice versa. *(…)*
+
+</details>
+
 ---
 
 **16. [Adaptive threshold selection of anisotropic diffusion filters using spiking neural network model](https://doi.org/10.1007/s11760-023-02731-8)**
@@ -5171,6 +5730,12 @@ DOI: [`10.1007/s11760-023-02731-8`](https://doi.org/10.1007/s11760-023-02731-8)
 Penulis: Bengesi, Staphord; El-Sayed, Hoda; Sarker, MD Kamruzzaman *et al.* (6 authors) | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/access.2024.3397775`](https://doi.org/10.1109/access.2024.3397775)
+
+<details><summary>Abstrak</summary>
+
+The launch of ChatGPT in 2022 garnered global attention, marking a significant milestone in the Generative Artificial Intelligence (GAI) field. While GAI has been in effect for the past decade, the introduction of ChatGPT sparked a new wave of research and innovation in the Artificial Intelligence (AI) domain. *(…)*
+
+</details>
 
 ---
 
@@ -5252,6 +5817,12 @@ Penulis: Guo, Jeff; Schwaller, Philippe | Jurnal: *JACS Au* | Tipe: journal-arti
 
 DOI: [`10.1021/jacsau.4c00066`](https://doi.org/10.1021/jacsau.4c00066)
 
+<details><summary>Abstrak</summary>
+
+Sample efficiency is a fundamental challenge in de novo molecular design. Ideally, molecular generative models should learn to satisfy a desired objective under minimal calls to oracles (computational property predictors). This problem becomes more apparent when using oracles that can provide increased predictive accuracy but impose significant computational cost. *(…)*
+
+</details>
+
 ---
 
 **25. [Bayesian Forecasting of Mortality Rates for Small Areas Using Spatiotemporal Models](https://doi.org/10.1215/00703370-11212716)**
@@ -5273,6 +5844,12 @@ Abstract Estimation and prediction of subnational mortality rates for small area
 Penulis: Agboka, Komi Mensah; Peter, Emmanuel; Bwambale, Erion *et al.* (4 authors) | Jurnal: *MethodsX* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.mex.2024.102845`](https://doi.org/10.1016/j.mex.2024.102845)
+
+<details><summary>Abstrak</summary>
+
+This study introduces a simulation of biological reinforcement learning to explore the behavior of natural enemies in the presence of host pests, aiming to analyze the population dynamics between natural enemies and insect pests within an ecological context. *(…)*
+
+</details>
 
 ---
 
@@ -5310,6 +5887,12 @@ Penulis: Lee, Jinyoung; Kim, Gyeyoung | Jurnal: *IEEE Access* | Tipe: journal-ar
 
 DOI: [`10.1109/access.2024.3458460`](https://doi.org/10.1109/access.2024.3458460)
 
+<details><summary>Abstrak</summary>
+
+Video prediction presents a formidable challenge, requiring effectively processing spatial and temporal information embedded in videos. While recurrent neural network (RNN) and transformer-based models have been extensively explored to address spatial changes over time, recent advancements in convolutional neural networks (CNNs) have yielded high-performance video prediction models. *(…)*
+
+</details>
+
 ---
 
 **30. [Combining Pre-Event Planning and Emergency Response in a Simulation Model to Increase the Resilience in Public Transit Networks](https://doi.org/10.11128/sne.34.tn.10671)**
@@ -5340,6 +5923,12 @@ Penulis: He, S. H. | Jurnal: *International Journal of Simulation Modelling* | T
 
 DOI: [`10.2507/ijsimm23-4-co20`](https://doi.org/10.2507/ijsimm23-4-co20)
 
+<details><summary>Abstrak</summary>
+
+Driven by globalization and diverse market demands, modern multi-echelon supply chains face significant challenges. Effective coordination of resources and information flows between levels is crucial for improving supply chain efficiency and competitiveness. *(…)*
+
+</details>
+
 ---
 
 **33. [Coupled simulation-optimization model for pedestrian evacuation guidance planning](https://doi.org/10.1016/j.simpat.2024.102922)**
@@ -5355,6 +5944,12 @@ DOI: [`10.1016/j.simpat.2024.102922`](https://doi.org/10.1016/j.simpat.2024.1029
 Penulis: Bi, Shuai; Hu, Zhengping; Zhang, Hehao *et al.* (5 authors) | Jurnal: *Neural Networks* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.neunet.2024.106578`](https://doi.org/10.1016/j.neunet.2024.106578)
+
+<details><summary>Abstrak</summary>
+
+Self-supervised contrastive learning draws on power representational models to acquire generic semantic features from unlabeled data, and the key to training such models lies in how accurately to track motion features. Previous video contrastive learning methods have extensively used spatially or temporally augmentation as similar instances, resulting in models that are more likely to learn static… *(truncated)*
+
+</details>
 
 ---
 
@@ -5387,6 +5982,12 @@ DOI: [`10.64388/irev8i3-1715592`](https://doi.org/10.64388/irev8i3-1715592)
 Penulis: Luo, Xusheng; Xu, Shaojun; Liu, Ruixuan *et al.* (4 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/lra.2024.3412589`](https://doi.org/10.1109/lra.2024.3412589)
+
+<details><summary>Abstrak</summary>
+
+Past research into robotic planning with temporal logic specifications, notably Linear Temporal Logic (LTL), was largely based on a single formula for individual or groups of robots. But with increasing task complexity, LTL formulas unavoidably grow lengthy, complicating interpretation and specification generation, and straining the computational capacities of the planners. *(…)*
+
+</details>
 
 ---
 
@@ -5556,6 +6157,12 @@ Penulis: Çelik, Serdar; Ok, Şeyda | Jurnal: *Heliyon* | Tipe: journal-article 
 
 DOI: [`10.1016/j.heliyon.2024.e29153`](https://doi.org/10.1016/j.heliyon.2024.e29153)
 
+<details><summary>Abstrak</summary>
+
+The transition to sustainable transportation is imperative in mitigating environmental impacts, with electric vehicles (EVs) at the forefront of this shift. Despite their environmental benefits, the global adoption of EVs is curtailed by challenges such as nascent battery technology, high costs, and insufficient charging infrastructure. *(…)*
+
+</details>
+
 ---
 
 **54. [Enhanced image steganalysis through reinforcement learning and generative adversarial networks](https://doi.org/10.3233/idt-240075)**
@@ -5578,6 +6185,12 @@ Penulis: Jeong, Hye Won; Moon, Sun-Hee | Jurnal: *Nurse Education in Practice* |
 
 DOI: [`10.1016/j.nepr.2024.104010`](https://doi.org/10.1016/j.nepr.2024.104010)
 
+<details><summary>Abstrak</summary>
+
+AIMS To assess the impact of learner-participation and instructor-led simulation videos on nurses' CPR skills, focusing on iterative learning to boost proficiency in ACLS. BACKGROUND Advanced cardiac life support (ACLS) training is crucial for nurses, especially to improve cardiopulmonary resuscitation (CPR) proficiency, for which an effective training strategy is needed. *(…)*
+
+</details>
+
 ---
 
 **56. [Enhancing Global Model Performance in Federated Learning With Non-IID Data Using a Data-Free Generative Diffusion Model](https://doi.org/10.1109/access.2024.3474056)**
@@ -5585,6 +6198,12 @@ DOI: [`10.1016/j.nepr.2024.104010`](https://doi.org/10.1016/j.nepr.2024.104010)
 Penulis: Najafi, Mohammadreza; Daneshtalab, Masoud; Lee, Jeong-A *et al.* (5 authors) | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/access.2024.3474056`](https://doi.org/10.1109/access.2024.3474056)
+
+<details><summary>Abstrak</summary>
+
+Federated Learning (FL) presents a decentralized approach to machine learning, allowing multiple clients to jointly train neural networks while maintaining the privacy of their local data. However, FL faces challenges due to data heterogeneity, leading to slow convergence and reduced performance. *(…)*
+
+</details>
 
 ---
 
@@ -5601,6 +6220,12 @@ DOI: [`10.1016/j.asoc.2024.111714`](https://doi.org/10.1016/j.asoc.2024.111714)
 Penulis: Fang, Fen; Liang, Wenyu; Cheng, Yi *et al.* (5 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2023.3284453`](https://doi.org/10.1109/tcsvt.2023.3284453)
+
+<details><summary>Abstrak</summary>
+
+Although object detection has achieved significant progress in the past decade, detecting small objects is still far from satisfactory due to the high variability of object scales and complex backgrounds. The common way to enhance small object detection is to use high-resolution (HR) images. However, this method incurs huge computational resources which grow squarely with the resolution of images. *(…)*
+
+</details>
 
 ---
 
@@ -5632,6 +6257,12 @@ Penulis: Singh, Devansh; Marathe, Aboli; Roy, Sidharth *et al.* (5 authors) | Ju
 
 DOI: [`10.1016/j.mex.2024.102959`](https://doi.org/10.1016/j.mex.2024.102959)
 
+<details><summary>Abstrak</summary>
+
+This paper describes a method that can perform robust detection and classification in out-of-distribution rotated images in the medical domain. In real-world medical imaging tools, noise due to the rotation of the body part is frequently observed. This noise reduces the accuracy of AI-based classification and prediction models. Hence, it is important to develop models which are rotation invariant. *(…)*
+
+</details>
+
 ---
 
 **62. [Explicit-implicit priori knowledge-based diffusion model for generative medical image segmentation](https://doi.org/10.1016/j.knosys.2024.112426)**
@@ -5648,6 +6279,12 @@ Penulis: Lin, Yao-San; Huang, Mei-Ling; Li, Der-Chiang *et al.* (4 authors) | Ju
 
 DOI: [`10.18494/sam4780`](https://doi.org/10.18494/sam4780)
 
+<details><summary>Abstrak</summary>
+
+a WGAN with the gradient penalty (GP) method instead of WGAN alone to improve the training stability and precision in the generative model. Experimental results demonstrate that both the boxplot and the penalization term enhance the accuracy of the generative models for small datasets containing outliers.
+
+</details>
+
 ---
 
 **64. [Functional Threshold Autoregressive Model](https://doi.org/10.5705/ss.202022.0096)**
@@ -5655,6 +6292,12 @@ DOI: [`10.18494/sam4780`](https://doi.org/10.18494/sam4780)
 Penulis: Li, Yuanbo; Chen, Kun; Zheng, Xunze *et al.* (4 authors) | Jurnal: *Statistica Sinica* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.5705/ss.202022.0096`](https://doi.org/10.5705/ss.202022.0096)
+
+<details><summary>Abstrak</summary>
+
+: We propose a functional threshold autoregressive model for ﬂexible functional time series modeling. In particular, the behavior of a function at a given time point can be described by diﬀerent autoregressive mechanisms, depending on the values of a threshold variable at a past time point. *(…)*
+
+</details>
 
 ---
 
@@ -5664,6 +6307,12 @@ Penulis: Luo, Zhengding; Ma, Haozhe; Shi, Dongyuan *et al.* (4 authors) | Jurnal
 
 DOI: [`10.1016/j.neunet.2024.106687`](https://doi.org/10.1016/j.neunet.2024.106687)
 
+<details><summary>Abstrak</summary>
+
+The recent Generative Fixed-filter Active Noise Control (GFANC) method achieves a good trade-off between noise reduction performance and system stability. However, labelling noise data for training the Convolutional Neural Network (CNN) in GFANC is typically resource-consuming. Even worse, labelling errors will degrade the CNN's filter-generation accuracy. *(…)*
+
+</details>
+
 ---
 
 **66. [Grouped Network Poisson Autoregressive Model](https://doi.org/10.5705/ss.202022.0040)**
@@ -5671,6 +6320,12 @@ DOI: [`10.1016/j.neunet.2024.106687`](https://doi.org/10.1016/j.neunet.2024.1066
 Penulis: Tao, Yuxin; Li, Dong; Niu, Xiaoyue | Jurnal: *Statistica Sinica* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.5705/ss.202022.0040`](https://doi.org/10.5705/ss.202022.0040)
+
+<details><summary>Abstrak</summary>
+
+Grouped Network Poisson Autoregressive Model
+
+</details>
 
 ---
 
@@ -5754,6 +6409,12 @@ Penulis: Ghanbarzadeh, Ali; Soleimani, Hossein | Jurnal: *IEEE Access* | Tipe: j
 
 DOI: [`10.1109/access.2024.3510779`](https://doi.org/10.1109/access.2024.3510779)
 
+<details><summary>Abstrak</summary>
+
+Recent advancements in convolutional neural networks have improved computer vision applications, including satellite imagery analysis. However, the lack of large labeled datasets and the complexity of remote sensing tasks render supervised learning methods less effective. *(…)*
+
+</details>
+
 ---
 
 **75. [Integrating Generative AI in University Teaching and Learning: A Model for Balanced Guidelines](https://doi.org/10.24059/olj.v28i3.4508)**
@@ -5820,6 +6481,12 @@ Penulis: Sun, Chang; Qin, Bo; Yang, Hong | Jurnal: *IEEE Open Journal of Signal 
 
 DOI: [`10.1109/ojsp.2024.3496819`](https://doi.org/10.1109/ojsp.2024.3496819)
 
+<details><summary>Abstrak</summary>
+
+Visual Speech Recognition (VSR) tasks are generally recognized to have a lower theoretical performance ceiling than Automatic Speech Recognition (ASR), owing to the inherent limitations of conveying semantic information visually. To mitigate this challenge, this paper introduces an advanced knowledge distillation approach using a Joint-Embedding Predictive Architecture (JEPA), JEP-KD, designed to… *(truncated)*
+
+</details>
+
 ---
 
 **81. [Knowledge diffusion and convergence in open learning environments as a social contagion](https://doi.org/10.1080/10494820.2024.2364242)**
@@ -5827,6 +6494,12 @@ DOI: [`10.1109/ojsp.2024.3496819`](https://doi.org/10.1109/ojsp.2024.3496819)
 Penulis: Niu, Xiaojie; Zhang, Jingjing | Jurnal: *Interactive Learning Environments* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1080/10494820.2024.2364242`](https://doi.org/10.1080/10494820.2024.2364242)
+
+<details><summary>Abstrak</summary>
+
+ABSTRACT Online learning has become increasingly prevalent, offering accessibility and flexibility in education. Learners often engage in discussions and share ideas through posts and blogs, creating a form of "group wisdom" that generates and transforms new knowledge. Thus, this study examines how knowledge diffuses in online learning environments using a contagion model. *(…)*
+
+</details>
 
 ---
 
@@ -5849,6 +6522,12 @@ Electronic health records (EHRs) are a valuable source of data that helps to und
 Penulis: Wongpiromsarn, Tichakorn; Kallmann, Marcelo; Kolling, Andreas | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/lra.2024.3427558`](https://doi.org/10.1109/lra.2024.3427558)
+
+<details><summary>Abstrak</summary>
+
+We consider a local planner that utilizes model predictive control to locally deviate from a prescribed global path in response to dynamic environments, taking into account the system dynamics. To ensure the consistency between the local and global paths, we introduce the concept of locally homotopic paths for paths with different origins and destinations. *(…)*
+
+</details>
 
 ---
 
@@ -5895,6 +6574,12 @@ DOI: [`10.1016/j.patcog.2024.110713`](https://doi.org/10.1016/j.patcog.2024.1107
 Penulis: Kadam, Bhakti Deepak; Deshpande, Ashwini Mangesh | Jurnal: *Journal of Electronic Imaging* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1117/1.jei.33.5.053010`](https://doi.org/10.1117/1.jei.33.5.053010)
+
+<details><summary>Abstrak</summary>
+
+Abstract. With the substantial surge in available internet video data, the intricate task of video summarization has consistently attracted the computer vision research community to summarize the videos meaningfully. Many recent summarization techniques leverage bidirectional long short-term memory for its proficiency in modeling temporal dependencies. *(…)*
+
+</details>
 
 ---
 
@@ -6102,6 +6787,12 @@ Penulis: Ghazvini, Anahita; Mohd Sharef, Nurfadhlina; Sidi, Fatimah Binti | Jurn
 
 DOI: [`10.1109/access.2024.3351186`](https://doi.org/10.1109/access.2024.3351186)
 
+<details><summary>Abstrak</summary>
+
+In the realm of education, the timely identification of potential challenges, such as learning difficulties leading to dropout risks, and the facilitation of personalized learning, emphasizes the crucial importance of early grade prediction. This study seeks to connect predictive modeling with educational outcomes, particularly focusing on addressing these challenges in computer science higher edu… *(truncated)*
+
+</details>
+
 ---
 
 **108. [Privacy Preserved Reinforcement Learning Model Using Generative AI for Personalized E-Learning](https://doi.org/10.1109/tce.2024.3398824)**
@@ -6109,6 +6800,12 @@ DOI: [`10.1109/access.2024.3351186`](https://doi.org/10.1109/access.2024.3351186
 Penulis: Muniyandi, Amutha Prabakar; Balusamy, Balamurugan; Dhanaraj, Rajesh Kumar *et al.* (7 authors) | Jurnal: *IEEE Transactions on Consumer Electronics* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tce.2024.3398824`](https://doi.org/10.1109/tce.2024.3398824)
+
+<details><summary>Abstrak</summary>
+
+Artificial intelligence algorithms are taking important roleplays in online recommendation models for achieving a high probability of success and these systems are slowly occupying modern learning systems. Modernized learning environments are designed based on personalized E-Learning system, due to the availability of enriched content and flexibility in the learning system. *(…)*
+
+</details>
 
 ---
 
@@ -6139,6 +6836,12 @@ Video super-resolution (VSR) remains challenging for real-world applications due
 Penulis: Zhang, Xu; Wu, Jinxin | Jurnal: *Scientific Reports* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1038/s41598-024-69674-z`](https://doi.org/10.1038/s41598-024-69674-z)
+
+<details><summary>Abstrak</summary>
+
+With the 5G and the popularity of high-definition and ultrahigh-definition equipment, people have increasingly higher requirements for the resolution of images or videos. However, the transmission pressure on servers is also gradually increasing. Therefore, superresolution technology has attracted much attention in recent years. *(…)*
+
+</details>
 
 ---
 
@@ -6172,6 +6875,12 @@ Penulis: Yu, Hanlei; Zheng, Yuanjie; Yang, Xinbo | Jurnal: *Journal of Molecular
 
 DOI: [`10.1016/j.jmb.2024.168610`](https://doi.org/10.1016/j.jmb.2024.168610)
 
+<details><summary>Abstrak</summary>
+
+The executors of organismal functions are proteins, and the transition from RNA to protein is subject to post-transcriptional regulation; therefore, considering both RNA and surface protein expression simultaneously can provide additional evidence of biological processes. *(…)*
+
+</details>
+
 ---
 
 **116. [Self-supervised in-domain representation learning for remote sensing image scene classification](https://doi.org/10.1016/j.heliyon.2024.e37962)**
@@ -6179,6 +6888,12 @@ DOI: [`10.1016/j.jmb.2024.168610`](https://doi.org/10.1016/j.jmb.2024.168610)
 Penulis: Ghanbarzadeh, Ali; Soleimani, Hossein | Jurnal: *Heliyon* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.heliyon.2024.e37962`](https://doi.org/10.1016/j.heliyon.2024.e37962)
+
+<details><summary>Abstrak</summary>
+
+Transferring the ImageNet pre-trained weights to the various remote sensing tasks has produced acceptable results and reduced the need for labeled samples. However, the domain differences between ground imageries and remote sensing images cause the performance of such transfer learning to be limited. *(…)*
+
+</details>
 
 ---
 
@@ -6211,6 +6926,12 @@ DOI: [`10.1016/j.patcog.2023.110114`](https://doi.org/10.1016/j.patcog.2023.1101
 Penulis: Lai, Qiuxia; Zeng, Ailing; Wang, Ye *et al.* (6 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2023.3290938`](https://doi.org/10.1109/tcsvt.2023.3290938)
+
+<details><summary>Abstrak</summary>
+
+In this paper, we propose a self-supervised video representation learning (video SSL) method by taking inspiration from cognitive science and neuroscience on human visual perception. Different from previous methods that focus on the inherent properties of videos, we argue that humans learn to perceive the world through the self-awareness of the semantic changes or consistency in the input stimuli… *(truncated)*
+
+</details>
 
 ---
 
@@ -6258,6 +6979,12 @@ Penulis: Jin, Zhihao; Wang, Yifan; Wang, Qicong *et al.* (5 authors) | Jurnal: *
 
 DOI: [`10.1109/tcsvt.2023.3284493`](https://doi.org/10.1109/tcsvt.2023.3284493)
 
+<details><summary>Abstrak</summary>
+
+For 3D action recognition, the main challenge is to extract long-range semantic information in both temporal and spatial dimensions. In this paper, in order to better excavate long-range semantic information from large number of unlabelled skeleton sequences, we propose Self-supervised Spatial-temporal Representation Learning (SSRL), a contrastive learning framework to learn skeleton representatio… *(truncated)*
+
+</details>
+
 ---
 
 **126. [Stability analysis of the SEIRS epidemic model with infectious dynamics during latent and infectious periods](https://doi.org/10.54517/mss2885)**
@@ -6293,6 +7020,12 @@ The 1990s were a pivotal era for the development of video game consoles, signifi
 Penulis: Zheng, Niannian; Shardt, Yuri A.W.; Luan, Xiaoli *et al.* (4 authors) | Jurnal: *ISA Transactions* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.isatra.2024.08.001`](https://doi.org/10.1016/j.isatra.2024.08.001)
+
+<details><summary>Abstrak</summary>
+
+A supervised probabilistic dynamic-controlled latent-variable (SPDCLV) model is proposed for online prediction, as well as real-time optimisation of process quality indicators. Compared to existing probabilistic latent-variable models, the key advantage of the proposed method lies in explicitly modelling the dynamic causality from the manipulated inputs to the quality pattern. *(…)*
+
+</details>
 
 ---
 
@@ -6402,6 +7135,12 @@ Penulis: Li, Zonglin; Zhang, Zhaoxin; Liu, Peiqiang *et al.* (5 authors) | Jurna
 
 DOI: [`10.1109/tcsvt.2024.3436900`](https://doi.org/10.1109/tcsvt.2024.3436900)
 
+<details><summary>Abstrak</summary>
+
+Most existing text-driven face image generation and manipulation methods are based on StyleGAN2, which is inherently limited to aligned faces and therefore makes these methods fail to preserve the highly variable face placement. Additionally, these methods directly leverage a pairwise loss to learn the correspondence between the image and text, which can not handle complex text descriptions, e.g. *(…)*
+
+</details>
+
 ---
 
 **138. [Toward Real-World Blind Face Restoration With Generative Diffusion Prior](https://doi.org/10.1109/tcsvt.2024.3383659)**
@@ -6418,6 +7157,12 @@ Penulis: Chen, Zixiao; Deng, Zhicong; Dhupia, Jaspreet Singh *et al.* (5 authors
 
 DOI: [`10.1109/tro.2023.3337291`](https://doi.org/10.1109/tro.2023.3337291)
 
+<details><summary>Abstrak</summary>
+
+This article presents a control strategy to carry out multiobject manipulation on a novel soft robotic table (SoTa), which is a new form of the planar distributed manipulator. Manipulating multiple delicate objects simultaneously is an attractive feature of SoTa. The challenge here is to coordinate multiple objects in a confined planar space while avoiding interference with each other. *(…)*
+
+</details>
+
 ---
 
 **140. [Transferable dynamics models for efficient object-oriented reinforcement learning](https://doi.org/10.1016/j.artint.2024.104079)**
@@ -6433,6 +7178,12 @@ DOI: [`10.1016/j.artint.2024.104079`](https://doi.org/10.1016/j.artint.2024.1040
 Penulis: Wang, Jiaqi; Liu, Huafeng; Jing, Liping | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2023.3314769`](https://doi.org/10.1109/tcsvt.2023.3314769)
+
+<details><summary>Abstrak</summary>
+
+When humans explain their reasoning, such as their classification decisions, they often break down an image into parts and highlight the evidence from those parts to support the concepts they have in mind. Drawing inspiration from this cognitive process, several self-explaining models have been proposed to explain predictions by part-level concepts. *(…)*
+
+</details>
 
 ---
 
@@ -6472,6 +7223,12 @@ Penulis: Ji-Yeon, Kim; Hyun-Bin, Oh; Byung-Ki, Kwon *et al.* (6 authors) | Jurna
 
 DOI: [`10.1109/lra.2024.3396408`](https://doi.org/10.1109/lra.2024.3396408)
 
+<details><summary>Abstrak</summary>
+
+We present Uni-DVPS, a unified model for Depth-aware Video Panoptic Segmentation (DVPS) that jointly tackles distinct vision tasks, i.e., video panoptic segmentation, monocular depth estimation, and object tracking. In contrast to the prior works that adopt diverged decoder networks tailored for each task, we propose an architecture with a unified Transformer decoder network. *(…)*
+
+</details>
+
 ---
 
 **146. [USABILITY ANALYSIS OF STABLE DIFFUSION-BASED GENERATIVE MODEL FOR ENRICHING BATIK BAKARAN PATTERN SYNTHESIS](https://doi.org/10.24167/proxies.v7i2.12472)**
@@ -6507,6 +7264,12 @@ This educational design research aimed to develop and evaluate a video-assisted 
 Penulis: Das, Arjon; Zhong, Xin | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/access.2024.3353133`](https://doi.org/10.1109/access.2024.3353133)
+
+<details><summary>Abstrak</summary>
+
+Joint Embedding Architecture-based self-supervised learning methods have attributed the composition of data augmentations as a crucial factor for their strong representation learning capabilities. While regional dropout strategies have proven to guide models to focus on lesser indicative parts of the objects in supervised methods, it hasn’t been adopted by self-supervised methods for generating po… *(truncated)*
+
+</details>
 
 ---
 
@@ -6576,6 +7339,12 @@ Penulis: Lu, Lingfei; Qiu, Yudi; Yi, Shiyan *et al.* (4 authors) | Jurnal: *IEEE
 
 DOI: [`10.1109/lca.2023.3305668`](https://doi.org/10.1109/lca.2023.3305668)
 
+<details><summary>Abstrak</summary>
+
+Personalized recommendation system (RS) is widely used in the industrial community and occupies much time in AI computing centers. A critical component of RS is the embedding layer, which consists of sparse embedding lookups and is memory-bounded. Recent works have proposed near-memory processing (NMP) architectures to utilize high inner-memory bandwidth to speed up embedding lookups. *(…)*
+
+</details>
+
 ---
 
 **2. [A Gabor feature-based full reference video quality assessment model based on spatiotemporal slice of videos](https://doi.org/10.1007/s11760-022-02372-3)**
@@ -6636,6 +7405,12 @@ Penulis: Faeghi, Shiva; Lennerts, Kunibert; Nickel, Stefan | Jurnal: *Journal of
 
 DOI: [`10.1080/17477778.2021.1932622`](https://doi.org/10.1080/17477778.2021.1932622)
 
+<details><summary>Abstrak</summary>
+
+ABSTRACT Operating room (OR) management has remarkable impacts on the efficiency of not only OR departments themselves but also other functions of hospitals. Therefore, evaluation of long-term adequacy of specific decisions regarding the OR planning is of a notable importance. *(…)*
+
+</details>
+
 ---
 
 **8. [A World Model for Actor–Critic in Reinforcement Learning](https://doi.org/10.1134/s1054661823030379)**
@@ -6652,6 +7427,12 @@ Penulis: Srilakshmi, G.; Praveen Joe, I. R. | Jurnal: *The Imaging Science Journ
 
 DOI: [`10.1080/13682199.2023.2180022`](https://doi.org/10.1080/13682199.2023.2180022)
 
+<details><summary>Abstrak</summary>
+
+ABSTRACT Analyzing video content and classification are the major challenges for computer vision applications. Thus, the proposed research develops a new attention-based deep Q reinforcement battle royale learning (A-DQRBRL) model for effective sports video classification. Initially, the required keyframes from the input sports video are extracted by an action template approach. *(…)*
+
+</details>
+
 ---
 
 **10. [Actor-Aware Self-Supervised Learning for Semi-Supervised Video Representation Learning](https://doi.org/10.1109/tcsvt.2023.3267178)**
@@ -6659,6 +7440,12 @@ DOI: [`10.1080/13682199.2023.2180022`](https://doi.org/10.1080/13682199.2023.218
 Penulis: Assefa, Maregu; Jiang, Wei; Alemu, Kumie Gedamu *et al.* (8 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2023.3267178`](https://doi.org/10.1109/tcsvt.2023.3267178)
+
+<details><summary>Abstrak</summary>
+
+Self-supervised contrastive learning has shown a significant improvement in performance for action recognition tasks by discovering useful signals from unlabeled videos. Nevertheless, the unique features of existing video benchmark datasets have led the learned video representations to be contextually biased toward dominant backgrounds and scene correlations. *(…)*
+
+</details>
 
 ---
 
@@ -6683,6 +7470,12 @@ DOI: [`10.5391/jkiis.2023.33.3.222`](https://doi.org/10.5391/jkiis.2023.33.3.222
 Jurnal: *Journal of Logistics, Informatics and Service Science* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.33168/jliss.2023.0309`](https://doi.org/10.33168/jliss.2023.0309)
+
+<details><summary>Abstrak</summary>
+
+. This research focuses on the research of adaptive agent decision model based on deep reinforcement learning and autonomous learning. With the rapid development of artificial intelligence, the role of agents in decision-making tasks is becoming more and more important. However, traditional decision models tend to perform poorly in the face of complex and uncertain environments. *(…)*
+
+</details>
 
 ---
 
@@ -6763,6 +7556,12 @@ The aim of the article is to study the features of the process of attractive vis
 Penulis: Saxena, Mayank; Saxena, Rakhi | Jurnal: *International Journal of Computing and Digital Systems* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.12785/ijcds/1301103`](https://doi.org/10.12785/ijcds/1301103)
+
+<details><summary>Abstrak</summary>
+
+: With the plethora of video content uploaded to the internet each day, the amount of watchable content far exceeds the amount of time available for us to consume it. That being said, the aim of this research is not to create something that does the watching for us and merely generates a short summary; instead, the goal is to help us select videos that we would enjoy watching the most while preser… *(truncated)*
+
+</details>
 
 ---
 
@@ -6854,6 +7653,12 @@ Penulis: Xu, Xiaogang; Wang, Yi; Wang, Liwei *et al.* (5 authors) | Jurnal: *Int
 
 DOI: [`10.1007/s11263-023-01832-8`](https://doi.org/10.1007/s11263-023-01832-8)
 
+<details><summary>Abstrak</summary>
+
+To synthesize a realistic action sequence based on a single human image, it is crucial to model both motion patterns and diversity in the action video. This paper proposes an Action Conditional Temporal Variational AutoEncoder (ACT-VAE) to improve motion prediction accuracy and capture movement diversity. ACT-VAE predicts pose sequences for an action clip from a single input image. *(…)*
+
+</details>
+
 ---
 
 **30. [Constructing Confidence Regions for Autoregressive-Model Parameters](https://doi.org/10.4236/am.2023.1410042)**
@@ -6942,6 +7747,12 @@ Penulis: Wang, Jinliang; Lu, Han | Jurnal: *Communications in Nonlinear Science 
 
 DOI: [`10.1016/j.cnsns.2023.107318`](https://doi.org/10.1016/j.cnsns.2023.107318)
 
+<details><summary>Abstrak</summary>
+
+Inapparent infection plays an important role in the disease spread, which is an infection by a pathogen that causes few or no signs or symptoms of infection in the host. Many pathogens, including HIV, typhoid fever, and coronaviruses such as COVID-19 spread in their host populations through inapparent infection. *(…)*
+
+</details>
+
 ---
 
 **38. [Dynamics of a spatiotemporal model on populations in a polluted river](https://doi.org/10.1016/j.nonrwa.2022.103803)**
@@ -6957,6 +7768,12 @@ DOI: [`10.1016/j.nonrwa.2022.103803`](https://doi.org/10.1016/j.nonrwa.2022.1038
 Penulis: Guan, Weili; Song, Xuemeng; Wang, Kejie *et al.* (7 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2023.3248271`](https://doi.org/10.1109/tcsvt.2023.3248271)
+
+<details><summary>Abstrak</summary>
+
+Egocentric early action prediction, which aims to recognize the on-going action in the video captured in the first-person view as early as possible before the action is fully executed, is a new yet challenging task due to the limited partial video input. *(…)*
+
+</details>
 
 ---
 
@@ -6974,6 +7791,12 @@ Penulis: Charkas, Marwa; Galal, Kareem S. | Jurnal: *Architecture and Planning J
 
 DOI: [`10.54729/2789-8547.1187`](https://doi.org/10.54729/2789-8547.1187)
 
+<details><summary>Abstrak</summary>
+
+Abstract As more related to the typology of architectural pedagogy, Instructionism and Constructionism theories are used to make more advancement in this domain. They are concerned with the role of both instructor and learner within the outline of a well structured pedagogical framework (education system). *(…)*
+
+</details>
+
 ---
 
 **42. [EMS2L: Enhanced Multi-Task Self-Supervised Learning for 3D Skeleton Representation Learning](https://doi.org/10.1561/116.00000022)**
@@ -6981,6 +7804,12 @@ DOI: [`10.54729/2789-8547.1187`](https://doi.org/10.54729/2789-8547.1187)
 Penulis: Lin, Lilang; Liu, Jiaying | Jurnal: *APSIPA Transactions on Signal and Information Processing* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1561/116.00000022`](https://doi.org/10.1561/116.00000022)
+
+<details><summary>Abstrak</summary>
+
+To learn from the numerous unlabeled data for smart infrastructure, we propose Enhanced Multi-Task Self-Supervised Learning (EMS 2 L) for self-supervised action recognition based on 3D human skeleton. With EMS 2 L, multiple self-supervised tasks are integrated to learn more comprehensive information, which is different from previous methods in which a single self-supervised task is manipulated. *(…)*
+
+</details>
 
 ---
 
@@ -7012,6 +7841,12 @@ Jurnal: *Mathematical Finance Letters* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.28919/mfl/7930`](https://doi.org/10.28919/mfl/7930)
 
+<details><summary>Abstrak</summary>
+
+: This paper aims to investigate how GVAR (Global Vector Autoregressive) fares against other macro models. For the forecasting exercise, the ability is compared between a generic AR (Autoregressive) model with GVAR ex-ante and GVAR-ex post forecasts. *(…)*
+
+</details>
+
 ---
 
 **46. [Forecasting monthly rainfall using autoregressive integrated moving average model (ARIMA): A case study of Fada N’Gourma station in Burkina Faso](https://doi.org/10.30574/wjarr.2023.20.3.2442)**
@@ -7042,6 +7877,12 @@ Penulis: Zhan, Ming; Fan, Jingjing; Guo, Jianying | Jurnal: *IEEE Access* | Tipe
 
 DOI: [`10.1109/access.2023.3305453`](https://doi.org/10.1109/access.2023.3305453)
 
+<details><summary>Abstrak</summary>
+
+Although the issue of sparse expert samples at the early stage of training in inverse reinforcement learning (IRL) is successfully resolved by the introduction of generative adversarial network (GAN), the inherent drawbacks of GAN result in ineffective generated samples. *(…)*
+
+</details>
+
 ---
 
 **49. [Generative AI and Personalized Video Advertisements](https://doi.org/10.2139/ssrn.4614118)**
@@ -7065,6 +7906,12 @@ DOI: [`10.1016/j.jvcir.2023.103883`](https://doi.org/10.1016/j.jvcir.2023.103883
 Penulis: Qi, Yao; He, Binbing; Wang, Rendong *et al.* (5 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/lra.2022.3228159`](https://doi.org/10.1109/lra.2022.3228159)
+
+<details><summary>Abstrak</summary>
+
+This letter presents a hierarchical motion planner for generating smooth and feasible trajectories for autonomous vehicles in unstructured environments with static and moving obstacles. The framework enables real-time computation by progressively shrinking the solution space. *(…)*
+
+</details>
 
 ---
 
@@ -7095,6 +7942,12 @@ DOI: [`10.1007/s11370-023-00458-6`](https://doi.org/10.1007/s11370-023-00458-6)
 Penulis: Liu, Yuchen; Palmieri, Luigi; Georgievski, Ilche *et al.* (4 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/lra.2023.3280816`](https://doi.org/10.1109/lra.2023.3280816)
+
+<details><summary>Abstrak</summary>
+
+The difficulty in finding long-term planning policies for a mobile robot increases when operating in crowded and dynamic environments. State-of-the-art approaches do not consider cues of human-robot-shared dynamic environments. Aiming to fill this gap, we present a novel Human-Flow-Aware Guided Hierarchical Dyna-Q (HA-GHDQ) algorithm, which solves long-term robot task planning problems by using hu… *(truncated)*
+
+</details>
 
 ---
 
@@ -7184,6 +8037,12 @@ Penulis: Yu, Yang; He, Xiaohai; Wu, Xiaohong *et al.* (5 authors) | Jurnal: *Jou
 
 DOI: [`10.1117/1.jei.32.6.063013`](https://doi.org/10.1117/1.jei.32.6.063013)
 
+<details><summary>Abstrak</summary>
+
+Abstract. Although learned image compression methods have achieved competitive rate-distortion performances, learned video compression remains challenging. The current mainstream learned video compression frameworks usually improve the motion prediction module to reduce the redundancy in video sequences. *(…)*
+
+</details>
+
 ---
 
 **63. [Learning latent dynamics with a grey neural ODE prediction model and its application](https://doi.org/10.1108/gs-12-2022-0119)**
@@ -7219,6 +8078,12 @@ Link-INVENT enables design of PROTACs, fragment linking, and scaffold hopping wh
 Penulis: Nguyen, Dat Thanh; Kaup, André | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2023.3239321`](https://doi.org/10.1109/tcsvt.2023.3239321)
+
+<details><summary>Abstrak</summary>
+
+In recent years, we have witnessed the presence of point cloud data in many aspects of our life, from immersive media, autonomous driving to healthcare, although at the cost of a tremendous amount of data. In this paper, we present an efficient lossless point cloud compression method that uses sparse tensor-based deep neural networks to learn point cloud geometry and color probability distribution… *(truncated)*
+
+</details>
 
 ---
 
@@ -7280,6 +8145,12 @@ Penulis: Hong, Mingyao; Zhang, Xinfeng; Li, Guorong *et al.* (4 authors) | Jurna
 
 DOI: [`10.1109/tcsvt.2023.3262754`](https://doi.org/10.1109/tcsvt.2023.3262754)
 
+<details><summary>Abstrak</summary>
+
+Zero-shot learning aims to learn knowledge from existing information to classify new classes with no visual training data. In the current work on zero-shot video classification, only the category name information can be used for unseen classes. *(…)*
+
+</details>
+
 ---
 
 **72. [Multi-Model Motion Prediction for 360-Degree Video Compression](https://doi.org/10.1109/access.2023.3326717)**
@@ -7288,6 +8159,12 @@ Penulis: Regensky, Andy; Herglotz, Christian; Kaup, André | Jurnal: *IEEE Acces
 
 DOI: [`10.1109/access.2023.3326717`](https://doi.org/10.1109/access.2023.3326717)
 
+<details><summary>Abstrak</summary>
+
+Efficient video compression is fundamental for enabling today’s highly interactive multimedia landscape. With the trend towards virtual reality, efficient storage and transmission of 360-degree video content becomes increasingly important. Recent works in this area addressed the design and investigation of 360-degree-specific motion models for improved compression efficiency. *(…)*
+
+</details>
+
 ---
 
 **73. [Multiscale Latent-Guided Entropy Model for LiDAR Point Cloud Compression](https://doi.org/10.1109/tcsvt.2023.3276788)**
@@ -7295,6 +8172,12 @@ DOI: [`10.1109/access.2023.3326717`](https://doi.org/10.1109/access.2023.3326717
 Penulis: Fan, Tingyu; Gao, Linyao; Xu, Yiling *et al.* (5 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2023.3276788`](https://doi.org/10.1109/tcsvt.2023.3276788)
+
+<details><summary>Abstrak</summary>
+
+The non-uniform distribution and extremely sparse nature of the LiDAR point cloud (LPC) bring significant challenges to its high-efficient compression. This paper proposes a novel end-to-end, fully-factorized deep framework that represents the original LiDAR point cloud into an octree structure and hierarchically constructs the octree entropy model in layers. *(…)*
+
+</details>
 
 ---
 
@@ -7528,6 +8411,12 @@ Penulis: Duan, Haoran; Xie, Cheng; Li, Bin *et al.* (4 authors) | Jurnal: *Neura
 
 DOI: [`10.1016/j.neunet.2023.08.039`](https://doi.org/10.1016/j.neunet.2023.08.039)
 
+<details><summary>Abstrak</summary>
+
+Graph representation is a critical technology in the field of knowledge engineering and knowledge-based applications since most knowledge bases are represented in the graph structure. Nowadays, contrastive learning has become a prominent way for graph representation by contrasting positive-positive and positive-negative node pairs between two augmentation graphs. *(…)*
+
+</details>
+
 ---
 
 **97. [Self-supervised contrastive video representation learning for construction equipment activity recognition on limited dataset](https://doi.org/10.1016/j.autcon.2023.105001)**
@@ -7572,6 +8461,12 @@ Penulis: Jiang, Shaojie; Sang, Qingbing; Hu, Zongyao *et al.* (4 authors) | Jurn
 
 DOI: [`10.1109/tbc.2022.3197904`](https://doi.org/10.1109/tbc.2022.3197904)
 
+<details><summary>Abstrak</summary>
+
+No-reference (NR) video quality assessment (VQA) is a challenging problem due to the difficulty in model training caused by insufficient annotation samples. Previous work commonly utilizes transfer learning to directly migrate pre-trained models on the image database, which suffers from domain inadaptation. *(…)*
+
+</details>
+
 ---
 
 **101. [Self-Supervised Scene-Debiasing for Video Representation Learning via Background Patching](https://doi.org/10.1109/tmm.2022.3193559)**
@@ -7579,6 +8474,12 @@ DOI: [`10.1109/tbc.2022.3197904`](https://doi.org/10.1109/tbc.2022.3197904)
 Penulis: Assefa, Maregu; Jiang, Wei; Gedamu, Kumie *et al.* (6 authors) | Jurnal: *IEEE Transactions on Multimedia* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tmm.2022.3193559`](https://doi.org/10.1109/tmm.2022.3193559)
+
+<details><summary>Abstrak</summary>
+
+Self-supervised learning has considerably improved video representation learning by discovering supervisory signals automatically from unlabeled videos. However, due to the scene-biased nature of existing video datasets, the current methods are biased to the dominant scene context during action inference. *(…)*
+
+</details>
 
 ---
 
@@ -7601,6 +8502,12 @@ Self-supervised video representation learning aimed at maximizing similarity bet
 Penulis: G Soares Azhari, Teotino | Jurnal: *International Journal of Science and Research (IJSR)* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.21275/sr23213125341`](https://doi.org/10.21275/sr23213125341)
+
+<details><summary>Abstrak</summary>
+
+: Research methodology is a general strategy used to describe the stages of completing a scientific research project. The research stage describes the methods/techniques needed to find new phenomena or knowledge as the goal of research. So that the methodology is an important aspect in the process of completing the research. *(…)*
+
+</details>
 
 ---
 
@@ -7654,6 +8561,12 @@ Penulis: Zou, Shihao; Xu, Yuanlu; Li, Chao *et al.* (6 authors) | Jurnal: *IEEE 
 
 DOI: [`10.1109/tcsvt.2023.3244152`](https://doi.org/10.1109/tcsvt.2023.3244152)
 
+<details><summary>Abstrak</summary>
+
+Multi-person pose understanding from RGB videos involves three complex tasks: pose estimation, tracking and motion forecasting. Intuitively, accurate multi-person pose estimation facilitates robust tracking, and robust tracking builds crucial history for correct motion forecasting. *(…)*
+
+</details>
+
 ---
 
 **109. [Social navigation framework for autonomous vehicle with hierarchical cyber-physical system architecture](https://doi.org/10.1080/01691864.2023.2279601)**
@@ -7661,6 +8574,12 @@ DOI: [`10.1109/tcsvt.2023.3244152`](https://doi.org/10.1109/tcsvt.2023.3244152)
 Penulis: Imanishi, Yuto; Yamada, Hiroyuki | Jurnal: *Advanced Robotics* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1080/01691864.2023.2279601`](https://doi.org/10.1080/01691864.2023.2279601)
+
+<details><summary>Abstrak</summary>
+
+An autonomous vehicle operating alongside humans should ideally have a high social capability, such as being able to communicate with humans, negotiate space, predict reactions, etc. This can be achieved by a prediction feature trained with diverse data on human behavior. *(…)*
+
+</details>
 
 ---
 
@@ -7717,6 +8636,12 @@ DOI: [`10.3901/jme.2023.17.310`](https://doi.org/10.3901/jme.2023.17.310)
 Penulis: Sun, Haodong; Yang, Yang; Chen, Yanyan *et al.* (5 authors) | Jurnal: *Information Technology & Tourism* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1007/s40558-023-00247-y`](https://doi.org/10.1007/s40558-023-00247-y)
+
+<details><summary>Abstrak</summary>
+
+Effective tourist demand forecasting is crucial for company operations and destination management. Furthermore, tourists may plan better personalized multi-attraction itineraries based on demand forecasting to avoid travel peaks and improve the enjoyment of their vacation. *(…)*
+
+</details>
 
 ---
 
@@ -7786,6 +8711,12 @@ Penulis: Guo, Jinyang; Liu, Jiaheng; Xu, Dong | Jurnal: *IEEE Transactions on Ci
 
 DOI: [`10.1109/tcsvt.2022.3197395`](https://doi.org/10.1109/tcsvt.2022.3197395)
 
+<details><summary>Abstrak</summary>
+
+The existing end-to-end optimized 3D action recognition methods often suffer from high computational costs. Observing that different frames and different points in point cloud sequences often have different importance values for the 3D action recognition task, in this work, we propose a fully automatic model compression framework called 3D-Pruning (3DP) for efficient 3D action recognition. *(…)*
+
+</details>
+
 ---
 
 **2. [A generative model method for unsupervised multispectral image fusion in remote sensing](https://doi.org/10.1007/s11760-021-01950-1)**
@@ -7793,6 +8724,12 @@ DOI: [`10.1109/tcsvt.2022.3197395`](https://doi.org/10.1109/tcsvt.2022.3197395)
 Penulis: Azarang, Arian; Kehtarnavaz, Nasser | Jurnal: *Signal, Image and Video Processing* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1007/s11760-021-01950-1`](https://doi.org/10.1007/s11760-021-01950-1)
+
+<details><summary>Abstrak</summary>
+
+This paper presents a generative model method for multispectral image fusion in remote sensing which involves training without supervision. This method eases the supervision of learning and also uses a multi-objective loss function to achieve image fusion. The loss function used incorporates both spectral and spatial distortions. *(…)*
+
+</details>
 
 ---
 
@@ -7815,6 +8752,12 @@ The visual attention of pedestrians has been rarely considered in studies of con
 Penulis: Boney, Will; Souldatos, Ioannis | Jurnal: *Fundamenta Mathematicae* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.4064/fm612-12-2021`](https://doi.org/10.4064/fm612-12-2021)
+
+<details><summary>Abstrak</summary>
+
+In [13] the authors show that if $\mu$ is a strongly compact cardinal, $K$ is an Abstract Elementary Class (AEC) with $LS(K)<\mu$, and $K$ satisfies joint embedding (amalgamation) cofinally below $\mu$, then $K$ satisfies joint embedding (amalgamation) in all cardinals $\ge \mu$. The question was raised if the strongly compact upper bound was optimal. *(…)*
+
+</details>
 
 ---
 
@@ -7839,6 +8782,12 @@ DOI: [`10.1016/j.patcog.2022.108807`](https://doi.org/10.1016/j.patcog.2022.1088
 Penulis: Kirli Akin, H.; Ordu, M. | Jurnal: *International Journal of Simulation Modelling* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.2507/ijsimm21-4-618`](https://doi.org/10.2507/ijsimm21-4-618)
+
+<details><summary>Abstrak</summary>
+
+Maintaining the dynamism of the work scheduling of the nurses without causing them to lose their work motivation provides the sustainability of the effectiveness of health services. Thus, there is a need to develop patient-centred operational research approach applied to health services against new Covid19 waves or new pandemics. *(…)*
+
+</details>
 
 ---
 
@@ -7880,6 +8829,12 @@ Penulis: Tao, Li; Wang, Xueting; Yamasaki, Toshihiko | Jurnal: *IEEE Transaction
 
 DOI: [`10.1109/tcsvt.2022.3141051`](https://doi.org/10.1109/tcsvt.2022.3141051)
 
+<details><summary>Abstrak</summary>
+
+In this paper, we propose a self-supervised contrastive learning method to learn video feature representations. In traditional self-supervised contrastive learning methods, constraints from anchor, positive, and negative data pairs are used to train the model. *(…)*
+
+</details>
+
 ---
 
 **13. [Analysis of HIV latent infection model with multiple infection stages and different drug classes](https://doi.org/10.1080/17513758.2022.2113828)**
@@ -7887,6 +8842,12 @@ DOI: [`10.1109/tcsvt.2022.3141051`](https://doi.org/10.1109/tcsvt.2022.3141051)
 Penulis: Alshorman, Areej; Al-hosainat, Nidal; Jackson, Trachette | Jurnal: *Journal of Biological Dynamics* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1080/17513758.2022.2113828`](https://doi.org/10.1080/17513758.2022.2113828)
+
+<details><summary>Abstrak</summary>
+
+Latently infected CD T cells represent one of the major obstacles to HIV eradication even after receiving prolonged highly active anti-retroviral therapy (HAART). Long-term use of HAART causes the emergence of drug-resistant virus which is then involved in HIV transmission. *(…)*
+
+</details>
 
 ---
 
@@ -7954,6 +8915,12 @@ Penulis: Budan, Gokhan; Damiani, Francesca; Kurtulus, Can *et al.* (4 authors) |
 
 DOI: [`10.2139/ssrn.4265703`](https://doi.org/10.2139/ssrn.4265703)
 
+<details><summary>Abstrak</summary>
+
+Model identification of battery dynamics is a central problem in energy research; many energy management systems and design processes rely on accurate battery models for efficiency optimization. The standard methodology for battery modelling is traditional design of experiments (DoE), where the battery dynamics are excited with many different current profiles and the measured outputs are used to e… *(truncated)*
+
+</details>
+
 ---
 
 **20. [Boost Supervised Pretraining for Visual Transfer Learning: Implications of Self-Supervised Contrastive Representation Learning](https://doi.org/10.1609/aaai.v36i2.20129)**
@@ -8006,6 +8973,12 @@ Penulis: Chang, Jiyoon; Lee, Daeho | Jurnal: *Technological Forecasting and Soci
 
 DOI: [`10.1016/j.techfore.2021.121219`](https://doi.org/10.1016/j.techfore.2021.121219)
 
+<details><summary>Abstrak</summary>
+
+Abstract In video game market, there have been diverse user-generated contents related to game information. Users, therefore, can obtain game-related information not only from traditional mass media such as television or radio but also from interpersonal communication media (e.g., social network services) and masspersonal communication media (e.g., real-time streaming services). *(…)*
+
+</details>
+
 ---
 
 **25. [Collision-Free Trajectory Planning for a 6-DoF Free-Floating Space Robot via Hierarchical Decoupling Optimization](https://doi.org/10.1109/lra.2022.3152698)**
@@ -8051,6 +9024,12 @@ Spatio-temporal representation learning is critical for video self-supervised re
 Penulis: Camilleri, Mark Anthony; Camilleri, Adriana Caterina | Jurnal: *Technology, Knowledge and Learning* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1007/s10758-021-09567-6`](https://doi.org/10.1007/s10758-021-09567-6)
+
+<details><summary>Abstrak</summary>
+
+Following publication of the original article, the authors identified an error in Fig. 1. The correct Fig. 1 and its caption is given in this erratum. The original article has been revised. (Figure presented.). © Springer Nature B.V. 2021
+
+</details>
 
 ---
 
@@ -8110,6 +9089,12 @@ Penulis: Behal, K. Sunil; Gakkhar, Sunita; Srivastava, Tanuja | Jurnal: *Interna
 
 DOI: [`10.1080/00207160.2021.2017906`](https://doi.org/10.1080/00207160.2021.2017906)
 
+<details><summary>Abstrak</summary>
+
+A deterministic nonlinear mathematical model that describes the virus and patch propagation with latency in infection has been developed and the effect of patching is explored. The basic reproduction number of the virus-patch dynamics is computed. The virus-patch model exhibits two virus-free and two endemic states with and without patched nodes. *(…)*
+
+</details>
+
 ---
 
 **35. [Evaluating dynamic visual experience of designed environments: A real-time 3D simulation method utilizing game technologies](https://doi.org/10.1177/23998083211037348)**
@@ -8147,6 +9132,12 @@ DOI: [`10.62721/diffusion-fundamentals.35.1200`](https://doi.org/10.62721/diffus
 Penulis: Jang, Seowoo; Yoo, Soyoung; Kang, Namwoo | Jurnal: *Computer-Aided Design* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.cad.2022.103225`](https://doi.org/10.1016/j.cad.2022.103225)
+
+<details><summary>Abstrak</summary>
+
+Generative design refers to computational design methods that can automatically conduct design exploration under constraints defined by designers. Among many approaches, topology optimization-based generative designs aim to explore diverse topology designs, which cannot be represented by conventional parametric design approaches. *(…)*
+
+</details>
 
 ---
 
@@ -8198,6 +9189,12 @@ Penulis: Banfi, Jacopo; Messing, Andrew; Kroninger, Christopher *et al.* (6 auth
 
 DOI: [`10.1109/lra.2022.3148489`](https://doi.org/10.1109/lra.2022.3148489)
 
+<details><summary>Abstrak</summary>
+
+This paper considers a particular class of multi-robot task allocation problems, where tasks correspond to heterogeneous multi-robot routing problems defined on different areas of a given environment. We present a hierarchical planner that breaks down the complexity of this problem into two subproblems: the high-level problem of allocating robots to routing tasks, and the low-level problem of comp… *(truncated)*
+
+</details>
+
 ---
 
 **43. [Hierarchical Planning Through Goal-Conditioned Offline Reinforcement Learning](https://doi.org/10.1109/lra.2022.3190100)**
@@ -8213,6 +9210,12 @@ DOI: [`10.1109/lra.2022.3190100`](https://doi.org/10.1109/lra.2022.3190100)
 Penulis: Uwacu, Diane; Yammanuru, Ananya; Morales, Marco *et al.* (4 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/lra.2022.3196885`](https://doi.org/10.1109/lra.2022.3196885)
+
+<details><summary>Abstrak</summary>
+
+We present a hierarchical skeleton-guided motion planning algorithm to guide mobile robots. A good skeleton maps the connectivity of the subspace of c-space containing significant degrees of freedom and is able to guide the planner to find the desired solutions fast. However, sometimes the skeleton does not closely represent the free c-space, which often misleads current skeleton-guided planners. *(…)*
+
+</details>
 
 ---
 
@@ -8235,6 +9238,12 @@ Video surveillance applications play an important role in smart cities. Recently
 Penulis: Fang, Fen; Xu, Qianli; Cheng, Yi *et al.* (5 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2022.3171781`](https://doi.org/10.1109/tcsvt.2022.3171781)
+
+<details><summary>Abstrak</summary>
+
+Models for image semantics understanding, such as deep learning (DL) models and mathematical models, are often trained on specific dataset or configured with specific parameters. When deploying such models on new tasks in a different test environment, it requires considerable effort to re-train the model or extensive expertise to tune the parameters. *(…)*
+
+</details>
 
 ---
 
@@ -8309,6 +9318,12 @@ DOI: [`10.1016/j.neucom.2022.01.066`](https://doi.org/10.1016/j.neucom.2022.01.0
 Penulis: Wang, Xuhua; Lin, Zhikai; Hu, Yahui *et al.* (4 authors) | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/access.2022.3204706`](https://doi.org/10.1109/access.2022.3204706)
+
+<details><summary>Abstrak</summary>
+
+In modern air combat, acquiring the opponent’s air combat intention is one of essential prerequisites to evaluate the air combat situation effectively and master the battlefield initiative. On account of multi-dimensional and temporal characteristics of the target state, a recognition model is proposed to identify tactical intention of aerial target based on a multi-sense-scaled attention architec… *(truncated)*
+
+</details>
 
 ---
 
@@ -8386,6 +9401,12 @@ Penulis: Nan, Dongyan; Lee, Haein; Kim, Yerin *et al.* (4 authors) | Jurnal: *Te
 
 DOI: [`10.1016/j.techfore.2021.121451`](https://doi.org/10.1016/j.techfore.2021.121451)
 
+<details><summary>Abstrak</summary>
+
+With the outbreak of COVID-19, the video game console market is thriving again. In this study, we attempted to explore users’ intention to use video game consoles by developing a causal model mainly based on coolness theory and the technology acceptance model. *(…)*
+
+</details>
+
 ---
 
 **62. [Neural Marionette: Unsupervised Learning of Motion Skeleton and Latent Dynamics from Volumetric Video](https://doi.org/10.1609/aaai.v36i1.19882)**
@@ -8421,6 +9442,12 @@ An objective stereo video quality assessment (SVQA) strives to be consistent wit
 Penulis: Karasözen, Bülent; Mülayim, Gülden; Uzunca, Murat | Jurnal: *Communications in Nonlinear Science and Numerical Simulation* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.cnsns.2022.106734`](https://doi.org/10.1016/j.cnsns.2022.106734)
+
+<details><summary>Abstrak</summary>
+
+In this paper, we investigate tensor based nonintrusive reduced-order models (ROMs) for parametric cross-diffusion equations. The full-order model (FOM) consists of ordinary differential equations (ODEs) in matrix or tensor form resulting from ﬁnite-difference discretization of the differential operators by taking the advantage of Kronecker structure. *(…)*
+
+</details>
 
 ---
 
@@ -8540,6 +9567,12 @@ Penulis: Sarkar, Pritam; Etemad, Ali | Jurnal: *IEEE Transactions on Affective C
 
 DOI: [`10.1109/taffc.2020.3014842`](https://doi.org/10.1109/taffc.2020.3014842)
 
+<details><summary>Abstrak</summary>
+
+We exploit a self-supervised deep multi-task learning framework for electrocardiogram (ECG) -based emotion recognition. The proposed solution consists of two stages of learning a) learning ECG representations and b) learning to classify emotions. ECG representations are learned by a signal transformation recognition network. *(…)*
+
+</details>
+
 ---
 
 **76. [Self-Supervised Graph Representation Learning via Information Bottleneck](https://doi.org/10.3390/sym14040657)**
@@ -8575,6 +9608,12 @@ Self-supervised learning is a promising paradigm to address the problem of manua
 Penulis: Huang, Jing; Huang, Yan; Wang, Qicong *et al.* (5 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2021.3114209`](https://doi.org/10.1109/tcsvt.2021.3114209)
+
+<details><summary>Abstrak</summary>
+
+Self-supervised representation learning for videos has been very attractive recently because these methods exploit the information inherently obtained from the video itself instead of annotated labels that is quite time-consuming. However, existing methods ignore the importance of global observation while performing spatio-temporal transformation perception, which highly limits the expression capa… *(truncated)*
+
+</details>
 
 ---
 
@@ -8612,6 +9651,12 @@ Penulis: Zhu, Yisheng; Shuai, Hui; Liu, Guangcan *et al.* (4 authors) | Jurnal: 
 
 DOI: [`10.1109/tcsvt.2022.3169469`](https://doi.org/10.1109/tcsvt.2022.3169469)
 
+<details><summary>Abstrak</summary>
+
+Instance-wise contrastive learning (Instance-CL), which learns to map similar instances closer and different instances farther apart in the embedding space, has achieved considerable progress in self-supervised video representation learning. However, canonical Instance-CL does not handle properly the temporal similarities between different videos, limiting the representation capabilities of learne… *(truncated)*
+
+</details>
+
 ---
 
 **82. [Semiparametric Bayesian forecasting of SpatioTemporal earthquake occurrences](https://doi.org/10.1214/21-aoas1554)**
@@ -8619,6 +9664,12 @@ DOI: [`10.1109/tcsvt.2022.3169469`](https://doi.org/10.1109/tcsvt.2022.3169469)
 Penulis: Ross, Gordon J.; Kolev, Aleksandar A. | Jurnal: *The Annals of Applied Statistics* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1214/21-aoas1554`](https://doi.org/10.1214/21-aoas1554)
+
+<details><summary>Abstrak</summary>
+
+The Epidemic Type Aftershock Sequence (ETAS) model is a selfexciting point process which is used to model and forecast the occurrence of earthquakes in a geographical region. The ETAS model assumes that the occurrence of mainshock earthquakes follows an inhomogeneous spatial point process, with their aftershock earthquakes modelled via a separate triggering kernel. *(…)*
+
+</details>
 
 ---
 
@@ -8641,6 +9692,12 @@ Time series data compiled from different sources often yield varying frequencies
 Penulis: Chen, Wei; Liu, Xuefeng; Niu, Jianwei | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2022.3183648`](https://doi.org/10.1109/tcsvt.2022.3183648)
+
+<details><summary>Abstrak</summary>
+
+The visual storytelling (VIST) task aims at generating reasonable, human-like and coherent stories with the image streams as input. Although many deep learning models have achieved promising results, most of them do not directly leverage the sentiment information of stories. In this paper, we propose a sentiment-aware generative model for VIST called SentiStory. *(…)*
+
+</details>
 
 ---
 
@@ -8730,6 +9787,12 @@ Penulis: Camilleri, Mark Anthony; Camilleri, Adriana Caterina | Jurnal: *Technol
 
 DOI: [`10.1007/s10758-021-09561-y`](https://doi.org/10.1007/s10758-021-09561-y)
 
+<details><summary>Abstrak</summary>
+
+During the outbreak of the Coronavirus (COVID-19) pandemic, higher education institutions (HEIs) have shifted from traditional and blended learning approaches to a fully virtual course delivery. This research investigates the students’ perceptions on remote learning through asynchronous learning management systems (LMS) and via synchronous video conferencing technologies like Google Meet, Microsof… *(truncated)*
+
+</details>
+
 ---
 
 **93. [The Future of Reinforcement Learning in Real-World Applications](https://doi.org/10.71465/ajml2853)**
@@ -8788,6 +9851,12 @@ Penulis: Rivas, Daniel; Guim, Francesc; Polo, Jordà *et al.* (6 authors) | Jurn
 
 DOI: [`10.1016/j.future.2022.03.039`](https://doi.org/10.1016/j.future.2022.03.039)
 
+<details><summary>Abstrak</summary>
+
+Judging by popular and generic computer vision challenges, such as the ImageNet or PASCAL VOC, neural networks have proven to be exceptionally accurate in recognition tasks. However, state-of-the-art accuracy often comes at a high computational price, requiring hardware acceleration to achieve real-time performance, while use cases, such as smart cities, require images from fixed cameras to be ana… *(truncated)*
+
+</details>
+
 ---
 
 **98. [Transmissibility in Interactive Nanocomposite Diffusion: The Nonlinear Double-Diffusion Model](https://doi.org/10.3389/fams.2022.852040)**
@@ -8817,6 +9886,12 @@ DOI: [`10.1007/s11760-021-02049-3`](https://doi.org/10.1007/s11760-021-02049-3)
 Penulis: Maniotis, Pantelis; Thomos, Nikolaos | Jurnal: *IEEE Transactions on Multimedia* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tmm.2021.3052339`](https://doi.org/10.1109/tmm.2021.3052339)
+
+<details><summary>Abstrak</summary>
+
+360 $^{\circ }$ video is an essential component of VR/AR/MR systems that provides immersive experience to the users. However, 360 $^{\circ }$ video is associated with high bandwidth requirements. The required bandwidth can be reduced by exploiting the fact that users are interested in viewing only a part of the video scene and that users request viewports that overlap with each other. *(…)*
+
+</details>
 
 ---
 
@@ -8850,6 +9925,12 @@ Penulis: Zhang, Hang; Li, Jiahao; Li, Bin *et al.* (4 authors) | Jurnal: *IEEE T
 
 DOI: [`10.1109/tcsvt.2020.3021489`](https://doi.org/10.1109/tcsvt.2020.3021489)
 
+<details><summary>Abstrak</summary>
+
+For widely used real-time applications, encoding and transmitting multiple videos jointly over a limited bandwidth has become a popular topic. Allocating different bitrates for different sources is a better way to meet different demands from applications. *(…)*
+
+</details>
+
 ---
 
 **3. [A flexible potential-flow model based high resolution spatiotemporal energy demand forecasting framework](https://doi.org/10.1016/j.apenergy.2021.117321)**
@@ -8857,6 +9938,12 @@ DOI: [`10.1109/tcsvt.2020.3021489`](https://doi.org/10.1109/tcsvt.2020.3021489)
 Penulis: Peng, Jieyang; Kimmig, Andreas; Niu, Zhibin *et al.* (6 authors) | Jurnal: *Applied Energy* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.apenergy.2021.117321`](https://doi.org/10.1016/j.apenergy.2021.117321)
+
+<details><summary>Abstrak</summary>
+
+Abstract Understanding urban demand profiles is an important determinant for energy dispatch and the optimization of the electric energy supply. For the design of the energy supply system, an important consideration is, to express the characteristics of urban household energy demand as a function of space and time. *(…)*
+
+</details>
 
 ---
 
@@ -8873,6 +9960,12 @@ DOI: [`10.1504/ijwet.2021.115687`](https://doi.org/10.1504/ijwet.2021.115687)
 Penulis: Lekshmy, P.R.; Raghukanth, S.T.G. | Jurnal: *Soil Dynamics and Earthquake Engineering* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.soildyn.2020.106528`](https://doi.org/10.1016/j.soildyn.2020.106528)
+
+<details><summary>Abstrak</summary>
+
+Abstract In this paper, the utility of power spectral density (PSD) in ground motion prediction for hazard analysis is examined. The main advantage of PSD is that the area under PSD of excitation gives the energy of the excitation and it is structure independent. The PSD of ground motion from past earthquakes and properties of PSD in terms of spectral moments are studied. *(…)*
+
+</details>
 
 ---
 
@@ -8896,6 +9989,12 @@ Penulis: Sun, Jiankai; Yu, Lantao; Dong, Pinqian *et al.* (5 authors) | Jurnal: 
 
 DOI: [`10.1109/lra.2021.3061397`](https://doi.org/10.1109/lra.2021.3061397)
 
+<details><summary>Abstrak</summary>
+
+In many real-world applications where specifying a proper reward function is difficult, it is desirable to learn policies from expert demonstrations. Adversarial Inverse Reinforcement Learning (AIRL) is one of the most common approaches for learning from demonstrations. *(…)*
+
+</details>
+
 ---
 
 **8. [An Exploration-driven Reinforcement Learning Model for Video Streaming Scheduling in 5G-Powered Drone](https://doi.org/10.1088/1742-6596/1792/1/012019)**
@@ -8917,6 +10016,12 @@ Abstract In the process of wireless network video streaming, especially in more 
 Penulis: Nafisatu, Sadiq; N O, Nweze; Ahmed, Ibrahim *et al.* (4 authors) | Jurnal: *International Journal of Science and Research (IJSR)* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.21275/sr21812004830`](https://doi.org/10.21275/sr21812004830)
+
+<details><summary>Abstrak</summary>
+
+This study attempts an evaluation of the impact of Independent Corrupt Practice Commission (ICPC) on reduction of corrupt practices and related offences in the country. The study used Autoregressive Integrated Moving Average (ARIMA). However, the study used the basic pre-estimation tests to take care of the stationarity and cointegration of the series. *(…)*
+
+</details>
 
 ---
 
@@ -8992,6 +10097,12 @@ Penulis: Olson, Matthew L.; Khanna, Roli; Neal, Lawrence *et al.* (5 authors) | 
 
 DOI: [`10.1016/j.artint.2021.103455`](https://doi.org/10.1016/j.artint.2021.103455)
 
+<details><summary>Abstrak</summary>
+
+Counterfactual explanations, which deal with “why not?” scenarios, can provide insightful explanations to an AI agent’s behavior [Miller, 2019]. In this work, we focus on generating counterfactual explanations for deep reinforcement learning (RL) agents which operate in visual input environments like Atari. *(…)*
+
+</details>
+
 ---
 
 **17. [Data Embedding in SHVC Video Using Threshold-Controlled Block Splitting](https://doi.org/10.3390/app11114850)**
@@ -9035,6 +10146,12 @@ This work proposes an approach for latent-dynamics learning that exactly enforce
 Penulis: Xu, Peng; Song, Zeyu; Yin, Qiyue *et al.* (5 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2020.3003048`](https://doi.org/10.1109/tcsvt.2020.3003048)
+
+<details><summary>Abstrak</summary>
+
+In this paper, we tackle for the first time, the problem of self-supervised representation learning for free-hand sketches. This importantly addresses a common problem faced by the sketch community – that annotated supervisory data are difficult to obtain. *(…)*
+
+</details>
 
 ---
 
@@ -9094,6 +10211,12 @@ Penulis: Xing, Jinbo; Hu, Wenbo; Zhang, Yuechen *et al.* (4 authors) | Jurnal: *
 
 DOI: [`10.1007/s41095-021-0208-x`](https://doi.org/10.1007/s41095-021-0208-x)
 
+<details><summary>Abstrak</summary>
+
+A popular and challenging task in video research, frame interpolation aims to increase the frame rate of video. Most existing methods employ a fixed motion model, e.g., linear, quadratic, or cubic, to estimate the intermediate warping field. However, such fixed motion models cannot well represent the complicated non-linear motions in the real world or rendered animations. *(…)*
+
+</details>
+
 ---
 
 **26. [Fog Computing Resource Management for Video Processing Using Evolutionary Bayesian Optimization and Nondeterministic Deep Reinforcement Learning](https://doi.org/10.5711/1082598326441)**
@@ -9134,6 +10257,12 @@ Penulis: Jung, Daekyung | Jurnal: *Theology and Science* | Tipe: journal-article
 
 DOI: [`10.1080/14746700.2021.1944498`](https://doi.org/10.1080/14746700.2021.1944498)
 
+<details><summary>Abstrak</summary>
+
+ABSTRACT Non-interventionist objective divine action (NIODA) theories proposed by eminent scholars are often misconstrued as the causal joint theory. This misunderstanding is derived from the absence of a detailed, systematic examination of divine action theories. This article explores one of the NIODA proposals, namely, Arthur Peacocke's divine action model. *(…)*
+
+</details>
+
 ---
 
 **31. [Hierarchical POMDP planning for object manipulation in clutter](https://doi.org/10.1016/j.robot.2021.103736)**
@@ -9149,6 +10278,12 @@ DOI: [`10.1016/j.robot.2021.103736`](https://doi.org/10.1016/j.robot.2021.103736
 Penulis: Cheng, Yujiao; Sun, Liting; Tomizuka, Masayoshi | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/lra.2021.3056370`](https://doi.org/10.1109/lra.2021.3056370)
+
+<details><summary>Abstrak</summary>
+
+When robots work with humans for collaborative task, they need to plan their actions while taking humans’ actions into account. However, due to the complexity of the tasks and stochastic nature of human collaborators, it is quite challenging for the robot to efficiently collaborate with the humans. *(…)*
+
+</details>
 
 ---
 
@@ -9187,6 +10322,12 @@ DOI: [`10.15301/jepa.2021.29.4.27`](https://doi.org/10.15301/jepa.2021.29.4.27)
 Penulis: Mansour, Romany F.; Escorcia-Gutierrez, José; Gamarra, Margarita *et al.* (5 authors) | Jurnal: *Image and Vision Computing* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.imavis.2021.104229`](https://doi.org/10.1016/j.imavis.2021.104229)
+
+<details><summary>Abstrak</summary>
+
+Abstract Recently, intelligent video surveillance applications have become essential in public security by the use of computer vision technologies to investigate and understand long video streams. Anomaly detection and classification are considered a major element of intelligent video surveillance. *(…)*
+
+</details>
 
 ---
 
@@ -9248,6 +10389,12 @@ Penulis: Nguyen, Dat Thanh; Quach, Maurice; Valenzise, Giuseppe *et al.* (4 auth
 
 DOI: [`10.1109/tcsvt.2021.3100279`](https://doi.org/10.1109/tcsvt.2021.3100279)
 
+<details><summary>Abstrak</summary>
+
+This paper proposes a lossless point cloud (PC) geometry compression method that uses neural networks to estimate the probability distribution of voxel occupancy. First, to take into account the PC sparsity, our method adaptively partitions a point cloud into multiple voxel block sizes. This partitioning is signalled via an octree. *(…)*
+
+</details>
+
 ---
 
 **43. [Low-latency resource elements scheduling based on deep reinforcement learning model for UAV video in 5G network](https://doi.org/10.1088/1742-6596/1827/1/012071)**
@@ -9284,6 +10431,12 @@ Penulis: Armenia, Stefano; Barnabè, Federico; Secchi, Davide | Jurnal: *Journal
 
 DOI: [`10.1080/17477778.2021.1906196`](https://doi.org/10.1080/17477778.2021.1906196)
 
+<details><summary>Abstrak</summary>
+
+Computer modelling and simulation are increasingly used to support decision-makers in developing, testing, and implementing policies and strategies in realworld business domains. This Special Issue (hereafter SI), entitled “ModelBased Governance in a Sustainable World”, specifically aims at establishing whether, and under which conditions, computer models and simulations effectively and accurately… *(truncated)*
+
+</details>
+
 ---
 
 **46. [Model-Based Range Prediction for Electric Cars and Trucks under Real-World Conditions](https://doi.org/10.3390/en14185804)**
@@ -9305,6 +10458,12 @@ The further development of electric mobility requires major scientific efforts t
 Penulis: Thomas, Antony; Mastrogiovanni, Fulvio; Baglietto, Marco | Jurnal: *Robotics and Autonomous Systems* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.robot.2021.103786`](https://doi.org/10.1016/j.robot.2021.103786)
+
+<details><summary>Abstrak</summary>
+
+Abstract We present an integrated Task-Motion Planning (TMP) framework for navigation in large-scale environments. Of late, TMP for manipulation has attracted significant interest resulting in a proliferation of different approaches. In contrast, TMP for navigation has received considerably less attention. *(…)*
+
+</details>
 
 ---
 
@@ -9330,6 +10489,12 @@ Penulis: Singh Parihar, Anil; Pal, Joyeeta; Sharma, Ishita | Jurnal: *Journal of
 
 DOI: [`10.1016/j.jvcir.2020.102991`](https://doi.org/10.1016/j.jvcir.2020.102991)
 
+<details><summary>Abstrak</summary>
+
+Abstract Multiview video summarization plays a crucial role in abstracting essential information form multiple videos of the same location and time. In this paper, we propose a new approach for the multiview summarization. The proposed approach uses the BIRCH clustering algorithm for the first time on the initial set of frames to get rid of the static and redundant. *(…)*
+
+</details>
+
 ---
 
 **51. [Neural Video Coding Using Multiscale Motion Compensation and Spatiotemporal Context Model](https://doi.org/10.1109/tcsvt.2020.3035680)**
@@ -9337,6 +10502,12 @@ DOI: [`10.1016/j.jvcir.2020.102991`](https://doi.org/10.1016/j.jvcir.2020.102991
 Penulis: Liu, Haojie; Lu, Ming; Ma, Zhan *et al.* (7 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2020.3035680`](https://doi.org/10.1109/tcsvt.2020.3035680)
+
+<details><summary>Abstrak</summary>
+
+Over the past two decades, traditional block-based video coding has made remarkable progress and spawned a series of well-known standards such as MPEG-4, H.264/AVC and H.265/HEVC. On the other hand, deep neural networks (DNNs) have shown their powerful capacity for visual content understanding, feature extraction and compact representation. *(…)*
+
+</details>
 
 ---
 
@@ -9359,6 +10530,12 @@ It is encouraged to see that progress has been made to bridge videos and natural
 Penulis: Foroozani, Ahmad; Ebrahimi, Morteza | Jurnal: *Communications in Nonlinear Science and Numerical Simulation* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.cnsns.2021.106019`](https://doi.org/10.1016/j.cnsns.2021.106019)
+
+<details><summary>Abstrak</summary>
+
+Abstract Modeling information diffusion in social networks is very important for predicting and controlling diffusions. Various types of diffusion models exist considering different properties of information diffusion. Recently it was shown that information diffusion in social networks like Digg and Twitter is anomalous, but it is not addressed in any information diffusion model. *(…)*
+
+</details>
 
 ---
 
@@ -9398,6 +10575,12 @@ Penulis: Gieselmann, Robert; Pokorny, Florian T. | Jurnal: *IEEE Robotics and Au
 
 DOI: [`10.1109/lra.2021.3071062`](https://doi.org/10.1109/lra.2021.3071062)
 
+<details><summary>Abstrak</summary>
+
+Planning algorithms are powerful at solving long-horizon decision-making problems but require that environment dynamics are known. Model-free reinforcement learning has recently been merged with graph-based planning to increase the robustness of trained policies in state-space navigation problems. *(…)*
+
+</details>
+
 ---
 
 **58. [Predictive modeling of clinical trial terminations using feature engineering and embedding learning](https://doi.org/10.1038/s41598-021-82840-x)**
@@ -9419,6 +10602,12 @@ Abstract In this study, we propose to use machine learning to understand termina
 Penulis: Mehrdoust, Farshid; Fallah, Somayeh; Samimi, Oldouz | Jurnal: *Communications in Statistics - Simulation and Computation* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1080/03610918.2019.1620275`](https://doi.org/10.1080/03610918.2019.1620275)
+
+<details><summary>Abstrak</summary>
+
+Abstract In this paper, we study Heston-CIR model with the double exponential jumps. We first verify the existence and uniqueness of the solution related to the price process of the model. Next, we calibrate the option prices resulting from this model to a set of observed index options. *(…)*
+
+</details>
 
 ---
 
@@ -9443,6 +10632,12 @@ DOI: [`10.1007/s11760-020-01740-1`](https://doi.org/10.1007/s11760-020-01740-1)
 Penulis: Yu, Xiang; Lu, Lihua; Shen, Jianyi *et al.* (6 authors) | Jurnal: *Nonlinear Dynamics* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1007/s11071-021-06520-1`](https://doi.org/10.1007/s11071-021-06520-1)
+
+<details><summary>Abstrak</summary>
+
+Initially found in Hubei, Wuhan, and identified as a novel virus of the coronavirus family by the WHO, COVID-19 has spread worldwide at exponential speed, causing millions of deaths and public fear. Currently, the USA, India, Brazil, and other parts of the world are experiencing a secondary wave of COVID-19. *(…)*
+
+</details>
 
 ---
 
@@ -9520,6 +10715,12 @@ Penulis: Tong, Yachun; Lin, Zhigui | Jurnal: *Nonlinear Analysis: Real World App
 
 DOI: [`10.1016/j.nonrwa.2021.103343`](https://doi.org/10.1016/j.nonrwa.2021.103343)
 
+<details><summary>Abstrak</summary>
+
+In order to explore the impact of periodically evolving domain on the transmission of disease, we study a SIS reaction-diffusion model with logistic term on a periodically evolving domain. The basic reproduction number ${\mathcal{R}}_0$ is given by the next generation infection operator, and relies on the evolving rate of the periodically evolving domain, diffusion coefficient of infected individu… *(truncated)*
+
+</details>
+
 ---
 
 **71. [Spatiotemporal fuzzy-graph convolutional network model with dynamic feature encoding for traffic forecasting](https://doi.org/10.1016/j.knosys.2021.107403)**
@@ -9535,6 +10736,12 @@ DOI: [`10.1016/j.knosys.2021.107403`](https://doi.org/10.1016/j.knosys.2021.1074
 Penulis: Liu, Yin; Davanloo Tajbakhsh, Sam; Conejo, Antonio J. | Jurnal: *International Journal of Forecasting* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.ijforecast.2020.09.009`](https://doi.org/10.1016/j.ijforecast.2020.09.009)
+
+<details><summary>Abstrak</summary>
+
+Abstract Given the advances in online data acquisition systems, statistical learning models are increasingly used to forecast wind speed. In electricity markets, wind farm production forecasts are needed for the day-ahead, intra-day, and real-time markets. In this work, we use a spatiotemporal model that leverages wind dynamics to forecast wind speed. *(…)*
+
+</details>
 
 ---
 
@@ -9557,6 +10764,12 @@ Abstract OBJECTIVES Simulation-based training has shown to be effective in train
 Penulis: Rummens, Anneleen; Hardyns, Wim | Jurnal: *International Journal of Forecasting* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.ijforecast.2020.03.006`](https://doi.org/10.1016/j.ijforecast.2020.03.006)
+
+<details><summary>Abstrak</summary>
+
+Abstract Being able to anticipate crime such that new crime events can be dealt with effectively or prevented entirely, leads police forces worldwide to look at applying predictive policing, which provides predictions of times and places at risk for crime, such that proactive preventative measures can be taken. *(…)*
+
+</details>
 
 ---
 
@@ -9588,6 +10801,12 @@ Penulis: Khayatian, Fazel; Nagy, Zoltán; Bollinger, Andrew | Jurnal: *Energy an
 
 DOI: [`10.1016/j.enbuild.2021.111334`](https://doi.org/10.1016/j.enbuild.2021.111334)
 
+<details><summary>Abstrak</summary>
+
+Abstract This paper describes the process of creating uncertainty-infused synthetic profiles of building performance. The synthetic profiles are utilized as a resource for evaluating the response of trained machine learning models to unseen events. *(…)*
+
+</details>
+
 ---
 
 **78. [Video-ethnography during Covid-19 and beyond: Generating user foresights in a virtual world](https://doi.org/10.1016/j.techfore.2021.120817)**
@@ -9614,6 +10833,12 @@ Penulis: School of Computer Science, Beijing University of Posts and Telecommuni
 
 DOI: [`10.18178/ijmlc.2020.10.5.980`](https://doi.org/10.18178/ijmlc.2020.10.5.980)
 
+<details><summary>Abstrak</summary>
+
+Entity alignment is to link the entities that point to same objects in the real world among different knowledge graphs (KGs). Existing kn10owledge-embedding-based entity alignment methods mostly regard KG as relation triples, while ignoring attributes and attribute values in KG. *(…)*
+
+</details>
+
 ---
 
 **3. [A Low Complexity System for Multiple Data Embedding Into H.264 Coded Video Bit-Stream](https://doi.org/10.1109/tcsvt.2019.2947545)**
@@ -9621,6 +10846,12 @@ DOI: [`10.18178/ijmlc.2020.10.5.980`](https://doi.org/10.18178/ijmlc.2020.10.5.9
 Penulis: Ghasempour, Mohammad; Ghanbari, Mohammad | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2019.2947545`](https://doi.org/10.1109/tcsvt.2019.2947545)
+
+<details><summary>Abstrak</summary>
+
+This article investigates the relative performance of multiple data embedding into H.264 compressed video under two schemes of closed-loop and open-loop methods. In closed-loop, a part of an encoder is modified to embed data within the encoding loop during re-compression, while in the open-loop scenario, a part of decoder is modified to embed data out of decoding loop. *(…)*
+
+</details>
 
 ---
 
@@ -9644,6 +10875,12 @@ Penulis: Sasithradevi, A.; Mohamed Mansoor Roomi, S. | Jurnal: *Journal of Visua
 
 DOI: [`10.1016/j.jvcir.2020.102754`](https://doi.org/10.1016/j.jvcir.2020.102754)
 
+<details><summary>Abstrak</summary>
+
+Abstract Video shot boundary detection (VSBD) is one of the most essential criteria for many intelligent video analysis-related applications, such as video retrieval, indexing, browsing, categorization and summarization. VSBD aims to segment big video data into meaningful fragments known as shots. *(…)*
+
+</details>
+
 ---
 
 **6. [A system dynamics simulation model to evaluate project planning policies](https://doi.org/10.1080/02286203.2019.1596779)**
@@ -9651,6 +10888,12 @@ DOI: [`10.1016/j.jvcir.2020.102754`](https://doi.org/10.1016/j.jvcir.2020.102754
 Penulis: Shafieezadeh, Mahdi; Kalantar Hormozi, Mehdi; Hassannayebi, Erfan *et al.* (6 authors) | Jurnal: *International Journal of Modelling and Simulation* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1080/02286203.2019.1596779`](https://doi.org/10.1080/02286203.2019.1596779)
+
+<details><summary>Abstrak</summary>
+
+ABSTRACT Computer simulation modeling approach has been used for the last decades to address the growing need for estimation, analysis and improvement of project performance indicators. In this research, a dynamic simulation model is developed capturing both hierarchical and dynamic complexities of projects. *(…)*
+
+</details>
 
 ---
 
@@ -9660,6 +10903,12 @@ Penulis: Elbert, Ralf; Knigge, Jan-Karl; Friedrich, Anne | Jurnal: *Journal of S
 
 DOI: [`10.1080/17477778.2019.1675480`](https://doi.org/10.1080/17477778.2019.1675480)
 
+<details><summary>Abstrak</summary>
+
+ABSTRACT In this paper, a modelling approach is proposed in order to simulate platoon planning possibilities for individual trucks. An agent-based simulation model has been developed using a generic transport network with randomly generated transports in order to calculate potential waiting times of trucks for platooning possibilities. *(…)*
+
+</details>
+
 ---
 
 **8. [Autoregressive Fractionally Integrated Moving Average-Generalized Autoregressive Conditional Heteroskedasticity Model with Level Shift Intervention](https://doi.org/10.4236/ojs.2020.102023)**
@@ -9667,6 +10916,12 @@ DOI: [`10.1080/17477778.2019.1675480`](https://doi.org/10.1080/17477778.2019.167
 Penulis: Dhliwayo, Lawrence; Matarise, Florance; Chimedza, Charles | Jurnal: *Open Journal of Statistics* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.4236/ojs.2020.102023`](https://doi.org/10.4236/ojs.2020.102023)
+
+<details><summary>Abstrak</summary>
+
+In this paper, we introduce the class of autoregressive fractionally integrated moving average-generalized autoregressive conditional heteroskedasticity (ARFIMA-GARCH) models with level shift type intervention that are capable of capturing three key features of time series: long range dependence, volatility and level shift. *(…)*
+
+</details>
 
 ---
 
@@ -9703,6 +10958,12 @@ This paper compares the frequentist method that consisted of the least-squares m
 Penulis: Seeber, Richard; Reichhartinger, Markus | Jurnal: *Automatica* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.automatica.2020.108921`](https://doi.org/10.1016/j.automatica.2020.108921)
+
+<details><summary>Abstrak</summary>
+
+Abstract The super-twisting algorithm is a robust sliding-mode control law, which in the case of a saturated control input suffers from a windup effect. This contribution proposes a modified control law that is obtained by mitigating windup by means of the conditioning technique. *(…)*
+
+</details>
 
 ---
 
@@ -9748,6 +11009,12 @@ Penulis: Jiao, Xiaoying; Li, Gang; Chen, Jason Li | Jurnal: *Annals of Tourism R
 
 DOI: [`10.1016/j.annals.2020.102937`](https://doi.org/10.1016/j.annals.2020.102937)
 
+<details><summary>Abstrak</summary>
+
+Abstract This study investigates whether tourism forecasting accuracy is improved by incorporating spatial dependence and spatial heterogeneity. One- to three-step-ahead forecasts of tourist arrivals were generated using global and local spatiotemporal autoregressive models for 37 European countries and the forecasting performance was compared with that of benchmark models including autoregressive… *(truncated)*
+
+</details>
+
 ---
 
 **16. [Forecasting the video data traffic of 5 G services in south korea](https://doi.org/10.1016/j.techfore.2020.119948)**
@@ -9755,6 +11022,12 @@ DOI: [`10.1016/j.annals.2020.102937`](https://doi.org/10.1016/j.annals.2020.1029
 Penulis: Shin, Hyungsup; Jung, Jiyeon; Koo, Yoonmo | Jurnal: *Technological Forecasting and Social Change* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.techfore.2020.119948`](https://doi.org/10.1016/j.techfore.2020.119948)
+
+<details><summary>Abstrak</summary>
+
+Abstract Along with the rapid evolution of mobile communication services, popularization of smartphones, and increase in traffic service usage, data traffic has also grown rapidly. Anticipating massive data traffic growth owing to the launch of the fifth-generation (5 G) mobile communication service in 2019, this study analyzes and forecasts: 1) the number of 5 G users using a logistic model, 2) c… *(truncated)*
+
+</details>
 
 ---
 
@@ -9792,6 +11065,12 @@ Jurnal: *journal of Biomedical Physics and Engineering* | Tipe: journal-article 
 
 DOI: [`10.31661/jbpe.v0i0.1155`](https://doi.org/10.31661/jbpe.v0i0.1155)
 
+<details><summary>Abstrak</summary>
+
+Background: Gadolinium (Gd3+) is a chemical element belonging to the lanthanide group and commonly used in magnetic resonance imaging (MRI) as a contrast agent. However, recently, gadolinium has been reported deposition in the body after a patient receives multiple injections. Gadolinium is a potent block and competes with calcium diffusion into the presynaptic. *(…)*
+
+</details>
+
 ---
 
 **20. [Linear embedding by joint Robust Discriminant Analysis and Inter-class Sparsity](https://doi.org/10.1016/j.neunet.2020.04.018)**
@@ -9799,6 +11078,12 @@ DOI: [`10.31661/jbpe.v0i0.1155`](https://doi.org/10.31661/jbpe.v0i0.1155)
 Penulis: Dornaika, F.; Khoder, A. | Jurnal: *Neural Networks* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.neunet.2020.04.018`](https://doi.org/10.1016/j.neunet.2020.04.018)
+
+<details><summary>Abstrak</summary>
+
+Linear Discriminant Analysis (LDA) and its variants are widely used as feature extraction methods. They have been used for different classification tasks. However, these methods have some limitations that need to be overcome. The main limitation is that the projection obtained by LDA does not provide a good interpretability for the features. *(…)*
+
+</details>
 
 ---
 
@@ -9808,6 +11093,12 @@ Jurnal: *Tehnicki vjesnik - Technical Gazette* | Tipe: journal-article | Bahasa:
 
 DOI: [`10.17559/tv-20190927081408`](https://doi.org/10.17559/tv-20190927081408)
 
+<details><summary>Abstrak</summary>
+
+Link prediction aims at predicting latent edges according to the existing network structure information and it has become one of the hot topics in complex networks. Latent feature model that has been used in link prediction directly projects the original network into the latent space. *(…)*
+
+</details>
+
 ---
 
 **22. [Manipulation Planning Using Object-Centered Predicates and Hierarchical Decomposition of Contextual Actions](https://doi.org/10.1109/lra.2020.3009063)**
@@ -9816,6 +11107,12 @@ Penulis: Agostini, Alejandro; Saveriano, Matteo; Lee, Dongheui *et al.* (4 autho
 
 DOI: [`10.1109/lra.2020.3009063`](https://doi.org/10.1109/lra.2020.3009063)
 
+<details><summary>Abstrak</summary>
+
+Current approaches combining task and motion planning require intensive geometric and symbolic reasoning to find feasible motions for task execution. The poor expressiveness of task planning domains for characterizing geometric changes with actions and the difficulties faced by current approaches to efficiently identify motion dependencies for plan execution produce expensive callings to motion pl… *(truncated)*
+
+</details>
+
 ---
 
 **23. [MASK-RL: Multiagent Video Object Segmentation Framework Through Reinforcement Learning](https://doi.org/10.1109/tnnls.2019.2963282)**
@@ -9823,6 +11120,12 @@ DOI: [`10.1109/lra.2020.3009063`](https://doi.org/10.1109/lra.2020.3009063)
 Penulis: Vecchio, Giuseppe; Palazzo, Simone; Giordano, Daniela *et al.* (5 authors) | Jurnal: *IEEE Transactions on Neural Networks and Learning Systems* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tnnls.2019.2963282`](https://doi.org/10.1109/tnnls.2019.2963282)
+
+<details><summary>Abstrak</summary>
+
+Integrating human-provided location priors into video object segmentation has been shown to be an effective strategy to enhance performance, but their application at large scale is unfeasible. Gamification can help reduce the annotation burden, but it still requires user involvement. *(…)*
+
+</details>
 
 ---
 
@@ -9845,6 +11148,12 @@ Abstract Road traffic prediction plays a vital role in real-time traffic managem
 Penulis: Dhliwayo, Lawrence; Matarise, Florance; Chimedza, Charles | Jurnal: *Open Journal of Statistics* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.4236/ojs.2020.105047`](https://doi.org/10.4236/ojs.2020.105047)
+
+<details><summary>Abstrak</summary>
+
+This paper introduces the class of seasonal fractionally integrated autoregressive moving average-generalized conditional heteroskedastisticty (SARFIMA- GARCH) models, with level shift type intervention that are capable of capturing simultaneously four key features of time series: seasonality, long range dependence, volatility and level shift. *(…)*
+
+</details>
 
 ---
 
@@ -9918,6 +11227,12 @@ Penulis: Setiawan, Kurnia; Chrissandi, Ruby | Jurnal: *VISUAL* | Tipe: journal-a
 
 DOI: [`10.24912/jurnal.v14i2.4508`](https://doi.org/10.24912/jurnal.v14i2.4508)
 
+<details><summary>Abstrak</summary>
+
+Abstract— Perancangan video dokumenter “Agents of Change” adalah bagian dari penelitian produk terapan dengan judul “Karakteristik Agen Perubahan untuk Menciptakan Tatanan Masyarakat yang Lebih Baik”. Hasil penelitian tulisan, poster foto dan video yang dibuat dalam rangka memperingati 20 tahun peristiwa reformasi 98 yang akan jatuh pada bulan Mei 2018. *(…)*
+
+</details>
+
 ---
 
 **32. [Predictive factors of treatment persistence in rheumatoid arthritis](https://doi.org/10.1016/j.jbspin.2020.03.006)**
@@ -9925,6 +11240,12 @@ DOI: [`10.24912/jurnal.v14i2.4508`](https://doi.org/10.24912/jurnal.v14i2.4508)
 Penulis: Lauper, Kim; Finckh, Axel | Jurnal: *Joint Bone Spine* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.jbspin.2020.03.006`](https://doi.org/10.1016/j.jbspin.2020.03.006)
+
+<details><summary>Abstrak</summary>
+
+1. Introduction. Randomised controlled trials (RCTs) are considered the “gold standard” to establish drug efficacy, but they have typically a short follow-up and include only a limited number of patients, which rarely allows to assess safety appropriately. *(…)*
+
+</details>
 
 ---
 
@@ -9934,6 +11255,12 @@ Penulis: Liu, Yongqi; Qin, Hui; Zhang, Zhendong *et al.* (7 authors) | Jurnal: *
 
 DOI: [`10.1016/j.apenergy.2019.114259`](https://doi.org/10.1016/j.apenergy.2019.114259)
 
+<details><summary>Abstrak</summary>
+
+Reliable and accurate probabilistic forecasting of wind speed is of vital importance for the utilization of wind energy and operation of power systems. In this paper, a probabilistic spatiotemporal deep learning model for wind speed forecasting is proposed. The underlying wind turbines are embedded into a grid space, which fully expresses the spatiotemporal variation process of the airflow. *(…)*
+
+</details>
+
 ---
 
 **34. [Real-world evidence generation with David Thompson](https://doi.org/10.2217/vjbm-2020-0001)**
@@ -9941,6 +11268,12 @@ DOI: [`10.1016/j.apenergy.2019.114259`](https://doi.org/10.1016/j.apenergy.2019.
 Penulis: Thompson, David | Jurnal: *Video Journal of Biomedicine* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.2217/vjbm-2020-0001`](https://doi.org/10.2217/vjbm-2020-0001)
+
+<details><summary>Abstrak</summary>
+
+Abstract In this video David Thompson, Syneos Health, provides his thoughts on the role of real-world evidence (RWE) in healthcare decision making. Reflecting on recent examples where RWE has been used by regulatory bodies in drug approvals, David also discusses the importance of well-designed RWE studies to ensure it can be considered by regulatory bodies and how new technologies, such as virtual… *(truncated)*
+
+</details>
 
 ---
 
@@ -9957,6 +11290,12 @@ DOI: [`10.18564/jasss.4255`](https://doi.org/10.18564/jasss.4255)
 Penulis: Qian, Li | Jurnal: *International Journal of Simulation Systems Science & Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.5013/ijssst.a.16.2a.07`](https://doi.org/10.5013/ijssst.a.16.2a.07)
+
+<details><summary>Abstrak</summary>
+
+Objective: In order to improve the teaching effect of Physical Education. Methods: Establishing a model of interactive physical training based on computer platform. Process: The article puts forward the problems existing in the teaching of modern physical education, analyzes the feasibility of interactive teaching, presents the mathematical model of the interactive teaching evaluation system, stru… *(truncated)*
+
+</details>
 
 ---
 
@@ -10008,6 +11347,12 @@ Penulis: Lei, Jianjun; Song, Yuxin; Peng, Bo *et al.* (6 authors) | Jurnal: *IEE
 
 DOI: [`10.1109/tcsvt.2019.2936710`](https://doi.org/10.1109/tcsvt.2019.2936710)
 
+<details><summary>Abstrak</summary>
+
+Sketch-based image retrieval (SBIR) is a challenging task due to the large cross-domain gap between sketches and natural images. How to align abstract sketches and natural images into a common high-level semantic space remains a key problem in SBIR. *(…)*
+
+</details>
+
 ---
 
 **41. [Semi-supervised elastic manifold embedding with deep learning architecture](https://doi.org/10.1016/j.patcog.2020.107425)**
@@ -10015,6 +11360,12 @@ DOI: [`10.1109/tcsvt.2019.2936710`](https://doi.org/10.1109/tcsvt.2019.2936710)
 Penulis: Zhu, R.; Dornaika, F.; Ruichek, Y. | Jurnal: *Pattern Recognition* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.patcog.2020.107425`](https://doi.org/10.1016/j.patcog.2020.107425)
+
+<details><summary>Abstrak</summary>
+
+Abstract Graph-based embedding aims to reduce the dimension of high dimensional data and to extract relevant features for learning tasks. In this letter, we propose an Elastic graph-based embedding with deep architecture which deeply explores the structural information of the data. *(…)*
+
+</details>
 
 ---
 
@@ -10038,6 +11389,12 @@ Penulis: Khammayom, Napassawan; Maruyama, Naoki; Chaichana, Chatchawan | Jurnal:
 
 DOI: [`10.1016/j.egyr.2019.11.086`](https://doi.org/10.1016/j.egyr.2019.11.086)
 
+<details><summary>Abstrak</summary>
+
+Abstract The purpose of this study is to develop simplified cooling/heating load models for a various air-conditioned room, applying the Buckingham-Pi theorem. The model is used to estimate cooling/heating loads of air-conditioned room at reduced calculation time. *(…)*
+
+</details>
+
 ---
 
 **44. [Spatiotemporal probabilistic wind vector forecasting over Saudi Arabia](https://doi.org/10.1214/20-aoas1347)**
@@ -10045,6 +11402,12 @@ DOI: [`10.1016/j.egyr.2019.11.086`](https://doi.org/10.1016/j.egyr.2019.11.086)
 Penulis: Lenzi, Amanda; Genton, Marc G. | Jurnal: *The Annals of Applied Statistics* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1214/20-aoas1347`](https://doi.org/10.1214/20-aoas1347)
+
+<details><summary>Abstrak</summary>
+
+The authors would like to thank the anonymous referees, an Associate Editor and the Editor for their constructive comments that improved the quality of this paper. This publication is based on research supported by the King Abdullah University of Science and Technology (KAUST), Office of Sponsored Research (OSR) under Award No. OSR-2018-CRG7-3742.
+
+</details>
 
 ---
 
@@ -10054,6 +11417,12 @@ Penulis: Suryani, E.; Hendrawan, R. A.; Adipraja, P. F. E. *et al.* (4 authors) 
 
 DOI: [`10.2507/ijsimm19-1-493`](https://doi.org/10.2507/ijsimm19-1-493)
 
+<details><summary>Abstrak</summary>
+
+This paper aims to develop an urban transportation planning through the use of system dynamics simulation model. This planning includes congestion mitigation through demand and capacity management, the improvement of public transport sector, and the urban mobility improvement. *(…)*
+
+</details>
+
 ---
 
 **46. [The diffusion model visualizer: an interactive tool to understand the diffusion model parameters](https://doi.org/10.1007/s00426-018-1112-6)**
@@ -10062,6 +11431,12 @@ Penulis: Alexandrowicz, Rainer W. | Jurnal: *Psychological Research* | Tipe: jou
 
 DOI: [`10.1007/s00426-018-1112-6`](https://doi.org/10.1007/s00426-018-1112-6)
 
+<details><summary>Abstrak</summary>
+
+Response time (RT) data play an important role in psychology. The diffusion model (DM) allows to analyze RT-data in a two-alternative-force-choice paradigm using a particle drift diffusion modeling approach. It accounts for right-skewed distributions in a natural way. However, the model incorporates seven parameters, the roles of which are difficult to comprehend from the model equation. *(…)*
+
+</details>
+
 ---
 
 **47. [The Diffusion of Alternative Fuel Vehicles: A Generalised Model and Future Research Agenda](https://doi.org/10.1080/17477778.2019.1708219)**
@@ -10069,6 +11444,12 @@ DOI: [`10.1007/s00426-018-1112-6`](https://doi.org/10.1007/s00426-018-1112-6)
 Penulis: Keith, David R.; Struben, Jeroen J.R.; Naumov, Sergey | Jurnal: *Journal of Simulation* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1080/17477778.2019.1708219`](https://doi.org/10.1080/17477778.2019.1708219)
+
+<details><summary>Abstrak</summary>
+
+ABSTRACT The rapid decarbonisation of transportation is critical if global efforts to mitigate the worst possible impacts of anthropogenic climate change are to be successful. Transportation is a leading sectoral contributor of greenhouse gas emissions, and demand for transportation continues to grow globally. *(…)*
+
+</details>
 
 ---
 
@@ -10100,6 +11481,12 @@ Jurnal: *Communications in Mathematical Biology and Neuroscience* | Tipe: journa
 
 DOI: [`10.28919/cmbn/4960`](https://doi.org/10.28919/cmbn/4960)
 
+<details><summary>Abstrak</summary>
+
+Modeling with the Tweedie compound Poisson distribution is mostly done based on the Generalized Linear Model (GLM). GLM can be expanded into the Generalized Linear Mixed Model (GLMM) if there are fixed effects and random effects. GLMM modeling with Tweedie compound Poisson response variables is still rarely done because it is not analytically tractable and the density function cannot be stated in… *(truncated)*
+
+</details>
+
 ---
 
 **51. [Unit Root Testing on Buffered Autoregressive Model](https://doi.org/10.5705/ss.202017.0507)**
@@ -10108,6 +11495,12 @@ Penulis: Wang, Di; Li, Wai Keung | Jurnal: *Statistica Sinica* | Tipe: journal-a
 
 DOI: [`10.5705/ss.202017.0507`](https://doi.org/10.5705/ss.202017.0507)
 
+<details><summary>Abstrak</summary>
+
+A buffered autoregression extends the classical threshold autoregression by allowing a buffer region for regime changes. In this study, we examine asymptotic statistical inferences for the two-regime buffered autoregressive (BAR) model, with autoregressive unit roots. *(…)*
+
+</details>
+
 ---
 
 **52. [Using dynamic mathematics software to model a real-world phenomenon in the classroom](https://doi.org/10.1080/10494820.2019.1674882)**
@@ -10115,6 +11508,12 @@ DOI: [`10.5705/ss.202017.0507`](https://doi.org/10.5705/ss.202017.0507)
 Penulis: Çekmez, Erdem | Jurnal: *Interactive Learning Environments* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1080/10494820.2019.1674882`](https://doi.org/10.1080/10494820.2019.1674882)
+
+<details><summary>Abstrak</summary>
+
+ABSTRACT Mathematical modelling is acknowledged to be one of the major dimensions of mathematical competence, and well-designed modelling activities can provide students with the opportunity to use mathematical concepts and procedures in a meaningful way. *(…)*
+
+</details>
 
 ---
 
@@ -10138,6 +11537,12 @@ Penulis: Chen, Jian; Chen, Zhifeng; Su, Kaixiong *et al.* (5 authors) | Jurnal: 
 
 DOI: [`10.1016/j.jvcir.2019.102734`](https://doi.org/10.1016/j.jvcir.2019.102734)
 
+<details><summary>Abstrak</summary>
+
+Abstract The existing video compressed sensing (CS) algorithms for inconsistent sampling ignore the joint correlations of video signals in space and time, and their reconstruction quality and speed need further improvement. To balance reconstruction quality with computational complexity, we introduce a structural group sparsity model for use in the initial reconstruction phase and propose a weight… *(truncated)*
+
+</details>
+
 ---
 
 **55. [Video Face Clustering With Self-Supervised Representation Learning](https://doi.org/10.1109/tbiom.2019.2947264)**
@@ -10146,6 +11551,12 @@ Penulis: Sharma, Vivek; Tapaswi, Makarand; Sarfraz, M. Saquib *et al.* (4 author
 
 DOI: [`10.1109/tbiom.2019.2947264`](https://doi.org/10.1109/tbiom.2019.2947264)
 
+<details><summary>Abstrak</summary>
+
+Characters are a key component of understanding the story conveyed in TV series and movies. With the rise of advanced deep face models, identifying face images may seem like a solved problem. However, as face detectors get better, clustering and identification need to be revisited to address increasing diversity in facial appearance. *(…)*
+
+</details>
+
 ---
 
 **56. [Video-assisted thoracic surgery lobectomy simulation and training with a new human cadaver model](https://doi.org/10.1510/mmcts.2020.029)**
@@ -10153,6 +11564,12 @@ DOI: [`10.1109/tbiom.2019.2947264`](https://doi.org/10.1109/tbiom.2019.2947264)
 Jurnal: *The Multimedia Manual of Cardio-Thoracic Surgery* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1510/mmcts.2020.029`](https://doi.org/10.1510/mmcts.2020.029)
+
+<details><summary>Abstrak</summary>
+
+Video-assisted thoracic surgery (VATS) lobectomy is the gold standard for the treatment of early-stage lung cancer. The use of surgical models for training and simulation in minimally invasive surgery simulation is an integral part of surgical education and skills acquisition for residents, and also for more experienced surgeons. *(…)*
+
+</details>
 
 ---
 
@@ -10164,6 +11581,12 @@ Penulis: Qi, Yanlin; Li, Qi; Karimian, Hamed *et al.* (4 authors) | Jurnal: *Sci
 
 DOI: [`10.1016/j.scitotenv.2019.01.333`](https://doi.org/10.1016/j.scitotenv.2019.01.333)
 
+<details><summary>Abstrak</summary>
+
+Increasing availability of data related to air quality from ground monitoring stations has provided the chance for data mining researchers to propose sophisticated models for predicting the concentrations of different air pollutants. In this paper, we proposed a hybrid model based on deep learning methods that integrates Graph Convolutional networks and Long Short-Term Memory networks (GC-LSTM) to… *(truncated)*
+
+</details>
+
 ---
 
 **2. [A long video caption generation algorithm for big video data retrieval](https://doi.org/10.1016/j.future.2018.10.054)**
@@ -10172,6 +11595,12 @@ Penulis: Ding, Songtao; Qu, Shiru; Xi, Yuling *et al.* (4 authors) | Jurnal: *Fu
 
 DOI: [`10.1016/j.future.2018.10.054`](https://doi.org/10.1016/j.future.2018.10.054)
 
+<details><summary>Abstrak</summary>
+
+Abstract Videos captured by people are often tied to certain important moments of their lives. But with the era of big data coming, the time required to retrieval and watch can be daunting. In this paper, novel techniques are proposed for the application of long video segmentation, which can effectively shorten the retrieval time. *(…)*
+
+</details>
+
 ---
 
 **3. [A Model of Adaptive Reinforcement Learning](https://doi.org/10.2139/ssrn.3350711)**
@@ -10179,6 +11608,12 @@ DOI: [`10.1016/j.future.2018.10.054`](https://doi.org/10.1016/j.future.2018.10.0
 Penulis: Romero, Julian; Rosokha, Yaroslav | Jurnal: *SSRN Electronic Journal* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.2139/ssrn.3350711`](https://doi.org/10.2139/ssrn.3350711)
+
+<details><summary>Abstrak</summary>
+
+We develop a model of learning that extends the classic models of reinforcement learning to a continuous, multidimensional strategy space. The model takes advantage of the recent approximation methods to tackle the curse of dimensionality inherent to a traditional discretization approach. *(…)*
+
+</details>
 
 ---
 
@@ -10202,6 +11637,12 @@ Penulis: Rakhmawati, Lusia; Wirawan, Wirawan; Suwadi, Suwadi | Jurnal: *EURASIP 
 
 DOI: [`10.1186/s13640-019-0462-3`](https://doi.org/10.1186/s13640-019-0462-3)
 
+<details><summary>Abstrak</summary>
+
+The rapid developments of storage technology and information exchange encourage the development of research in the field of information security. In the process of sending information, tamper and issues about data ownership may occur. The fragile watermarking is one technique that can overcome the problem, in which this technique exploits sensitivity to tamper with the inserted watermark component… *(truncated)*
+
+</details>
+
 ---
 
 **6. [A social recommender system using deep architecture and network embedding](https://doi.org/10.1007/s10489-018-1359-z)**
@@ -10218,6 +11659,12 @@ Penulis: Tsukamoto, Takahiro | Jurnal: *Japan and the World Economy* | Tipe: jou
 
 DOI: [`10.1016/j.japwor.2018.11.003`](https://doi.org/10.1016/j.japwor.2018.11.003)
 
+<details><summary>Abstrak</summary>
+
+Abstract By integrating Battese and Coelli’s (1995) model and the spatial autoregressive model (SAR), a spatial autoregressive stochastic frontier model for panel data is developed. The main feature of this frontier model is a spatial lag term of explained variables and the joint structure of a production possibility frontier with a model of technical inefficiency. *(…)*
+
+</details>
+
 ---
 
 **8. [A Traffic Simulation Model with Interactive Drivers and High-fidelity Car Dynamics](https://doi.org/10.1016/j.ifacol.2019.01.010)**
@@ -10225,6 +11672,12 @@ DOI: [`10.1016/j.japwor.2018.11.003`](https://doi.org/10.1016/j.japwor.2018.11.0
 Penulis: Su, Guankun; Li, Nan; Yildiz, Yildiray *et al.* (5 authors) | Jurnal: *IFAC-PapersOnLine* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.ifacol.2019.01.010`](https://doi.org/10.1016/j.ifacol.2019.01.010)
+
+<details><summary>Abstrak</summary>
+
+Abstract We integrate a set of game-theoretic driver decision-making models with the high-fidelity car driving simulator The Open Racing Car Simulator (TORCS). The game-theoretic driver models simulate the interactive decision making processes of the drivers and TORCS simulates vehicle dynamics in multi-vehicle highway traffic scenarios. *(…)*
+
+</details>
 
 ---
 
@@ -10247,6 +11700,12 @@ In recent years Machine Learning techniques have become the driving force behind
 Penulis: Yang, Qi; Wang, Yishu | Jurnal: *Open Journal of Statistics* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.4236/ojs.2019.95036`](https://doi.org/10.4236/ojs.2019.95036)
+
+<details><summary>Abstrak</summary>
+
+This study firstly improved the Generalized Autoregressive Conditional Heteroskedast model for the issue that financial product sales data have singular information when applying this model, and the improved outlier detection method was used to detect the location of outliers, which were processed by the iterative method. *(…)*
+
+</details>
 
 ---
 
@@ -10287,6 +11746,12 @@ DOI: [`10.18564/jasss.3950`](https://doi.org/10.18564/jasss.3950)
 Penulis: Salomon, Billeter | Jurnal: *SSRN Electronic Journal* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.2139/ssrn.3419447`](https://doi.org/10.2139/ssrn.3419447)
+
+<details><summary>Abstrak</summary>
+
+A comprehensive simulation meta model for transition planning and decision analysis is proposed and outlined. This model is designed to provide insight on the effects of a proposed agenda ahead of time, and to support an optimization of means and resources available to decision makers in governments, organizations, businesses, or to private persons to reach their goals across different time horizo… *(truncated)*
+
+</details>
 
 ---
 
@@ -10334,6 +11799,12 @@ Penulis: Cardoso, Alisson Assis; Vieira, Flávio Henrique Teles | Jurnal: *IEEE 
 
 DOI: [`10.1109/tla.2019.8932335`](https://doi.org/10.1109/tla.2019.8932335)
 
+<details><summary>Abstrak</summary>
+
+Modeling, testing and simulation of communications systems require to generate synthetic traffic series that present characteristics and behaviors as similar as possible to those of real network traffic traces. In this paper, we propose an adaptive algorithm to estimate the parameters of the Transformed Autoregressive Moving Average (TARMA) model in order to capture the autocorrelation function an… *(truncated)*
+
+</details>
+
 ---
 
 **21. [Global dynamics of a latent HIV infection model with general incidence function and multiple delays](https://doi.org/10.3934/dcdsb.2018207)**
@@ -10341,6 +11812,12 @@ DOI: [`10.1109/tla.2019.8932335`](https://doi.org/10.1109/tla.2019.8932335)
 Penulis: Yang, Yu; Dong, Yueping; Takeuchi, Yasuhiro | Jurnal: *Discrete and Continuous Dynamical Systems - B* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.3934/dcdsb.2018207`](https://doi.org/10.3934/dcdsb.2018207)
+
+<details><summary>Abstrak</summary>
+
+In this paper, we propose a latent HIV infection model with general incidence function and multiple delays. We derive the positivity and boundedness of solutions, as well as the existence and local stability of the infection-free and infected equilibria. By constructing Lyapunov functionals, we establish the global stability of the equilibria based on the basic reproduction number. *(…)*
+
+</details>
 
 ---
 
@@ -10364,6 +11841,12 @@ Penulis: Tian, H.; Ma, L.; Zhu, X. *et al.* (4 authors) | Jurnal: *International
 
 DOI: [`10.2507/ijsimm18(1)co2`](https://doi.org/10.2507/ijsimm18(1)co2)
 
+<details><summary>Abstrak</summary>
+
+This paper aims to improve the accuracy of robot-assisted grinding in total knee arthroplasty (TKA). For this purpose, a 3 DOF knee grinding robot was designed, combining the merits of series robot and parallel robot. The kinematics equations of the robot were derived by the vector method and the workspace of the robot was identified through Monte-Carlo method. *(…)*
+
+</details>
+
 ---
 
 **24. [High Efficiency Video Coding Compliant Perceptual Video Coding Using Entropy Based Visual Saliency Model](https://doi.org/10.3390/e21100964)**
@@ -10385,6 +11868,12 @@ In past years, several visual saliency algorithms have been proposed to extract 
 Penulis: He, Tao | Jurnal: *EURASIP Journal on Image and Video Processing* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1186/s13640-019-0425-8`](https://doi.org/10.1186/s13640-019-0425-8)
+
+<details><summary>Abstrak</summary>
+
+In the face of huge amounts of image data, how to let the computer simulate human cognition of images and automatically classify images into different semantic categories have become a key issue in image semantic analysis. Image classification is based on some attribute of the image, and it is divided into pre-set categories. *(…)*
+
+</details>
 
 ---
 
@@ -10408,6 +11897,12 @@ Penulis: Yuan, Ying; Wang, Cong | Jurnal: *Journal of Visual Communication and I
 
 DOI: [`10.1016/j.jvcir.2019.102629`](https://doi.org/10.1016/j.jvcir.2019.102629)
 
+<details><summary>Abstrak</summary>
+
+Abstract In recent years, with the continuous development of network science and technology and the continuous promotion of “three networks convergence”, IPTV (Interactive Network Television) has shown a rapid development trend. IPTV is different from the traditional one-way broadcasting mode of television, it can achieve interaction with the audience, and provide more personalized and diversified… *(truncated)*
+
+</details>
+
 ---
 
 **28. [Joint Sparse Neighborhood Preserving Embedding](https://doi.org/10.1088/1742-6596/1176/3/032023)**
@@ -10415,6 +11910,12 @@ DOI: [`10.1016/j.jvcir.2019.102629`](https://doi.org/10.1016/j.jvcir.2019.102629
 Penulis: Liu, Haibiao; Lai, Zhihui; Chen, Yudong | Jurnal: *Journal of Physics: Conference Series* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1088/1742-6596/1176/3/032023`](https://doi.org/10.1088/1742-6596/1176/3/032023)
+
+<details><summary>Abstrak</summary>
+
+Feature extraction and feature selection are the two most commonly used methods for dimensionality reduction in the field of machine learning. A new method can do feature extraction and selection simultaneously was presented in this paper, we named the method as Joint Sparse Neighborhood Preserving Embedding (JSNPE). *(…)*
+
+</details>
 
 ---
 
@@ -10424,6 +11925,12 @@ Penulis: Koller, Thomas M.; Tallarek, Ulrich | Jurnal: *Diffusion Fundamentals* 
 
 DOI: [`10.62721/diffusion-fundamentals.32.1071`](https://doi.org/10.62721/diffusion-fundamentals.32.1071)
 
+<details><summary>Abstrak</summary>
+
+Molecular diffusion in fluids and porous materials is important in many areas of chemical and process engineering. Examples include continuous-flow reactors, desalination membranes, battery electrodes, or fixed-bed adsorption and separation columns. *(…)*
+
+</details>
+
 ---
 
 **30. [Optimized Tone Mapping Function for Contrast Enhancement Considering Human Visual Perception System](https://doi.org/10.1109/tcsvt.2018.2876120)**
@@ -10431,6 +11938,12 @@ DOI: [`10.62721/diffusion-fundamentals.32.1071`](https://doi.org/10.62721/diffus
 Penulis: Song, Ki Sun; Kang, Moon Gi | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2018.2876120`](https://doi.org/10.1109/tcsvt.2018.2876120)
+
+<details><summary>Abstrak</summary>
+
+Conventional contrast enhancement methods, including global and local enhancements, produce enhanced images with some limitations. Global contrast enhancement does not take the local characteristics into consideration, and therefore, the enhancement performance could be limited. *(…)*
+
+</details>
 
 ---
 
@@ -10440,6 +11953,12 @@ Penulis: Krug, Michael; Ohlhorst, Dörte | Jurnal: *Journal of Environmental Pol
 
 DOI: [`10.15301/jepa.2019.27.s.77`](https://doi.org/10.15301/jepa.2019.27.s.77)
 
+<details><summary>Abstrak</summary>
+
+In this article we ask about the factors that promote acceptance of local renewable energy plants and about the specific role nature conservation plays in the concert of other acceptance factors. We explored to what extent trade-offs between climate protection, nature and species protection, protection of local residents and local value creation can be realigned. *(…)*
+
+</details>
+
 ---
 
 **32. [Policy Application of the Hydroplaning Prediction Model for Road Management in the Summer Rainfall](https://doi.org/10.15301/jepa.2019.27.4.103)**
@@ -10448,6 +11967,12 @@ Penulis: Ahn, Sukhee; Yang, Hojin; Yi, Chaeyeon | Jurnal: *Journal of Environmen
 
 DOI: [`10.15301/jepa.2019.27.4.103`](https://doi.org/10.15301/jepa.2019.27.4.103)
 
+<details><summary>Abstrak</summary>
+
+The purpose of this study is to suggest a plan that can be applied to road management and accident prevention by utilizing the prediction of the potential area for hydroplaning during the summer rainfall. Hydroplaning is a condition that can exist when a layer of water builds between the tires of the vehicle and surface of the road, the tire has lost its grip on the road. *(…)*
+
+</details>
+
 ---
 
 **33. [Policy Evaluation of Eco-friendly Sustainable Urban Planning: Focused on Three Case Areas](https://doi.org/10.15301/jepa.2019.27.2.215)**
@@ -10455,6 +11980,12 @@ DOI: [`10.15301/jepa.2019.27.4.103`](https://doi.org/10.15301/jepa.2019.27.4.103
 Penulis: Kim, Tae Ho; Kang, Young Eun; Park, Chang Sug | Jurnal: *Journal of Environmental Policy and Administration* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.15301/jepa.2019.27.2.215`](https://doi.org/10.15301/jepa.2019.27.2.215)
+
+<details><summary>Abstrak</summary>
+
+The purpose of this study is to carry out policy evaluation of planning targeting three case areas (Gangneung Gyeongpo, Cheongju Munam, and Busan Seo-gu) for an eco-friendly sustainable urban project. The “evaluation model” of formation implementation performance, mainly applied to the policy evaluation, was used to evaluate the following. *(…)*
+
+</details>
 
 ---
 
@@ -10471,6 +12002,12 @@ DOI: [`10.21275/sr24314130644`](https://doi.org/10.21275/sr24314130644)
 Penulis: Sriram, T. N.; Samadi, S. Yaser | Jurnal: *Sequential Analysis* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1080/07474946.2019.1648933`](https://doi.org/10.1080/07474946.2019.1648933)
+
+<details><summary>Abstrak</summary>
+
+Abstract This article revisits the problem of sequential point estimation of the autogressive parameter in an autoregressive model of order 1, where the errors are independent and identically distributed with mean 0 and unknown variance . This problem was originally considered in Sriram (1988), where first-order efficiency properties and a second-order expansion for the expected value of a stoppin… *(truncated)*
+
+</details>
 
 ---
 
@@ -10502,6 +12039,12 @@ Penulis: Holy Angel University; Bulanadi, Jehan; Tumibay, Gilbert *et al.* (6 au
 
 DOI: [`10.25147/ijcsr.2017.001.1.36`](https://doi.org/10.25147/ijcsr.2017.001.1.36)
 
+<details><summary>Abstrak</summary>
+
+Purpose â€“ Deforestation is one of the Global Forests issues that concern the United Nations (UN) for several decades and it thus leads to a vision of increasing the forestland area by 2030 that is the same size as South Africa. With this concern, spatiotemporal data analysis had been an effective way to visualize and represent the area that have been damaged and affected with the integration of… *(truncated)*
+
+</details>
+
 ---
 
 **39. [Spatiotemporal dynamics of a diffusive Leslie–Gower prey–predator model with strong Allee effect](https://doi.org/10.1016/j.nonrwa.2019.06.008)**
@@ -10509,6 +12052,12 @@ DOI: [`10.25147/ijcsr.2017.001.1.36`](https://doi.org/10.25147/ijcsr.2017.001.1.
 Penulis: Ma, Zhan-Ping | Jurnal: *Nonlinear Analysis: Real World Applications* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.nonrwa.2019.06.008`](https://doi.org/10.1016/j.nonrwa.2019.06.008)
+
+<details><summary>Abstrak</summary>
+
+Abstract This paper is concerned with the spatiotemporal dynamics of a diffusive Leslie–Gower prey–predator model with strong Allee effect in the prey population. The necessary and sufficient conditions of Turing instability are explicitly obtained. We demonstrate that at the critical value of the bifurcation parameter d 2 a Turing bifurcation occurs (i.e, a pattern arises). *(…)*
+
+</details>
 
 ---
 
@@ -10518,6 +12067,12 @@ Penulis: Bampis, Christos G.; Li, Zhi; Bovik, Alan C. | Jurnal: *IEEE Transactio
 
 DOI: [`10.1109/tcsvt.2018.2868262`](https://doi.org/10.1109/tcsvt.2018.2868262)
 
+<details><summary>Abstrak</summary>
+
+The recently developed video multi-method assessment fusion (VMAF) framework integrates multiple quality-aware features to accurately predict the video quality. However, the VMAF does not yet exploit important principles of temporal perception that are relevant to the perceptual video distortion measurement. *(…)*
+
+</details>
+
 ---
 
 **41. [Stochastic Data Generation Technique Using Autoregressive Moving Average (ARMA) Model](https://doi.org/10.7176/isde/10-1-02)**
@@ -10526,6 +12081,12 @@ Jurnal: *Innovative Systems Design and Engineering* | Tipe: journal-article | Ba
 
 DOI: [`10.7176/isde/10-1-02`](https://doi.org/10.7176/isde/10-1-02)
 
+<details><summary>Abstrak</summary>
+
+Data generation mechanisms have been widely applied in hydrology. Models are built for generation of data having the statistical properties of the historical records. The creation of synthetic time series starts with the generation of independent normal variables with average zero and variance one, then adding the time and spatial dependence structure as well as periodic components, whichever nece… *(truncated)*
+
+</details>
+
 ---
 
 **42. [The contribution of a GIS-based landscape assessment model to a scientifically rigorous approach to visual impact assessment](https://doi.org/10.1016/j.landurbplan.2019.03.005)**
@@ -10533,6 +12094,12 @@ DOI: [`10.7176/isde/10-1-02`](https://doi.org/10.7176/isde/10-1-02)
 Penulis: Palmer, James F. | Jurnal: *Landscape and Urban Planning* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.landurbplan.2019.03.005`](https://doi.org/10.1016/j.landurbplan.2019.03.005)
+
+<details><summary>Abstrak</summary>
+
+Abstract Visual impact assessments (VIAs) rely primarily on key observation points (KOP). However, the analysis is highly dependent on the selected viewpoints. An analysis using a GIS-based landscape assessment model (LAM) would be an informative complement to a KOP analysis by providing results that cover the complete study area. *(…)*
+
+</details>
 
 ---
 
@@ -10563,6 +12130,12 @@ We introduce a deviation-tolerance software architecture, which is devised for a
 Penulis: Bishop, Ian D. | Jurnal: *Landscape and Urban Planning* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.landurbplan.2018.12.004`](https://doi.org/10.1016/j.landurbplan.2018.12.004)
+
+<details><summary>Abstrak</summary>
+
+Abstract The visual impact of wind turbines is a central issue in their public acceptance. New wind farm proposals are commonly subject to visual simulation and visual impact assessment. Guidelines for both these processes are already used in a number of jurisdictions and there is widespread interest in making simulation and impact assessments as meaningful as possible. *(…)*
+
+</details>
 
 ---
 
@@ -10608,6 +12181,12 @@ Penulis: Hussein, Mohamed; Sayed, Tarek | Jurnal: *Transportation Planning and T
 
 DOI: [`10.1080/03081060.2018.1541279`](https://doi.org/10.1080/03081060.2018.1541279)
 
+<details><summary>Abstrak</summary>
+
+ABSTRACT This study validates a recently developed agent-based pedestrian micro-simulation model in a crowded walking environment. The model is applied to simulate pedestrian movements at a major street in the downtown Vancouver area. The street was closed for traffic to allow people attending a social event to leave the area safely. *(…)*
+
+</details>
+
 ---
 
 **50. [Video Summarization by Learning Deep Side Semantic Embedding](https://doi.org/10.1109/tcsvt.2017.2771247)**
@@ -10615,6 +12194,12 @@ DOI: [`10.1080/03081060.2018.1541279`](https://doi.org/10.1080/03081060.2018.154
 Penulis: Yuan, Yitian; Mei, Tao; Cui, Peng *et al.* (4 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2017.2771247`](https://doi.org/10.1109/tcsvt.2017.2771247)
+
+<details><summary>Abstrak</summary>
+
+With the rapid growth of video content, video summarization, which focuses on automatically selecting important and informative parts from videos, is becoming increasingly crucial. However, the problem is challenging due to its subjectiveness. *(…)*
+
+</details>
 
 ---
 
@@ -10638,6 +12223,12 @@ Penulis: Ji, Sha; Shan, Yusheng; Li, Xiaofeng | Jurnal: *Journal of Visual Commu
 
 DOI: [`10.1016/j.jvcir.2019.102695`](https://doi.org/10.1016/j.jvcir.2019.102695)
 
+<details><summary>Abstrak</summary>
+
+Abstract On the basis of shot segmentation, an improved Rate Sensitive Competitive Learning algorithm (RSCLA) is proposed for unsupervised shot clustering based on NBA basketball video, which converts video stream data into symbol sequence. Aiming at the characteristics of sequence correlation, time correlation and no clear transaction concept in Video Association rules, this paper improved the tr… *(truncated)*
+
+</details>
+
 ---
 
 #### Tahun 2018 (35 artikel)
@@ -10655,6 +12246,12 @@ DOI: [`10.1109/tcsvt.2016.2629466`](https://doi.org/10.1109/tcsvt.2016.2629466)
 Penulis: Varghese, Annalise | Jurnal: *Architecture and Culture* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1080/20507828.2018.1535748`](https://doi.org/10.1080/20507828.2018.1535748)
+
+<details><summary>Abstrak</summary>
+
+Abstract The architectural pavilion is a common occurrence, from artistic institutional showpieces and prototypes for design schools to ephemeral structures in urban space. Preceding contemporary iterations, a 1990 urban festival in Groningen forecast the pavilion's future uses and popularity. *(…)*
+
+</details>
 
 ---
 
@@ -10686,6 +12283,12 @@ Penulis: Tong, Yachun; Lei, Chengxia | Jurnal: *Nonlinear Analysis: Real World A
 
 DOI: [`10.1016/j.nonrwa.2017.11.002`](https://doi.org/10.1016/j.nonrwa.2017.11.002)
 
+<details><summary>Abstrak</summary>
+
+Abstract This paper concerns an SIS epidemic reaction–diffusion model, which includes the possibility for spontaneous infection, in addition to disease transmission. We prove the global asymptotic stability of the unique endemic equilibrium when the spatial environment is homogeneous. *(…)*
+
+</details>
+
 ---
 
 **6. [Bayesian Inference Using Intermediate Distribution Based on Coarse Multiscale Model for Time Fractional Diffusion Equations](https://doi.org/10.1137/17m1110535)**
@@ -10708,6 +12311,12 @@ Penulis: Corlett, Philip R.; Powers, Albert R. | Jurnal: *World Psychiatry* | Ti
 
 DOI: [`10.1002/wps.20557`](https://doi.org/10.1002/wps.20557)
 
+<details><summary>Abstrak</summary>
+
+The authors acknowledge the support provided by US National Institutes of Health grants R01AG051944, R01AG026364, R01CA160245 and R01CA207130, Max Kade Foundation, and the Cousins Center for Psychoneuroimmunology. 1. Institute for Medicine. Preventing mental, emotional, and behavioral disorders among young people: progress and possibilities. Washington: National Academy Press, 2009. 2. Irwin MR. *(…)*
+
+</details>
+
 ---
 
 **8. [Content-Adaptive Feature-Based CU Size Prediction for Fast Low-Delay Video Encoding in HEVC](https://doi.org/10.1109/tcsvt.2016.2619499)**
@@ -10715,6 +12324,12 @@ DOI: [`10.1002/wps.20557`](https://doi.org/10.1002/wps.20557)
 Penulis: Mallikarachchi, Thanuja; Talagala, Dumidu S.; Arachchi, Hemantha Kodikara *et al.* (4 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/tcsvt.2016.2619499`](https://doi.org/10.1109/tcsvt.2016.2619499)
+
+<details><summary>Abstrak</summary>
+
+Determining the best partitioning structure of a coding tree unit is one of the most time-consuming operations in High Efficiency Video Coding (HEVC) encoding. Specifically, it is the evaluation of the quadtree hierarchy using the rate-distortion (RD) optimization that has the most significant impact on the encoding time, especially in the cases of high definition (HD) and ultra HD videos. *(…)*
+
+</details>
 
 ---
 
@@ -10806,6 +12421,12 @@ Penulis: Zhang, Weiping; Li, Xiujuan; Li, Yalin *et al.* (5 authors) | Jurnal: *
 
 DOI: [`10.1186/s13640-018-0363-x`](https://doi.org/10.1186/s13640-018-0363-x)
 
+<details><summary>Abstrak</summary>
+
+With the development of information technology, especially the development of visual image processing technology, more and more automated production links, such as injection molding production, use visualization to realize automatic detection of injection molds, but the traditional integrated environment for visual image processing exists in real time. *(…)*
+
+</details>
+
 ---
 
 **18. [Isophote-Constrained Autoregressive Model With Adaptive Window Extension for Image Interpolation](https://doi.org/10.1109/tcsvt.2016.2638864)**
@@ -10822,6 +12443,12 @@ Penulis: Liu, Yang; Hoai, Minh; Shao, Mang *et al.* (4 authors) | Jurnal: *IEEE 
 
 DOI: [`10.1109/tcsvt.2017.2713409`](https://doi.org/10.1109/tcsvt.2017.2713409)
 
+<details><summary>Abstrak</summary>
+
+We address the task of recognizing objects from video input. This important problem is relatively unexplored, compared with image-based object recognition. To this end, we make the following contributions. First, we introduce two comprehensive data sets for video-based object recognition. *(…)*
+
+</details>
+
 ---
 
 **20. [Model dependent reinforcement learning algorithm for reservoir operation stochastic optimization](https://doi.org/10.15406/ijh.2018.02.00129)**
@@ -10837,6 +12464,12 @@ DOI: [`10.15406/ijh.2018.02.00129`](https://doi.org/10.15406/ijh.2018.02.00129)
 Penulis: Song, Weiyan; Wubs, Fred; Thies, Jonas *et al.* (4 authors) | Jurnal: *Communications in Nonlinear Science and Numerical Simulation* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.cnsns.2018.01.003`](https://doi.org/10.1016/j.cnsns.2018.01.003)
+
+<details><summary>Abstrak</summary>
+
+Abstract We perform a numerical study of a two-component reaction–diffusion model. By using numerical continuation methods, combined with state-of-the-art sparse linear and eigenvalue solvers, we systematically compute steady state solutions and analyze their stability and relations in both two and three space dimensions. *(…)*
+
+</details>
 
 ---
 
@@ -10860,6 +12493,12 @@ Penulis: Bojesen, Troels Arnfred | Jurnal: *Physical Review E* | Tipe: journal-a
 
 DOI: [`10.1103/physreve.98.063303`](https://doi.org/10.1103/physreve.98.063303)
 
+<details><summary>Abstrak</summary>
+
+We introduce \textit{Policy Guided Monte Carlo} (PGMC), a computational framework using reinforcement learning to improve Markov chain Monte Carlo (MCMC) sampling. The methodology is generally applicable, unbiased and opens up a new path to automated discovery of efficient MCMC samplers. *(…)*
+
+</details>
+
 ---
 
 **24. [Prediction of rainfall in Dachigam catchment and generation of time series autoregressive model](https://doi.org/10.5958/2455-7145.2018.00022.x)**
@@ -10875,6 +12514,12 @@ DOI: [`10.5958/2455-7145.2018.00022.x`](https://doi.org/10.5958/2455-7145.2018.0
 Penulis: Umar, Sheikh; Khan, Junaid; Malik, Mohd *et al.* (5 authors) | Jurnal: *Current Journal of Applied Science and Technology* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.9734/cjast/2018/38694`](https://doi.org/10.9734/cjast/2018/38694)
+
+<details><summary>Abstrak</summary>
+
+The study was conducted with the prime objective to generate a stochastic time series model, capable of predicting runoff in Dachigam catchment area of Dal lake. It covers an area of 141 sq. km. The runoff data of the catchment from the year 1993-2013 was collected and used for the generation of model. *(…)*
+
+</details>
 
 ---
 
@@ -10898,6 +12543,12 @@ Penulis: Jang, Wooyoung | Jurnal: *IEEE Transactions on Circuits and Systems for
 
 DOI: [`10.1109/tcsvt.2017.2715062`](https://doi.org/10.1109/tcsvt.2017.2715062)
 
+<details><summary>Abstrak</summary>
+
+The state-of-the-art mobile image and graphic applications demand not only a lot of computing power, but also high-quality memory services. Moreover, depending on the screen orientations of mobile systems, image and graphic data can be accessed in a complicated manner. *(…)*
+
+</details>
+
 ---
 
 **28. [Self-Supervised Learning of Video Representation for Anticipating Actions in Early Stage](https://doi.org/10.1587/transinf.2018edl8013)**
@@ -10905,6 +12556,12 @@ DOI: [`10.1109/tcsvt.2017.2715062`](https://doi.org/10.1109/tcsvt.2017.2715062)
 Penulis: LIU, Yinan; WU, Qingbo; TANG, Liangzhi *et al.* (4 authors) | Jurnal: *IEICE Transactions on Information and Systems* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1587/transinf.2018edl8013`](https://doi.org/10.1587/transinf.2018edl8013)
+
+<details><summary>Abstrak</summary>
+
+SUMMARY In this paper, we propose a novel self-supervised learning of video representation which is capable to anticipate the video category by only reading its short clip. The key idea is that we employ the Siamese convolutional network to model the self-supervised feature learning as two di ﬀ erent image matching problems. *(…)*
+
+</details>
 
 ---
 
@@ -10921,6 +12578,12 @@ DOI: [`10.1166/jctn.2018.7473`](https://doi.org/10.1166/jctn.2018.7473)
 Penulis: J, Jin; R, Eagleson; S, Ribaupierre | Jurnal: *Biology, Engineering and Medicine* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.15761/bem.1000138`](https://doi.org/10.15761/bem.1000138)
+
+<details><summary>Abstrak</summary>
+
+Craniosynostosis occurs when one or more skull sutures fuse prematurely, resulting in an abnormal skull shape. Surgery is usually performed not only for cosmetic reasons, but also to avoid a rise in intracranial pressure. Currently, surgeons use their clinical expertise and experience to decide how they will reshape the skull when doing a total or partial vault remodeling. *(…)*
+
+</details>
 
 ---
 
@@ -10944,6 +12607,12 @@ Jurnal: *International Journal of Recent Trends in Engineering and Research* | T
 
 DOI: [`10.23883/ijrter.2018.4131.nurhl`](https://doi.org/10.23883/ijrter.2018.4131.nurhl)
 
+<details><summary>Abstrak</summary>
+
+Suspicious human activity prediction from surveillance video is an active research area of image processing. Through the visual surveillance, human activities can be monitored in sensitive areas like school, railway station, traffic, banks, etc. *(…)*
+
+</details>
+
 ---
 
 **33. [Vector Autoregressive Model With Dynamic Factors](https://doi.org/10.2139/ssrn.3306732)**
@@ -10959,6 +12628,12 @@ DOI: [`10.2139/ssrn.3306732`](https://doi.org/10.2139/ssrn.3306732)
 Penulis: Sullivan, Gary J. | Jurnal: *SMPTE Motion Imaging Journal* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.5594/jmi.2018.2846098`](https://doi.org/10.5594/jmi.2018.2846098)
+
+<details><summary>Abstrak</summary>
+
+Video comprises as much as three-fourths of IP traffic, 1 and has a huge impact on our lives by other measures as well, such as the multiple hours per day spent watching it in typical households and the amount of storage capacity devoted to it on the world’s servers and personal devices. *(…)*
+
+</details>
 
 ---
 
@@ -11405,6 +13080,12 @@ Penulis: Carlos Vélez-García; Miguel Cazorla; Jorge Pomares | Jurnal: *Compute
 
 DOI: [`10.1016/j.cviu.2026.104698`](https://doi.org/10.1016/j.cviu.2026.104698)
 
+<details><summary>Abstrak</summary>
+
+The reliance on large-scale datasets and extensive computational resources has become a major barrier to advancing representation learning in vision, especially in data-scarce domains. In this paper, we address the critical question: Can we escape the big data paradigm in self-supervised representation learning from images? We introduce SCOTT (Sparse Convolutional Tokenizer for Transformers), a sh… *(truncated)*
+
+</details>
+
 ---
 
 **32. [Family Income and Its Association with Student Discipline in Public Boys’ Boarding Senior Schools in Kakamega County, Kenya](https://doi.org/10.47772/ijriss.2026.100601377)**
@@ -11817,6 +13498,12 @@ Penulis: Yasin Shokrollahi; Jose Colmenarez; Wenxi Liu *et al.* (8 authors) | Ju
 
 DOI: [`10.1007/s10278-026-01908-0`](https://doi.org/10.1007/s10278-026-01908-0)
 
+<details><summary>Abstrak</summary>
+
+Artificial intelligence (AI) has catalyzed revolutionary changes across various sectors, notably in healthcare. In particular, generative AI-led by diffusion models and transformer architectures-has enabled significant breakthroughs in medical imaging (including image reconstruction, image-to-image translation, generation, and classification), protein structure prediction, clinical documentation,… *(truncated)*
+
+</details>
+
 ---
 
 **62. [ReconX: Reconstruct Any Scene From Sparse Views With Video Diffusion Model](https://doi.org/10.1109/tip.2026.3666733)**
@@ -11950,6 +13637,12 @@ Optical Coherence Tomography (OCT) is essential in ophthalmology for cross-secti
 Penulis: Jiange Yang; Bei Liu; Jianlong Fu *et al.* (6 authors) | Jurnal: *International Journal of Computer Vision* | Tipe: article | Bahasa: en
 
 DOI: [`10.1007/s11263-026-02948-3`](https://doi.org/10.1007/s11263-026-02948-3)
+
+<details><summary>Abstrak</summary>
+
+Robotic motor control necessitates the ability to predict the dynamics of interactions with environment and objects. However, existing self-supervised pre-trained visual representations in robotic motor control, leveraging large-scale egocentric videos, often focus solely on learning the static content features. *(…)*
+
+</details>
 
 ---
 
@@ -12449,6 +14142,12 @@ Penulis: Moritz U. G. Kraemer; Joseph L.-H. Tsui; Serina Chang *et al.* (41 auth
 
 DOI: [`10.1038/s41586-024-08564-w`](https://doi.org/10.1038/s41586-024-08564-w)
 
+<details><summary>Abstrak</summary>
+
+Infectious disease threats to individual and public health are numerous, varied and frequently unexpected. Artificial intelligence (AI) and related technologies, which are already supporting human decision making in economics, medicine and social science, have the potential to transform the scope and power of infectious disease epidemiology. *(…)*
+
+</details>
+
 ---
 
 **17. [Artificial neural network and the prospect of AGI: an argument from architecture](https://doi.org/10.1007/s44163-025-00561-w)**
@@ -12652,6 +14351,12 @@ Generative Artificial Intelligence (GAI) has rapidly advanced, revolutionizing c
 Penulis: Mouïn Ben Ammar; Arturo Mendoza; Nacim Belkhir *et al.* (5 authors) | Jurnal: *Information Fusion* | Tipe: article | Bahasa: en
 
 DOI: [`10.1016/j.inffus.2025.103517`](https://doi.org/10.1016/j.inffus.2025.103517)
+
+<details><summary>Abstrak</summary>
+
+In line with the development of deep learning, this survey examines the transformative role of Transformers and foundation models in advancing visual anomaly detection (VAD). We explore how these architectures, with their global receptive fields and adaptability, address challenges such as long-range dependency modeling, contextual modeling and data scarcity. *(…)*
+
+</details>
 
 ---
 
@@ -13395,6 +15100,12 @@ Penulis: Jack Gallifant; Majid Afshar; Saleem Ameen *et al.* (25 authors) | Jurn
 
 DOI: [`10.1038/s41591-024-03425-5`](https://doi.org/10.1038/s41591-024-03425-5)
 
+<details><summary>Abstrak</summary>
+
+Large language models (LLMs) are rapidly being adopted in healthcare, necessitating standardized reporting guidelines. We present transparent reporting of a multivariable model for individual prognosis or diagnosis (TRIPOD)-LLM, an extension of the TRIPOD + artificial intelligence statement, addressing the unique challenges of LLMs in biomedical applications. *(…)*
+
+</details>
+
 ---
 
 **86. [Towards a Definition of Generative Artificial Intelligence](https://doi.org/10.1007/s13347-025-00863-y)**
@@ -13402,6 +15113,12 @@ DOI: [`10.1038/s41591-024-03425-5`](https://doi.org/10.1038/s41591-024-03425-5)
 Penulis: Raphael Ronge; Markus Maier; Benjamin Rathgeber | Jurnal: *Philosophy & Technology* | Tipe: article | Bahasa: en
 
 DOI: [`10.1007/s13347-025-00863-y`](https://doi.org/10.1007/s13347-025-00863-y)
+
+<details><summary>Abstrak</summary>
+
+The concept of Generative Artificial Intelligence (GenAI) is ubiquitous in the public discourse, yet rarely defined precisely. We clarify main concepts that are usually discussed in connection to GenAI and argue that one ought to distinguish between the technical and the public discourse. *(…)*
+
+</details>
 
 ---
 
@@ -13692,6 +15409,12 @@ The analysis of histopathology images with artificial intelligence aims to enabl
 Penulis: Kai Zhang; Rong Zhou; Eashan Adhikarla *et al.* (23 authors) | Jurnal: *Nature Medicine* | Tipe: article | Bahasa: en
 
 DOI: [`10.1038/s41591-024-03185-2`](https://doi.org/10.1038/s41591-024-03185-2)
+
+<details><summary>Abstrak</summary>
+
+Traditional biomedical artificial intelligence (AI) models, designed for specific tasks or modalities, often exhibit limited flexibility in real-world deployment and struggle to utilize holistic information. Generalist AI holds the potential to address these limitations due to its versatility in interpreting different data types and generating tailored outputs for diverse needs. *(…)*
+
+</details>
 
 ---
 
@@ -14496,6 +16219,12 @@ This study explores the adoption and societal implications of an emerging techno
 Penulis: Isabelle Augenstein; Timothy Baldwin; Meeyoung Cha *et al.* (18 authors) | Jurnal: *Nature Machine Intelligence* | Tipe: article | Bahasa: en
 
 DOI: [`10.1038/s42256-024-00881-z`](https://doi.org/10.1038/s42256-024-00881-z)
+
+<details><summary>Abstrak</summary>
+
+The emergence of tools based on large language models (LLMs), such as OpenAI’s ChatGPT and Google’s Gemini, has garnered immense public attention owing to their advanced natural language generation capabilities. These remarkably natural-sounding tools have the potential to be highly useful for various tasks. *(…)*
+
+</details>
 
 ---
 
@@ -15385,6 +17114,12 @@ Penulis: Lixiang Yan; Samuel Greiff; Ziwen Teuber *et al.* (4 authors) | Jurnal:
 
 DOI: [`10.1038/s41562-024-02004-5`](https://doi.org/10.1038/s41562-024-02004-5)
 
+<details><summary>Abstrak</summary>
+
+Generative artificial intelligence (GenAI) holds the potential to transform the delivery, cultivation and evaluation of human learning. Here the authors examine the integration of GenAI as a tool for human learning, addressing its promises and challenges from a holistic viewpoint that integrates insights from learning sciences, educational technology and human–computer interaction. *(…)*
+
+</details>
+
 ---
 
 **130. [Prospective Role of Foundation Models in Advancing Autonomous Vehicles](https://doi.org/10.34133/research.0399)**
@@ -15897,6 +17632,12 @@ Penulis: Di Yang; Yaohui Wang; Antitza Dantcheva *et al.* (6 authors) | Jurnal: 
 
 DOI: [`10.1007/s11263-023-01967-8`](https://doi.org/10.1007/s11263-023-01967-8)
 
+<details><summary>Abstrak</summary>
+
+Current self-supervised approaches for skeleton action representation learning often focus on constrained scenarios, where videos and skeleton data are recorded in laboratory settings. When dealing with estimated skeleton data in real-world videos, such methods perform poorly due to the large variations across subjects and camera viewpoints. *(…)*
+
+</details>
+
 ---
 
 **167. [What is generative in generative artificial intelligence? A design-based perspective](https://doi.org/10.1007/s00163-024-00441-x)**
@@ -16069,6 +17810,12 @@ Penulis: José Marcio Duarte; Lilian Berton | Jurnal: *Artificial Intelligence R
 
 DOI: [`10.1007/s10462-023-10393-8`](https://doi.org/10.1007/s10462-023-10393-8)
 
+<details><summary>Abstrak</summary>
+
+A huge amount of data is generated daily leading to big data challenges. One of them is related to text mining, especially text classification. To perform this task we usually need a large set of labeled data that can be expensive, time-consuming, or difficult to be obtained. *(…)*
+
+</details>
+
 ---
 
 **10. [A Review of Transformer-Based Approaches for Image Captioning](https://doi.org/10.3390/app131911103)**
@@ -16216,6 +17963,12 @@ With the widespread adoption of deep learning, reinforcement learning (RL) has e
 Penulis: Hong-Yu Zhou; Yizhou Yu; Chengdi Wang *et al.* (10 authors) | Jurnal: *Nature Biomedical Engineering* | Tipe: article | Bahasa: en
 
 DOI: [`10.1038/s41551-023-01045-x`](https://doi.org/10.1038/s41551-023-01045-x)
+
+<details><summary>Abstrak</summary>
+
+A transformer-based representation-learning model that processes multimodal input in a unified manner outperformed non-unified multimodal models in two clinical diagnostic tasks. During the diagnostic process, clinicians leverage multimodal information, such as the chief complaint, medical images and laboratory test results. *(…)*
+
+</details>
 
 ---
 
@@ -16456,6 +18209,12 @@ Large Language Models (LLMs) have recently gathered attention with the release o
 Penulis: Enkelejda Kasneci; Kathrin Seßler; Stefan Küchemann *et al.* (23 authors) | Jurnal: *Learning and Individual Differences* | Tipe: article | Bahasa: en
 
 DOI: [`10.1016/j.lindif.2023.102274`](https://doi.org/10.1016/j.lindif.2023.102274)
+
+<details><summary>Abstrak</summary>
+
+Large language models represent a significant advancement in the field of AI. The underlying technology is key to further innovations and, despite critical views and even bans within communities and regions, large language models are here to stay. *(…)*
+
+</details>
 
 ---
 
@@ -16969,6 +18728,12 @@ Penulis: Tomer Weiss; Eduardo Mayo Yanes; Sabyasachi Chakraborty *et al.* (6 aut
 
 DOI: [`10.1038/s43588-023-00532-0`](https://doi.org/10.1038/s43588-023-00532-0)
 
+<details><summary>Abstrak</summary>
+
+The holy grail of materials science is de novo molecular design, meaning engineering molecules with desired characteristics. The introduction of generative deep learning has greatly advanced efforts in this direction, yet molecular discovery remains challenging and often inefficient. *(…)*
+
+</details>
+
 ---
 
 **76. [Harnessing the power of diffusion models for plant disease image augmentation](https://doi.org/10.3389/fpls.2023.1280496)**
@@ -17054,6 +18819,12 @@ Abstract Training deep networks for semantic segmentation requires large amounts
 Penulis: Klaus E. Meyer; Jiatao Li; Keith D. Brouthers *et al.* (4 authors) | Jurnal: *Journal of International Business Studies* | Tipe: article | Bahasa: en
 
 DOI: [`10.1057/s41267-023-00618-x`](https://doi.org/10.1057/s41267-023-00618-x)
+
+<details><summary>Abstrak</summary>
+
+Digital technologies are changing how businesses strategize and organize internationally. They not only enable cost reduction in businesses crossing national boundaries but also enable novel types of products and business models. Yet, barriers to cross-border businesses persist or even re-emerge, such that the study of international business remains important in the digital age, but may have to sh… *(truncated)*
+
+</details>
 
 ---
 
@@ -18017,6 +19788,12 @@ Penulis: Pedro Celard; Eva Iglesias; José Manuel Sorribes-Fdez *et al.* (6 auth
 
 DOI: [`10.1007/s00521-022-07953-4`](https://doi.org/10.1007/s00521-022-07953-4)
 
+<details><summary>Abstrak</summary>
+
+Deep learning techniques, in particular generative models, have taken on great importance in medical image analysis. This paper surveys fundamental deep learning concepts related to medical image generation. It provides concise overviews of studies which use some of the latest state-of-the-art models from last years applied to medical images of different injured body areas or organs that have a di… *(truncated)*
+
+</details>
+
 ---
 
 **9. [A Topic Modeling Comparison Between LDA, NMF, Top2Vec, and BERTopic to Demystify Twitter Posts](https://doi.org/10.3389/fsoc.2022.886498)**
@@ -18201,6 +19978,12 @@ Penulis: Narmin Ghaffari Laleh; Hannah Sophie Muti; Chiara Maria Lavinia Loeffle
 
 DOI: [`10.1016/j.media.2022.102474`](https://doi.org/10.1016/j.media.2022.102474)
 
+<details><summary>Abstrak</summary>
+
+Artificial intelligence (AI) can extract visual information from histopathological slides and yield biological insight and clinical biomarkers. Whole slide images are cut into thousands of tiles and classification problems are often weakly-supervised: the ground truth is only known for the slide, not for every single tile. *(…)*
+
+</details>
+
 ---
 
 **23. [Brain simulation as a cloud service: The Virtual Brain on EBRAINS](https://doi.org/10.1016/j.neuroimage.2022.118973)**
@@ -18222,6 +20005,12 @@ The Virtual Brain (TVB) is now available as open-source services on the cloud re
 Penulis: Adnan Mehonić; Anthony J. Kenyon | Jurnal: *Nature* | Tipe: article | Bahasa: en
 
 DOI: [`10.1038/s41586-021-04362-w`](https://doi.org/10.1038/s41586-021-04362-w)
+
+<details><summary>Abstrak</summary>
+
+New computing technologies inspired by the brain promise fundamentally different ways to process information with extreme energy efficiency and the ability to handle the avalanche of unstructured and noisy data that we are generating at an ever-increasing rate. *(…)*
+
+</details>
 
 ---
 
@@ -18399,6 +20188,12 @@ Penulis: M. A. Ganaie; Minghui Hu; A. K. Malik *et al.* (5 authors) | Jurnal: *E
 
 DOI: [`10.1016/j.engappai.2022.105151`](https://doi.org/10.1016/j.engappai.2022.105151)
 
+<details><summary>Abstrak</summary>
+
+Ensemble learning combines several individual models to obtain better generalization performance. Currently, deep learning architectures are showing better performance compared to the shallow or traditional models. Deep ensemble learning models combine the advantages of both the deep learning models as well as the ensemble learning such that the final model has better generalization performance. *(…)*
+
+</details>
+
 ---
 
 **38. [Expert-level detection of pathologies from unannotated chest X-ray images via self-supervised learning](https://doi.org/10.1038/s41551-022-00936-9)**
@@ -18435,6 +20230,12 @@ Penulis: Shaina Raza; Chen Ding | Jurnal: *International Journal of Data Science
 
 DOI: [`10.1007/s41060-021-00302-z`](https://doi.org/10.1007/s41060-021-00302-z)
 
+<details><summary>Abstrak</summary>
+
+Fake news is a real problem in today’s world, and it has become more extensive and harder to identify. A major challenge in fake news detection is to detect it in the early phase. Another challenge in fake news detection is the unavailability or the shortage of labelled data for training the detection models. We propose a novel fake news detection framework that can address these challenges. *(…)*
+
+</details>
+
 ---
 
 **41. [Fast and scalable search of whole-slide images via self-supervised deep learning](https://doi.org/10.1038/s41551-022-00929-8)**
@@ -18456,6 +20257,12 @@ The adoption of digital pathology has enabled the curation of large repositories
 Penulis: Hong-Yu Zhou; Xiaoyu Chen; Yinghao Zhang *et al.* (6 authors) | Jurnal: *Nature Machine Intelligence* | Tipe: article | Bahasa: en
 
 DOI: [`10.1038/s42256-021-00425-9`](https://doi.org/10.1038/s42256-021-00425-9)
+
+<details><summary>Abstrak</summary>
+
+Pre-training lays the foundation for recent successes in radiograph analysis supported by deep learning. It learns transferable image representations by conducting large-scale fully- or self-supervised learning on a source domain; however, supervised pre-training requires a complex and labour-intensive two-stage human-assisted annotation process, whereas self-supervised learning cannot compete wit… *(truncated)*
+
+</details>
 
 ---
 
@@ -18703,6 +20510,12 @@ Penulis: Tausif Diwan; G. Anirudh; Jitendra V. Tembhurne | Jurnal: *Multimedia T
 
 DOI: [`10.1007/s11042-022-13644-y`](https://doi.org/10.1007/s11042-022-13644-y)
 
+<details><summary>Abstrak</summary>
+
+Object detection is one of the predominant and challenging problems in computer vision. Over the decade, with the expeditious evolution of deep learning, researchers have extensively experimented and contributed in the performance enhancement of object detection and related tasks such as object classification, localization, and segmentation using underlying deep models. *(…)*
+
+</details>
+
 ---
 
 **61. [PackerRobo: Model-based robot vision self supervised learning in CART](https://doi.org/10.1016/j.aej.2022.05.043)**
@@ -18808,6 +20621,12 @@ Abstract Deep learning (DL) is one of the fastest-growing topics in materials da
 Penulis: Chinedu Innocent Nwoye; Tong Yu; Cristians González *et al.* (8 authors) | Jurnal: *Medical Image Analysis* | Tipe: article | Bahasa: en
 
 DOI: [`10.1016/j.media.2022.102433`](https://doi.org/10.1016/j.media.2022.102433)
+
+<details><summary>Abstrak</summary>
+
+Out of all existing frameworks for surgical workflow analysis in endoscopic videos, action triplet recognition stands out as the only one aiming to provide truly fine-grained and comprehensive information on surgical activities. This information, presented as 〈instrument, verb, target〉 combinations, is highly challenging to be accurately identified. *(…)*
+
+</details>
 
 ---
 
@@ -19457,6 +21276,12 @@ Penulis: Khaled Bayoudh; Raja Knani; Fayçal Hamdaoui *et al.* (4 authors) | Jur
 
 DOI: [`10.1007/s00371-021-02166-7`](https://doi.org/10.1007/s00371-021-02166-7)
 
+<details><summary>Abstrak</summary>
+
+The research progress in multimodal learning has grown rapidly over the last decade in several areas, especially in computer vision. The growing potential of multimodal data streams and deep learning algorithms has contributed to the increasing universality of deep multimodal learning. This involves the development of models capable of processing and analyzing the multimodal information uniformly. *(…)*
+
+</details>
+
 ---
 
 **13. [A Survey on Deep Visual Place Recognition](https://doi.org/10.1109/access.2021.3054937)**
@@ -19923,6 +21748,12 @@ Penulis: Jeremy M. Wolfe | Jurnal: *Psychonomic Bulletin & Review* | Tipe: artic
 
 DOI: [`10.3758/s13423-020-01859-9`](https://doi.org/10.3758/s13423-020-01859-9)
 
+<details><summary>Abstrak</summary>
+
+This paper describes Guided Search 6.0 (GS6), a revised model of visual search. When we encounter a scene, we can see something everywhere. However, we cannot recognize more than a few items at a time. Attention is used to select items so that their features can be “bound” into recognizable objects. Attention is “guided” so that items can be processed in an intelligent order. *(…)*
+
+</details>
+
 ---
 
 **48. [Highly accurate protein structure prediction with AlphaFold](https://doi.org/10.1038/s41586-021-03819-2)**
@@ -19972,6 +21803,12 @@ Training an agent to solve control tasks directly from high-dimensional images w
 Penulis: Pawan Kumar; Adwitiya Sinha | Jurnal: *Social Network Analysis and Mining* | Tipe: article | Bahasa: en
 
 DOI: [`10.1007/s13278-020-00719-7`](https://doi.org/10.1007/s13278-020-00719-7)
+
+<details><summary>Abstrak</summary>
+
+Social network analysis provides innovative techniques to analyze interactions among entities by emphasizing social relationships. Diffusion in the social network can be referred to spread of information among interconnected nodes or entities in a network. The rate and intensity of diffusion depend upon network topology and initialization of network parameters. *(…)*
+
+</details>
 
 ---
 
@@ -20086,6 +21923,12 @@ Despite the remarkable performance of deep learning methods on various tasks, mo
 Penulis: Jakob Božič; Domen Tabernik; Danijel Skočaj | Jurnal: *Computers in Industry* | Tipe: article | Bahasa: en
 
 DOI: [`10.1016/j.compind.2021.103459`](https://doi.org/10.1016/j.compind.2021.103459)
+
+<details><summary>Abstrak</summary>
+
+Deep-learning methods have recently started being employed for addressing surface-defect detection problems in industrial quality control. However, with a large amount of data needed for learning, often requiring high-precision labels, many industrial problems cannot be easily solved, or the cost of the solutions would significantly increase due to the annotation requirements. *(…)*
+
+</details>
 
 ---
 
@@ -20220,6 +22063,12 @@ Recent developments in maintenance modelling fuelled by data-based approaches su
 Penulis: Honggang Chen; Xiaohai He; Linbo Qing *et al.* (7 authors) | Jurnal: *Information Fusion* | Tipe: article | Bahasa: en
 
 DOI: [`10.1016/j.inffus.2021.09.005`](https://doi.org/10.1016/j.inffus.2021.09.005)
+
+<details><summary>Abstrak</summary>
+
+Single image super-resolution (SISR), which aims to reconstruct a high-resolution (HR) image from a low-resolution (LR) observation, has been an active research topic in the area of image processing in recent decades. Particularly, deep learning-based super-resolution (SR) approaches have drawn much attention and have greatly improved the reconstruction performance on synthetic data. *(…)*
+
+</details>
 
 ---
 
@@ -20645,6 +22494,12 @@ Penulis: Xiaowei Gu | Jurnal: *Information Sciences* | Tipe: article | Bahasa: e
 
 DOI: [`10.1016/j.ins.2020.05.018`](https://doi.org/10.1016/j.ins.2020.05.018)
 
+<details><summary>Abstrak</summary>
+
+Abstract This paper introduces a novel self-training hierarchical prototype-based approach for semi-supervised classification. The proposed approach firstly identifies meaningful prototypes from labelled samples at multiple levels of granularity and, then, self-organizes a highly transparent, multi-layered recognition model by arranging them in a form of pyramidal hierarchies. *(…)*
+
+</details>
+
 ---
 
 **6. [A Survey of Autonomous Driving: Common Practices and Emerging Technologies](https://doi.org/10.1109/access.2020.2983149)**
@@ -20807,6 +22662,12 @@ Penulis: Mandar Gogate; Kia Dashtipour; Ahsan Adeel *et al.* (4 authors) | Jurna
 
 DOI: [`10.1016/j.inffus.2020.04.001`](https://doi.org/10.1016/j.inffus.2020.04.001)
 
+<details><summary>Abstrak</summary>
+
+Noisy situations cause huge problems for suffers of hearing loss as hearing aids often make the signal more audible but do not always restore the intelligibility. In noisy settings, humans routinely exploit the audio-visual (AV) nature of the speech to selectively suppress the background noise and to focus on the target speaker. *(…)*
+
+</details>
+
 ---
 
 **18. [Collaborative Multi-Robot Search and Rescue: Planning, Coordination, Perception, and Active Vision](https://doi.org/10.1109/access.2020.3030190)**
@@ -20828,6 +22689,12 @@ Search and rescue (SAR) operations can take significant advantage from supportin
 Penulis: Ruggiero Lovreglio; Xinyue Duan; Anass Rahouti *et al.* (5 authors) | Jurnal: *Virtual Reality* | Tipe: article | Bahasa: en
 
 DOI: [`10.1007/s10055-020-00447-5`](https://doi.org/10.1007/s10055-020-00447-5)
+
+<details><summary>Abstrak</summary>
+
+Fire is a major hazard in built environments. Fires in buildings cause fatalities, serious injuries and tremendous damage. Most fires can be extinguished in the early stages of the fire’s development, with the right equipment and correct use of the equipment. *(…)*
+
+</details>
 
 ---
 
@@ -21243,6 +23110,12 @@ Penulis: Aniruddha Adiga; Devdatt Dubhashi; Bryan Lewis *et al.* (6 authors) | J
 
 DOI: [`10.1007/s41745-020-00200-6`](https://doi.org/10.1007/s41745-020-00200-6)
 
+<details><summary>Abstrak</summary>
+
+COVID-19 pandemic represents an unprecedented global health crisis in the last 100 years. Its economic, social and health impact continues to grow and is likely to end up as one of the worst global disasters since the 1918 pandemic and the World Wars. *(…)*
+
+</details>
+
 ---
 
 **50. [Modeling Water Quality in Watersheds: From Here to the Next Generation](https://doi.org/10.1029/2020wr027721)**
@@ -21278,6 +23151,12 @@ Emotion Recognition is a challenging research area given its complex nature, and
 Penulis: Florian Knobloch; Steef V. Hanssen; Aileen Lam *et al.* (8 authors) | Jurnal: *Nature Sustainability* | Tipe: article | Bahasa: en
 
 DOI: [`10.1038/s41893-020-0488-7`](https://doi.org/10.1038/s41893-020-0488-7)
+
+<details><summary>Abstrak</summary>
+
+The electrification of passenger road transport and household heating features prominently in current and planned policy frameworks to achieve greenhouse gas emissions reduction targets. However, since electricity generation involves using fossil fuels, it is not established where and when the replacement of fossil-fuel-based technologies by electric cars and heat pumps can effectively reduce over… *(truncated)*
+
+</details>
 
 ---
 
@@ -21365,6 +23244,12 @@ Penulis: Shuangjia Zheng; Yongjian Li; Sheng Chen *et al.* (5 authors) | Jurnal:
 
 DOI: [`10.1038/s42256-020-0152-y`](https://doi.org/10.1038/s42256-020-0152-y)
 
+<details><summary>Abstrak</summary>
+
+Identifying novel drug–protein interactions is crucial for drug discovery. For this purpose, many machine learning-based methods have been developed based on drug descriptors and one-dimensional protein sequences. However, protein sequences cannot accurately reflect the interactions in three-dimensional space. *(…)*
+
+</details>
+
 ---
 
 **60. [Progress in Neural NLP: Modeling, Learning, and Reasoning](https://doi.org/10.1016/j.eng.2019.12.014)**
@@ -21386,6 +23271,12 @@ Natural language processing (NLP) is a subfield of artificial intelligence that 
 Penulis: Qiuchi Li; Dimitris Gkoumas; Christina Lioma *et al.* (4 authors) | Jurnal: *Information Fusion* | Tipe: article | Bahasa: en
 
 DOI: [`10.1016/j.inffus.2020.08.006`](https://doi.org/10.1016/j.inffus.2020.08.006)
+
+<details><summary>Abstrak</summary>
+
+Abstract We tackle the crucial challenge of fusing different modalities of features for multimodal sentiment analysis. Mainly based on neural networks, existing approaches largely model multimodal interactions in an implicit and hard-to-understand manner. *(…)*
+
+</details>
 
 ---
 
@@ -21853,6 +23744,12 @@ Penulis: Edwin Lughofer; Alexandru-Ciprian Zăvoianu; Robert A. Pollak *et al.* 
 
 DOI: [`10.1016/j.jprocont.2019.02.005`](https://doi.org/10.1016/j.jprocont.2019.02.005)
 
+<details><summary>Abstrak</summary>
+
+Abstract In modern manufacturing facilities, there are basically two essential phases for assuring high production quality with low (or even zero) defects and waste in order to save costs for companies. The first phase concerns the early recognition of potentially arising problems in product quality, the second phase concerns proper reactions upon the recognition of such problems. *(…)*
+
+</details>
+
 ---
 
 **17. [BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis](https://doi.org/10.1371/journal.pcbi.1006650)**
@@ -21903,6 +23800,12 @@ Penulis: Saurabh Gupta; Varun Tolani; James Davidson *et al.* (6 authors) | Jurn
 
 DOI: [`10.1007/s11263-019-01236-7`](https://doi.org/10.1007/s11263-019-01236-7)
 
+<details><summary>Abstrak</summary>
+
+We introduce a neural architecture for navigation in novel environments. Our proposed architecture learns to map from first-person views and plans a sequence of actions towards goals in the environment. The Cognitive Mapper and Planner (CMP) is based on two key ideas: (a) a unified joint architecture for mapping and planning, such that the mapping is driven by the needs of the task, and (b) a spat… *(truncated)*
+
+</details>
+
 ---
 
 **21. [Continual lifelong learning with neural networks: A review](https://doi.org/10.1016/j.neunet.2019.01.012)**
@@ -21924,6 +23827,12 @@ Humans and animals have the ability to continually acquire, fine-tune, and trans
 Penulis: Emmanuel Hache; Gondia Sokhna Seck; Marine Simoën *et al.* (5 authors) | Jurnal: *Applied Energy* | Tipe: article | Bahasa: en
 
 DOI: [`10.1016/j.apenergy.2019.02.057`](https://doi.org/10.1016/j.apenergy.2019.02.057)
+
+<details><summary>Abstrak</summary>
+
+Abstract Integrated assessment models are generally not constrained by raw materials supply. In this article, the interactions between a wide diffusion of electric vehicles in the world transportation sector and the lithium supply are analysed in the Times Integrated Assessment Model (TIAM-IFPEN version). *(…)*
+
+</details>
 
 ---
 
@@ -21947,6 +23856,12 @@ Penulis: Chao Ding; Khee Poh Lam | Jurnal: *Building and Environment* | Tipe: ar
 
 DOI: [`10.1016/j.buildenv.2019.106394`](https://doi.org/10.1016/j.buildenv.2019.106394)
 
+<details><summary>Abstrak</summary>
+
+Abstract Effective urban ventilation through decent urban planning and building design can alleviate the deterioration of the urban built environment. However, natural ventilation requirements and guidelines in current building codes and standards are either qualitative or quantitative but subject to an absolute indoor airspeed threshold without considering the outdoor wind environment. *(…)*
+
+</details>
+
 ---
 
 **25. [Data-driven modeling and learning in science and engineering](https://doi.org/10.1016/j.crme.2019.11.009)**
@@ -21968,6 +23883,12 @@ In the past, data in which science and engineering is based, was scarce and freq
 Penulis: Leonardo Galteri; Claudio Ferrari; Giuseppe Lisanti *et al.* (5 authors) | Jurnal: *Computer Vision and Image Understanding* | Tipe: article | Bahasa: en
 
 DOI: [`10.1016/j.cviu.2019.05.002`](https://doi.org/10.1016/j.cviu.2019.05.002)
+
+<details><summary>Abstrak</summary>
+
+Abstract 3D face reconstruction from a single 2D image is a fundamental Computer Vision problem of extraordinary difficulty. Statistical modeling techniques, such as the 3D Morphable Model (3DMM), have been widely exploited because of their capability of reconstructing a plausible model grounding on the prior knowledge of the facial shape. *(…)*
+
+</details>
 
 ---
 
@@ -22159,6 +24080,12 @@ Penulis: Alejandro Barredo Arrieta; Natalia Díaz-Rodríguez; Javier Del Ser *et
 
 DOI: [`10.1016/j.inffus.2019.12.012`](https://doi.org/10.1016/j.inffus.2019.12.012)
 
+<details><summary>Abstrak</summary>
+
+In the last years, Artificial Intelligence (AI) has achieved a notable momentum that may deliver the best of expectations over many application sectors across the field. For this to occur, the entire community stands in front of the barrier of explainability, an inherent problem of AI techniques brought by sub-symbolism (e.g. *(…)*
+
+</details>
+
 ---
 
 **41. [Exploiting Unlabeled Data in CNNs by Self-Supervised Learning to Rank](https://doi.org/10.1109/tpami.2019.2899857)**
@@ -22223,6 +24150,12 @@ Penulis: Ramprasaath R. Selvaraju; Michael Cogswell; Abhishek Das *et al.* (6 au
 
 DOI: [`10.1007/s11263-019-01228-7`](https://doi.org/10.1007/s11263-019-01228-7)
 
+<details><summary>Abstrak</summary>
+
+We propose a technique for producing ‘visual explanations’ for decisions from a large class of Convolutional Neural Network (CNN)-based models, making them more transparent and explainable. Our approach—Gradient-weighted Class Activation Mapping (Grad-CAM), uses the gradients of any target concept (say ‘dog’ in a classification network or a sequence of words in captioning network) flowing into the… *(truncated)*
+
+</details>
+
 ---
 
 **46. [Graph convolutional networks: a comprehensive review](https://doi.org/10.1186/s40649-019-0069-y)**
@@ -22272,6 +24205,12 @@ The accuracy and reliability of 3D steady RANS CFD simulations of wind flow in u
 Penulis: Navin K. Dev; Ravi Shankar; Fahham Hasan Qaiser | Jurnal: *Resources Conservation and Recycling* | Tipe: article | Bahasa: en
 
 DOI: [`10.1016/j.resconrec.2019.104583`](https://doi.org/10.1016/j.resconrec.2019.104583)
+
+<details><summary>Abstrak</summary>
+
+Abstract The present research proposes a roadmap to the excellence of operations for sustainable reverse supply chain/logistics by the joint implementation of principles of Industry 4.0 (I4.0) and ReSOLVE model of circular economy (CE) approaches. The connection between I4. *(…)*
+
+</details>
 
 ---
 
@@ -22513,6 +24452,12 @@ Penulis: Rosa Estriégana; J. Medina; Roberto Barchino | Jurnal: *Computers & Ed
 
 DOI: [`10.1016/j.compedu.2019.02.010`](https://doi.org/10.1016/j.compedu.2019.02.010)
 
+<details><summary>Abstrak</summary>
+
+Abstract The development of Internet technologies and new ways of sharing information has facilitated the emergence of a variety of elearning scenarios. However, in technological areas such as engineering, where students must carry out hands-on exercises and laboratory work essential for their learning, it is not so easy to design online environments for practicals. *(…)*
+
+</details>
+
 ---
 
 **68. [Survey on deep learning with class imbalance](https://doi.org/10.1186/s40537-019-0192-5)**
@@ -22689,6 +24634,12 @@ Penulis: Eleonora Pantano; Virginia Vannucci | Jurnal: *Journal of Retailing and
 
 DOI: [`10.1016/j.jretconser.2019.01.019`](https://doi.org/10.1016/j.jretconser.2019.01.019)
 
+<details><summary>Abstrak</summary>
+
+Abstract To date, the diffusion of digital technologies is rapidly increasingly in the physical stores as prompt by the continuous advancements in technology and consumers' expectation of new technologies. To the authors' knowledge, the evaluation of the extent to which retailers are meeting this challenge is still at an early stage. *(…)*
+
+</details>
+
 ---
 
 **81. [Wireless Communications and Applications Above 100 GHz: Opportunities and Challenges for 6G and Beyond](https://doi.org/10.1109/access.2019.2921522)**
@@ -22825,6 +24776,12 @@ Penulis: Stefano V. Albrecht; Peter Stone | Jurnal: *Artificial Intelligence* | 
 
 DOI: [`10.1016/j.artint.2018.01.002`](https://doi.org/10.1016/j.artint.2018.01.002)
 
+<details><summary>Abstrak</summary>
+
+Abstract Much research in artificial intelligence is concerned with the development of autonomous agents that can interact effectively with other agents. An important aspect of such agents is the ability to reason about the behaviours of other agents, by constructing models which make predictions about various properties of interest (such as actions, goals, beliefs) of the modelled agents. *(…)*
+
+</details>
+
 ---
 
 **10. [Building simulation: Ten challenges](https://doi.org/10.1007/s12273-018-0444-x)**
@@ -22897,6 +24854,12 @@ Penulis: Feixue Li; Liyan Wang; Zhenjie Chen *et al.* (6 authors) | Jurnal: *Jou
 
 DOI: [`10.1016/j.jenvman.2018.03.109`](https://doi.org/10.1016/j.jenvman.2018.03.109)
 
+<details><summary>Abstrak</summary>
+
+This study aims to support sustainable urban and environmental planning by using urban growth simulation models, in which environmental quality is employed as one of the inputs. We proposed an extended SLEUTH urban growth model (UGM) for the regions threatened by environmental quality degradation caused by uncontrolled urban expansion. *(…)*
+
+</details>
+
 ---
 
 **16. [How Much Should We Trust Estimates from Multiplicative Interaction Models? Simple Tools to Improve Empirical Practice](https://doi.org/10.1017/pan.2018.46)**
@@ -22918,6 +24881,12 @@ Multiplicative interaction models are widely used in social science to examine w
 Penulis: Hugo Barbosa; Marc Barthélemy; Gourab Ghoshal *et al.* (10 authors) | Jurnal: *Physics Reports* | Tipe: article | Bahasa: en
 
 DOI: [`10.1016/j.physrep.2018.01.001`](https://doi.org/10.1016/j.physrep.2018.01.001)
+
+<details><summary>Abstrak</summary>
+
+Recent years have witnessed an explosion of extensive geolocated datasets related to human movement, enabling scientists to quantitatively study individual and collective mobility patterns, and to generate models that can capture and reproduce the spatiotem-poral structures and regularities in human trajectories. *(…)*
+
+</details>
 
 ---
 
@@ -23075,6 +25044,12 @@ Penulis: Junbo Zhang; Yu Zheng; Dekang Qi *et al.* (6 authors) | Jurnal: *Artifi
 
 DOI: [`10.1016/j.artint.2018.03.002`](https://doi.org/10.1016/j.artint.2018.03.002)
 
+<details><summary>Abstrak</summary>
+
+Forecasting the flow of crowds is of great importance to traffic management and public safety, and very challenging as it is affected by many complex factors, including spatial dependencies (nearby and distant), temporal dependencies (closeness, period, trend), and external conditions (e.g., weather and events). *(…)*
+
+</details>
+
 ---
 
 **30. [Predicting Visual Features From Text for Image and Video Caption Retrieval](https://doi.org/10.1109/tmm.2018.2832602)**
@@ -23096,6 +25071,12 @@ This paper strives to find amidst a set of sentences the one best describing the
 Penulis: David J. Teece | Jurnal: *Research Policy* | Tipe: article | Bahasa: en
 
 DOI: [`10.1016/j.respol.2017.01.015`](https://doi.org/10.1016/j.respol.2017.01.015)
+
+<details><summary>Abstrak</summary>
+
+The value-capture problem for innovators in the digital economy involves some different challenges from those in the industrial economy. It inevitably requires understanding the dynamics of platforms and ecosystems. These challenges are amplified for enabling technologies, which are the central focus of this article. *(…)*
+
+</details>
 
 ---
 
@@ -23300,6 +25281,12 @@ The RAVDESS is a validated multimodal database of emotional speech and song. The
 Penulis: Alexey Voinov; Karen E. Jenni; Steven Gray *et al.* (25 authors) | Jurnal: *Environmental Modelling & Software* | Tipe: article | Bahasa: en
 
 DOI: [`10.1016/j.envsoft.2018.08.028`](https://doi.org/10.1016/j.envsoft.2018.08.028)
+
+<details><summary>Abstrak</summary>
+
+Various tools and methods are used in participatory modelling, at different stages of the process and for different purposes. The diversity of tools and methods can create challenges for stakeholders and modelers when selecting the ones most appropriate for their projects. *(…)*
+
+</details>
 
 ---
 
@@ -26513,6 +28500,12 @@ Penulis: Eric P. Xing | Jurnal: *Cell* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.cell.2026.08.042`](https://doi.org/10.1016/j.cell.2026.08.042)
 
+<details><summary>Abstrak</summary>
+
+The prospect of an AI-driven digital organism (AIDO), such as a virtual cell, has recently captured growing excitement and imagination across the AI and biology communities. We envision a virtual cell as a multi-modal, multi-scale, dynamic, and stateful computational system capable of simulating the activity and behavior of a living cell. *(…)*
+
+</details>
+
 ---
 
 **16. [A World Model-Based Architecture for Reasoning About Vehicle Reactions to Achieve Proactive Rear-End Collision Avoidance](https://doi.org/10.1016/j.geits.2026.100434)**
@@ -26617,6 +28610,12 @@ Penulis: Arkadiusz Sitek | Jurnal: *The Lancet Digital Health* | Tipe: journal-a
 
 DOI: [`10.1016/j.landig.2026.101011`](https://doi.org/10.1016/j.landig.2026.101011)
 
+<details><summary>Abstrak</summary>
+
+In this Viewpoint, we advocate for direct tokenisation of medical data by breaking them into discrete units, such as laboratory results, medications, and vital signs, similar to word tokenisation in language models. This approach enables transformer-based models to learn from the temporal structure of patient health timelines without relying on textual translation, potentially leading to more accu… *(truncated)*
+
+</details>
+
 ---
 
 **29. [Brain's world model is smarter than we think](https://doi.org/10.1016/j.cobeha.2026.101672)**
@@ -26632,6 +28631,12 @@ DOI: [`10.1016/j.cobeha.2026.101672`](https://doi.org/10.1016/j.cobeha.2026.1016
 Penulis: Shogo Ohmae | Jurnal: *Patterns* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.patter.2026.101593`](https://doi.org/10.1016/j.patter.2026.101593)
+
+<details><summary>Abstrak</summary>
+
+Summary Recent advances in general-purpose AI provide new insights into how the neocortex and cerebellum, despite their uniform circuit architectures, support diverse functions and human intelligence. Beyond the traditional focus on visual processing, this paper offers a cross-domain comparison of the brain and AI through the lens of world-model-based computation. *(…)*
+
+</details>
 
 ---
 
@@ -26681,6 +28686,12 @@ Penulis: Zhiqiang Niu | Jurnal: *Science Bulletin* | Tipe: journal-article | Bah
 
 DOI: [`10.1016/j.scib.2026.07.036`](https://doi.org/10.1016/j.scib.2026.07.036)
 
+<details><summary>Abstrak</summary>
+
+Electrochemical energy technologies are central to the net-zero transition, yet their multiscale characteristics ranging from atomic materials to device architectures present critical challenges in research and development (R&D). Although artificial intelligence (AI) has accelerated discovery and design in this field, commonly used predictive AI methods remain limited in enabling disruptive advanc… *(truncated)*
+
+</details>
+
 ---
 
 **37. [Cognitive computations underlying ritual performance and persistence](https://doi.org/10.1016/j.tics.2026.04.009)**
@@ -26688,6 +28699,12 @@ DOI: [`10.1016/j.scib.2026.07.036`](https://doi.org/10.1016/j.scib.2026.07.036)
 Penulis: Martin Lang | Jurnal: *Trends in Cognitive Sciences* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.tics.2026.04.009`](https://doi.org/10.1016/j.tics.2026.04.009)
+
+<details><summary>Abstrak</summary>
+
+From petitionary prayers to pilgrimages, rituals are found in every known culture. Yet, the reason for their persistence is a matter of active debate. Some studies portray rituals as attempts to affect uncertain outcomes, whereas others emphasize their role in facilitating social cohesion. *(…)*
+
+</details>
 
 ---
 
@@ -26744,6 +28761,12 @@ DOI: [`10.1016/j.patcog.2026.114439`](https://doi.org/10.1016/j.patcog.2026.1144
 Penulis: Chaoran Zhang | Jurnal: *Journal of Manufacturing Systems* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.jmsy.2026.06.001`](https://doi.org/10.1016/j.jmsy.2026.06.001)
+
+<details><summary>Abstrak</summary>
+
+The combination of embodied intelligence and robots has great prospects and is becoming increasingly common. In order to work more efficiently, accurately, reliably, and safely in industrial scenarios, robots should have at least general knowledge, working-environment knowledge, and operating-object knowledge. *(…)*
+
+</details>
 
 ---
 
@@ -26881,6 +28904,12 @@ Penulis: Sandeep Kanta | Jurnal: *Advanced Engineering Informatics* | Tipe: jour
 
 DOI: [`10.1016/j.aei.2026.104515`](https://doi.org/10.1016/j.aei.2026.104515)
 
+<details><summary>Abstrak</summary>
+
+Agile human-centric manufacturing increasingly requires resilient robotic solutions that are capable of safe and productive interactions within unstructured environments of modern factories. While multi-modal sensor fusion provides comprehensive situational awareness yet robots must also contextualize their reasoning to achieve deep semantic understanding of complex scenes. *(…)*
+
+</details>
+
 ---
 
 **62. [Human-like perception for embodied intelligent robots: A review](https://doi.org/10.1016/j.jmsy.2026.04.029)**
@@ -26896,6 +28925,12 @@ DOI: [`10.1016/j.jmsy.2026.04.029`](https://doi.org/10.1016/j.jmsy.2026.04.029)
 Penulis: Olivier Oullier | Jurnal: *Clinical Neurology and Neurosurgery* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.clineuro.2026.109396`](https://doi.org/10.1016/j.clineuro.2026.109396)
+
+<details><summary>Abstrak</summary>
+
+Accurate assessment of consciousness in patients with disorders of consciousness (DoC) remains a major clinical challenge, particularly when motor impairment masks evidence of preserved awareness. Recent advances in neuroadaptive artificial intelligence (NA-AI) may help transform brain-computer interfaces (BCIs) from experimental systems into more clinically scalable tools tailored to each patient… *(truncated)*
+
+</details>
 
 ---
 
@@ -26929,6 +28964,12 @@ Penulis: Tuo An | Jurnal: *Patterns* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.patter.2025.101429`](https://doi.org/10.1016/j.patter.2025.101429)
 
+<details><summary>Abstrak</summary>
+
+Summary Large language models (LLMs) excel in textual tasks but often struggle with physical-world reasoning tasks. Inspired by human cognition—where perception is fundamental to reasoning—we explore augmenting LLMs with enhanced perception abilities using Internet of Things (IoT) data and pertinent knowledge. *(…)*
+
+</details>
+
 ---
 
 **68. [JEMA: J oint E mbedding of M ultimodal and multi-view A lignment in human-centric embedding space for manufacturing](https://doi.org/10.1016/j.cviu.2026.104771)**
@@ -26944,6 +28985,12 @@ DOI: [`10.1016/j.cviu.2026.104771`](https://doi.org/10.1016/j.cviu.2026.104771)
 Penulis: Yang Zhou | Jurnal: *Pattern Recognition* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.patcog.2026.113427`](https://doi.org/10.1016/j.patcog.2026.113427)
+
+<details><summary>Abstrak</summary>
+
+Recently, the field of text-guided 3D scene generation has garnered significant attention. High-quality generation that aligns with physical realism and high controllability is crucial for practical 3D scene applications. However, existing methods face fundamental limitations: (i) difficulty capturing complex relationships between multiple objects described in the text, (ii) inability to generate… *(truncated)*
+
+</details>
 
 ---
 
@@ -26977,6 +29024,12 @@ Penulis: Gabriele Lozupone | Jurnal: *Medical Image Analysis* | Tipe: journal-ar
 
 DOI: [`10.1016/j.media.2026.103932`](https://doi.org/10.1016/j.media.2026.103932)
 
+<details><summary>Abstrak</summary>
+
+This study presents Latent Diffusion Autoencoder (LDAE), a novel encoder-decoder diffusion-based framework for efficient and meaningful unsupervised learning in medical imaging, focusing on Alzheimer's disease (AD) using brain MRI from the ADNI database as a case study. *(…)*
+
+</details>
+
 ---
 
 **74. [Manipulation planning based on hierarchical task networks, streams and common-sense models](https://doi.org/10.1016/j.eswa.2026.133344)**
@@ -27001,6 +29054,12 @@ Penulis: Rodolfo Valiente | Jurnal: *Neural Networks* | Tipe: journal-article | 
 
 DOI: [`10.1016/j.neunet.2025.108131`](https://doi.org/10.1016/j.neunet.2025.108131)
 
+<details><summary>Abstrak</summary>
+
+Metacognition, defined as the awareness and regulation of one's cognitive processes, is central to human adaptability in unknown situations. In contrast, current autonomous agents often struggle in novel environments due to their limited capacity for adaptation. *(…)*
+
+</details>
+
 ---
 
 **77. [MSSDF: Modality-shared self-supervised distillation for high-resolution multi-modal remote sensing image learning](https://doi.org/10.1016/j.inffus.2025.104006)**
@@ -27008,6 +29067,12 @@ DOI: [`10.1016/j.neunet.2025.108131`](https://doi.org/10.1016/j.neunet.2025.1081
 Penulis: Tong Wang | Jurnal: *Information Fusion* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.inffus.2025.104006`](https://doi.org/10.1016/j.inffus.2025.104006)
+
+<details><summary>Abstrak</summary>
+
+Remote sensing image interpretation plays a critical role in environmental monitoring, urban planning, and disaster assessment. However, acquiring high-quality labeled data is often costly and time-consuming. To address this challenge, we proposes a multi-modal self-supervised learning framework that leverages high-resolution RGB images, multi-spectral data, and digital surface models (DSM) for pr… *(truncated)*
+
+</details>
 
 ---
 
@@ -27169,6 +29234,12 @@ Penulis: Bin Rao | Jurnal: *Transportation Research Part C: Emerging Technologie
 
 DOI: [`10.1016/j.trc.2026.105757`](https://doi.org/10.1016/j.trc.2026.105757)
 
+<details><summary>Abstrak</summary>
+
+Autonomous vehicles (AVs) rely on accurate trajectory prediction for safe navigation in diverse traffic environments, yet existing models struggle with long-tail scenarios-rare but safety-critical events characterized by abrupt maneuvers, high collision risks, and complex interactions. *(…)*
+
+</details>
+
 ---
 
 **98. [SARCLIP: a multimodal foundation framework for SAR imagery via contrastive language-image pre-training](https://doi.org/10.1016/j.isprsjprs.2025.10.017)**
@@ -27192,6 +29263,12 @@ DOI: [`10.1016/j.avrs.2025.100320`](https://doi.org/10.1016/j.avrs.2025.100320)
 Penulis: Xuyang Li | Jurnal: *Information Fusion* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.inffus.2025.103334`](https://doi.org/10.1016/j.inffus.2025.103334)
+
+<details><summary>Abstrak</summary>
+
+Remote Sensing (RS) data encapsulates rich multi-dimensional information essential for Earth observation. Its vast volume, diverse sources, and temporal continuity make it particularly well-suited for developing large Visual Foundation Models (VFMs). *(…)*
+
+</details>
 
 ---
 
@@ -27313,6 +29390,12 @@ Penulis: Angelo Moroncelli | Jurnal: *Information Fusion* | Tipe: journal-articl
 
 DOI: [`10.1016/j.inffus.2025.104003`](https://doi.org/10.1016/j.inffus.2025.104003)
 
+<details><summary>Abstrak</summary>
+
+Recently, generative AI and reinforcement learning (RL) have been redefining what is possible for AI agents that take information flows as input and produce intelligent behavior. As a result, we are seeing similar advancements in embodied AI and robotics for control policy generation. Our review paper examines the integration of generative AI models with RL to advance robotics. *(…)*
+
+</details>
+
 ---
 
 **116. [The next frontier of generative intelligence in smarter eco-cities: A systematic review of deep generative and hybrid modeling applications for environmental sustainability](https://doi.org/10.1016/j.scs.2026.107408)**
@@ -27369,6 +29452,12 @@ Penulis: Augusto Garcia-Agundez | Jurnal: *Rheumatic Disease Clinics of North Am
 
 DOI: [`10.1016/j.rdc.2026.04.002`](https://doi.org/10.1016/j.rdc.2026.04.002)
 
+<details><summary>Abstrak</summary>
+
+Generative artificial intelligence (GenAI) is rapidly entering clinical workflows, yet its role remains incompletely defined. This review evaluates current and emerging applications of GenAI across common rheumatology activities using a task-based framework. *(…)*
+
+</details>
+
 ---
 
 **123. [TweetyBERT: Automated parsing of birdsong through self-supervised machine learning](https://doi.org/10.1016/j.patter.2025.101491)**
@@ -27376,6 +29465,12 @@ DOI: [`10.1016/j.rdc.2026.04.002`](https://doi.org/10.1016/j.rdc.2026.04.002)
 Penulis: George Vengrovski | Jurnal: *Patterns* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.patter.2025.101491`](https://doi.org/10.1016/j.patter.2025.101491)
+
+<details><summary>Abstrak</summary>
+
+Summary Deep neural networks can be trained to parse animal vocalizations—serving to identify the units of communication and annotating sequences of vocalizations for subsequent statistical analysis. However, current methods rely on human-labeled data for training. The challenge of parsing animal vocalizations in a fully unsupervised manner remains an open problem. *(…)*
+
+</details>
 
 ---
 
@@ -27385,6 +29480,12 @@ Penulis: Haojun Jiang | Jurnal: *Pattern Recognition* | Tipe: journal-article | 
 
 DOI: [`10.1016/j.patcog.2025.112600`](https://doi.org/10.1016/j.patcog.2025.112600)
 
+<details><summary>Abstrak</summary>
+
+Echocardiography is an essential medical technique for diagnosing cardiovascular diseases, but its high operational complexity has led to a shortage of trained professionals. To address this issue, we introduce a novel probe movement guidance algorithm that has the potential to be applied in guiding robotic systems or novices with probe pose adjustment for high-quality standard plane image acquisi… *(truncated)*
+
+</details>
+
 ---
 
 **125. [Understanding the hippocampus as an apex of the cortical hierarchy and self-supervised predictive learning engine](https://doi.org/10.1016/j.neubiorev.2026.106890)**
@@ -27392,6 +29493,12 @@ DOI: [`10.1016/j.patcog.2025.112600`](https://doi.org/10.1016/j.patcog.2025.1126
 Penulis: Jordan DeKraker | Jurnal: *Neuroscience & Biobehavioral Reviews* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.neubiorev.2026.106890`](https://doi.org/10.1016/j.neubiorev.2026.106890)
+
+<details><summary>Abstrak</summary>
+
+The mammalian cortex is organized along hierarchical gradients that extend from primary sensory regions to transmodal association networks. Converging neuroanatomical theory and data-driven analyses place the hippocampus at the apex of this hierarchy, where its subregional organization mirrors large-scale cortical networks and their evolutionary expansion. *(…)*
+
+</details>
 
 ---
 
@@ -27425,6 +29532,12 @@ Penulis: Yonatan Stelzer | Jurnal: *Cell* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.cell.2026.07.003`](https://doi.org/10.1016/j.cell.2026.07.003)
 
+<details><summary>Abstrak</summary>
+
+Recent advances in AI inspire visions of universal models of biology. Yet living systems are evolved, emergent processes whose behaviors cannot be inferred from their parts alone. We propose grounding AI in canonical biological processes, constructing data-driven world models with explicit mechanistic links across molecules, cells, and their dynamics in space and time.
+
+</details>
+
 ---
 
 **130. [World model-driven process industry operations: An offline reinforcement learning solution based on conditional diffusion](https://doi.org/10.1016/j.compind.2026.104442)**
@@ -27451,6 +29564,12 @@ Penulis: Ruben Laukkonen | Jurnal: *Neuroscience & Biobehavioral Reviews* | Tipe
 
 DOI: [`10.1016/j.neubiorev.2025.106296`](https://doi.org/10.1016/j.neubiorev.2025.106296)
 
+<details><summary>Abstrak</summary>
+
+Can active inference model consciousness? We offer three conditions implying that it can. The first condition is the simulation of a world model, which determines what can be known or acted upon; namely an epistemic field. The second is inferential competition to enter the world model. *(…)*
+
+</details>
+
 ---
 
 **3. [A blueprint for robotic surgery: From algorithmic control to embodied intelligence](https://doi.org/10.1016/j.bmi.2026.100029)**
@@ -27466,6 +29585,12 @@ DOI: [`10.1016/j.bmi.2026.100029`](https://doi.org/10.1016/j.bmi.2026.100029)
 Penulis: You Wu | Jurnal: *Drug Discovery Today* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.drudis.2025.104497`](https://doi.org/10.1016/j.drudis.2025.104497)
+
+<details><summary>Abstrak</summary>
+
+Artificial intelligence (AI) has generated great interest in drug discovery, but current approaches merely digitize existing experiments, failing to predict clinical outcomes of new compounds. Likewise, pharmacology digital twins, designed for late-phase drug development, lack the ability to bridge translational gaps, limiting their value in early-stage drug discovery. *(…)*
+
+</details>
 
 ---
 
@@ -27507,6 +29632,12 @@ Penulis: Yufei Shi | Jurnal: *Neurocomputing* | Tipe: journal-article | Bahasa: 
 
 DOI: [`10.1016/j.neucom.2025.131445`](https://doi.org/10.1016/j.neucom.2025.131445)
 
+<details><summary>Abstrak</summary>
+
+Colonoscopy reconstruction is pivotal for diagnosing colorectal cancer. However, accurate long-sequence colonoscopy reconstruction faces three major challenges: (1) dissimilarity among segments of the colon due to its meandering and convoluted shape; (2) co-existence of simple and intricately folded geometry structures; (3) sparse viewpoints due to constrained camera trajectories. *(…)*
+
+</details>
+
 ---
 
 **10. [Contextualizing predictive minds](https://doi.org/10.1016/j.neubiorev.2024.105948)**
@@ -27514,6 +29645,12 @@ DOI: [`10.1016/j.neucom.2025.131445`](https://doi.org/10.1016/j.neucom.2025.1314
 Penulis: Martin V. Butz | Jurnal: *Neuroscience & Biobehavioral Reviews* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.neubiorev.2024.105948`](https://doi.org/10.1016/j.neubiorev.2024.105948)
+
+<details><summary>Abstrak</summary>
+
+The structure of human memory seems to be optimized for efficient prediction, planning, and behavior. We propose that these capacities rely on a tripartite structure of memory that includes concepts, events, and contexts-three layers that constitute the mental world model. We suggest that the mechanism that critically increases adaptivity and flexibility is the tendency to contextualize. *(…)*
+
+</details>
 
 ---
 
@@ -27531,6 +29668,12 @@ Penulis: Bardia Khosravi | Jurnal: *The Lancet Digital Health* | Tipe: journal-a
 
 DOI: [`10.1016/j.landig.2025.100890`](https://doi.org/10.1016/j.landig.2025.100890)
 
+<details><summary>Abstrak</summary>
+
+Generative artificial intelligence has emerged as a transformative force in medical imaging since 2022, enabling the creation of derivative synthetic datasets that closely resemble real-world data. This Viewpoint examines key aspects of synthetic data, focusing on its advancements, applications, and challenges in medical imaging. *(…)*
+
+</details>
+
 ---
 
 **13. [Exploring the roles of large language models in reshaping transportation systems: A survey, framework, and roadmap](https://doi.org/10.1016/j.ait.2025.100003)**
@@ -27538,6 +29681,12 @@ DOI: [`10.1016/j.landig.2025.100890`](https://doi.org/10.1016/j.landig.2025.1008
 Penulis: Tong Nie | Jurnal: *Artificial Intelligence for Transportation* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.ait.2025.100003`](https://doi.org/10.1016/j.ait.2025.100003)
+
+<details><summary>Abstrak</summary>
+
+Modern transportation systems face pressing challenges due to increasing demand, dynamic environments, and heterogeneous information integration. The rapid evolution of Large Language Models (LLMs) offers transformative potential to address these challenges. *(…)*
+
+</details>
 
 ---
 
@@ -27554,6 +29703,12 @@ DOI: [`10.1016/j.compag.2025.110900`](https://doi.org/10.1016/j.compag.2025.1109
 Penulis: Yihao Liu | Jurnal: *Information Fusion* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.inffus.2025.103033`](https://doi.org/10.1016/j.inffus.2025.103033)
+
+<details><summary>Abstrak</summary>
+
+Healthcare systems worldwide face persistent challenges in efficiency, accessibility, and personalization. Powered by modern AI technologies such as multimodal large language models and world models, Embodied AI (EmAI) represents a transformative frontier, offering enhanced autonomy and the ability to interact with the physical world to address these challenges. *(…)*
+
+</details>
 
 ---
 
@@ -27578,6 +29733,12 @@ DOI: [`10.1016/j.technovation.2025.103323`](https://doi.org/10.1016/j.technovati
 Penulis: Thomas Parr | Jurnal: *Neuroscience & Biobehavioral Reviews* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.neubiorev.2024.105984`](https://doi.org/10.1016/j.neubiorev.2024.105984)
+
+<details><summary>Abstrak</summary>
+
+Most of our movement consists of sequences of discrete actions at regular intervals-including speech, walking, playing music, or even chewing. Despite this, few models of the motor system address how the brain determines the interval at which to trigger actions. This paper offers a theoretical analysis of the problem of timing movements. *(…)*
+
+</details>
 
 ---
 
@@ -27651,6 +29812,12 @@ Penulis: Thomas Parr | Jurnal: *Current Opinion in Behavioral Sciences* | Tipe: 
 
 DOI: [`10.1016/j.cobeha.2025.101509`](https://doi.org/10.1016/j.cobeha.2025.101509)
 
+<details><summary>Abstrak</summary>
+
+This review presents an approach to motor control inspired by the Equilibrium Point Hypothesis. The core idea is that, to realise a motor plan, one need only anticipate the proprioceptive consequences of that plan. Movement can then be executed through spinal and brainstem reflex arcs that correct for any deviations from these proprioceptive predictions. *(…)*
+
+</details>
+
 ---
 
 **28. [Robot learning in the era of foundation models: a survey](https://doi.org/10.1016/j.neucom.2025.129963)**
@@ -27666,6 +29833,12 @@ DOI: [`10.1016/j.neucom.2025.129963`](https://doi.org/10.1016/j.neucom.2025.1299
 Penulis: Safa Ben Atitallah | Jurnal: *Computers in Biology and Medicine* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.compbiomed.2025.109874`](https://doi.org/10.1016/j.compbiomed.2025.109874)
+
+<details><summary>Abstrak</summary>
+
+The increasing complexity and interconnectedness of healthcare data present numerous opportunities to improve prediction, diagnosis, and treatment. Graph-structured data, which represents entities and their relationships, is well-suited for modeling these complex connections. *(…)*
+
+</details>
 
 ---
 
@@ -27683,6 +29856,12 @@ Penulis: Zhuoyuan Li | Jurnal: *Journal of Computational Physics* | Tipe: journa
 
 DOI: [`10.1016/j.jcp.2025.114240`](https://doi.org/10.1016/j.jcp.2025.114240)
 
+<details><summary>Abstrak</summary>
+
+Data assimilation has become a key technique for combining physical models with observational data to estimate state variables. However, classical assimilation algorithms often struggle with the high nonlinearity present in both physical and observational models. *(…)*
+
+</details>
+
 ---
 
 **32. [The role of generative artificial intelligence in digital agri-food](https://doi.org/10.1016/j.jafr.2025.101787)**
@@ -27691,6 +29870,12 @@ Penulis: Sakib Shahriar | Jurnal: *Journal of Agriculture and Food Research* | T
 
 DOI: [`10.1016/j.jafr.2025.101787`](https://doi.org/10.1016/j.jafr.2025.101787)
 
+<details><summary>Abstrak</summary>
+
+This article aims to reveal the current role of generative artificial intelligence in visual communication design through current examples. The study used a qualitative research method and examined printed and electronic resources. In line with current developments in artificial intelligence, some changes have occurred in visual communication design, as in many design fields. *(…)*
+
+</details>
+
 ---
 
 **33. [TIMAR: Transition-informed representation for sample-efficient multi-agent reinforcement learning](https://doi.org/10.1016/j.neunet.2024.107081)**
@@ -27698,6 +29883,12 @@ DOI: [`10.1016/j.jafr.2025.101787`](https://doi.org/10.1016/j.jafr.2025.101787)
 Penulis: Mingxiao Feng | Jurnal: *Neural Networks* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.neunet.2024.107081`](https://doi.org/10.1016/j.neunet.2024.107081)
+
+<details><summary>Abstrak</summary>
+
+In MARL (Multi-Agent Reinforcement Learning), the trial-and-error learning paradigm based on multiple agents requires massive interactions to produce training samples, significantly increasing both the training cost and difficulty. Therefore, enhancing data efficiency is a core issue in MARL. *(…)*
+
+</details>
 
 ---
 
@@ -27733,6 +29924,12 @@ Penulis: Giovanni Pezzulo | Jurnal: *Biological Psychology* | Tipe: journal-arti
 
 DOI: [`10.1016/j.biopsycho.2023.108741`](https://doi.org/10.1016/j.biopsycho.2023.108741)
 
+<details><summary>Abstrak</summary>
+
+This review paper offers an overview of the history and future of active inference-a unifying perspective on action and perception. Active inference is based upon the idea that sentient behavior depends upon our brains' implicit use of internal models to predict, infer, and direct action. *(…)*
+
+</details>
+
 ---
 
 **2. [Bootstrap each lead’s latent: A novel method for self-supervised learning of multilead electrocardiograms](https://doi.org/10.1016/j.cmpb.2024.108452)**
@@ -27740,6 +29937,12 @@ DOI: [`10.1016/j.biopsycho.2023.108741`](https://doi.org/10.1016/j.biopsycho.202
 Penulis: Wenhan Liu | Jurnal: *Computer Methods and Programs in Biomedicine* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.cmpb.2024.108452`](https://doi.org/10.1016/j.cmpb.2024.108452)
+
+<details><summary>Abstrak</summary>
+
+BACKGROUND AND OBJECTIVE Electrocardiogram (ECG) is one of the most important diagnostic tools for cardiovascular diseases (CVDs). Recent studies show that deep learning models can be trained using labeled ECGs to achieve automatic detection of CVDs, assisting cardiologists in diagnosis. *(…)*
+
+</details>
 
 ---
 
@@ -27749,6 +29952,12 @@ Penulis: Giovanni Granato | Jurnal: *Neural Networks* | Tipe: journal-article | 
 
 DOI: [`10.1016/j.neunet.2024.106292`](https://doi.org/10.1016/j.neunet.2024.106292)
 
+<details><summary>Abstrak</summary>
+
+Goal-directed manipulation of internal representations is a key element of human flexible behaviour, while consciousness is commonly associated with higher-order cognition and human flexibility. Current perspectives have only partially linked these processes, thus preventing a clear understanding of how they jointly generate flexible cognition and behaviour. *(…)*
+
+</details>
+
 ---
 
 **4. [Exploring the interplay of clinical reasoning and artificial intelligence in psychiatry: Current insights and future directions](https://doi.org/10.1016/j.psychres.2024.116255)**
@@ -27756,6 +29965,12 @@ DOI: [`10.1016/j.neunet.2024.106292`](https://doi.org/10.1016/j.neunet.2024.1062
 Penulis: Christophe Gauld | Jurnal: *Psychiatry Research* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.psychres.2024.116255`](https://doi.org/10.1016/j.psychres.2024.116255)
+
+<details><summary>Abstrak</summary>
+
+For many years, it has been widely accepted in the psychiatric field that clinical practice cannot be reduced to finely tuned statistical prediction systems utilizing diverse clinical data. Clinicians are recognized for their unique and irreplaceable roles. *(…)*
+
+</details>
 
 ---
 
@@ -27765,6 +29980,12 @@ Penulis: Karl J. Friston | Jurnal: *Neuroscience & Biobehavioral Reviews* | Tipe
 
 DOI: [`10.1016/j.neubiorev.2023.105500`](https://doi.org/10.1016/j.neubiorev.2023.105500)
 
+<details><summary>Abstrak</summary>
+
+This paper concerns the distributed intelligence or federated inference that emerges under belief-sharing among agents who share a common world—and world model. Imagine, for example, several animals keeping a lookout for predators. Their collective surveillance rests upon being able to communicate their beliefs—about what they see—among themselves. *(…)*
+
+</details>
+
 ---
 
 **6. [From task structures to world models: what do LLMs know?](https://doi.org/10.1016/j.tics.2024.02.008)**
@@ -27772,6 +29993,12 @@ DOI: [`10.1016/j.neubiorev.2023.105500`](https://doi.org/10.1016/j.neubiorev.202
 Penulis: Ilker Yildirim | Jurnal: *Trends in Cognitive Sciences* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.tics.2024.02.008`](https://doi.org/10.1016/j.tics.2024.02.008)
+
+<details><summary>Abstrak</summary>
+
+In what sense does a large language model (LLM) have knowledge? We answer by granting LLMs 'instrumental knowledge': knowledge gained by using next-word generation as an instrument. We then ask how instrumental knowledge is related to the ordinary, 'worldly knowledge' exhibited by humans, and explore this question in terms of the degree to which instrumental knowledge can be said to incorporate th… *(truncated)*
+
+</details>
 
 ---
 
@@ -27781,6 +30008,12 @@ Penulis: Armand Comas | Jurnal: *IFAC-PapersOnLine* | Tipe: journal-article | Ba
 
 DOI: [`10.1016/j.ifacol.2024.08.545`](https://doi.org/10.1016/j.ifacol.2024.08.545)
 
+<details><summary>Abstrak</summary>
+
+There is an ongoing effort in the machine learning community to enable machines to understand the world symbolically, facilitating human interaction with learned representations of complex scenes. A pre-requisite to achieving this is the ability to identify the dynamics of interacting objects from time traces of relevant features. *(…)*
+
+</details>
+
 ---
 
 **8. [Internal world models in humans, animals, and AI](https://doi.org/10.1016/j.neuron.2024.06.019)**
@@ -27789,6 +30022,12 @@ Penulis: Ilka Diester | Jurnal: *Neuron* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.neuron.2024.06.019`](https://doi.org/10.1016/j.neuron.2024.06.019)
 
+<details><summary>Abstrak</summary>
+
+How do brains-biological or artificial-respond and adapt to an ever-changing environment? In a recent meeting, experts from various fields of neuroscience and artificial intelligence met to discuss internal world models in brains and machines, arguing for an interdisciplinary approach to gain deeper insights into the underlying mechanisms.
+
+</details>
+
 ---
 
 **9. [Listening with generative models](https://doi.org/10.1016/j.cognition.2024.105874)**
@@ -27796,6 +30035,12 @@ DOI: [`10.1016/j.neuron.2024.06.019`](https://doi.org/10.1016/j.neuron.2024.06.0
 Penulis: Maddie Cusimano | Jurnal: *Cognition* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.cognition.2024.105874`](https://doi.org/10.1016/j.cognition.2024.105874)
+
+<details><summary>Abstrak</summary>
+
+Perception has long been envisioned to use an internal model of the world to explain the causes of sensory signals. However, such accounts have historically not been testable, typically requiring intractable search through the space of possible explanations. *(…)*
+
+</details>
 
 ---
 
@@ -27831,6 +30076,12 @@ Penulis: R. L. Carhart-Harris | Jurnal: *Neuropharmacology* | Tipe: journal-arti
 
 DOI: [`10.1016/j.neuropharm.2022.109398`](https://doi.org/10.1016/j.neuropharm.2022.109398)
 
+<details><summary>Abstrak</summary>
+
+This theoretical article revives a classical bridging construct, canalization, to describe a new model of a general factor of psychopathology. To achieve this, we have distinguished between two types of plasticity, an early one that we call 'TEMP' for 'Temperature or Entropy Mediated Plasticity', and another, we call 'canalization', which is close to Hebbian plasticity. *(…)*
+
+</details>
+
 ---
 
 **2. [Representation learning for continuous action spaces is beneficial for efficient policy learning](https://doi.org/10.1016/j.neunet.2022.12.009)**
@@ -27865,6 +30116,12 @@ Penulis: Akira Taniguchi | Jurnal: *Neural Networks* | Tipe: journal-article | B
 
 DOI: [`10.1016/j.neunet.2022.04.001`](https://doi.org/10.1016/j.neunet.2022.04.001)
 
+<details><summary>Abstrak</summary>
+
+In building artificial intelligence (AI) agents, referring to how brains function in real environments can accelerate development by reducing the design space. In this study, we propose a probabilistic generative model (PGM) for navigation in uncertain environments by integrating the neuroscientific knowledge of hippocampal formation (HF) and the engineering knowledge in robotics and AI, namely, s… *(truncated)*
+
+</details>
+
 ---
 
 **3. [Organization of a Latent Space structure in VAE/GAN trained by navigation data](https://doi.org/10.1016/j.neunet.2022.04.012)**
@@ -27872,6 +30129,12 @@ DOI: [`10.1016/j.neunet.2022.04.001`](https://doi.org/10.1016/j.neunet.2022.04.0
 Penulis: Hiroki Kojima | Jurnal: *Neural Networks* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.neunet.2022.04.012`](https://doi.org/10.1016/j.neunet.2022.04.012)
+
+<details><summary>Abstrak</summary>
+
+We present a novel artificial cognitive mapping system using generative deep neural networks, called variational autoencoder/generative adversarial network (VAE/GAN), which can map input images to latent vectors and generate temporal sequences internally. The results show that the distance of the predicted image is reflected in the distance of the corresponding latent vector after training. *(…)*
+
+</details>
 
 ---
 
@@ -27893,6 +30156,12 @@ Penulis: Vladimir Miskovic | Jurnal: *Neuroscience & Biobehavioral Reviews* | Ti
 
 DOI: [`10.1016/j.neubiorev.2019.01.014`](https://doi.org/10.1016/j.neubiorev.2019.01.014)
 
+<details><summary>Abstrak</summary>
+
+HighlightsDestructured sensory fields possess inadequate informational structure.Exposure to such fields elicits autonomously generated perceptual effects.Anomalous sensory fields provide a testing ground for predictive coding hypotheses. ABSTRACT Destructured sensory fields, involving homogenous stimulation with little or no time‐varying structure, provide a fertile ground for testing hypotheses… *(truncated)*
+
+</details>
+
 ---
 
 **2. [Symmetric solutions for an elliptic partial differential equation that arises in stochastic production planning with production constraints](https://doi.org/10.1016/j.amc.2019.01.015)**
@@ -27900,6 +30169,12 @@ DOI: [`10.1016/j.neubiorev.2019.01.014`](https://doi.org/10.1016/j.neubiorev.201
 Penulis: Dragos-Patru Covei | Jurnal: *Applied Mathematics and Computation* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.amc.2019.01.015`](https://doi.org/10.1016/j.amc.2019.01.015)
+
+<details><summary>Abstrak</summary>
+
+Abstract In this article we consider the question of the existence of positive symmetric solutions to the problems of the following type Δ u = a ( | x | ) h ( u ) + b ( | x | ) g ( u ) for x ∈ R N , which are called entire large solutions. Here N ≥ 3, and we assume that a and b are nonnegative continuous spherically symmetric functions on R N . *(…)*
+
+</details>
 
 ---
 
@@ -30577,6 +32852,12 @@ Penulis: Kim S. | Jurnal: *Neural Networks* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.neunet.2026.109334`](https://doi.org/10.1016/j.neunet.2026.109334)
 
+<details><summary>Abstrak</summary>
+
+Electrocardiogram (ECG) captures the heart's electrical signals, offering valuable information for diagnosing cardiac conditions. However, the scarcity of labeled data makes it challenging to fully leverage supervised learning in the medical domain. Self-supervised learning (SSL) offers a promising solution, enabling models to learn from unlabeled data and uncover meaningful patterns. *(…)*
+
+</details>
+
 ---
 
 #### Tahun 2026 (40 artikel)
@@ -30587,6 +32868,12 @@ Penulis: Ohri K. | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/ACCESS.2026.3722626`](https://doi.org/10.1109/ACCESS.2026.3722626)
 
+<details><summary>Abstrak</summary>
+
+The availability of large-scale labeled datasets has driven advances in AI-based computer vision, yet supervised learning remains costly and impractical in domains where annotation is scarce. Self-supervised learning (SSL) addresses this by harnessing unlabeled data to learn rich, transferable representations without explicit supervision. *(…)*
+
+</details>
+
 ---
 
 **2. [A JEPA-Inspired Span-Masked Framework for Language Representation Learning: Revisiting Cosine Similarity and VICReg Regularization](https://doi.org/10.3390/app16178530)**
@@ -30594,6 +32881,12 @@ DOI: [`10.1109/ACCESS.2026.3722626`](https://doi.org/10.1109/ACCESS.2026.3722626
 Penulis: Jareanpon C. | Jurnal: *Applied Sciences Switzerland* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.3390/app16178530`](https://doi.org/10.3390/app16178530)
+
+<details><summary>Abstrak</summary>
+
+Joint-Embedding Predictive Architectures (JEPAs) have recently emerged as a promising paradigm for self-supervised representation learning by predicting latent embeddings from partial observations rather than reconstructing raw inputs. Although JEPA has demonstrated considerable success in computer vision and large-scale language models, the design of lightweight JEPA-inspired representation learn… *(truncated)*
+
+</details>
 
 ---
 
@@ -30617,6 +32910,12 @@ Penulis: Shafique A. | Jurnal: *IEEE Open Journal of the Communications Society*
 
 DOI: [`10.1109/OJCOMS.2026.3725271`](https://doi.org/10.1109/OJCOMS.2026.3725271)
 
+<details><summary>Abstrak</summary>
+
+Zero-touch automation (ZTA) is becoming inevitable in future wireless networks to enable continuous and closed-loop optimization. A key enabler of ZTA is an accurate digital twin of the radio environment which provides the basis for inferring network behavior directly from measurements rather than predefined analytical models. *(…)*
+
+</details>
+
 ---
 
 **6. [A Trajectory-Guided Diffusion Model for Consistent and Realistic Video Synthesis in Autonomous Driving](https://doi.org/10.32604/cmes.2026.076439)**
@@ -30633,6 +32932,12 @@ Penulis: Wang S. | Jurnal: *IEEE Transactions on Pattern Analysis and Machine In
 
 DOI: [`10.1109/TPAMI.2026.3727986`](https://doi.org/10.1109/TPAMI.2026.3727986)
 
+<details><summary>Abstrak</summary>
+
+Action-conditioned world models are useful for embodied agents only when their predicted futures remain controllable by actions and stable under long-horizon rollout. We present SAMPO++, an embodied world model that treats action-conditioned prediction as a scale-decoupled controlled dynamical system rather than as conventional action-conditioned video generation. *(…)*
+
+</details>
+
 ---
 
 **8. Contractive MASO-Generalized Predictors for Stable Latent-Space Learning in JEPA**
@@ -30646,6 +32951,12 @@ Penulis: Belloulata K. | Jurnal: *Transactions on Machine Learning Research* | T
 Penulis: Zbinden L. | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/LRA.2026.3675962`](https://doi.org/10.1109/LRA.2026.3675962)
+
+<details><summary>Abstrak</summary>
+
+The rise of robot-assisted surgery and vision-language-action models has accelerated progress in autonomous surgical policies and efficient assessment strategies. However, evaluating these policies directly on physical robotic platforms such as the da Vinci Research Kit (dVRK) remains hindered by high costs, time demands, reproducibility challenges, and variability in execution. *(…)*
+
+</details>
 
 ---
 
@@ -30663,6 +32974,12 @@ Penulis: Guo J. | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal
 
 DOI: [`10.1109/LRA.2026.3653273`](https://doi.org/10.1109/LRA.2026.3653273)
 
+<details><summary>Abstrak</summary>
+
+This paper investigates training better visual world models for robot manipulation, i.e., models that can predict future visual observations by conditioning on past frames and robot actions. Specifically, we consider world models that operate on RGB-D frames (RGB-D world models). *(…)*
+
+</details>
+
 ---
 
 **12. [FlowVLA: Visual Chain of Thought-Based Motion Reasoning for Vision-Language-Action Models](https://doi.org/10.1109/TRO.2026.3732824)**
@@ -30671,6 +32988,12 @@ Penulis: Zhong Z. | Jurnal: *IEEE Transactions on Robotics* | Tipe: journal-arti
 
 DOI: [`10.1109/TRO.2026.3732824`](https://doi.org/10.1109/TRO.2026.3732824)
 
+<details><summary>Abstrak</summary>
+
+Many Vision-Language-Action (VLA) models are built upon an internal world model trained via next-frame prediction ``$v_t \rightarrow v_{t+1}$''. However, this paradigm attempts to predict the future frame's appearance directly, without explicitly reasoning about the underlying dynamics. *(…)*
+
+</details>
+
 ---
 
 **13. [Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis](https://doi.org/10.1109/OJITS.2026.3660686)**
@@ -30678,6 +33001,12 @@ DOI: [`10.1109/TRO.2026.3732824`](https://doi.org/10.1109/TRO.2026.3732824)
 Penulis: Gao Y. | Jurnal: *IEEE Open Journal of Intelligent Transportation Systems* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/OJITS.2026.3660686`](https://doi.org/10.1109/OJITS.2026.3660686)
+
+<details><summary>Abstrak</summary>
+
+For autonomous vehicles, safe navigation in complex environments depends on handling a broad range of diverse and rare driving scenarios. Simulation- and scenario-based testing have emerged as key approaches to development and validation of autonomous driving systems. *(…)*
+
+</details>
 
 ---
 
@@ -30695,6 +33024,12 @@ Penulis: Momani A.M. | Jurnal: *Computers Materials and Continua* | Tipe: journa
 
 DOI: [`10.32604/cmc.2026.082572`](https://doi.org/10.32604/cmc.2026.082572)
 
+<details><summary>Abstrak</summary>
+
+: Unmanned Aerial Vehicles (UAVs) are finding more and more applications in logistics, surveillance, and other operations at a large scale. However, autonomous navigation in dynamic traffic situations is not an easy task due to limited energy, moving obstacles, and inter-agent interactions. *(…)*
+
+</details>
+
 ---
 
 **16. [Intelligent driving foundation model](https://doi.org/10.11834/jig.260085)**
@@ -30711,6 +33046,12 @@ Penulis: Bou Chaaya C. | Jurnal: *IEEE Transactions on Wireless Communications* 
 
 DOI: [`10.1109/TWC.2025.3644600`](https://doi.org/10.1109/TWC.2025.3644600)
 
+<details><summary>Abstrak</summary>
+
+In this work, we study the joint scheduling and power allocation problem of vision-based remote control systems, where multiple devices upload their image states to a central controller and receive control actions. Due to the high dimensionality of the image states and to manage the lack of radio resources, we propose a novel self-supervised learning approach to predict the devices’ joint control… *(truncated)*
+
+</details>
+
 ---
 
 **18. [Mitigating Covariate Shift in Offline Imitation Learning via Trajectory Synthesis](https://doi.org/10.1109/TASE.2026.3729780)**
@@ -30718,6 +33059,12 @@ DOI: [`10.1109/TWC.2025.3644600`](https://doi.org/10.1109/TWC.2025.3644600)
 Penulis: Wang S. | Jurnal: *IEEE Transactions on Automation Science and Engineering* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/TASE.2026.3729780`](https://doi.org/10.1109/TASE.2026.3729780)
+
+<details><summary>Abstrak</summary>
+
+Offline imitation learning (IL) is a practical route to embodied policy learning when online exploration is unsafe, expensive, or unavailable. Its main limitation is the closed-loop covariate shift: a policy trained only on fixed demonstrations can enter states outside the expert support, where behavioral cloning provides no recovery supervision and small errors compound. *(…)*
+
+</details>
 
 ---
 
@@ -30727,6 +33074,12 @@ Penulis: Wang L. | Jurnal: *IEEE Transactions on Image Processing* | Tipe: journ
 
 DOI: [`10.1109/TIP.2026.3687468`](https://doi.org/10.1109/TIP.2026.3687468)
 
+<details><summary>Abstrak</summary>
+
+Understanding the evolution of 3D scenes is crucial for autonomous driving. While conventional methods describe scene development through individual instance motions, world models provide a generative framework for modeling overall scene dynamics. *(…)*
+
+</details>
+
 ---
 
 **20. [OccTENS: 3D Occupancy World Model via Temporal Next-Scale Prediction](https://doi.org/10.1109/LRA.2026.3655202)**
@@ -30734,6 +33087,12 @@ DOI: [`10.1109/TIP.2026.3687468`](https://doi.org/10.1109/TIP.2026.3687468)
 Penulis: Jin B. | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/LRA.2026.3655202`](https://doi.org/10.1109/LRA.2026.3655202)
+
+<details><summary>Abstrak</summary>
+
+In this paper, we propose OccTENS, a generative occupancy world model that enables controllable, high-fidelity long-term occupancy generation while maintaining computational efficiency. Different from visual generation, the occupancy world model must capture the fine-grained 3D geometry and dynamic evolution of the 3D scenes, posing great challenges for the generative models. *(…)*
+
+</details>
 
 ---
 
@@ -30743,6 +33102,12 @@ Penulis: Chen H. | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/ACCESS.2026.3684562`](https://doi.org/10.1109/ACCESS.2026.3684562)
 
+<details><summary>Abstrak</summary>
+
+Microsurgery involving the eye requires precise surgical techniques performed at micrometer accuracy, making it difficult to design a robotic or autonomous surgical system that will work effectively in the domain of ophthalmic microsurgery. Some advances have been made toward surgical robotics and the field of Artificial Intelligence has seen great success, however, the methods used in solving the… *(truncated)*
+
+</details>
+
 ---
 
 **22. [Offline Inverse Constrained Reinforcement Learning for Safe-Critical Decision Making in Healthcare](https://doi.org/10.1109/TAI.2025.3610390)**
@@ -30750,6 +33115,12 @@ DOI: [`10.1109/ACCESS.2026.3684562`](https://doi.org/10.1109/ACCESS.2026.3684562
 Penulis: Fang N. | Jurnal: *IEEE Transactions on Artificial Intelligence* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/TAI.2025.3610390`](https://doi.org/10.1109/TAI.2025.3610390)
+
+<details><summary>Abstrak</summary>
+
+One important application of reinforcement learning (RL) is optimizing treatment decisions in healthcare. However, a naïve RL policy can lead to unsafe medical decisions, such as excessive dosages or abrupt treatment changes, often because agents fail to account for common-sense constraints. *(…)*
+
+</details>
 
 ---
 
@@ -30767,6 +33138,12 @@ Penulis: Pilataki M. | Jurnal: *IEEE Signal Processing Letters* | Tipe: journal-
 
 DOI: [`10.1109/LSP.2026.3704065`](https://doi.org/10.1109/LSP.2026.3704065)
 
+<details><summary>Abstrak</summary>
+
+Multi-instrument automatic music transcription (MIAMT) requires learning representations from limited labelled data. We present a controlled comparison of two self-supervised paradigms: masked spectrogram reconstruction with a masked autoencoder (MAE) and predictive learning with a joint embedding predictive architecture (JEPA). *(…)*
+
+</details>
+
 ---
 
 **25. [Safe online reinforcement learning with diffusion world model and Langevin dynamics](https://doi.org/10.1016/j.eswa.2026.131278)**
@@ -30783,6 +33160,12 @@ Penulis: Komurcu K. | Jurnal: *IEEE Geoscience and Remote Sensing Letters* | Tip
 
 DOI: [`10.1109/LGRS.2026.3708464`](https://doi.org/10.1109/LGRS.2026.3708464)
 
+<details><summary>Abstrak</summary>
+
+Continuous spatiotemporal forecasting in Earth observation (EO) is severely hindered by atmospheric interference. While generative models excel in modeling transitions, they often rely on optical conditioning. In this letter, we advance our previous Sat-JEPA-Diff architecture, which depended on a $32~\times ~32$ coarse RGB input, by introducing a true zero-RGB temporal steering paradigm. *(…)*
+
+</details>
+
 ---
 
 **27. [Self-Supervised Hyperspectral Learning for Leaf Multitrait Prediction With Sparse Labels](https://doi.org/10.1109/TGRS.2026.3665747)**
@@ -30791,6 +33174,12 @@ Penulis: Su C. | Jurnal: *IEEE Transactions on Geoscience and Remote Sensing* | 
 
 DOI: [`10.1109/TGRS.2026.3665747`](https://doi.org/10.1109/TGRS.2026.3665747)
 
+<details><summary>Abstrak</summary>
+
+Accurate estimation of leaf traits is critical for evaluating ecosystem functions and elucidating vegetation–environment interactions. Hyperspectral remote sensing provides a non-destructive and information-rich means for trait analysis, yet its potential remains constrained by the scarcity of labeled data and the limited generalizability of existing learning methods. *(…)*
+
+</details>
+
 ---
 
 **28. [Semantic Communications With World Models](https://doi.org/10.1109/TCOMM.2026.3714287)**
@@ -30798,6 +33187,12 @@ DOI: [`10.1109/TGRS.2026.3665747`](https://doi.org/10.1109/TGRS.2026.3665747)
 Penulis: Jiang P. | Jurnal: *IEEE Transactions on Communications* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/TCOMM.2026.3714287`](https://doi.org/10.1109/TCOMM.2026.3714287)
+
+<details><summary>Abstrak</summary>
+
+Semantic communication is a promising technique for emerging wireless applications, which reduces transmission overhead by transmitting only task-relevant features instead of raw data. However, existing methods struggle under extremely low bandwidth and varying channel conditions, where corrupted or missing semantics lead to severe reconstruction errors. *(…)*
+
+</details>
 
 ---
 
@@ -30814,6 +33209,12 @@ DOI: [`10.1016/j.rsase.2026.102136`](https://doi.org/10.1016/j.rsase.2026.102136
 Penulis: Hu Y. | Jurnal: *IEEE Transactions on Pattern Analysis and Machine Intelligence* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/TPAMI.2026.3690925`](https://doi.org/10.1109/TPAMI.2026.3690925)
+
+<details><summary>Abstrak</summary>
+
+Understanding and replicating the real world is a critical challenge in Artificial General Intelligence (AGI) research. To achieve this, many existing approaches, such as world models, aim to capture the fundamental principles governing the physical world, enabling more accurate simulations and meaningful interactions. *(…)*
+
+</details>
 
 ---
 
@@ -30863,6 +33264,12 @@ Penulis: Zhang B. | Jurnal: *Advanced Manufacturing* | Tipe: journal-article | B
 
 DOI: [`10.55092/am20260007`](https://doi.org/10.55092/am20260007)
 
+<details><summary>Abstrak</summary>
+
+: Predictive maintenance for industrial equipment is critical for improving production safety, reducing maintenance costs, and optimizing equipment utilization. However, existing deep learning methods face two key challenges in industrial equipment prognostics: the lack of uncertainty quantification to support risk-informed decision-making and the inability to simultaneously capture multi-scale te… *(truncated)*
+
+</details>
+
 ---
 
 **37. [Unified Table Understanding Via Context-Aware Cell Embedding Learning](https://doi.org/10.1109/TKDE.2026.3731233)**
@@ -30877,6 +33284,12 @@ DOI: [`10.1109/TKDE.2026.3731233`](https://doi.org/10.1109/TKDE.2026.3731233)
 
 Penulis: Terver B. | Jurnal: *Transactions on Machine Learning Research* | Tipe: journal-article | Bahasa: en
 
+<details><summary>Abstrak</summary>
+
+A long-standing challenge in AI is to develop agents capable of solving a wide range of physical tasks and generalizing to new, unseen tasks and environments. A popular recent approach involves training a world model from state-action trajectories and subsequently use it with a planning algorithm to solve new tasks. *(…)*
+
+</details>
+
 ---
 
 **39. [World Model for Autonomous Information Freshness in Sparse-Reward Mobile Edge Networks](https://doi.org/10.1109/LWC.2026.3680215)**
@@ -30884,6 +33297,12 @@ Penulis: Terver B. | Jurnal: *Transactions on Machine Learning Research* | Tipe:
 Penulis: Wang X. | Jurnal: *IEEE Wireless Communications Letters* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/LWC.2026.3680215`](https://doi.org/10.1109/LWC.2026.3680215)
+
+<details><summary>Abstrak</summary>
+
+Generative world models offer a promising paradigm for autonomous decision-making in sparse-reward environments. However, applying these models to Age of Information (AoI) minimization in mobile edge networks faces a fundamental temporal structural mismatch, characterized by the conflict between continuous energy expenditure and discrete, event-triggered information updates. *(…)*
+
+</details>
 
 ---
 
@@ -30917,6 +33336,12 @@ Penulis: Tucker D.M. | Jurnal: *Cerebral Cortex* | Tipe: journal-article | Bahas
 
 DOI: [`10.1093/cercor/bhaf122`](https://doi.org/10.1093/cercor/bhaf122)
 
+<details><summary>Abstrak</summary>
+
+Cognitive self-organization rests on activity-dependent plasticity to extend the ontogenetic process of neural differentiation and integration of the cerebral cortex in each act of cognition. This account of neurocognitive growth can be formulated in terms of active inference and learning. *(…)*
+
+</details>
+
 ---
 
 **4. [FusDreamer: Label-Efficient Remote Sensing World Model for Multimodal Data Classification](https://doi.org/10.1109/TGRS.2025.3554862)**
@@ -30924,6 +33349,12 @@ DOI: [`10.1093/cercor/bhaf122`](https://doi.org/10.1093/cercor/bhaf122)
 Penulis: Wang J. | Jurnal: *IEEE Transactions on Geoscience and Remote Sensing* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/TGRS.2025.3554862`](https://doi.org/10.1109/TGRS.2025.3554862)
+
+<details><summary>Abstrak</summary>
+
+World models significantly enhance hierarchical understanding, improving data integration and learning efficiency. To explore the potential of the world model in the remote sensing (RS) field, this article proposes a label-efficient RS world model for multimodal data fusion (FusDreamer). *(…)*
+
+</details>
 
 ---
 
@@ -30939,6 +33370,12 @@ Penulis: Grosvenor A. | Jurnal: *Frontiers in Robotics and AI* | Tipe: journal-a
 
 DOI: [`10.3389/frobt.2025.1566623`](https://doi.org/10.3389/frobt.2025.1566623)
 
+<details><summary>Abstrak</summary>
+
+Introduction Mission-critical automation demands decision-making that is explainable, adaptive, and scalable—attributes elusive to purely symbolic or data-driven approaches. We introduce a hybrid intelligence (H-I) system that fuses symbolic reasoning with advanced machine learning via a hierarchical architecture, inspired by cognitive frameworks like Global Workspace Theory (Baars, A Cognitive Th… *(truncated)*
+
+</details>
+
 ---
 
 **7. [Learning Latent Wireless Dynamics From Channel State Information](https://doi.org/10.1109/LWC.2024.3510943)**
@@ -30946,6 +33383,12 @@ DOI: [`10.3389/frobt.2025.1566623`](https://doi.org/10.3389/frobt.2025.1566623)
 Penulis: Chaaya C.B. | Jurnal: *IEEE Wireless Communications Letters* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1109/LWC.2024.3510943`](https://doi.org/10.1109/LWC.2024.3510943)
+
+<details><summary>Abstrak</summary>
+
+In this letter, we propose a novel data-driven machine learning (ML) technique to model and predict the dynamics of the wireless propagation environment in latent space. Leveraging the idea of channel charting, which learns compressed representations of high-dimensional channel state information (CSI), we incorporate a predictive component to capture the dynamics of the wireless system. *(…)*
+
+</details>
 
 ---
 
@@ -30955,6 +33398,12 @@ Penulis: Yu Z. | Jurnal: *IEEE Transactions on Pattern Analysis and Machine Inte
 
 DOI: [`10.1109/TPAMI.2024.3507010`](https://doi.org/10.1109/TPAMI.2024.3507010)
 
+<details><summary>Abstrak</summary>
+
+The recent advancement of generative foundational models has ushered in a new era of image generation in the realm of natural images, revolutionizing art design, entertainment, environment simulation, and beyond. Despite producing high-quality samples, existing methods are constrained to generating images of scenes at a limited scale. *(…)*
+
+</details>
+
 ---
 
 **9. [Modeling Interactions between Autonomous Agents in a Multi-Agent Self-Awareness Architecture](https://doi.org/10.1109/TMM.2025.3543110)**
@@ -30963,6 +33412,12 @@ Penulis: Alemaw A.S. | Jurnal: *IEEE Transactions on Multimedia* | Tipe: journal
 
 DOI: [`10.1109/TMM.2025.3543110`](https://doi.org/10.1109/TMM.2025.3543110)
 
+<details><summary>Abstrak</summary>
+
+Learning from experience is a fundamental capability of intelligent agents. Autonomous systems rely on sensors that provide data about the environment and internal situations to their perception systems for learning and inference mechanisms. These systems can also learn Self-Aware and Situation-Aware generative modules from these data to localize themselves and interact with the environment. *(…)*
+
+</details>
+
 ---
 
 **10. [PointGFAE: density-aware and attention-enhanced feature learning for point cloud classification](https://doi.org/10.1117/1.JEI.34.6.063013)**
@@ -30970,6 +33425,12 @@ DOI: [`10.1109/TMM.2025.3543110`](https://doi.org/10.1109/TMM.2025.3543110)
 Penulis: Wu J. | Jurnal: *Journal of Electronic Imaging* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1117/1.JEI.34.6.063013`](https://doi.org/10.1117/1.JEI.34.6.063013)
+
+<details><summary>Abstrak</summary>
+
+Abstract. In point cloud processing, methods that directly operate on raw point cloud data have garnered significant attention due to their efficiency. From PointNet++ to PointNext, this line of techniques has demonstrated notable advantages in computational complexity and runtime efficiency compared with contemporaneous methods. *(…)*
+
+</details>
 
 ---
 
@@ -30995,6 +33456,12 @@ Penulis: Vybornova Y. | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: 
 
 DOI: [`10.1109/ACCESS.2025.3545768`](https://doi.org/10.1109/ACCESS.2025.3545768)
 
+<details><summary>Abstrak</summary>
+
+Reliable methods for process control are required in maintenance to prevent emergencies, maintain high quality of work, and minimize potential risks to workers. Strict adherence to technological processes is also an essential requirement for compliance with production standards. *(…)*
+
+</details>
+
 ---
 
 **14. [Structured Dynamics in the Algorithmic Agent](https://doi.org/10.3390/e27010090)**
@@ -31002,6 +33469,12 @@ DOI: [`10.1109/ACCESS.2025.3545768`](https://doi.org/10.1109/ACCESS.2025.3545768
 Penulis: Ruffini G. | Jurnal: *Entropy* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.3390/e27010090`](https://doi.org/10.3390/e27010090)
+
+<details><summary>Abstrak</summary>
+
+In the Kolmogorov Theory of Consciousness, algorithmic agents utilize inferred compressive models to track coarse-grained data produced by simplified world models, capturing regularities that structure subjective experience and guide action planning. *(…)*
+
+</details>
 
 ---
 
@@ -31019,6 +33492,12 @@ Penulis: Guan Y. | Jurnal: *Communications Engineering* | Tipe: journal-article 
 
 DOI: [`10.1038/s44172-025-00474-7`](https://doi.org/10.1038/s44172-025-00474-7)
 
+<details><summary>Abstrak</summary>
+
+Reliable anticipation of traffic accidents is essential for advancing autonomous driving systems. However, this objective is limited by two fundamental challenges: the scarcity of diverse, high-quality training data and the frequent absence of crucial object-level cues due to environmental disruptions or sensor deficiencies. *(…)*
+
+</details>
+
 ---
 
 #### Tahun 2024 (4 artikel)
@@ -31029,6 +33508,12 @@ Penulis: Luo S. | Jurnal: *IEEE Transactions on Intelligent Vehicles* | Tipe: jo
 
 DOI: [`10.1109/TIV.2024.3406372`](https://doi.org/10.1109/TIV.2024.3406372)
 
+<details><summary>Abstrak</summary>
+
+Foundation models have indeed made a profound impact on various fields, emerging as pivotal components that significantly shape the capabilities of intelligent systems. In the context of intelligent vehicles, leveraging the power of foundation models has proven to be transformative, offering notable advancements in visual understanding. *(…)*
+
+</details>
+
 ---
 
 **2. [Dream to Adapt: Meta Reinforcement Learning by Latent Context Imagination and MDP Imagination](https://doi.org/10.1109/LRA.2024.3417114)**
@@ -31037,6 +33522,12 @@ Penulis: Wen L. | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal
 
 DOI: [`10.1109/LRA.2024.3417114`](https://doi.org/10.1109/LRA.2024.3417114)
 
+<details><summary>Abstrak</summary>
+
+Meta reinforcement learning (Meta RL) has been amply explored to quickly learn an unseen task by transferring previously learned knowledge from similar tasks. However, most state-of-the-art Meta RL algorithms require the meta-training tasks to have a dense coverage of the task distribution and a great amount of data for each of them. *(…)*
+
+</details>
+
 ---
 
 **3. [Predicting gradient is better: Exploring self-supervised learning for SAR ATR with a joint-embedding predictive architecture](https://doi.org/10.1016/j.isprsjprs.2024.09.013)**
@@ -31044,6 +33535,12 @@ DOI: [`10.1109/LRA.2024.3417114`](https://doi.org/10.1109/LRA.2024.3417114)
 Penulis: Li W. | Jurnal: *ISPRS Journal of Photogrammetry and Remote Sensing* | Tipe: journal-article | Bahasa: en
 
 DOI: [`10.1016/j.isprsjprs.2024.09.013`](https://doi.org/10.1016/j.isprsjprs.2024.09.013)
+
+<details><summary>Abstrak</summary>
+
+The growing Synthetic Aperture Radar (SAR) data has the potential to build a foundation model through Self-Supervised Learning (SSL) methods, which can achieve various SAR Automatic Target Recognition (ATR) tasks with pre-training in large-scale unlabeled data and fine-tuning in small labeled samples. *(…)*
+
+</details>
 
 ---
 
@@ -31327,6 +33824,657 @@ Humans and animals can effortlessly coordinate their movements with external sti
 ---
 
 
+### Basis Data: IEEE Xplore
+
+> IEEE Digital Library — Electrical engineering, computer science, and electronics.
+
+**Total:** 45 artikel
+
+#### Tahun 2026 (24 artikel)
+
+**1. [A Comprehensive Survey of Large AI Models for Future Communications: Foundations, Applications, and Challenges](https://ieeexplore.ieee.org/document/11370829/)**
+
+Penulis: Feibo Jiang; Cunhua Pan; Li Dong *et al.* (7 authors) | Jurnal: *IEEE Communications Surveys & Tutorials* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/COMST.2026.3660844`](https://doi.org/10.1109/COMST.2026.3660844)
+
+<details><summary>Abstrak</summary>
+
+The 6G wireless communications aim to establish an intelligent world of ubiquitous connectivity, providing an unprecedented communication experience. Large artificial intelligence models (LAMs) are characterized by significantly larger scales (e.g., billions or trillions of parameters) compared to typical artificial intelligence (AI) models. *(…)*
+
+</details>
+
+---
+
+**2. [Aligning Perception, Reasoning, Modeling and Interaction: A Survey on Physical AI](https://ieeexplore.ieee.org/document/11561107/)**
+
+Penulis: Kun Xiang; Terry Jingchen Zhang; Yinya Huang *et al.* (16 authors) | Jurnal: *IEEE Transactions on Pattern Analysis and Machine Intelligence* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TPAMI.2026.3703038`](https://doi.org/10.1109/TPAMI.2026.3703038)
+
+<details><summary>Abstrak</summary>
+
+The convergence of embodied intelligence and world models has catalyzed growing interest in integrating physical laws into AI systems. While prior surveys have examined world models and embodied intelligence separately, we focus on the progression that connects these capabilities as a unified developmental pathway from passive observation to active physical comprehension. *(…)*
+
+</details>
+
+---
+
+**3. [CascadeOcc: Rethinking 3D Occupancy World Models With Cascaded VQ Representations](https://ieeexplore.ieee.org/document/11474772/)**
+
+Penulis: Kyumin Hwang; Wonhyeok Choi; Jaeyeul Kim *et al.* (6 authors) | Jurnal: *IEEE Signal Processing Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LSP.2026.3680426`](https://doi.org/10.1109/LSP.2026.3680426)
+
+<details><summary>Abstrak</summary>
+
+This letter proposes CascadeOcc, a novel occupancy world model that prioritizes intrinsic structural hierarchy over extrinsic auxiliary modalities for autonomous driving. Occupancy world models—forecasting the future driving environment and planning the driving trajectory—effectively bridge perception and planning, but current approaches often heavily rely on external modalities or large language… *(truncated)*
+
+</details>
+
+---
+
+**4. [Constructing the World From Few Demonstrations: Learning Compositional World Models for Generalizable Robotic Skills](https://ieeexplore.ieee.org/document/11538026/)**
+
+Penulis: Haowen Sun; Chengzhong Ma; Han Wang *et al.* (9 authors) | Jurnal: *IEEE Transactions on Industrial Informatics* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TII.2026.3688546`](https://doi.org/10.1109/TII.2026.3688546)
+
+<details><summary>Abstrak</summary>
+
+Leveraging world models to augment data or facilitate policy optimization presents a potential solution to learn robotic skills from few demonstrations. However, constructing world models with limited data remains a fundamental challenge, requiring accurate modeling of real-world dynamics and reliable reward learning. *(…)*
+
+</details>
+
+---
+
+**5. [Data-Model Co-Driven Continuous Channel Map Construction: A Perceptive Foundation for Embodied Intelligent Agents in 6G Networks](https://ieeexplore.ieee.org/document/11578103/)**
+
+Penulis: Tianrun Qi; Cheng-Xiang Wang; Chen Huang *et al.* (5 authors) | Jurnal: *IEEE Transactions on Cognitive Communications and Networking* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TCCN.2026.3706697`](https://doi.org/10.1109/TCCN.2026.3706697)
+
+<details><summary>Abstrak</summary>
+
+Future 6G networks will host massive numbers of embodied intelligent agents, which require real-time channel awareness over continuous-space for autonomous decision-making. By pre-obtaining location-specific channel state information (CSI), channel map can be served as a foundational world model for embodied intelligence to achieve wireless channel perception. *(…)*
+
+</details>
+
+---
+
+**6. [Deriving a Data-Efficient, Generalist Agent Through World Models](https://ieeexplore.ieee.org/document/11664046/)**
+
+Penulis: Jooyeon Kim | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/ACCESS.2026.3726084`](https://doi.org/10.1109/ACCESS.2026.3726084)
+
+<details><summary>Abstrak</summary>
+
+Machine learning researchers long to derive a generalist agent whose problem-solving abilities span over multiple tasks. At the same time, we are also interested in data efficiency, i.e., training agents with fewer, limited training samples. To these two distinctive ends, recent lines of research on world models (WMs) for image-based reinforcement learning (RL) tasks have also shown a stark diverg… *(truncated)*
+
+</details>
+
+---
+
+**7. [Dream to Recall: Imagination-Guided Experience Retrieval for Memory-Persistent Vision-and-Language Navigation](https://ieeexplore.ieee.org/document/11459135/)**
+
+Penulis: Yunzhe Xu; Yiyuan Pan; Zhe Liu | Jurnal: *IEEE Transactions on Pattern Analysis and Machine Intelligence* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TPAMI.2026.3679426`](https://doi.org/10.1109/TPAMI.2026.3679426)
+
+<details><summary>Abstrak</summary>
+
+Vision-and-Language Navigation (VLN) requires agents to follow natural language instructions through environments, with memory-persistent variants demanding progressive improvement through accumulated experience. Existing approaches for memory-persistent VLN face critical limitations: they lack effective memory access mechanisms, instead relying on entire memory incorporation or fixed-horizon look… *(truncated)*
+
+</details>
+
+---
+
+**8. [DREWM: A Decision-Refined World Model for End-to-End Autonomous Driving](https://ieeexplore.ieee.org/document/11250785/)**
+
+Penulis: Jiatong Du; Yue Liang; Jiaheng Geng *et al.* (5 authors) | Jurnal: *IEEE Transactions on Vehicular Technology* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TVT.2025.3633491`](https://doi.org/10.1109/TVT.2025.3633491)
+
+<details><summary>Abstrak</summary>
+
+End-to-end autonomous driving systems have garnered attention for their potential to optimize and represent the entire driving task in an integrated manner. However, current end-to-end approaches tend to prioritize optimizations and hidden states, often overlooking the decision-making framework, which poses ongoing challenges in safety and comfort. *(…)*
+
+</details>
+
+---
+
+**9. [Embodied Tree of Thoughts: Deliberate Manipulation Planning With Embodied World Model](https://ieeexplore.ieee.org/document/11617299/)**
+
+Penulis: Wenjiang Xu; Mingkang Zhang; Cindy Wang *et al.* (9 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2026.3716133`](https://doi.org/10.1109/LRA.2026.3716133)
+
+<details><summary>Abstrak</summary>
+
+World models have emerged as a pivotal component in robot manipulation planning, enabling agents to predict future environmental states and reason about the consequences of actions before execution. While video-generation models are increasingly adopted, they often lack rigorous physical grounding, leading to hallucinations and a failure to maintain consistency in long-horizon physical constraints… *(truncated)*
+
+</details>
+
+---
+
+**10. [From Pixels to Predicates: Learning Symbolic World Models via Pretrained VLMs](https://ieeexplore.ieee.org/document/11373861/)**
+
+Penulis: Ashay Athalye; Nishanth Kumar; Tom Silver *et al.* (7 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2026.3662533`](https://doi.org/10.1109/LRA.2026.3662533)
+
+<details><summary>Abstrak</summary>
+
+Our aim is to learn to solve long-horizon decision-making problems in complex robotics domains given low-level skills and a handful of demonstrations containing sequences of images. To this end, we focus on learning abstract symbolic world models that facilitate zero-shot generalization to novel goals via planning. *(…)*
+
+</details>
+
+---
+
+**11. [Fuzzy Reinforcement Learning for Adaptive Control of CDQ Systems in Steel Industry](https://ieeexplore.ieee.org/document/11457689/)**
+
+Penulis: Han Zhang; Yang Liu; Jun Zhao *et al.* (4 authors) | Jurnal: *IEEE Transactions on Industrial Informatics* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TII.2026.3671728`](https://doi.org/10.1109/TII.2026.3671728)
+
+<details><summary>Abstrak</summary>
+
+Coke dry quenching (CDQ) in steel enterprises faces critical control challenges arising from dynamic complexity, inherent nonlinearity, operating uncertainties, and sparse feedback signals. To address these problems, a temporal-fuzzy enhanced reinforcement learning (TFERL) framework is proposed in this study, in which exploration and fuzzy-objective shaping are balanced to improve main steam tempe… *(truncated)*
+
+</details>
+
+---
+
+**12. [Generative AI-Empowered Signal Processing for Collaborative Embodied Agents: A Survey on Agentic Security](https://ieeexplore.ieee.org/document/11449255/)**
+
+Penulis: Gaofeng Pan; Yi Tao; Ziyi Yang *et al.* (11 authors) | Jurnal: *IEEE Transactions on Cognitive Communications and Networking* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TCCN.2026.3676045`](https://doi.org/10.1109/TCCN.2026.3676045)
+
+<details><summary>Abstrak</summary>
+
+The transition from the Internet of Things (IoT) to the Internet of Agents (IoA) necessitates a fundamental paradigm shift in physical layer security, moving from static, rule-based defenses toward autonomous, agentic resilience. However, current embodied nodes often lack the cognitive capability required to handle adaptive, intelligent threats. *(…)*
+
+</details>
+
+---
+
+**13. [Hybrid GNN-Centric Architectures for AI-Native 6G Wireless Networks: A Comprehensive Survey](https://ieeexplore.ieee.org/document/11474822/)**
+
+Penulis: Mostafa Rahmani Ghourtani; Sajedeh Norouzi; Jinxuan Chen *et al.* (7 authors) | Jurnal: *IEEE Communications Surveys & Tutorials* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/COMST.2026.3681198`](https://doi.org/10.1109/COMST.2026.3681198)
+
+<details><summary>Abstrak</summary>
+
+The growing complexity, scale, and heterogeneity of 6G wireless systems call for a shift toward AI-native architectures that are not only data-driven but also topology-aware, adaptive, and distributed. Graph Neural Networks (GNNs), with their native support for graph-structured data, are well-suited for modeling the irregular and dynamic relationships inherent in wireless communication systems. *(…)*
+
+</details>
+
+---
+
+**14. [Inference-Time Enhancement of Generative Robot Policies via Predictive World Modeling](https://ieeexplore.ieee.org/document/11433756/)**
+
+Penulis: Han Qi; Haocheng Yin; Aris Zhu *et al.* (5 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2026.3673995`](https://doi.org/10.1109/LRA.2026.3673995)
+
+<details><summary>Abstrak</summary>
+
+We present generative predictive control (GPC), a framework for inference-time enhancement of pretrained behavior-cloning policies. Rather than retraining or fine-tuning, GPC augments a frozen diffusion policy at deployment by coupling it with a predictive world model. *(…)*
+
+</details>
+
+---
+
+**15. [Learning Visually Interpretable Oscillator Networks for Soft Continuum Robots From Video](https://ieeexplore.ieee.org/document/11560904/)**
+
+Penulis: Henrik Krauss; Johann Licher; Naoya Takeishi *et al.* (5 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2026.3703241`](https://doi.org/10.1109/LRA.2026.3703241)
+
+<details><summary>Abstrak</summary>
+
+Learning soft continuum robot (SCR) dynamics from video offers flexibility but existing methods lack interpretability or rely on prior assumptions. Model-based approaches require prior knowledge and manual design. We bridge this gap by introducing: (1) The Attention Broadcast Decoder (ABCD), a plug-and-play module for autoencoder-based latent dynamics learning that generates pixel-accurate attenti… *(truncated)*
+
+</details>
+
+---
+
+**16. [Lighted-SAM: Lightening Open-World SAM for Low-Light Segmentation](https://ieeexplore.ieee.org/document/11568962/)**
+
+Penulis: Yuhan Jia; Lixin Duan; Wen Li *et al.* (4 authors) | Jurnal: *IEEE Transactions on Image Processing* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TIP.2026.3702382`](https://doi.org/10.1109/TIP.2026.3702382)
+
+<details><summary>Abstrak</summary>
+
+Segment Anything Model (SAM) has achieved impressive segmentation performance in an open-world setting. However, SAM relies heavily on high-quality input images and usually struggles in low-light conditions. This is mainly caused by the pre-training dataset, SA-1B, in which low-light samples constitute a relatively small fraction of the data. *(…)*
+
+</details>
+
+---
+
+**17. [MAPF-World: Action World Model for Multi-Agent Path Finding](https://ieeexplore.ieee.org/document/11663072/)**
+
+Penulis: Zhanjiang Yang; Yueming Li; Yang Shen *et al.* (5 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2026.3726342`](https://doi.org/10.1109/LRA.2026.3726342)
+
+<details><summary>Abstrak</summary>
+
+Multi-agent path finding (MAPF) studies the problem of planning conflict-free paths for multiple agents from given start locations to designated goals, with applications in robot-assisted logistics and social navigation. Recent decentralized learned solvers have shown promise for large-scale MAPF, particularly when leveraging foundation models and large datasets. *(…)*
+
+</details>
+
+---
+
+**18. [NRSeg: Noise-Resilient Learning for BEV Semantic Segmentation via Driving World Models](https://ieeexplore.ieee.org/document/11433529/)**
+
+Penulis: Siyu Li; Fei Teng; Yihong Cao *et al.* (6 authors) | Jurnal: *IEEE Transactions on Image Processing* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TIP.2026.3671686`](https://doi.org/10.1109/TIP.2026.3671686)
+
+<details><summary>Abstrak</summary>
+
+Birds’ Eye View (BEV) semantic segmentation is an indispensable perception task in end-to-end autonomous driving systems. Unsupervised and semi-supervised learning for BEV tasks, as pivotal for real-world applications, underperform due to the homogeneous distribution of the labeled data. *(…)*
+
+</details>
+
+---
+
+**19. [Rapid Generation of Channel Knowledge Map by Joint Physics and Conditional Diffusion Models](https://ieeexplore.ieee.org/document/11642158/)**
+
+Penulis: Yu Chen; Jiao Chen; Jianhua Tang *et al.* (4 authors) | Jurnal: *IEEE Transactions on Network Science and Engineering* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TNSE.2026.3720671`](https://doi.org/10.1109/TNSE.2026.3720671)
+
+<details><summary>Abstrak</summary>
+
+A channel knowledge map (CKM) provides location-specific channel priors and can reduce the overhead of real-time channel state information (CSI) acquisition for 6G environment-aware communications. In practice, CKM generation is often constrained by sparse and noisy measurements due to the high cost of wireless data collection. *(…)*
+
+</details>
+
+---
+
+**20. [SGPM-Net: A Self-Evolving Generative Memory Framework for Unsupervised Rare Event Detection via Latent Dynamics-Based Augmentation](https://ieeexplore.ieee.org/document/11576025/)**
+
+Penulis: Asim Wadood; M. Irfan Uddin; Theyazn H. H. Aldhyani *et al.* (6 authors) | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/ACCESS.2026.3706653`](https://doi.org/10.1109/ACCESS.2026.3706653)
+
+<details><summary>Abstrak</summary>
+
+Rare event detection in visual data remains a fundamental challenge due to the extreme scarcity and unpredictability of anomalous patterns. Conventional unsupervised or generative methods often model only the distribution of normal samples, failing to capture the underlying dynamics or synthesize realistic rare occurrences. *(…)*
+
+</details>
+
+---
+
+**21. [SPREAD: Scalable Pre-Trained World Model for Adaptive Dynamics Model](https://ieeexplore.ieee.org/document/11495089/)**
+
+Penulis: Jihun Moon; Seong-Woo Kim | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2026.3688061`](https://doi.org/10.1109/LRA.2026.3688061)
+
+<details><summary>Abstrak</summary>
+
+Autonomous robots must be capable of adapting not only to training datasets but also to unfamiliar environments. World models, which learn predictive dynamics of the environment, have been proposed to overcome the task-specific limitations of conventional RL. However, their capability is typically restricted to training distributions. *(…)*
+
+</details>
+
+---
+
+**22. [TREND: Task-Oriented World Models for Visual Robotic Manipulation](https://ieeexplore.ieee.org/document/11495394/)**
+
+Penulis: Yuxiang Zheng; Tao Lu; Yinghao Cai | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2026.3688085`](https://doi.org/10.1109/LRA.2026.3688085)
+
+<details><summary>Abstrak</summary>
+
+World models, the key component of model-based reinforcement learning (MBRL), enable sample-efficient learning by modeling the environment. However, for challenging visual robotic manipulation tasks with continuous action spaces, standard image reconstruction and uniform sampling schemes are suboptimal and may even impede learning. *(…)*
+
+</details>
+
+---
+
+**23. [Unifying Unsupervised and Offline RL for Fast Adaptation Using World Models](https://ieeexplore.ieee.org/document/11434483/)**
+
+Penulis: Daniel Khapun; Dan Rosenbaum | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2026.3673814`](https://doi.org/10.1109/LRA.2026.3673814)
+
+<details><summary>Abstrak</summary>
+
+Deep reinforcement learning has proven an effective method to solve many intricate tasks, yet it still struggles with data efficiency and generalization to novel scenarios, as required in settings such as robotics. Recent approaches to deal with this include (1) unsupervised pretraining of the agent in an environment without reward signals, and (2) training the agent using offline data coming from… *(truncated)*
+
+</details>
+
+---
+
+**24. [Walking World Model for Visually Impaired Path Following](https://ieeexplore.ieee.org/document/11282473/)**
+
+Penulis: Haokun Ju; Lixuan Zhang; Xiangyu Cao *et al.* (6 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2025.3641097`](https://doi.org/10.1109/LRA.2025.3641097)
+
+<details><summary>Abstrak</summary>
+
+Guiding visually impaired individuals (VI) walking along planned paths is essential for enabling independent long-distance mobility. Current reactive approaches only correct deviations after they occur. These methods ignore VI's walking dynamics (e.g. *(…)*
+
+</details>
+
+---
+
+#### Tahun 2025 (10 artikel)
+
+**1. [Action-Inclusive Multi-Future Prediction Using a Generative Model in Human-Related Scenes for Mobile Robots](https://ieeexplore.ieee.org/document/11170425/)**
+
+Penulis: Chenfei Xu; Huthaifa Ahmad; Yuya Okadome *et al.* (5 authors) | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/ACCESS.2025.3611812`](https://doi.org/10.1109/ACCESS.2025.3611812)
+
+<details><summary>Abstrak</summary>
+
+Mobility in daily unstructured environments, particularly in human-centered scenarios, remains a fundamental challenge for mobile robots. While traditional prediction-based approaches primarily estimate partial features for robot decision making, such as position and velocity, recent world models enable direct prediction of future sensory data. *(…)*
+
+</details>
+
+---
+
+**2. [Don’t Let Your Robot Be Harmful: Responsible Robotic Manipulation via Safety-As-Policy](https://ieeexplore.ieee.org/document/11206481/)**
+
+Penulis: Minheng Ni; Lei Zhang; Zihan Chen *et al.* (8 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2025.3623027`](https://doi.org/10.1109/LRA.2025.3623027)
+
+<details><summary>Abstrak</summary>
+
+Unthinking execution of human instructions in robotic manipulation can lead to severe safety risks, such as poisonings, fires, and even explosions. In this paper, we present responsible robotic manipulation, which requires robots to consider potential hazards in the real-world environment while completing instructions and performing complex operations safely and efficiently. *(…)*
+
+</details>
+
+---
+
+**3. [For Overall Nighttime Visibility: Integrate Irregular Glow Removal With Glow-Aware Enhancement](https://ieeexplore.ieee.org/document/10685529/)**
+
+Penulis: Wanyu Wu; Wei Wang; Zheng Wang *et al.* (5 authors) | Jurnal: *IEEE Transactions on Circuits and Systems for Video Technology* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TCSVT.2024.3465670`](https://doi.org/10.1109/TCSVT.2024.3465670)
+
+<details><summary>Abstrak</summary>
+
+Current low-light image enhancement (LLIE) techniques truly enhance luminance but have limited exploration on another harmful factor of nighttime visibility, the glow effects with multiple shapes in the real world. The presence of glow is inevitable due to widespread artificial light sources, and direct enhancement can cause further glow diffusion. *(…)*
+
+</details>
+
+---
+
+**4. [Grid-Centric Traffic Scenario Perception for Autonomous Driving: A Comprehensive Review](https://ieeexplore.ieee.org/document/10817778/)**
+
+Penulis: Yining Shi; Kun Jiang; Jiusi Li *et al.* (8 authors) | Jurnal: *IEEE Transactions on Neural Networks and Learning Systems* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TNNLS.2024.3495045`](https://doi.org/10.1109/TNNLS.2024.3495045)
+
+<details><summary>Abstrak</summary>
+
+The grid-centric perception is a crucial field for mobile robot perception and navigation. Nonetheless, the grid-centric perception is less prevalent than object-centric perception as autonomous vehicles need to accurately perceive highly dynamic, large-scale traffic scenarios, and the complexity and computational costs of grid-centric perception are high. *(…)*
+
+</details>
+
+---
+
+**5. [Human-in-the-Loop Reinforcement Learning to Track Excavation Paths for a Hydraulic Excavator in a Short Period of Time](https://ieeexplore.ieee.org/document/11062842/)**
+
+Penulis: Tatsuya Mori; Tatsuya Yoshimoto; Hiroshi Yoshida | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/ACCESS.2025.3585182`](https://doi.org/10.1109/ACCESS.2025.3585182)
+
+<details><summary>Abstrak</summary>
+
+The construction industry faces a severe shortage of skilled operators. One promising approach to mitigate this problem is to automate construction machinery, particularly hydraulic excavators, which have a wide range of applications. However, it is challenging to automate hydraulic excavators due to the difficulty of modeling their nonlinear dynamics and soil interactions, which makes difficult t… *(truncated)*
+
+</details>
+
+---
+
+**6. [Learning Graph Dynamics With Interaction Effects Propagation for Deformable Linear Objects Shape Control](https://ieeexplore.ieee.org/document/10845081/)**
+
+Penulis: Feida Gu; Hongrui Sang; Yanmin Zhou *et al.* (7 authors) | Jurnal: *IEEE Transactions on Automation Science and Engineering* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TASE.2025.3530957`](https://doi.org/10.1109/TASE.2025.3530957)
+
+<details><summary>Abstrak</summary>
+
+Robotic manipulation of deformable linear objects (DLOs) has broad application prospects, e.g., manufacturing and medical surgery. To achieve such tasks, a critical challenge is the precise control of the DLOs’ shapes, which requires an accurate dynamics model for deformation prediction. *(…)*
+
+</details>
+
+---
+
+**7. [Model Synthesis for Zero-Shot Model Attribution](https://ieeexplore.ieee.org/document/11186146/)**
+
+Penulis: Tianyun Yang; Danding Wang; Juan Cao *et al.* (4 authors) | Jurnal: *IEEE Transactions on Multimedia* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TMM.2025.3607778`](https://doi.org/10.1109/TMM.2025.3607778)
+
+<details><summary>Abstrak</summary>
+
+Nowadays, generative models are shaping various fields such as art, design, and human-computer interaction, yet they are accompanied by copyright infringement and content management challenges. In response, existing research seeks to identify the unique fingerprints on the images they generate, which can be leveraged to attribute the generated images to their source models. *(…)*
+
+</details>
+
+---
+
+**8. [NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning](https://ieeexplore.ieee.org/document/10938647/)**
+
+Penulis: Bingqian Lin; Yunshuang Nie; Ziming Wei *et al.* (9 authors) | Jurnal: *IEEE Transactions on Pattern Analysis and Machine Intelligence* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TPAMI.2025.3554559`](https://doi.org/10.1109/TPAMI.2025.3554559)
+
+<details><summary>Abstrak</summary>
+
+Vision-and-Language Navigation (VLN), as a crucial research problem of Embodied AI, requires an embodied agent to navigate through complex 3D environments following natural language instructions. Recent research has highlighted the promising capacity of large language models (LLMs) in VLN by improving navigational reasoning accuracy and interpretability. *(…)*
+
+</details>
+
+---
+
+**9. [NEUSIS: A Compositional Neuro-Symbolic Framework for Autonomous Perception, Reasoning, and Planning in Complex UAV Search Missions](https://ieeexplore.ieee.org/document/11091489/)**
+
+Penulis: Zhixi Cai; Cristian Rojas Cardenas; Kevin Leo *et al.* (17 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2025.3592098`](https://doi.org/10.1109/LRA.2025.3592098)
+
+<details><summary>Abstrak</summary>
+
+This letter addresses the problem of autonomous UAV search missions, where a UAV must locate specific Entities of Interest (EOIs) within a time limit, based on brief descriptions in large, hazard-prone environments with keep-out zones. The UAV must perceive, reason, and make decisions with limited and uncertain information. *(…)*
+
+</details>
+
+---
+
+**10. [One-Shot Real-to-Sim via End-to-End Differentiable Simulation and Rendering](https://ieeexplore.ieee.org/document/10982102/)**
+
+Penulis: Yifan Zhu; Tianyi Xiang; Aaron M. Dollar *et al.* (4 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2025.3566623`](https://doi.org/10.1109/LRA.2025.3566623)
+
+<details><summary>Abstrak</summary>
+
+Identifying predictive world models for robots from sparse online observations is essential for robot task planning and execution in novel environments. However, existing methods that leverage differentiable programming to identify world models are incapable of jointly optimizing the geometry, appearance, and physical properties of the scene. *(…)*
+
+</details>
+
+---
+
+#### Tahun 2024 (3 artikel)
+
+**1. [Active Learning of Discrete-Time Dynamics for Uncertainty-Aware Model Predictive Control](https://ieeexplore.ieee.org/document/10342784/)**
+
+Penulis: Alessandro Saviolo; Jonathan Frey; Abhishek Rathod *et al.* (5 authors) | Jurnal: *IEEE Transactions on Robotics* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TRO.2023.3339543`](https://doi.org/10.1109/TRO.2023.3339543)
+
+<details><summary>Abstrak</summary>
+
+Model-based control requires an accurate model of the system dynamics for precisely and safely controlling the robot in complex and dynamic environments. Moreover, in presence of variations in the operating conditions, the model should be continuously refined to compensate for dynamics changes. *(…)*
+
+</details>
+
+---
+
+**2. [Dynamic-Horizon Model-Based Value Estimation With Latent Imagination](https://ieeexplore.ieee.org/document/9932637/)**
+
+Penulis: Junjie Wang; Qichao Zhang; Dongbin Zhao | Jurnal: *IEEE Transactions on Neural Networks and Learning Systems* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TNNLS.2022.3215788`](https://doi.org/10.1109/TNNLS.2022.3215788)
+
+<details><summary>Abstrak</summary>
+
+Existing model-based value expansion (MVE) methods typically leverage a world model for value estimation with a fixed rollout horizon to assist policy learning. However, a proper horizon setting is essential to world-model-based policy learning. Meanwhile, choosing an appropriate horizon value is time-consuming, especially for visual control tasks. *(…)*
+
+</details>
+
+---
+
+**3. [Providing Safety Assurances for Systems With Unknown Dynamics](https://ieeexplore.ieee.org/document/10543106/)**
+
+Penulis: Hao Wang; Javier Borquez; Somil Bansal | Jurnal: *IEEE Control Systems Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LCSYS.2024.3408069`](https://doi.org/10.1109/LCSYS.2024.3408069)
+
+<details><summary>Abstrak</summary>
+
+As autonomous systems become more complex and integral in our society, the need to accurately model and safely control these systems has increased significantly. In the past decade, there has been tremendous success in using deep learning techniques to model and control systems that are difficult to model using first principles. *(…)*
+
+</details>
+
+---
+
+#### Tahun 2023 (5 artikel)
+
+**1. [Causal Semantic Communication for Digital Twins: A Generalizable Imitation Learning Approach](https://ieeexplore.ieee.org/document/10335924/)**
+
+Penulis: Christo Kurisummoottil Thomas; Walid Saad; Yong Xiao | Jurnal: *IEEE Journal on Selected Areas in Information Theory* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/JSAIT.2023.3336538`](https://doi.org/10.1109/JSAIT.2023.3336538)
+
+<details><summary>Abstrak</summary>
+
+A digital twin (DT) leverages a virtual representation of the physical world, along with communication (e.g., 6G), computing (e.g., edge computing), and artificial intelligence (AI) technologies to enable many connected intelligence services. *(…)*
+
+</details>
+
+---
+
+**2. [Decentralized Autonomous Operations and Organizations in TransVerse: Federated Intelligence for Smart Mobility](https://ieeexplore.ieee.org/document/9996183/)**
+
+Penulis: Chen Zhao; Xingyuan Dai; Yisheng Lv *et al.* (5 authors) | Jurnal: *IEEE Transactions on Systems, Man, and Cybernetics: Systems* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TSMC.2022.3228914`](https://doi.org/10.1109/TSMC.2022.3228914)
+
+<details><summary>Abstrak</summary>
+
+Human and social factors are essential to transportation systems, yet top-down management fails to consider them sufficiently. Consequently, management strategies are not tailored to human needs and are inadequate in providing transportation intelligence. *(…)*
+
+</details>
+
+---
+
+**3. [Label-Only Model Inversion Attacks: Attack With the Least Information](https://ieeexplore.ieee.org/document/10003239/)**
+
+Penulis: Tianqing Zhu; Dayong Ye; Shuai Zhou *et al.* (5 authors) | Jurnal: *IEEE Transactions on Information Forensics and Security* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TIFS.2022.3233190`](https://doi.org/10.1109/TIFS.2022.3233190)
+
+<details><summary>Abstrak</summary>
+
+In a model inversion attack, an adversary attempts to reconstruct the training data records of a target model using only the model’s output. In launching a contemporary model inversion attack, the strategies discussed are generally based on either predicted confidence score vectors, i.e., black-box attacks, or the parameters of a target model, i.e., white-box attacks. *(…)*
+
+</details>
+
+---
+
+**4. [Open-World Learning for Traffic Scenarios Categorisation](https://ieeexplore.ieee.org/document/10078164/)**
+
+Penulis: Lakshman Balasubramanian; Jonas Wurst; Michael Botsch *et al.* (4 authors) | Jurnal: *IEEE Transactions on Intelligent Vehicles* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TIV.2023.3260270`](https://doi.org/10.1109/TIV.2023.3260270)
+
+<details><summary>Abstrak</summary>
+
+Categorisation of traffic scenarios is an important component of scenario-based development and validation of automated vehicles. This problem requires an open-world learning approach but most of the machine learning methods used for traffic scenario categorisation work under the closed-world assumption. *(…)*
+
+</details>
+
+---
+
+**5. [Viewpoint Selection for the Efficient Teleoperation of a Robot Arm Using Reinforcement Learning](https://ieeexplore.ieee.org/document/10296844/)**
+
+Penulis: Haoxiang Liu; Ren Komatsu; Shinsuke Nakashima *et al.* (7 authors) | Jurnal: *IEEE Access* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/ACCESS.2023.3327826`](https://doi.org/10.1109/ACCESS.2023.3327826)
+
+<details><summary>Abstrak</summary>
+
+In this study, we developed a novel method to determine the optimal viewpoint from which an operator could realize faster and more accurate robot teleoperation using reinforcement learning. The reinforcement learning model was trained using images obtained from several candidate viewpoints from scratch, and the viewpoint at which the model achieved the highest rewards was considered the optimal vi… *(truncated)*
+
+</details>
+
+---
+
+#### Tahun 2021 (1 artikel)
+
+**1. [Vision-Based Autonomous Car Racing Using Deep Imitative Reinforcement Learning](https://ieeexplore.ieee.org/document/9488179/)**
+
+Penulis: Peide Cai; Hengli Wang; Huaiyang Huang *et al.* (5 authors) | Jurnal: *IEEE Robotics and Automation Letters* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/LRA.2021.3097345`](https://doi.org/10.1109/LRA.2021.3097345)
+
+<details><summary>Abstrak</summary>
+
+Autonomous car racing is a challenging task in the robotic control area. Traditional modular methods require accurate mapping, localization and planning, which makes them computationally inefficient and sensitive to environmental changes. Recently, deep-learning-based end-to-end systems have shown promising results for autonomous driving/racing. *(…)*
+
+</details>
+
+---
+
+#### Tahun 2020 (1 artikel)
+
+**1. [Intelligent Real-Time Earthquake Detection by Recurrent Neural Networks](https://ieeexplore.ieee.org/document/8974405/)**
+
+Penulis: Tai-Lin Chin; Kuan-Yu Chen; Da-Yi Chen *et al.* (4 authors) | Jurnal: *IEEE Transactions on Geoscience and Remote Sensing* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TGRS.2020.2966012`](https://doi.org/10.1109/TGRS.2020.2966012)
+
+<details><summary>Abstrak</summary>
+
+Taiwan that is located at the junction of the Eurasian Plate and the Philippine Sea Plate is one of the most active seismic zones in the world. Devastating earthquakes have occurred around the island and have caused severe damages from time to time. *(…)*
+
+</details>
+
+---
+
+#### Tahun 2018 (1 artikel)
+
+**1. [3D Face Reconstruction With Geometry Details From a Single Image](https://ieeexplore.ieee.org/document/8376005/)**
+
+Penulis: Luo Jiang; Juyong Zhang; Bailin Deng *et al.* (5 authors) | Jurnal: *IEEE Transactions on Image Processing* | Tipe: journal-article | Bahasa: en
+
+DOI: [`10.1109/TIP.2018.2845697`](https://doi.org/10.1109/TIP.2018.2845697)
+
+<details><summary>Abstrak</summary>
+
+3D face reconstruction from a single image is a classical and challenging problem with wide applications in many areas. Inspired by recent works in face animation from RGB-D or monocular video inputs, we develop a novel method for reconstructing 3D faces from unconstrained 2D images using a coarse-to-fine optimization strategy. *(…)*
+
+</details>
+
+---
+
+
 ## 3. Catatan Teknis
 
 - Data dikumpulkan melalui API resmi dari masing-masing basis data akademik.
@@ -31334,4 +34482,4 @@ Humans and animals can effortlessly coordinate their movements with external sti
 - Teks abstrak yang terlalu panjang dipotong untuk keterbacaan; lihat tautan DOI untuk versi lengkap.
 - Kunci API IEEE Xplore dalam proses antrean persetujuan aktivasi oleh pihak IEEE.
 
-*Dokumentasi dibuat pada: 2026-09-22 10:59:50*
+*Dokumentasi dibuat pada: 2026-09-23 13:23:59*

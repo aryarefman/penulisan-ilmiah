@@ -108,6 +108,20 @@ graph TD
   *Pemetaan PICOC*: Intervention, Comparison, Context  
   *Fokus Analisis*: Batasan intrinsik (misal: halusinasi generative vs keterbatasan visualisasi JEPA), arsitektur hibrida (JEPA latent backbone + on-demand generative head), integrasi multimodal vision-language-action (VLA), dan stabilitas perencanaan jangka panjang (*long-horizon predictive planning*).
 
+### 3.4 Basis Data Akademik Resmi & Strategi Pencarian
+
+Pencarian literatur primer dieksekusi secara otomatis melalui antarmuka pemrograman aplikasi (API) pada **8 basis data akademik global terindeks**:
+1. **CrossRef** (`api.crossref.org`) — Registri metadata DOI global lintas penerbit.
+2. **OpenAlex** (`api.openalex.org`) — Basis data bibliografi terbuka berskala besar.
+3. **Springer Nature** (`api.springernature.com`) — Repositori jurnal ilmiah Springer & Nature Portfolio.
+4. **ScienceDirect** (`api.elsevier.com/content/search/sciencedirect`) — Jurnal ilmiah terindeks Elsevier.
+5. **Scopus** (`api.elsevier.com/content/search/scopus`) — Basis data abstrak dan sitasi peer-reviewed Elsevier.
+6. **IEEE Xplore** (`ieeexploreapi.ieee.org`) — Repositori utama literatur teknik elektro, AI, dan robotika IEEE.
+7. **Semantic Scholar** (`api.semanticscholar.org`) — Mesin pencari AI akademis Allen Institute for AI.
+8. **PubMed** (`eutils.ncbi.nlm.nih.gov`) — Basis data biomedis & komputasi visual National Library of Medicine.
+
+*(Catatan: Google Scholar tidak digunakan sebagai basis data primer guna menghindari bias algoritma personalisasi, melainkan hanya untuk pelacakan sitasi sekunder / snowballing).*
+
 ---
 
 ## 4. Kriteria Kelayakan (Eligibility Criteria)
@@ -116,23 +130,22 @@ graph TD
 
 | Kode | Kriteria Inklusi | Rasional & Ambang Batas Evaluasi | Wajib? |
 |:---:|:---|:---|:---:|
-| **IC1** | Artikel secara langsung mengusulkan, mengevaluasi, menganalisis, atau membandingkan arsitektur world model (berbasis JEPA maupun generatif). | Menjamin relevansi topik inti dengan arsitektur pemodelan dunia. | **Wajib** |
-| **IC2** | Domain aplikasi berkaitan dengan data video, sekuens observasi visual, atau interaksi simulasi digital berurutan. | Menolak studi yang murni teks tanpa komponen pemodelan temporal visual. | **Wajib** |
-| **IC3** | Diterbitkan dalam rentang waktu **Januari 2018 hingga September 2026**. | Menangkap era modern world model sejak terbitnya seminal paper Ha & Schmidhuber (2018). | **Wajib** |
-| **IC4** | Diterbitkan oleh laboratorium riset bereputasi tinggi (Meta AI/FAIR, DeepMind, OpenAI, dsb.) atau jurnal bereputasi tinggi terindeks Scopus/WoS. | Berfungsi sebagai penguat prioritas kualitas (*quality booster*) saat QA. | *Opsional/Prioritas* |
-| **IC5** | Teks lengkap (*full text*) tersedia dan ditulis dalam bahasa Inggris. | Memastikan kelayakan ekstraksi data ilmiah secara mendalam dan valid. | **Wajib** |
+| **IC1** | Artikel secara langsung mengusulkan, mengevaluasi, menganalisis, atau membandingkan arsitektur world model (baik garis keturunan JEPA/laten maupun generatif/piksel). | Menjamin relevansi topik inti dengan arsitektur pemodelan dunia. | **Wajib** |
+| **IC2** | Domain aplikasi berkaitan dengan pemodelan data video atau dinamika visual berurutan (prediksi frame video, representasi spatio-temporal observasi, atau perencanaan visual berbasis model). | Menolak studi yang murni teks tanpa komponen pemodelan temporal visual. | **Wajib** |
+| **IC3** | Artikel diterbitkan dalam rentang waktu **Januari 2018 hingga September 2026**. | Menangkap era modern world model sejak makalah seminal Ha & Schmidhuber (2018). | **Wajib** |
+| **IC4** | Artikel merupakan publikasi ilmiah peer-reviewed yang menyajikan deskripsi metodologi dan evaluasi empiris yang jelas dan dapat divalidasi. | Menjamin mutu metodologi dan keabsahan temuan eksperimental. | **Wajib** |
+| **IC5** | Naskah teks lengkap (*full text*) tersedia, dapat diakses secara legal, dan ditulis dalam Bahasa Inggris. | Memastikan kelayakan ekstraksi data ilmiah secara mendalam dan valid. | **Wajib** |
 
 ### 4.2 Kriteria Eksklusi (Exclusion Criteria - EC)
 
 | Kode | Kriteria Eksklusi | Alasan Penolakan |
 |:---:|:---|:---|
-| **EC1** | Artikel duplikat yang muncul di lebih dari satu basis data akademik. | Menghindari perhitungan ganda (*double counting*). |
-| **EC2** | Diterbitkan di luar rentang waktu (sebelum 2018 atau setelah September 2026). | Tidak relevan dengan fokus perkembangan era kontemporer. |
-| **EC3** | Tidak membahas arsitektur world model atau tidak relevan dengan perbandingan JEPA vs generatif (misal: murni computer vision statis tanpa dinamika temporal). | Di luar ruang lingkup penelitian (*out of scope*). |
-| **EC4** | Tidak melibatkan prediksi dinamika lingkungan/dunia (misal: murni klasifikasi gambar tunggal, LLM murni tanpa world grounding). | Tidak memenuhi esensi definisi *world model*. |
-| **EC5** | Bukan artikel ilmiah lengkap (hanya abstrak pendek, editorial, poster satu halaman, atau slide presentasi). | Kurang detail metodologis untuk ekstraksi data. |
-| **EC6** | Teks lengkap (*full-text*) tidak dapat diakses (*behind paywall* tanpa akses institusional / tautan rusak). | Data tidak dapat diverifikasi secara objektif. |
-| **EC7** | Publikasi non-peer-reviewed yang tidak memiliki kredibilitas teknis memadai atau laporan opini informal. | Mempertahankan standar mutu akademik tinjauan sistematis. |
+| **EC1** | Catatan duplikat (*duplicate record*) yang muncul di lebih dari satu basis data akademik. | Menghindari perhitungan ganda (*double counting*). |
+| **EC2** | Diterbitkan di luar batas periode waktu yang ditentukan (sebelum 2018 atau setelah September 2026). | Tidak relevan dengan fokus perkembangan era kontemporer. |
+| **EC3** | Topik tidak relevan: Tidak membahas arsitektur world model, atau tidak berkaitan dengan perbandingan paradigma JEPA vs generatif (misal: AI industri umum, tata kelola AI, klasifikasi citra statis). | Di luar ruang lingkup penelitian (*out of scope*). |
+| **EC4** | Bukan domain visual/video: Murni pemrosesan teks/NLP tanpa komponen world modeling spatio-temporal atau persepsi lingkungan (misal: pure LLM, graf PCB, DNA, tabular RL). | Tidak memenuhi esensi definisi fungsional *world model*. |
+| **EC5** | Jenis publikasi tidak memenuhi syarat: Bukan artikel penuh peer-reviewed (misal: hanya extended abstract, poster workshop pendek, proposal tesis yang belum direview, atau editorial). | Kurang detail metodologis untuk ekstraksi data ilmiah. |
+| **EC6** | Naskah teks lengkap (*full text*) tidak dapat diakses (*behind paywall* tanpa akses institusi) atau naskah tidak tersedia dalam bahasa Inggris. | Data tidak dapat diverifikasi secara objektif dan mendalam. |
 
 ---
 

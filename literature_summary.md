@@ -1,8 +1,8 @@
 # Ringkasan Literatur — Systematic Literature Review
 
 **Topik:** Arsitektur World Model pada Domain Video: Perbandingan JEPA dan Generatif  
-**Tanggal Pembuatan:** 2026-09-22 10:59  
-**Total Artikel Unik:** 2,652  
+**Tanggal Pembuatan:** 2026-09-23 13:23  
+**Total Artikel Unik:** 2,697  
 **Rentang Tahun:** 2018 – 2026
 
 ---
@@ -11,20 +11,21 @@
 
 | No | Basis Data | Jumlah Artikel | Persentase |
 |:---:|:---|:---:|:---:|
-| 1 | CrossRef | 1,062 | 40.0% |
-| 2 | OpenAlex | 916 | 34.5% |
-| 3 | Springer Nature | 215 | 8.1% |
-| 4 | ScienceDirect | 187 | 7.1% |
-| 5 | Semantic Scholar | 192 | 7.2% |
-| 6 | Scopus | 63 | 2.4% |
+| 1 | CrossRef | 1,062 | 39.4% |
+| 2 | OpenAlex | 916 | 34.0% |
+| 3 | Springer Nature | 215 | 8.0% |
+| 4 | ScienceDirect | 187 | 6.9% |
+| 5 | Semantic Scholar | 192 | 7.1% |
+| 6 | Scopus | 63 | 2.3% |
 | 7 | PubMed | 17 | 0.6% |
-| | **Total** | **2,652** | **100.0%** |
+| 8 | IEEE Xplore | 45 | 1.7% |
+| | **Total** | **2,697** | **100.0%** |
 
 ## 2. Distribusi Tahun Publikasi
 
 | Tahun | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 | 2027 |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Jumlah | 86 | 135 | 136 | 176 | 211 | 281 | 385 | 478 | 763 | 1 |
+| Jumlah | 87 | 135 | 137 | 177 | 211 | 286 | 388 | 488 | 787 | 1 |
 
 ---
 
@@ -2731,10 +2732,62 @@
 
 ---
 
+### Basis Data: IEEE Xplore (45 artikel)
+
+| No | Tahun | Judul Artikel | Penulis | Jurnal / Konferensi | DOI |
+|:---:|:---:|:---|:---|:---|:---:|
+| 1 | 2026 | A Comprehensive Survey of Large AI Models for Future Communications: Foundations… | Feibo Jiang; Cunhua Pan et al. | IEEE Communications Surveys & Tutorials | [Tautan](https://doi.org/10.1109/COMST.2026.3660844) |
+| 2 | 2026 | Aligning Perception, Reasoning, Modeling and Interaction: A Survey on Physical A… | Kun Xiang; Terry Jingchen Zhang et al. | IEEE Transactions on Pattern Analysis an… | [Tautan](https://doi.org/10.1109/TPAMI.2026.3703038) |
+| 3 | 2026 | CascadeOcc: Rethinking 3D Occupancy World Models With Cascaded VQ Representation… | Kyumin Hwang; Wonhyeok Choi et al. | IEEE Signal Processing Letters | [Tautan](https://doi.org/10.1109/LSP.2026.3680426) |
+| 4 | 2026 | Constructing the World From Few Demonstrations: Learning Compositional World Mod… | Haowen Sun; Chengzhong Ma et al. | IEEE Transactions on Industrial Informat… | [Tautan](https://doi.org/10.1109/TII.2026.3688546) |
+| 5 | 2026 | Data-Model Co-Driven Continuous Channel Map Construction: A Perceptive Foundatio… | Tianrun Qi; Cheng-Xiang Wang et al. | IEEE Transactions on Cognitive Communica… | [Tautan](https://doi.org/10.1109/TCCN.2026.3706697) |
+| 6 | 2026 | Deriving a Data-Efficient, Generalist Agent Through World Models | Jooyeon Kim | IEEE Access | [Tautan](https://doi.org/10.1109/ACCESS.2026.3726084) |
+| 7 | 2026 | Dream to Recall: Imagination-Guided Experience Retrieval for Memory-Persistent V… | Yunzhe Xu; Yiyuan Pan et al. | IEEE Transactions on Pattern Analysis an… | [Tautan](https://doi.org/10.1109/TPAMI.2026.3679426) |
+| 8 | 2026 | DREWM: A Decision-Refined World Model for End-to-End Autonomous Driving | Jiatong Du; Yue Liang et al. | IEEE Transactions on Vehicular Technolog… | [Tautan](https://doi.org/10.1109/TVT.2025.3633491) |
+| 9 | 2026 | Embodied Tree of Thoughts: Deliberate Manipulation Planning With Embodied World … | Wenjiang Xu; Mingkang Zhang et al. | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2026.3716133) |
+| 10 | 2026 | From Pixels to Predicates: Learning Symbolic World Models via Pretrained VLMs | Ashay Athalye; Nishanth Kumar et al. | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2026.3662533) |
+| 11 | 2026 | Fuzzy Reinforcement Learning for Adaptive Control of CDQ Systems in Steel Indust… | Han Zhang; Yang Liu et al. | IEEE Transactions on Industrial Informat… | [Tautan](https://doi.org/10.1109/TII.2026.3671728) |
+| 12 | 2026 | Generative AI-Empowered Signal Processing for Collaborative Embodied Agents: A S… | Gaofeng Pan; Yi Tao et al. | IEEE Transactions on Cognitive Communica… | [Tautan](https://doi.org/10.1109/TCCN.2026.3676045) |
+| 13 | 2026 | Hybrid GNN-Centric Architectures for AI-Native 6G Wireless Networks: A Comprehen… | Mostafa Rahmani Ghourtani; Sajedeh Norouzi et al. | IEEE Communications Surveys & Tutorials | [Tautan](https://doi.org/10.1109/COMST.2026.3681198) |
+| 14 | 2026 | Inference-Time Enhancement of Generative Robot Policies via Predictive World Mod… | Han Qi; Haocheng Yin et al. | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2026.3673995) |
+| 15 | 2026 | Learning Visually Interpretable Oscillator Networks for Soft Continuum Robots Fr… | Henrik Krauss; Johann Licher et al. | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2026.3703241) |
+| 16 | 2026 | Lighted-SAM: Lightening Open-World SAM for Low-Light Segmentation | Yuhan Jia; Lixin Duan et al. | IEEE Transactions on Image Processing | [Tautan](https://doi.org/10.1109/TIP.2026.3702382) |
+| 17 | 2026 | MAPF-World: Action World Model for Multi-Agent Path Finding | Zhanjiang Yang; Yueming Li et al. | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2026.3726342) |
+| 18 | 2026 | NRSeg: Noise-Resilient Learning for BEV Semantic Segmentation via Driving World … | Siyu Li; Fei Teng et al. | IEEE Transactions on Image Processing | [Tautan](https://doi.org/10.1109/TIP.2026.3671686) |
+| 19 | 2026 | Rapid Generation of Channel Knowledge Map by Joint Physics and Conditional Diffu… | Yu Chen; Jiao Chen et al. | IEEE Transactions on Network Science and… | [Tautan](https://doi.org/10.1109/TNSE.2026.3720671) |
+| 20 | 2026 | SGPM-Net: A Self-Evolving Generative Memory Framework for Unsupervised Rare Even… | Asim Wadood; M. Irfan Uddin et al. | IEEE Access | [Tautan](https://doi.org/10.1109/ACCESS.2026.3706653) |
+| 21 | 2026 | SPREAD: Scalable Pre-Trained World Model for Adaptive Dynamics Model | Jihun Moon; Seong-Woo Kim | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2026.3688061) |
+| 22 | 2026 | TREND: Task-Oriented World Models for Visual Robotic Manipulation | Yuxiang Zheng; Tao Lu et al. | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2026.3688085) |
+| 23 | 2026 | Unifying Unsupervised and Offline RL for Fast Adaptation Using World Models | Daniel Khapun; Dan Rosenbaum | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2026.3673814) |
+| 24 | 2026 | Walking World Model for Visually Impaired Path Following | Haokun Ju; Lixuan Zhang et al. | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2025.3641097) |
+| 25 | 2025 | Action-Inclusive Multi-Future Prediction Using a Generative Model in Human-Relat… | Chenfei Xu; Huthaifa Ahmad et al. | IEEE Access | [Tautan](https://doi.org/10.1109/ACCESS.2025.3611812) |
+| 26 | 2025 | Don’t Let Your Robot Be Harmful: Responsible Robotic Manipulation via Safety-As-… | Minheng Ni; Lei Zhang et al. | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2025.3623027) |
+| 27 | 2025 | For Overall Nighttime Visibility: Integrate Irregular Glow Removal With Glow-Awa… | Wanyu Wu; Wei Wang et al. | IEEE Transactions on Circuits and System… | [Tautan](https://doi.org/10.1109/TCSVT.2024.3465670) |
+| 28 | 2025 | Grid-Centric Traffic Scenario Perception for Autonomous Driving: A Comprehensive… | Yining Shi; Kun Jiang et al. | IEEE Transactions on Neural Networks and… | [Tautan](https://doi.org/10.1109/TNNLS.2024.3495045) |
+| 29 | 2025 | Human-in-the-Loop Reinforcement Learning to Track Excavation Paths for a Hydraul… | Tatsuya Mori; Tatsuya Yoshimoto et al. | IEEE Access | [Tautan](https://doi.org/10.1109/ACCESS.2025.3585182) |
+| 30 | 2025 | Learning Graph Dynamics With Interaction Effects Propagation for Deformable Line… | Feida Gu; Hongrui Sang et al. | IEEE Transactions on Automation Science … | [Tautan](https://doi.org/10.1109/TASE.2025.3530957) |
+| 31 | 2025 | Model Synthesis for Zero-Shot Model Attribution | Tianyun Yang; Danding Wang et al. | IEEE Transactions on Multimedia | [Tautan](https://doi.org/10.1109/TMM.2025.3607778) |
+| 32 | 2025 | NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentang… | Bingqian Lin; Yunshuang Nie et al. | IEEE Transactions on Pattern Analysis an… | [Tautan](https://doi.org/10.1109/TPAMI.2025.3554559) |
+| 33 | 2025 | NEUSIS: A Compositional Neuro-Symbolic Framework for Autonomous Perception, Reas… | Zhixi Cai; Cristian Rojas Cardenas et al. | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2025.3592098) |
+| 34 | 2025 | One-Shot Real-to-Sim via End-to-End Differentiable Simulation and Rendering | Yifan Zhu; Tianyi Xiang et al. | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2025.3566623) |
+| 35 | 2024 | Active Learning of Discrete-Time Dynamics for Uncertainty-Aware Model Predictive… | Alessandro Saviolo; Jonathan Frey et al. | IEEE Transactions on Robotics | [Tautan](https://doi.org/10.1109/TRO.2023.3339543) |
+| 36 | 2024 | Dynamic-Horizon Model-Based Value Estimation With Latent Imagination | Junjie Wang; Qichao Zhang et al. | IEEE Transactions on Neural Networks and… | [Tautan](https://doi.org/10.1109/TNNLS.2022.3215788) |
+| 37 | 2024 | Providing Safety Assurances for Systems With Unknown Dynamics | Hao Wang; Javier Borquez et al. | IEEE Control Systems Letters | [Tautan](https://doi.org/10.1109/LCSYS.2024.3408069) |
+| 38 | 2023 | Causal Semantic Communication for Digital Twins: A Generalizable Imitation Learn… | Christo Kurisummoottil Thomas; Walid Saad et al. | IEEE Journal on Selected Areas in Inform… | [Tautan](https://doi.org/10.1109/JSAIT.2023.3336538) |
+| 39 | 2023 | Decentralized Autonomous Operations and Organizations in TransVerse: Federated I… | Chen Zhao; Xingyuan Dai et al. | IEEE Transactions on Systems, Man, and C… | [Tautan](https://doi.org/10.1109/TSMC.2022.3228914) |
+| 40 | 2023 | Label-Only Model Inversion Attacks: Attack With the Least Information | Tianqing Zhu; Dayong Ye et al. | IEEE Transactions on Information Forensi… | [Tautan](https://doi.org/10.1109/TIFS.2022.3233190) |
+| 41 | 2023 | Open-World Learning for Traffic Scenarios Categorisation | Lakshman Balasubramanian; Jonas Wurst et al. | IEEE Transactions on Intelligent Vehicle… | [Tautan](https://doi.org/10.1109/TIV.2023.3260270) |
+| 42 | 2023 | Viewpoint Selection for the Efficient Teleoperation of a Robot Arm Using Reinfor… | Haoxiang Liu; Ren Komatsu et al. | IEEE Access | [Tautan](https://doi.org/10.1109/ACCESS.2023.3327826) |
+| 43 | 2021 | Vision-Based Autonomous Car Racing Using Deep Imitative Reinforcement Learning | Peide Cai; Hengli Wang et al. | IEEE Robotics and Automation Letters | [Tautan](https://doi.org/10.1109/LRA.2021.3097345) |
+| 44 | 2020 | Intelligent Real-Time Earthquake Detection by Recurrent Neural Networks | Tai-Lin Chin; Kuan-Yu Chen et al. | IEEE Transactions on Geoscience and Remo… | [Tautan](https://doi.org/10.1109/TGRS.2020.2966012) |
+| 45 | 2018 | 3D Face Reconstruction With Geometry Details From a Single Image | Luo Jiang; Juyong Zhang et al. | IEEE Transactions on Image Processing | [Tautan](https://doi.org/10.1109/TIP.2018.2845697) |
+
+---
+
 ## 4. Catatan Teknis
 
 - Untuk teks abstrak lengkap, rujuk dokumen literature_database.md.
 - Data mentah terstruktur tersedia pada direktori csv/.
 - Kunci API IEEE Xplore dalam antrean persetujuan aktivasi oleh pihak IEEE.
 
-*Dokumentasi dibuat secara otomatis pada: 2026-09-22 10:59:49*
+*Dokumentasi dibuat secara otomatis pada: 2026-09-23 13:23:58*

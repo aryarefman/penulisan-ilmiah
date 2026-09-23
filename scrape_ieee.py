@@ -90,6 +90,7 @@ def search_ieee():
         ("Q04", '("latent dynamics" OR "learned dynamics") AND video'),
         ("Q05", '("V-JEPA" OR "I-JEPA")'),
         ("Q06", '"world model" AND ("planning" OR "reinforcement learning") AND visual'),
+        ("Q07", '("world model" OR "world models") AND ("JEPA" OR "joint embedding predictive architecture" OR "generative")'),
     ]
 
     all_articles = []

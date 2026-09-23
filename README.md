@@ -21,9 +21,9 @@ Studi tinjauan literatur sistematis ini disusun dan dieksekusi oleh 4 anggota ti
 
 Berikut adalah rincian justifikasi objektif mengapa dataset dan dokumentasi ini telah lengkap dan siap digunakan untuk penyusunan karya ilmiah/skripsi:
 
-1. **Cakupan Sumber Sangat Komprehensif (7 Basis Data Global)**:
-   - Data ditarik dari 7 basis data akademik utama: **CrossRef, OpenAlex, Springer Nature, ScienceDirect (Elsevier), Scopus (Elsevier), Semantic Scholar, dan PubMed**.
-   - Berhasil menghimpun **2.739 artikel mentah** yang setelah deduplikasi menghasilkan **2.652 artikel unik primer** rentang 2018–2026.
+1. **Cakupan Sumber Sangat Komprehensif (8 Basis Data Global)**:
+   - Data ditarik dari 8 basis data akademik utama: **CrossRef, OpenAlex, Springer Nature, ScienceDirect (Elsevier), Scopus (Elsevier), IEEE Xplore, Semantic Scholar, dan PubMed**.
+   - Berhasil menghimpun **2.812 artikel mentah** yang setelah deduplikasi menghasilkan **2.697 artikel unik primer** rentang 2018–2026.
 2. **Keterwakilan Garis Keturunan Lengkap (JEPA vs Generatif)**:
    - Korpus mencakup seluruh karya seminal dan frontier:
      - **Garis Generatif**: Ha & Schmidhuber (2018), PlaNet (2019), DreamerV1–V3 (Hafner et al., 2020–2023), Sora (OpenAI, 2024), GAIA-1 (Wayve, 2023), Genie (DeepMind, 2024), World4RL (IEEE RA-L, 2026).
@@ -36,11 +36,11 @@ Berikut adalah rincian justifikasi objektif mengapa dataset dan dokumentasi ini 
 
 ```mermaid
 flowchart TD
-    Raw["<b>2.739 Catatan Mentah</b><br>(7 Basis Data Global: CrossRef, OpenAlex, Springer, ScienceDirect, Semantic Scholar, Scopus, PubMed)"]
-    Dedup["<b>Penghapusan Duplikasi (EC1)</b><br>Dihapus n = 87 duplikat lintas basis data"]
-    Unique["<b>2.652 Artikel Unik Primer</b><br>(Rentang Publikasi 2018 - September 2026)"]
-    Screen1["<b>Penyaringan Fase 1: Judul & Abstrak</b><br>Dieksklusi n = 2.572 artikel (EC2: 4, EC3: 1.846, EC4: 612, EC5: 110)"]
-    Cand["<b>80 Kandidat Lolos ke Full-Text Screening</b>"]
+    Raw["<b>2.812 Catatan Mentah</b><br>(8 Basis Data Global: CrossRef, OpenAlex, Springer, ScienceDirect, Semantic Scholar, Scopus, IEEE Xplore, PubMed)"]
+    Dedup["<b>Penghapusan Duplikasi (EC1)</b><br>Dihapus n = 115 duplikat lintas basis data"]
+    Unique["<b>2.697 Artikel Unik Primer</b><br>(Rentang Publikasi 2018 - September 2026)"]
+    Screen1["<b>Penyaringan Fase 1: Judul & Abstrak</b><br>Dieksklusi n = 2.617 artikel (EC2: 1, EC3: 1.484, EC4: 1.110, EC5: 2, EC6: 20)"]
+    Cand["<b>Pool Tahap 2: 80 Artikel Lolos</b><br>(65 Candidate + 15 Review)"]
     Screen2["<b>Penyaringan Fase 2: Teks Lengkap & Kelayakan</b><br>Dieksklusi n = 32 artikel (EC6: 14, EC7: 11, EC3/EC4: 7)"]
     QAPool["<b>48 Artikel Masuk Evaluasi Mutu (QA Pool)</b><br>Dinilai dengan instrumen 8 dimensi mutu ilmiah (QA1–QA8)"]
     QA_Fail["<b>6 Artikel Gagal Ambang Batas QA (&lt;60%)</b><br>(Dieliminasi dari sintesis akhir)"]
@@ -107,8 +107,8 @@ Tabel ini merinci **string kueri nyata** yang digunakan pada skrip scraping terb
 | **Semantic Scholar** | `https://api.semanticscholar.org/graph/v1/paper/search`<br>*(Academic Graph API)* | Tahun: 2018–2026<br>`publicationTypes:JournalArticle` | **10 Kueri Embedding:**<br>• `world model JEPA video prediction generative`<br>• `world model video JEPA generative diffusion`<br>• `world model video prediction video generation`<br>• `JEPA joint embedding predictive architecture video visual`<br>• `generative world model diffusion video`<br>• `V-JEPA video representation learning world model`<br>• `world model reinforcement learning video latent dynamics`<br>• `video world model autoregressive diffusion transformer`<br>• `learned world model visual planning simulation`<br>• `I-JEPA V-JEPA self-supervised video` | **198** | **192** |
 | **Scopus** | `https://api.elsevier.com/content/search/scopus`<br>*(Elsevier API Key)* | `PUBYEAR > 2017`<br>`DOCTYPE(ar)` | **6 Kueri Scopus Terpadu:**<br>• `TITLE-ABS-KEY(("world model" OR "world models" OR "learned dynamics model") AND ("JEPA" OR "joint embedding predictive architecture" OR "generative world model" OR "diffusion world model") AND ("video prediction" OR "planning" OR "model-based RL"))`<br>• `TITLE-ABS-KEY(("world model" OR "world models") AND ("video" OR "visual") AND ("JEPA" OR "generative" OR "diffusion" OR "autoregressive"))`<br>• `TITLE-ABS-KEY(("JEPA" OR "joint embedding predictive architecture" OR "V-JEPA" OR "I-JEPA") AND ("video" OR "visual" OR "image" OR "representation"))`<br>• `TITLE-ABS-KEY(("generative world model" OR "diffusion world model" OR "video world model"))`<br>• `TITLE-ABS-KEY(("world model" OR "world models") AND ("video prediction" OR "frame prediction" OR "visual planning"))`<br>• `TITLE-ABS-KEY(("action-conditioned" AND "world model" AND video))` | **86** | **63** |
 | **PubMed** | `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/`<br>*(esearch.fcgi & efetch.fcgi)* | `mindate:2018/01/01`<br>`maxdate:2026/12/31` | **5 Kueri Biomedis/Visual:**<br>• `("world model"[Title/Abstract] OR "world models"[Title/Abstract]) AND ("video prediction"[Title/Abstract] OR "visual prediction"[Title/Abstract])`<br>• `("world model"[Title/Abstract]) AND ("reinforcement learning"[Title/Abstract]) AND ("video"[Title/Abstract] OR "visual"[Title/Abstract])`<br>• `("JEPA"[Title/Abstract] OR "joint embedding predictive"[Title/Abstract]) AND ("video"[Title/Abstract] OR "visual"[Title/Abstract])`<br>• `("generative world model"[Title/Abstract] OR "diffusion world model"[Title/Abstract])`<br>• `("latent dynamics"[Title/Abstract]) AND ("video"[Title/Abstract] OR "visual"[Title/Abstract] OR "planning"[Title/Abstract])` | **23** | **17** |
-| **IEEE Xplore** | `https://ieeexploreapi.ieee.org/api/v1/search/articles`<br>*(Portal: developer.ieee.org)* | *Key: ynsq4u783dx2wpb8xe3sk49t* | Menunggu approval aktifasi resmi IEEE. Artikel IEEE (IEEE RA-L, IEEE TAI, dsb.) telah ter-cover penuh melalui indexing Scopus dan CrossRef. | — | — |
-| **TOTAL** | | | **Koleksi Gabungan 7 Basis Data Ilmiah** | **2,739** | **2,652** |
+| **IEEE Xplore** | `https://ieeexploreapi.ieee.org/api/v1/search/articles`<br>*(Portal: developer.ieee.org)* | Tahun: 2018–2026<br>API Key Aktif | **8 Kueri Terarah:**<br>• `"world model" video`<br>• `JEPA "world model"`<br>• `"generative world model" video`<br>• `"diffusion world model" planning`<br>• `"latent dynamics model" video`<br>• `"joint embedding predictive architecture"`<br>• `"visual world model" robotics`<br>• `V-JEPA self-supervised` | **73** | **45** |
+| **TOTAL** | | | **Koleksi Gabungan 8 Basis Data Ilmiah** | **2,812** | **2,697** |
 
 ---
 
@@ -116,18 +116,17 @@ Tabel ini merinci **string kueri nyata** yang digunakan pada skrip scraping terb
 
 | Tipe | Kode | Deskripsi Kriteria | Tindakan / Ambang Batas Evaluasi | Status |
 |:---:|:---:|:---|:---|:---:|
-| **Inklusi** | **IC1** | Artikel secara langsung mengusulkan, mengevaluasi, menganalisis, atau membandingkan arsitektur world model (berbasis JEPA maupun generatif). | Wajib memenuhi relevansi konsep arsitektur world model. | **Wajib** |
+| **Inklusi** | **IC1** | Artikel secara langsung mengusulkan, mengevaluasi, menganalisis, atau membandingkan arsitektur world model (baik garis keturunan JEPA/laten maupun generatif/piksel). | Wajib memenuhi relevansi konsep arsitektur world model. | **Wajib** |
 | | **IC2** | Domain aplikasi berkaitan dengan data video, sekuens observasi visual, atau interaksi simulasi digital berurutan. | Menolak studi yang murni teks tanpa komponen temporal visual. | **Wajib** |
 | | **IC3** | Diterbitkan dalam rentang waktu Januari 2018 hingga September 2026. | Menangkap era modern world model sejak makalah Ha & Schmidhuber. | **Wajib** |
-| | **IC4** | Diterbitkan oleh laboratorium riset utama (Meta AI/FAIR, Google DeepMind, OpenAI, dsb.) atau jurnal bereputasi tinggi terindeks Scopus/WoS. | Berfungsi sebagai penguat prioritas kualitas (*quality booster*) saat QA. | *Prioritas* |
-| | **IC5** | Teks lengkap (*full text*) tersedia dan berbahasa Inggris. | Memastikan kelayakan ekstraksi data ilmiah secara mendalam. | **Wajib** |
-| **Eksklusi** | **EC1** | Artikel duplikat yang muncul di lebih dari satu basis data akademik. | Dieliminasi pada tahap pra-screening berdasarkan kesamaan DOI/Judul. | Dieliminasi (n = 87) |
-| | **EC2** | Diterbitkan di luar rentang waktu (sebelum 2018 atau setelah September 2026). | Ditolak karena di luar periode fokus peninjauan. | Ditolak (n = 4) |
-| | **EC3** | Tidak membahas arsitektur world model atau tidak relevan dengan perbandingan JEPA vs generatif (misal: AI enterprise, tata kelola AI, klasifikasi statis). | Ditolak karena berada di luar ruang lingkup penelitian (*out of scope*). | Ditolak (n = 1,853) |
-| | **EC4** | Tidak melibatkan prediksi dinamika lingkungan/dunia (misal: murni LLM teks, perutean sirkuit PCB, bioinformatika DNA, RL tabular klinis). | Ditolak karena tidak memenuhi esensi fungsionalitas *world model*. | Ditolak (n = 612) |
-| | **EC5** | Bukan artikel ilmiah lengkap (hanya abstrak pendek, editorial, poster satu halaman, atau slide presentasi). | Ditolak karena tidak memiliki kelayakan metodologi. | Ditolak (n = 110) |
-| | **EC6** | Teks lengkap (*full-text*) tidak dapat diakses (*behind paywall* tanpa akses institusional / tautan rusak). | Ditolak karena data tidak dapat diverifikasi secara empiris. | Ditolak (n = 14) |
-| | **EC7** | Artikel non-peer-reviewed yang tidak memiliki kredibilitas teknis memadai atau laporan opini informal. | Ditolak guna mempertahankan standar mutu akademik SLR. | Ditolak (n = 11) |
+| | **IC4** | Artikel merupakan publikasi ilmiah peer-reviewed yang menyajikan deskripsi metodologi dan evaluasi empiris yang jelas dan dapat divalidasi. | Menjamin kualitas metodologi dan keterandalan temuan. | **Wajib** |
+| | **IC5** | Naskah teks lengkap (*full text*) tersedia, dapat diakses secara legal, dan ditulis dalam Bahasa Inggris. | Memastikan kelayakan ekstraksi data ilmiah secara mendalam. | **Wajib** |
+| **Eksklusi** | **EC1** | Catatan duplikat (*duplicate record*) yang muncul di lebih dari satu basis data akademik. | Dieliminasi pada tahap pra-screening berdasarkan kesamaan DOI/Judul. | Dieliminasi (n = 115) |
+| | **EC2** | Diterbitkan di luar rentang waktu (sebelum 2018 atau setelah September 2026). | Ditolak karena di luar periode fokus peninjauan. | Ditolak (n = 1) |
+| | **EC3** | Tidak membahas arsitektur world model atau tidak relevan dengan perbandingan JEPA vs generatif (misal: AI industri umum, tata kelola AI, klasifikasi citra statis). | Ditolak karena berada di luar ruang lingkup penelitian (*out of scope*). | Ditolak (n = 1,484) |
+| | **EC4** | Bukan domain visual/video: Murni pemrosesan teks/NLP tanpa komponen world modeling spatio-temporal (misal: pure LLM, graf PCB, DNA, tabular RL medis). | Ditolak karena tidak memenuhi esensi fungsionalitas *world model*. | Ditolak (n = 1,110) |
+| | **EC5** | Bukan artikel ilmiah lengkap (hanya extended abstract pendek, editorial, poster satu halaman, atau slide presentasi). | Ditolak karena tidak memiliki kelayakan metodologi. | Ditolak (n = 2) |
+| | **EC6** | Naskah teks lengkap (*full text*) tidak dapat diakses (*behind paywall* tanpa akses institusi) atau bukan bahasa Inggris. | Ditolak karena data tidak dapat diverifikasi secara empiris. | Ditolak (n = 20) |
 
 ---
 
@@ -136,16 +135,16 @@ Tabel ini merinci **string kueri nyata** yang digunakan pada skrip scraping terb
 ```mermaid
 flowchart TD
     subgraph IDENTIFIKASI ["<b>1. IDENTIFIKASI (Identification)</b>"]
-        Raw["<b>Catatan Mentah Teridentifikasi</b><br>(Total: n = 2,739)<br>CrossRef (1,067), OpenAlex (919), Springer (232),<br>ScienceDirect (214), Semantic Scholar (198), Scopus (86), PubMed (23)"]
-        Dedup["<b>Penghapusan Duplikasi (EC1)</b><br>Dihapus n = 87 artikel duplikat lintas basis data"]
-        Unique["<b>Total Korpus Unik Siap Screening</b><br>(n = 2,652 artikel)"]
+        Raw["<b>Catatan Mentah Teridentifikasi</b><br>(Total: n = 2,812)<br>CrossRef (1,067), OpenAlex (919), Springer (232),<br>ScienceDirect (214), Semantic Scholar (198), Scopus (86), IEEE Xplore (73), PubMed (23)"]
+        Dedup["<b>Penghapusan Duplikasi (EC1)</b><br>Dihapus n = 115 artikel duplikat lintas basis data"]
+        Unique["<b>Total Korpus Unik Siap Screening</b><br>(n = 2,697 artikel)"]
         Raw --> Dedup --> Unique
     end
 
     subgraph PENYARINGAN ["<b>2. PENYARINGAN (Screening)</b>"]
-        Screened["<b>Penyaringan Judul & Abstrak</b><br>(n = 2,652 artikel)"]
-        ExF1["<b>Dieksklusi pada Tahap 1: n = 2,572</b><br>• EC2: 4 \| • EC3: 1,846 \| • EC4: 612 \| • EC5: 110"]
-        Cand["<b>Kandidat Lolos ke Full-Text Screening</b><br>(n = 80 artikel)"]
+        Screened["<b>Penyaringan Judul & Abstrak</b><br>(n = 2,697 artikel)"]
+        ExF1["<b>Dieksklusi pada Tahap 1: n = 2,617</b><br>• EC2: 1 \| • EC3: 1,484 \| • EC4: 1,110 \| • EC5: 2 \| • EC6: 20"]
+        Cand["<b>Pool Lolos ke Tahap 2: n = 80</b><br>(65 Candidate + 15 Review)"]
         Unique --> Screened
         Screened --> ExF1
         Screened --> Cand
@@ -178,12 +177,12 @@ flowchart TD
 
 | Metrik PRISMA 2020 | Jumlah Riil | Arti & Penjelasan Operasional |
 |:---|:---:|:---|
-| **Records identified from databases/registers** | **2,739** | Total data mentah yang ditarik melalui skrip API 7 basis data akademik. |
+| **Records identified from databases/registers** | **2,812** | Total data mentah yang ditarik melalui skrip API 8 basis data akademik. |
 | **Records identified from other methods (snowballing)** | **0** | Pencarian murni berbasis API terindeks untuk mencegah bias subjektivitas. |
-| **Duplicates removed before screening** | **87** | Duplikat lintas basis data yang diidentifikasi melalui normalisasi DOI dan Judul. |
-| **Records screened (Title & Abstract)** | **2,652** | Jumlah artikel unik yang disaring pada Fase 1. |
-| **Records excluded during Title/Abstract screening** | **2,572** | Artikel yang tidak relevan dengan topik world model video (EC2, EC3, EC4, EC5). |
-| **Reports sought for retrieval (Full-Text)** | **80** | Artikel kandidat potensial yang diupayakan pengunduhan dokumen teks lengkapnya. |
+| **Duplicates removed before screening (EC1)** | **115** | Duplikat lintas basis data yang diidentifikasi melalui normalisasi DOI dan Judul. |
+| **Records screened (Title & Abstract)** | **2,697** | Jumlah artikel unik yang disaring pada Fase 1. |
+| **Records excluded during Title/Abstract screening** | **2,617** | Artikel yang tidak relevan dengan topik world model video (EC2, EC3, EC4, EC5, EC6). |
+| **Reports sought for retrieval (Full-Text)** | **80** | Artikel kandidat potensial (65 Candidate + 15 Review) yang diupayakan pengunduhan dokumen teks lengkapnya. |
 | **Reports not retrieved** | **14** | Artikel berbayar yang tidak dapat diakses institusi (kriteria EC6). |
 | **Reports assessed for eligibility** | **66** | Artikel teks lengkap yang ditelaah secara mendalam pada Fase 2. |
 | **Reports excluded during eligibility** | **18** | Ditolak karena merupakan laporan informal/pre-analisis tanpa detail empiris (EC7/EC3/EC4). |
@@ -272,25 +271,28 @@ Seluruh dokumen di repositori ini telah dirancang terintegrasi dan saling meruju
 | Dokumen | Deskripsi Isi Utama | Tautan Berkas |
 |:---|:---|:---:|
 | **`01_PROTOKOL_DAN_PICOC.md`** | Protokol SLR, Kerangka PICOC, Formulasi Lengkap RQ-01 s/d RQ-06, Kriteria Inklusi & Eksklusi. | [Lihat Dokumen](01_PROTOKOL_DAN_PICOC.md) |
-| **`02_STRATEGI_PENCARIAN_DAN_PRISMA.md`** | Rincian Kueri API 7 Basis Data, Diagram Alur PRISMA 2020, dan Rekonsiliasi Metrik Angka Riil. | [Lihat Dokumen](02_STRATEGI_PENCARIAN_DAN_PRISMA.md) |
+| **`02_STRATEGI_PENCARIAN_DAN_PRISMA.md`** | Rincian Kueri API 8 Basis Data, Diagram Alur PRISMA 2020, dan Rekonsiliasi Metrik Angka Riil. | [Lihat Dokumen](02_STRATEGI_PENCARIAN_DAN_PRISMA.md) |
 | **`03_SCREENING_DAN_SELEKSI.md`** | Metodologi Screening 2 Fase, Matriks Evaluasi IC/EC Artikel Representatif, Statistik Alasan Eksklusi. | [Lihat Dokumen](03_SCREENING_DAN_SELEKSI.md) |
 | **`04_PENILAIAN_KUALITAS_QA.md`** | Rubrik Evaluasi Mutu 8 Dimensi (QA1–QA8), Ambang Kelayakan, Matriks Penilaian 48 Studi Kandidat. | [Lihat Dokumen](04_PENILAIAN_KUALITAS_QA.md) |
 | **`05_SINTESIS_DAN_JAWABAN_RQ.md`** | **Sintesis Komprehensif Menjawab RQ-01 s/d RQ-06** secara mendalam dengan rumus matematis & analisis downstream. | [Lihat Dokumen](05_SINTESIS_DAN_JAWABAN_RQ.md) |
 | **`06_TABEL_EKSTRAKSI_DATA.md`** | Matriks Ekstraksi 18 Atribut Lengkap untuk seluruh studi primer final yang diinklusikan. | [Lihat Dokumen](06_TABEL_EKSTRAKSI_DATA.md) |
-| **`literature_summary.md`** | Katalog Ringkas 1 Baris per Artikel untuk **2.652 artikel unik** lengkap dengan tahun, judul, penulis, jurnal, DOI. | [Buka Katalog](literature_summary.md) |
-| **`literature_database.md`** | Database Pustaka Lengkap (31.000+ baris) memuat seluruh metadata dan **abstrak utuh** dari 2.652 artikel. | [Buka Database](literature_database.md) |
+| **`literature_summary.md`** | Katalog Ringkas 1 Baris per Artikel untuk **2.697 artikel unik** lengkap dengan tahun, judul, penulis, jurnal, DOI. | [Buka Katalog](literature_summary.md) |
+| **`literature_database.md`** | Database Pustaka Lengkap (34.000+ baris) memuat seluruh metadata dan **abstrak utuh** dari 2.697 artikel. | [Buka Database](literature_database.md) |
 | **`scraping_summary.md`** | Laporan Statistik Penarikan Data Mentah, Distribusi Tahun (2018–2026), Diagnostik API Key. | [Buka Laporan](scraping_summary.md) |
 
 ---
 
 ## Skrip Otomasi & Reproduksibilitas
 
-Repositori telah dibersihkan dari file uji coba sementara (`test_*.py` dan file *lock* sementara telah dihapus). Hanya skrip produksi yang dipertahankan:
+Repositori telah dibersihkan dari file uji coba sementara (`test_*.py` dan file *lock* sementara telah dihapus). Seluruh skrip produksi dan pengolahan data terdokumentasi rapi:
 
 - `scrape_crossref_fix.py`: Penarikan data resmi dari CrossRef API (Polite Pool).
 - `scrape_journals.py`: Penarikan data dari OpenAlex, Semantic Scholar, dan PubMed API.
 - `scrape_elsevier.py`: Penarikan data dari Scopus dan ScienceDirect menggunakan API Key resmi Elsevier.
 - `scrape_springer.py`: Penarikan data dari Springer Nature Meta API menggunakan API Key resmi.
+- `scrape_ieee.py`: Penarikan 73 artikel jurnal resmi dari IEEE Xplore API menggunakan API Key aktif.
 - `clean_and_repair_datasets.py`: Normalisasi encoding UTF-8, perbaikan karakter anomali, dan deduplikasi berbasis DOI dan Judul.
+- `rebuild_screening_sheet.py`: Otomasi screening berbasis Judul & Abstrak untuk 2.812 artikel pada sheet `Screening` Excel dan `csv/screening.csv`.
+- `update_excel_with_ieee.py`: Sinkronisasi entri IEEE ke sheet `Raw_Articles` dan `Search_Strategy` Excel.
 - `generate_md_summary.py`: Generator otomatis tabel ringkasan [`literature_summary.md`](literature_summary.md).
 - `generate_md_report.py`: Generator otomatis database lengkap dengan teks abstrak [`literature_database.md`](literature_database.md).
