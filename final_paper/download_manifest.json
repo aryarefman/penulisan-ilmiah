@@ -1,0 +1,425 @@
+{
+  "generated_at": "2026-10-02T01:24:53Z",
+  "tool": "download_final_papers.py",
+  "policy": "Hanya sumber Open Access legal (publisher OA, TMLR/OpenReview, arXiv, PMC/repositori institusi). Tidak ada penghindaran paywall. Versi tiap berkas dicatat; salinan arXiv dapat berbeda dari versi akhir (VoR) jurnal, sitasi tetap merujuk catatan jurnal.",
+  "corpus": {
+    "included": 16,
+    "primary_empirical": 15,
+    "theoretical_foundation": 1
+  },
+  "papers": [
+    {
+      "id": "FP-01",
+      "raw_id": "SCOPUS-0077",
+      "role": "included",
+      "title": "Revisiting Feature Prediction for Learning Visual Representations from Video",
+      "doi": null,
+      "record_url": "https://openreview.net/forum?id=QaCCuDfBk2",
+      "venue": "Transactions on Machine Learning Research (TMLR), Aug. 2024",
+      "file": "final_paper/FP-01_SCOPUS-0077_TMLR_V-JEPA.pdf",
+      "status": "ok_preprint",
+      "source_kind": "arxiv",
+      "source_url": "https://arxiv.org/pdf/2404.08471",
+      "version": "arXiv preprint (bukan catatan jurnal) [v1]",
+      "checked_at": "2026-10-02T00:56:36Z",
+      "attempts": [
+        {
+          "kind": "openreview_tmlr",
+          "url": "https://openreview.net/pdf?id=QaCCuDfBk2",
+          "result": "HTTP 403"
+        },
+        {
+          "kind": "arxiv",
+          "url": "https://arxiv.org/pdf/2404.08471",
+          "result": "ok"
+        }
+      ],
+      "note": "Tidak ada DOI jurnal; DOI di workbook adalah DOI arXiv. Sitasi memakai catatan TMLR.",
+      "manual_hint": null,
+      "bytes": 4601259,
+      "pages": 23,
+      "title_match": 1.0,
+      "sha256": "fb84f79be128e7425263e8674fbc3f2ec991575c4b5880556cfb8f5fa9fd91ba"
+    },
+    {
+      "id": "FP-02",
+      "raw_id": "OA-0030",
+      "role": "included",
+      "title": "ACT-JEPA: Novel Joint-Embedding Predictive Architecture for Efficient Policy Representation Learning",
+      "doi": "10.1109/ACCESS.2026.3696039",
+      "record_url": "https://doi.org/10.1109/ACCESS.2026.3696039",
+      "venue": "IEEE Access, vol. 14, 2026",
+      "file": "final_paper/FP-02_OA-0030_IEEE_Access_ACT-JEPA.pdf",
+      "status": "ok_publisher_oa",
+      "source_kind": "ieee_oa",
+      "source_url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=11534212&ref=",
+      "version": "publishedVersion (IEEE Access, gold OA)",
+      "checked_at": "2026-10-02T00:56:36Z",
+      "attempts": [
+        {
+          "kind": "ieee_oa",
+          "url": "https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=11534212&ref=",
+          "result": "ok"
+        }
+      ],
+      "note": "",
+      "manual_hint": null,
+      "bytes": 928356,
+      "pages": 12,
+      "title_match": 1.0,
+      "sha256": "03434c92dde109cd2214e0e281a781a84bba271e4addaad41cc3e86e43636a47"
+    },
+    {
+      "id": "FP-03",
+      "raw_id": "CR-0039",
+      "role": "included",
+      "title": "GOT-JEPA: Generic Object Tracking With Model Adaptation and Occlusion Handling Using Joint-Embedding Predictive Architecture",
+      "doi": "10.1109/TCSVT.2026.3675005",
+      "record_url": "https://doi.org/10.1109/TCSVT.2026.3675005",
+      "venue": "IEEE Trans. Circuits Syst. Video Technol., vol. 36, no. 7, 2026",
+      "file": "final_paper/FP-03_CR-0039_IEEE-TCSVT_GOT-JEPA.pdf",
+      "status": "ok_preprint",
+      "source_kind": "arxiv",
+      "source_url": "https://arxiv.org/pdf/2602.14771",
+      "version": "arXiv (accepted manuscript TCSVT; jurnal belum OA) [v5]",
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [
+        {
+          "kind": "arxiv",
+          "url": "https://arxiv.org/pdf/2602.14771",
+          "result": "ok"
+        }
+      ],
+      "note": "",
+      "manual_hint": null,
+      "bytes": 13239330,
+      "pages": 16,
+      "title_match": 1.0,
+      "sha256": "125bcc6078e3f68c43ff1a71365143eac261dc9697e4dcea2492f344171af879"
+    },
+    {
+      "id": "FP-04",
+      "raw_id": "CR-0040",
+      "role": "included",
+      "title": "Probabilistic image-based joint embedding predictive architecture",
+      "doi": "10.1016/j.patrec.2026.07.005",
+      "record_url": "https://doi.org/10.1016/j.patrec.2026.07.005",
+      "venue": "Pattern Recognition Letters, vol. 207, 2026",
+      "file": "final_paper/FP-04_CR-0040_PRL_Prob-I-JEPA.pdf",
+      "status": "manual_required",
+      "source_kind": null,
+      "source_url": null,
+      "version": null,
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [],
+      "note": "Hybrid OA (CC-BY). Elsevier API tidak memberi akses teks lengkap dengan key yang tersedia; unduh manual dari ScienceDirect.",
+      "manual_hint": "OA gratis (CC-BY): buka tautan DOI di browser dan unduh PDF (unduhan skrip diblokir Cloudflare)"
+    },
+    {
+      "id": "FP-05",
+      "raw_id": "OA-0034",
+      "role": "included",
+      "title": "Object Detection and Scene Perception for Connected and Autonomous Vehicles Using LM-JEPA",
+      "doi": "10.3390/s26154894",
+      "record_url": "https://doi.org/10.3390/s26154894",
+      "venue": "Sensors, vol. 26, no. 15, 2026",
+      "file": "final_paper/FP-05_OA-0034_Sensors_LM-JEPA.pdf",
+      "status": "ok_publisher_oa",
+      "source_kind": "mdpi_cdn",
+      "source_url": "https://mdpi-res.com/d_attachment/sensors/sensors-26-04894/article_deploy/sensors-26-04894.pdf",
+      "version": "publishedVersion (MDPI CDN, gold OA)",
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [
+        {
+          "kind": "mdpi_cdn",
+          "url": "https://mdpi-res.com/d_attachment/sensors/sensors-26-04894/article_deploy/sensors-26-04894.pdf",
+          "result": "ok"
+        }
+      ],
+      "note": "",
+      "manual_hint": null,
+      "bytes": 869268,
+      "pages": 25,
+      "title_match": 1.0,
+      "sha256": "5a239a16b0570daefc3587a6960ede72014ae7ec428f45a441b4cb29493ca1f7"
+    },
+    {
+      "id": "FP-06",
+      "raw_id": "OA-0820",
+      "role": "included",
+      "title": "Learning Visual Representation for Autonomous Drone Navigation via a Contrastive World Model",
+      "doi": "10.1109/TAI.2023.3283488",
+      "record_url": "https://doi.org/10.1109/TAI.2023.3283488",
+      "venue": "IEEE Trans. Artif. Intell., vol. 5, no. 3, 2024",
+      "file": "final_paper/FP-06_OA-0820_IEEE-TAI_STC-Contrastive-WM.pdf",
+      "status": "manual_required",
+      "source_kind": null,
+      "source_url": null,
+      "version": null,
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [],
+      "note": "Closed access; tidak ada salinan OA/arXiv. Unduh manual via IEEE Xplore (akses ITS).",
+      "manual_hint": "IEEE Xplore (akses institusi ITS)"
+    },
+    {
+      "id": "FP-07",
+      "raw_id": "OA-0453",
+      "role": "included",
+      "title": "Escaping the big data paradigm in self-supervised representation learning",
+      "doi": "10.1016/j.cviu.2026.104698",
+      "record_url": "https://doi.org/10.1016/j.cviu.2026.104698",
+      "venue": "Computer Vision and Image Understanding, vol. 266, 2026",
+      "file": "final_paper/FP-07_OA-0453_CVIU_SCOTT-MIM-JEPA.pdf",
+      "status": "ok_preprint",
+      "source_kind": "arxiv",
+      "source_url": "https://arxiv.org/pdf/2502.18056",
+      "version": "arXiv (jurnal Elsevier tertutup; arXiv memuat journal-ref CVIU 2026) [v2]",
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [
+        {
+          "kind": "arxiv",
+          "url": "https://arxiv.org/pdf/2502.18056",
+          "result": "ok"
+        }
+      ],
+      "note": "",
+      "manual_hint": null,
+      "bytes": 987329,
+      "pages": 38,
+      "title_match": 1.0,
+      "sha256": "072172c5effad7516d9a2b8e061c04e9ad3c64222fc370ea1c68f8c5d7a1ddaa"
+    },
+    {
+      "id": "FP-08",
+      "raw_id": "IEEE-0006",
+      "role": "included",
+      "title": "SPREAD: Scalable Pre-Trained World Model for Adaptive Dynamics Model",
+      "doi": "10.1109/LRA.2026.3688061",
+      "record_url": "https://doi.org/10.1109/LRA.2026.3688061",
+      "venue": "IEEE Robot. Autom. Lett., vol. 11, no. 6, 2026",
+      "file": "final_paper/FP-08_IEEE-0006_IEEE-RAL_SPREAD.pdf",
+      "status": "manual_required",
+      "source_kind": null,
+      "source_url": null,
+      "version": null,
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [],
+      "note": "Closed access; tidak ada salinan OA/arXiv. Unduh manual via IEEE Xplore (akses ITS).",
+      "manual_hint": "IEEE Xplore (akses institusi ITS)"
+    },
+    {
+      "id": "FP-09",
+      "raw_id": "OA-0018",
+      "role": "included",
+      "title": "World4RL: Diffusion World Models for Policy Refinement With Reinforcement Learning for Robotic Manipulation",
+      "doi": "10.1109/LRA.2026.3728345",
+      "record_url": "https://doi.org/10.1109/LRA.2026.3728345",
+      "venue": "IEEE Robot. Autom. Lett., vol. 11, no. 10, 2026",
+      "file": "final_paper/FP-09_OA-0018_IEEE-RAL_World4RL.pdf",
+      "status": "ok_preprint",
+      "source_kind": "arxiv",
+      "source_url": "https://arxiv.org/pdf/2509.19080",
+      "version": "arXiv (jurnal IEEE tertutup) [v2]",
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [
+        {
+          "kind": "arxiv",
+          "url": "https://arxiv.org/pdf/2509.19080",
+          "result": "ok"
+        }
+      ],
+      "note": "",
+      "manual_hint": null,
+      "bytes": 7376968,
+      "pages": 9,
+      "title_match": 1.0,
+      "sha256": "939ff5ea644eb768d6822e864ebc5f3c57df959a5e515137215da4319515530a"
+    },
+    {
+      "id": "FP-10",
+      "raw_id": "SCOPUS-0014",
+      "role": "included",
+      "title": "Action-Controlled Scale-Wise Flow Matching for Embodied World Models",
+      "doi": "10.1109/TPAMI.2026.3727986",
+      "record_url": "https://doi.org/10.1109/TPAMI.2026.3727986",
+      "venue": "IEEE Trans. Pattern Anal. Mach. Intell., early access, 2026",
+      "file": "final_paper/FP-10_SCOPUS-0014_IEEE-TPAMI_SAMPO-pp.pdf",
+      "status": "manual_required",
+      "source_kind": null,
+      "source_url": null,
+      "version": null,
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [],
+      "note": "Closed access. arXiv 2509.15536 ('SAMPO') adalah makalah pendahulu yang BERBEDA, bukan SAMPO++; tidak dipakai. Unduh manual via IEEE Xplore (akses ITS).",
+      "manual_hint": "IEEE Xplore (akses institusi ITS)"
+    },
+    {
+      "id": "FP-11",
+      "raw_id": "SCOPUS-0015",
+      "role": "included",
+      "title": "OccSora: 4D Occupancy Generation Models as World Simulators for Autonomous Driving",
+      "doi": "10.1109/TIP.2026.3687468",
+      "record_url": "https://doi.org/10.1109/TIP.2026.3687468",
+      "venue": "IEEE Trans. Image Process., vol. 35, 2026",
+      "file": "final_paper/FP-11_SCOPUS-0015_IEEE-TIP_OccSora.pdf",
+      "status": "ok_preprint",
+      "source_kind": "arxiv",
+      "source_url": "https://arxiv.org/pdf/2405.20337",
+      "version": "arXiv v1 (Mei 2024); dapat berbeda dari versi TIP 2026 [v1]",
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [
+        {
+          "kind": "arxiv",
+          "url": "https://arxiv.org/pdf/2405.20337",
+          "result": "ok"
+        }
+      ],
+      "note": "",
+      "manual_hint": null,
+      "bytes": 4832229,
+      "pages": 14,
+      "title_match": 1.0,
+      "sha256": "ed9a1907dc357fdb01b4d185e270d499c7c93aca167d9583f46cdf5ebafebc93"
+    },
+    {
+      "id": "FP-12",
+      "raw_id": "IEEE-0004",
+      "role": "included",
+      "title": "NRSeg: Noise-Resilient Learning for BEV Semantic Segmentation via Driving World Models",
+      "doi": "10.1109/TIP.2026.3671686",
+      "record_url": "https://doi.org/10.1109/TIP.2026.3671686",
+      "venue": "IEEE Trans. Image Process., vol. 35, 2026",
+      "file": "final_paper/FP-12_IEEE-0004_IEEE-TIP_NRSeg.pdf",
+      "status": "ok_preprint",
+      "source_kind": "arxiv",
+      "source_url": "https://arxiv.org/pdf/2507.04002",
+      "version": "arXiv (accepted to TIP) [v2]",
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [
+        {
+          "kind": "arxiv",
+          "url": "https://arxiv.org/pdf/2507.04002",
+          "result": "ok"
+        }
+      ],
+      "note": "",
+      "manual_hint": null,
+      "bytes": 1724342,
+      "pages": 14,
+      "title_match": 1.0,
+      "sha256": "e3d4cf61b049b7294606ef3fe44810d02d159e995f99a8b61439d981da462f32"
+    },
+    {
+      "id": "FP-13",
+      "raw_id": "SCOPUS-0013",
+      "role": "included",
+      "title": "FlowDreamer: A RGB-D World Model With Flow-Based Motion Representations for Robot Manipulation",
+      "doi": "10.1109/LRA.2026.3653273",
+      "record_url": "https://doi.org/10.1109/LRA.2026.3653273",
+      "venue": "IEEE Robot. Autom. Lett., vol. 11, no. 3, 2026",
+      "file": "final_paper/FP-13_SCOPUS-0013_IEEE-RAL_FlowDreamer.pdf",
+      "status": "ok_preprint",
+      "source_kind": "arxiv",
+      "source_url": "https://arxiv.org/pdf/2505.10075",
+      "version": "arXiv v1 (Mei 2025); dapat berbeda dari versi RA-L 2026 [v1]",
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [
+        {
+          "kind": "arxiv",
+          "url": "https://arxiv.org/pdf/2505.10075",
+          "result": "ok"
+        }
+      ],
+      "note": "",
+      "manual_hint": null,
+      "bytes": 3180109,
+      "pages": 15,
+      "title_match": 1.0,
+      "sha256": "8e6d82fca260b4085879af6755840c766d9a9f6d69546b8146664869fc6f9c52"
+    },
+    {
+      "id": "FP-14",
+      "raw_id": "SCOPUS-0027",
+      "role": "included",
+      "title": "World model-based end-to-end scene generation for accident anticipation in autonomous driving",
+      "doi": "10.1038/s44172-025-00474-7",
+      "record_url": "https://doi.org/10.1038/s44172-025-00474-7",
+      "venue": "Communications Engineering, vol. 4, art. 144, 2025",
+      "file": "final_paper/FP-14_SCOPUS-0027_Commun-Eng_Accident-Anticipation.pdf",
+      "status": "ok_publisher_oa",
+      "source_kind": "nature",
+      "source_url": "https://www.nature.com/articles/s44172-025-00474-7.pdf",
+      "version": "publishedVersion (Nature Portfolio, gold OA)",
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [
+        {
+          "kind": "nature",
+          "url": "https://www.nature.com/articles/s44172-025-00474-7.pdf",
+          "result": "ok"
+        }
+      ],
+      "note": "",
+      "manual_hint": null,
+      "bytes": 7208832,
+      "pages": 13,
+      "title_match": 1.0,
+      "sha256": "fc798836df6f682ff804c071737d88666579980ccc642c0994b78ab7cf72c676"
+    },
+    {
+      "id": "FP-15",
+      "raw_id": "IEEE-0050",
+      "role": "included",
+      "title": "Inference-Time Enhancement of Generative Robot Policies via Predictive World Modeling",
+      "doi": "10.1109/LRA.2026.3673995",
+      "record_url": "https://doi.org/10.1109/LRA.2026.3673995",
+      "venue": "IEEE Robot. Autom. Lett., vol. 11, no. 5, 2026",
+      "file": "final_paper/FP-15_IEEE-0050_IEEE-RAL_GPC.pdf",
+      "status": "ok_preprint",
+      "source_kind": "arxiv",
+      "source_url": "https://arxiv.org/pdf/2502.00622",
+      "version": "arXiv v4 (accepted to RA-L) [v4]",
+      "checked_at": "2026-10-02T00:56:37Z",
+      "attempts": [
+        {
+          "kind": "arxiv",
+          "url": "https://arxiv.org/pdf/2502.00622",
+          "result": "ok"
+        }
+      ],
+      "note": "",
+      "manual_hint": null,
+      "bytes": 9593327,
+      "pages": 8,
+      "title_match": 1.0,
+      "sha256": "53f1ed78305b3f19fcfd6dfd13e942241d19ebc3cf531e93a38138af791b5962"
+    },
+    {
+      "id": "FP-16",
+      "raw_id": "OA-0395",
+      "role": "included",
+      "title": "World model learning and inference",
+      "doi": "10.1016/j.neunet.2021.09.011",
+      "record_url": "https://doi.org/10.1016/j.neunet.2021.09.011",
+      "venue": "Neural Networks, vol. 144, 2021",
+      "file": "final_paper/FP-16_OA-0395_Neural-Networks_World-Model-Learning-Inference.pdf",
+      "status": "ok_repository",
+      "source_kind": "ucl_discovery",
+      "source_url": "https://discovery.ucl.ac.uk/id/eprint/10137112/1/Friston_1-s2.0-S0893608021003610-main.pdf",
+      "version": "UCL Discovery (salinan PDF versi penerbit, CC BY-NC-ND)",
+      "checked_at": "2026-10-02T01:24:46Z",
+      "attempts": [
+        {
+          "kind": "ucl_discovery",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10137112/1/Friston_1-s2.0-S0893608021003610-main.pdf",
+          "result": "ok"
+        }
+      ],
+      "note": "Artikel review/perspektif (studi teoretis), bukan studi primer empiris; dipertahankan sebagai pengecualian teori terdokumentasi (fondasi teoretis).",
+      "manual_hint": "OA gratis: halaman penerbit (ScienceDirect) atau https://hdl.handle.net/1721.1/150396",
+      "bytes": 2693134,
+      "pages": 18,
+      "title_match": 1.0,
+      "sha256": "412d30ad0deaf3fc7afcaa2031f7600a64827c10130e0f46537e4ac87bbdda75"
+    }
+  ]
+}
